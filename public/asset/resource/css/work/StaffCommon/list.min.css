@@ -1,0 +1,104 @@
+.staffCommon-List,.staffCommon-List__container {
+	height: 100%;
+	width: inherit;
+}
+
+.staffCommon-List__container_tile,.staffCommon-List_tile {
+	max-width: 1200px;
+}
+
+.staffCommon-List__scrollContainer {
+	height: 100%;
+}
+
+.staffCommon-List__filterView {
+	max-width: 100%;
+}
+
+.staffCommon-List__emptyTemplate {
+	margin-top: 60px;
+}
+
+.staffCommon-List__employeesCount {
+	padding-right: var(--offset_s);
+	display: inline-flex;
+	align-items: baseline;
+}
+
+.staffCommon-List__employeesCount::before {
+	content: '\200b';
+	font-size: var(--font-size_3xl);
+}
+
+.staffCommon-List__employeesCount_container {
+	text-align: right;
+}
+
+.staffCommon-List__view_item {
+	min-width: 0;
+	position: relative;
+	width: 100%;
+}
+
+.staffCommon-List__view_employee_disabledIconContainer {
+	margin-left: var(--offset_2xs);
+}
+
+.staffCommon-List__tile_fullWidth {
+	width: 100%;
+	min-width: 0;
+}
+
+.staffCommon-List__tile_containerPadding {
+	padding: 0 5px;
+}
+
+.staffCommon-List__tile_info {
+	padding: var(--offset_st) var(--offset_st) var(--offset_st) 14px;
+}
+
+.staffCommon-List__tile_card {
+	height: 120px;
+	width: 100%;
+}
+
+.staffCommon-List__tile_photoBorder {
+	border-radius: 0;
+}
+
+.staffCommon-List__tile_additionalInfo {
+	text-align: right;
+	padding-top: var(--offset_2xs);
+	padding-left: var(--offset_xs);
+}
+
+.staffCommon-List__tile_contacts {
+	width: calc(50% - var(--offset_s));
+	min-width: 0;
+}
+
+.staffCommon-List__tile_comment {
+	padding-left: 22px;
+}
+
+.ws-is-ie10 .staffCommon-List__container,.ws-is-ie11 .staffCommon-List__container {
+	flex-basis: 100%;
+}
+
+.staffCommon-List__item_inlineItemAction {
+	padding: 0 7px;
+}
+
+.staffCommon-List__item_inlineItemActionsContainer {
+	position: absolute;
+	z-index: 2;
+	display: none;
+	left: 240px;
+	background-color: var(--hover_background-color);
+	box-shadow: 0 2px 8px 2px var(--hover_background-color);
+	bottom: 2px;
+}
+
+.ws-is-hover .controls-Grid__row:hover .staffCommon-List__item_inlineItemActionsContainer {
+	display: flex;
+}

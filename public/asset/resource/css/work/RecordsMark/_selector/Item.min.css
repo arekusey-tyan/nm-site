@@ -1,0 +1,197 @@
+.recordsMark-Selector__styleContainer .recordsMark-Selector__markColor-default,.recordsMark-StylePanel .recordsMark-Selector__markColor-default {
+	background-color: var(--text-color);
+}
+
+.recordsMark-Selector__styleContainer .recordsMark-Selector__markColor-primary,.recordsMark-StylePanel .recordsMark-Selector__markColor-primary {
+	background-color: var(--primary_text-color);
+}
+
+.recordsMark-Selector__styleContainer .recordsMark-Selector__markColor-success,.recordsMark-StylePanel .recordsMark-Selector__markColor-success {
+	background-color: var(--success_text-color);
+}
+
+.recordsMark-Selector__styleContainer .recordsMark-Selector__markColor-secondary,.recordsMark-StylePanel .recordsMark-Selector__markColor-secondary {
+	background-color: var(--secondary_text-color);
+}
+
+.recordsMark-Selector__styleContainer .recordsMark-Selector__markColor-info,.recordsMark-StylePanel .recordsMark-Selector__markColor-info {
+	background-color: var(--info_text-color);
+}
+
+.recordsMark-Selector__styleContainer .recordsMark-Selector__markColor-unaccented,.recordsMark-StylePanel .recordsMark-Selector__markColor-unaccented {
+	background-color: var(--unaccented_color);
+}
+
+.recordsMark-Selector__inputContainer {
+	flex: 6;
+}
+
+.recordsMark-Selector__inputContainer .recordsMark-Selector__markColor-default input {
+	color: var(--text-color);
+}
+
+.recordsMark-Selector__inputContainer .recordsMark-Selector__markColor-primary input {
+	color: var(--primary_text-color);
+}
+
+.recordsMark-Selector__inputContainer .recordsMark-Selector__markColor-success input {
+	color: var(--success_text-color);
+}
+
+.recordsMark-Selector__inputContainer .recordsMark-Selector__markColor-secondary input {
+	color: var(--secondary_text-color);
+}
+
+.recordsMark-Selector__inputContainer .recordsMark-Selector__markColor-info input {
+	color: var(--info_text-color);
+}
+
+.recordsMark-Selector__inputContainer .recordsMark-Selector__markColor-unaccented input {
+	color: var(--unaccented_color);
+}
+
+.recordsMark-Selector__inputContainer .recordsMark-Selector__markStyle-bold input {
+	font-weight: 700;
+}
+
+.recordsMark-Selector__inputContainer .recordsMark-Selector__markStyle-italic input {
+	font-style: italic;
+}
+
+.recordsMark-Selector__inputContainer .recordsMark-Selector__markStyle-underline input {
+	text-decoration: underline;
+}
+
+.recordsMark-Selector__inputContainer .recordsMark-Selector__markStyle-strikethrough input {
+	text-decoration: line-through;
+}
+
+.recordsMark-Selector__inputContainer .recordsMark-Selector__markStyle-strikethrough.recordsMark-Selector__markStyle-underline input {
+	text-decoration: underline line-through;
+}
+
+.recordsMark-Selector__nameContainer {
+	flex: 6;
+	min-width: 0;
+}
+
+.recordsMark-Selector__nameContainer .recordsMark-Selector__markColor-default {
+	color: var(--text-color);
+}
+
+.recordsMark-Selector__nameContainer .recordsMark-Selector__markColor-primary {
+	color: var(--primary_text-color);
+}
+
+.recordsMark-Selector__nameContainer .recordsMark-Selector__markColor-success {
+	color: var(--success_text-color);
+}
+
+.recordsMark-Selector__nameContainer .recordsMark-Selector__markColor-secondary {
+	color: var(--secondary_text-color);
+}
+
+.recordsMark-Selector__nameContainer .recordsMark-Selector__markColor-info {
+	color: var(--info_text-color);
+}
+
+.recordsMark-Selector__nameContainer .recordsMark-Selector__markColor-unaccented {
+	color: var(--unaccented_color);
+}
+
+.recordsMark-Selector__nameContainer .recordsMark-Selector__markStyle-bold {
+	font-weight: 700;
+}
+
+.recordsMark-Selector__nameContainer .recordsMark-Selector__markStyle-italic {
+	font-style: italic;
+}
+
+.recordsMark-Selector__nameContainer .recordsMark-Selector__markStyle-underline {
+	text-decoration: underline;
+}
+
+.recordsMark-Selector__nameContainer .recordsMark-Selector__markStyle-strikethrough {
+	text-decoration: line-through;
+}
+
+.recordsMark-Selector__nameContainer .recordsMark-Selector__markStyle-strikethrough.recordsMark-Selector__markStyle-underline {
+	text-decoration: underline line-through;
+}
+
+.recordsMark-Selector__styleButton {
+	height: 12px;
+	width: 12px;
+	border-radius: 100%;
+}
+
+.recordsMark-Selector__list_item {
+	padding-top: var(--offset_2xs);
+	padding-bottom: var(--offset_2xs);
+	max-width: 284px;
+	box-sizing: border-box;
+}
+
+.recordsMark-Selector__list_item_padding_left-l {
+	margin-left: var(--offset_3xl);
+}
+
+.recordsMark-StylePanel {
+	box-shadow: 0 0 6px rgba(0,0,0,.3);
+}
+
+.recordsMark-StylePanel__header {
+	color: var(--readonly_marker-color);
+	padding: var(--offset_m) 0 var(--offset_m) var(--offset_m);
+	font-weight: 700;
+}
+
+.recordsMark-Selector__itemContainer {
+	position: relative;
+	display: flex;
+	align-items: center;
+	height: 28px;
+}
+
+.recordsMark-Selector__styleContainer {
+	flex-basis: 32px;
+	flex-shrink: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.recordsMark-Selector__selectorContainer {
+	display: none;
+}
+
+.recordsMark-Selector__list_actionsManu-hide {
+	display: none;
+}
+
+.recordsMark-Selector__list_actionsManu-visible {
+	position: absolute;
+	right: 0;
+	background-color: var(--item_hover_background-color_list);
+}
+
+.recordsMark-Selector__deleteContainer {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.recordsMark-Selector__acceptContainer {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.recordsMark-Selector__closeContainer {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

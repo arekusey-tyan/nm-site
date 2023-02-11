@@ -1,0 +1,13 @@
+.edws-DueDateChange__button-triangle {
+	margin-left: -8px;
+}
+
+.edws-DueDateChange__button {
+	position: relative;
+	overflow: visible;
+	max-width: 100%;
+}
+
+.edws-DueDateChange__button-linkWrapper {
+	max-width: 100%;
+}

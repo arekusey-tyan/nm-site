@@ -1,0 +1,126 @@
+.sdHeaderLayout {
+    height: 100%;
+}
+
+.SDDHeaderLayout__path-description-container-style-none {
+    padding-bottom: 4px;
+    padding-right: 0;
+    padding-top: 3px;
+}
+
+.SDDHeaderLayout__path-description-container-style-none-padding-top {
+    padding-bottom: 2px;
+    padding-top: 0;
+}
+
+.sdPageContent__View .diskFolderHeader__container {
+    min-height: auto;
+}
+
+.sdHeaderLayout .diskFolderHeader__logo-container {
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+
+.sdHeaderLayout .diskFolderHeader__logo-container-with-description {
+    width: 72px;
+    height: 72px;
+    margin: 12px 0 6px 8px;
+}
+
+.sdHeaderLayout .diskFolderHeader__logo-container-without-description {
+    width: 32px;
+    height: 32px;
+    margin: 6px 8px 6px 12px;
+}
+
+.sdHeaderLayout .diskFolderHeader__top-background-container {
+    height: 15vh;
+    min-height: 80px;
+    margin-bottom: 12px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.sdHeaderLayout .diskFolderHeader__additional-logo-container {
+    max-height: 75%;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    margin: auto 0;
+    left: 5%;
+    border-radius: var(--border-radius_default_block);
+}
+
+.sdHeaderLayout .diskFolderHeader__path-description-container {
+    width: 100%;
+    min-width: 0;
+    padding-left: 0;
+    background-color: var(--unaccented_background-color);
+    box-sizing: border-box;
+}
+
+.sdHeaderLayout .diskFolderHeader__path-container {
+    margin-bottom: 10px;
+}
+
+.sdHeaderLayout .diskFolderHeader__path-with-logo-with-description {
+    padding-left: 0;
+    margin-left: 8px;
+}
+
+.sdHeaderLayout .diskFolderHeader__path-with-logo-without-description {
+    padding-left: 0;
+}
+
+.sdHeaderLayout .diskFolderHeader__description {
+    min-height: 0;
+    max-height: 38px;
+    max-width: 80%;
+    font-size: 15px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-line-clamp: 2;
+}
+
+.sdHeaderLayout .diskFolderHeader__description-with-logo {
+    margin-left: 24px;
+}
+
+.sdHeaderLayout .diskFolderHeader__description-without-logo {
+    margin-left: 24px;
+}
+
+.sdHeaderLayout .diskFolderHeader__description-without-logo,.sdHeaderLayout .diskFolderHeader__path-with-top-content {
+    margin-bottom: 12px;
+}
+
+.sdHeaderLayout .diskFolderHeader__topContentTemplate-endPath {
+    min-width: 0;
+}
+
+.sdHeaderLayout .diskFolderHeader__path-without-description {
+    height: 100%;
+    min-height: 26px;
+}
+
+.sdHeaderLayout .diskFolderHeader__headerTitle {
+    width: 100%;
+    padding-top: 1px;
+    line-height: 26px;
+    padding-right: 0;
+}
+
+.sdHeaderLayout__path-content,.sdHeaderLayout__sticky-content {
+    width: 100%;
+}
+
+.sdHeaderLayout .diskFolderHeader__path {
+    padding-right: 12px;
+}

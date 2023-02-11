@@ -1,0 +1,53 @@
+.personProfile-header {
+	width: 100%;
+	position: relative;
+}
+
+.personProfile-header_default {
+	height: 127px;
+}
+
+.personProfile-header_blockLayout {
+	height: calc(127px - var(--offset_s));
+}
+
+.personProfile-header__Logo {
+	position: absolute;
+	background-color: var(--background-color);
+	border-radius: var(--offset_s);
+	box-shadow: 0 0 var(--offset_xs) rgba(0,0,0,.2);
+	z-index: 30;
+}
+
+.personProfile-header__body {
+	margin: var(--offset_m) var(--offset_m) 0 184px;
+}
+
+.personProfile-header__depPath {
+	min-height: var(--inline_height_m);
+}
+
+.personProfile-header__position {
+	margin-bottom: var(--offset_3xs);
+}
+
+.personProfile-header__name-editWidth {
+	min-width: 402px;
+}
+
+.personProfile-header__top {
+	height: 31px;
+}
+
+.personProfile-header__name {
+	font-size: var(--font-size_5xl);
+	font-weight: 700;
+}
+
+.personProfile-header__name-blockLayout {
+	margin-bottom: calc(-1 * var(--offset_2xs));
+}
+
+.personProfile-header__offset_identList {
+	margin-top: 44px;
+}

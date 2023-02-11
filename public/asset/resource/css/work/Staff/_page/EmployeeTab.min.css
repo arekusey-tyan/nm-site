@@ -1,0 +1,20 @@
+.staff-Page__listContainer {
+	height: 100%;
+}
+
+.staff-Page__listContainer .staffCommon-List__employeesCount {
+	margin-top: 2px;
+}
+
+.staff-Page__mainContainer {
+	width: 100%;
+}
+
+.staff-EventRibbon__container {
+	box-sizing: border-box;
+	pointer-events: auto;
+}
+
+.staff-EventRibbon__absent {
+	border-top: var(--border-thickness) solid var(--separator_color);
+}

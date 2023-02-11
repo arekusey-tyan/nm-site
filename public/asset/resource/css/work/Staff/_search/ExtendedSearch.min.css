@@ -1,0 +1,12 @@
+.staff-ExtendedSearch__input {
+	width: 100%;
+	z-index: 31;
+}
+
+.staff-ExtendedSearch__header {
+	margin-top: 5px;
+}
+
+.controls-Suggest__suggestionsContainer-overflow {
+	overflow: hidden;
+}

@@ -1,0 +1,105 @@
+.moneyControls-listOfCard__container {
+	display: flex;
+	flex-direction: column;
+}
+
+.moneyControls-listOfCard__carousel {
+	margin-top: var(--offset_2xs);
+}
+
+.moneyControls-listOfCard__item {
+	background: linear-gradient(59.23deg,var(--background-color) 0,var(--info_hover_background-color) 100%);
+}
+
+.moneyControls-listOfCard__item-delete {
+	display: none;
+}
+
+.moneyControls-listOfCard__item-card {
+	height: 106px;
+	padding: var(--offset_m);
+	box-sizing: border-box;
+}
+
+.moneyControls-listOfCard__item-card:hover .moneyControls-listOfCard__item-delete {
+	display: block;
+}
+
+.moneyControls-listOfCard__item-iconBig {
+	width: 40px;
+	height: 40px;
+}
+
+.moneyControls-listOfCard__item-iconBig-margin {
+	margin: auto 0;
+}
+
+.moneyControls-listOfCard__item-number {
+	font-size: var(--font-size_xl);
+	color: var(--text_color);
+}
+
+.moneyControls-listOfCard__empty {
+	font-size: var(--font-size_m);
+	margin-top: var(--offset_2xs);
+}
+
+.moneyControls-listOfCard__addCard {
+	padding: 0 var(--offset_m) var(--offset_m);
+}
+
+.moneyControls-listOfCard__addCard-view-add {
+	height: 244px;
+}
+
+.moneyControls-listOfCard__addCard-view-error {
+	height: 276px;
+}
+
+.moneyControls-listOfCard__addCard-view-secure {
+	height: 400px;
+}
+
+.moneyControls-listOfCard__addCard-iframe {
+	border: unset;
+}
+
+.moneyControls-listOfCard__addCard-iframe-view-add {
+	height: 244px;
+}
+
+.moneyControls-listOfCard__addCard-iframe-view-error {
+	height: 276px;
+}
+
+.moneyControls-listOfCard__addCard-iframe-view-secure {
+	height: 1000px;
+}
+
+@media (max-width:523px) {
+	.moneyControls-listOfCard__addCard {
+		padding: 0 var(--offset_m) var(--offset_m);
+	}
+
+	.moneyControls-listOfCard__addCard-view-add {
+		height: 300px;
+	}
+
+	.moneyControls-listOfCard__addCard-iframe-view-add {
+		height: 300px;
+	}
+}
+
+@media (max-width:398px) {
+	.moneyControls-listOfCard__addCard {
+		padding: 0 var(--offset_m) var(--offset_m);
+	}
+
+	.moneyControls-listOfCard__addCard-view-add {
+		height: 275px;
+	}
+
+	.moneyControls-listOfCard__addCard-iframe-view-add {
+		height: 275px;
+	}
+}

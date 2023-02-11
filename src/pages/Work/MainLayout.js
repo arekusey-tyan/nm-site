@@ -6,25 +6,40 @@ import { SearchTool } from './subpages/Search.tool.js'
 import { SortingTool } from './subpages/Sorting.tool.js'
 import { ToolBar } from './subpages/ToolBar.tool.js'
 import DefaultMainLayout from './pages/DefaultMainLayout.js'
-import TaskPage from './pages/TaskMainLayout.js'
+import TaskPage from './pages/Tasks/TaskMainLayout.js'
+import RecipePage from './pages/RecipePage.js'
+import MyGeneralInfo from './pages/MyGeneralInfo.js'
+import {stringGen} from '../../utils/functions.js'
+import StaffList from './pages/Persons/StaffList/StaffList.js'
+import DocumentPage from './pages/DocumentView/DocumentPage.js'
 
-class PageId extends React.Component {
-	render() {
-		if (['tasks-in-work', 'tasks-controlled', 'tasks-done', 'tasks-from-me', 'tasks-returned'].includes(subaction)) {
-			return <TaskPage />
-		}
-		if (subaction === ['tasks-process', 'tasks-stat', 'tasks-by-staff']) {
-		}
-		return <DefaultMainLayout />
+function PageId() {
+	if (['tasks-in-work', 'tasks-controlled', 'tasks-done', 'tasks-from-me', 'tasks-returned'].includes(subaction)) {
+		return <TaskPage />
 	}
+	if (['tasks-process', 'tasks-stat', 'tasks-by-staff'].includes(subaction)) {
+	}
+	if (subaction === 'recipes') {
+		return <RecipePage />
+	}
+	if (['staff-list'].includes(subaction)) {
+		return <StaffList />
+	}
+	if (['documents-all'].includes(subaction)) {
+		return <DocumentPage />
+	}
+	return <DefaultMainLayout />
 }
 
-class MainLayout extends React.Component {
-	// constructor(props) {
-	// 	super(props)
-	// }
-
-	render() {
+function MainLayout() {
+	if (['my-general-info', 'my-wall', 'my-training-skills', 'notice-settings-my-page', 'my-workplace', 'system-access', 'staff-actions-in-system', 'business-processes', 'my-signatures', 'identList', 'access-and-roles'].includes(subaction)) {
+		return (
+			<div className={'nanomagicPage-CardLayout__workspaceWrapper controls-padding_right-2xs ws-flexbox ws-flex-column ws-flex-grow-1 ws-flex-shrink-1 nanomagicPage-MainLayout__content'}>
+				<div ws-creates-context={'true'} ws-delegates-tabfocus={'true'} tabIndex={0} />
+				<MyGeneralInfo key={'' + stringGen(10)} />
+			</div>
+		)
+	} else
 		return (
 			<div className='nanomagicPage-MainLayout__workspaceWrapper nanomagicPage-MainLayout__workspaceWrapper_contrast ws-flexbox ws-flex-column ws-flex-grow-1 ws-flex-shrink-1 nanomagicPage-MainLayout__content' tabIndex={0}>
 				<div ws-creates-context='true' ws-delegates-tabfocus='true' tabIndex={0} />
@@ -44,7 +59,6 @@ class MainLayout extends React.Component {
 				</div>
 			</div>
 		)
-	}
 }
 
 export { MainLayout }

@@ -1,0 +1,22 @@
+.personData-seniority {
+	width: 400px;
+}
+
+.personData-seniority__scrollContainer {
+	height: 100%;
+}
+
+.personData-seniority__infoBox {
+	padding: var(--offset_xs) 31px var(--offset_m) var(--offset_m);
+	background: #f7f8fa;
+}
+
+.personData-seniority__position {
+	font-size: var(--font-size_xs);
+	color: var(--unaccented_color);
+	margin-top: var(--padding-vertical_checkbox);
+}
+
+.personData-seniority__position_width {
+	width: 260px;
+}

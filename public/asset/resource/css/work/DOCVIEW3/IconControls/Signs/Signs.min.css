@@ -1,0 +1,7 @@
+.docview3-icons__signs-counter {
+    position: relative;
+    font-size: var(--font-size_2xs);
+    color: var(--primary_icon-color);
+    height: 8px;
+    line-height: 5px;
+}

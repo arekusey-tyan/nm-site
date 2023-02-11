@@ -5,16 +5,96 @@
 	<meta charset="utf-8" />
 	<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-	<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 </head>
 
-<body>
+<body class="overflow-hidden">
 	<noscript>You need to enable JavaScript to run this app.</noscript>
+    <div class="remove" style="display: flex !important;position: fixed !important;left: 0 !important;font-family: Arial, sans-serif !important;top: 0 !important;right: 0 !important;bottom: 0 !important;background: #386ba8 !important;color: #3df1f1 !important;z-index: 100001 !important;overflow-y: hidden !important;height: 100vh !important;max-height: 100vh !important;">
+		<style>
+			* {
+				box-sizing: border-box;
+				margin: 0;
+			}
+
+			h1, p, h2, h3, h4, ul, li, div {
+				margin: 0;
+				padding: 0;
+			}
+
+			body {
+				padding: 0;
+				width: 100vw;
+				height: 100vh;
+				overflow: hidden;
+				display: flex;
+				font-family: TensorFont, sans-serif;
+			}
+
+			.loading-page {
+				background: #6b6b6b;
+				width: 100vw;
+				height: 100vh;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.loading-page .counter {
+				text-align: center;
+			}
+
+			.loading-page .counter p {
+				font-size: 40px;
+				font-weight: 100;
+				color: #f60d54;
+			}
+
+			.loading-page .counter h1 {
+				color: white;
+				font-size: 60px;
+				margin-top: -10px;
+			}
+
+			.loading-page .counter hr {
+				background: #f60d54;
+				border: none;
+				height: 1px;
+			}
+
+			.loading-page .counter {
+				position: relative;
+				width: 200px;
+			}
+
+			.loading-page .counter h1.abs {
+				position: absolute;
+				top: 0;
+				width: 100%;
+			}
+
+			.loading-page .counter .color {
+				width: 0px;
+				overflow: hidden;
+				color: #f60d54;
+			}
+
+			.loaded .remove {
+				opacity: 0;
+				transition: .8s opacity;
+				overflow: hidden;
+			}
+		</style>
+		<div class="loading-page">
+			<div class="counter">
+				<p>loading</p>
+				<h1>0%</h1>
+				<hr style="width: 0;" />
+			</div>
+		</div>
+    </div>
 	<div id="nanomagic-content"></div>
-	<div class="RequiredCssStyle">
-		<script src="/rq.style.js"></script>
-	</div>
+	<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="/rq.style.js"></script>
 </body>
 
 </html>

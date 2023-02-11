@@ -1,0 +1,122 @@
+.employee-Card__header_block {
+	margin: 0 var(--offset_xs);
+}
+
+.employee-Card__header_providedName {
+	margin-left: var(--offset_xs);
+	font-size: var(--font-size_xs);
+}
+
+.employee-Card__header_activity {
+	min-width: 0;
+}
+
+.employee-CardHeader__additionalPinText {
+	max-width: 190px;
+}
+
+.employee-Card__headerButtons {
+	display: flex;
+	align-items: baseline;
+}
+
+.employee-Card__editHeader_fieldWidth {
+	width: 390px;
+}
+
+.employee-Card__editHeader_fieldWidthNoPhoto {
+	width: 438px;
+}
+
+.employee-Card__header_dismissial {
+	color: var(--label_text-color);
+	font-size: var(--font-size_xs);
+	line-height: var(--inline_height_xs);
+}
+
+.employee-CardHeader {
+	width: 100%;
+	height: 127px;
+}
+
+.employee-CardHeader_smallPhotoMargin {
+	margin: 0 0 0 130px;
+}
+
+.employee-Card__nameContainer {
+	position: relative;
+}
+
+.employee-Card__nameInputWidth {
+	min-width: 0;
+}
+
+.employee-Card__header_footer {
+	margin-right: calc(-1 * var(--offset_m));
+}
+
+.employee-Card__header_footerEditByLegal {
+	margin-top: 5px;
+}
+
+.employee-Card__header_footerEdit {
+	margin-top: var(--offset_2xs);
+}
+
+.employee-Card__header_footerView {
+	margin-top: 3px;
+}
+
+.employee-Card__header_position {
+	height: var(--inline_height_s);
+}
+
+.employee-Card__header_firstLine {
+	margin-top: var(--offset_3xs);
+}
+
+.employee-Card__header_secondLine_view {
+	margin-top: var(--offset_xs);
+}
+
+.employee-Card__header_secondLine_edit {
+	margin-top: 3px;
+}
+
+.employee-Card__header_lastSurname {
+	flex-grow: 10000;
+	flex-shrink: 10000;
+}
+
+.ws-is-hover .employee-Card__header_fullName:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.employee-Card {
+	height: 100%;
+	flex-grow: 1;
+	flex-shrink: 1;
+	min-height: 0;
+	z-index: 1;
+}
+
+.employee-Card__cursor {
+	cursor: pointer;
+}
+
+.employee-Card__counter_forgiven {
+	color: var(--secondary_color);
+}
+
+.employee-Card__counter_notForgiven {
+	color: #ef463a;
+}
+
+.employee-Card__graphicHeaderFields_withPhoto .headers-ExtendedContentPanel__inputMainText {
+	max-width: 390px;
+}
+
+.employee-Card__graphicHeaderFields_withoutPhoto .headers-ExtendedContentPanel__inputMainText {
+	max-width: 438px;
+}

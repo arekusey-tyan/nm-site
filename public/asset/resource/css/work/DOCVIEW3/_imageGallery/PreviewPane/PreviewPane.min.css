@@ -1,0 +1,114 @@
+.docview3-PhotoGallery__previewsContainer {
+	position: relative;
+	outline: var(--border-thickness) solid var(--border-color);
+	box-sizing: border-box;
+	z-index: 1;
+}
+
+.docview3-PhotoGallery__previewsContainer__itemsContainer {
+	height: 100%;
+	overflow: hidden;
+}
+
+.docview3-PhotoGallery__previewsContainer__scrollContainer {
+	overflow: hidden;
+	font-size: 0;
+	white-space: nowrap;
+	transition: margin-top .4s;
+	position: relative;
+}
+
+.docview3-PhotoGallery_previews-bottom .docview3-PhotoGallery__previewsContainer {
+	margin-top: var(--offset_s);
+	outline: 0;
+	left: -2px;
+}
+
+.docview3-PhotoGallery_previews-bottom .docview3-PhotoGallery__previewsItem {
+	margin-left: var(--border-thickness);
+	margin-top: var(--border-thickness);
+	outline: var(--border-thickness) solid var(--border-color);
+}
+
+.docview3-PhotoGallery_previews-bottom .docview3-PhotoGallery__previewsItem_selected {
+	box-shadow: 0 0 4px rgba(0,0,0,.5);
+	z-index: 10;
+}
+
+.docview3-PhotoGallery_previews-bottom .docview3-PhotoGallery__previewsContainer__scrollContainer {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 4px 0 4px 2px;
+}
+
+.docview3-PhotoGallery_previews-left .docview3-PhotoGallery__previewsContainer,.docview3-PhotoGallery_previews-right .docview3-PhotoGallery__previewsContainer {
+	position: absolute;
+	height: 100%;
+	top: 0;
+}
+
+.docview3-PhotoGallery_previews-left .docview3-PhotoGallery__previewsContainer {
+	left: 0;
+}
+
+.docview3-PhotoGallery_previews-right .docview3-PhotoGallery__previewsContainer {
+	right: 0;
+}
+
+.docview3-PhotoGallery__previewsItem {
+	background: var(--background-color);
+	box-sizing: border-box;
+	cursor: pointer;
+	position: relative;
+	box-shadow: none;
+}
+
+.docview3-PhotoGallery__previewsItem:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(255,255,255,.5);
+}
+
+.docview3-PhotoGallery__previewsItem:last-child {
+	border-bottom: 0;
+}
+
+.docview3-PhotoGallery__previewsItem_selected:after {
+	background: 0 0;
+}
+
+.docview3-selectDisable {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.docview3-PhotoGallery_empty .docview3-PhotoGallery__previewsContainer {
+	display: none!important;
+}
+
+.docview3-PhotoGallery__next,.docview3-PhotoGallery__prev {
+	position: absolute;
+	width: 100%;
+	height: 20px;
+	left: 20px;
+	cursor: pointer;
+}
+
+.docview3-PhotoGallery__next>.controls-BaseButton__content,.docview3-PhotoGallery__prev>.controls-BaseButton__content {
+	justify-content: center;
+}
+
+.docview3-PhotoGallery__prev {
+	top: -26px;
+	transform: scaleY(-1);
+}
+
+.docview3-PhotoGallery__next {
+	bottom: -26px;
+}

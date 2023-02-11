@@ -1,0 +1,61 @@
+.staff-Buttons__add_infoboxMessage {
+	width: 268px;
+}
+
+.staff-Buttons__add_item {
+	min-width: 0;
+}
+
+.staff-Buttons__add_padding {
+	padding-left: 26px;
+}
+
+.staff-Buttons__add_header {
+	letter-spacing: 2px;
+	margin-top: -3px;
+}
+
+.staff-Buttons__add_comment {
+	white-space: normal;
+}
+
+.staff-Buttons__structure_iconAligner {
+	margin-left: var(--offset_xs);
+	padding-left: var(--offset_2xl);
+}
+
+.staff-Buttons__structure_staticItem-prompt {
+	position: relative;
+}
+
+.staff-Buttons__structure_widthInput {
+	width: 359px;
+}
+
+.staff-Buttons__structure_header {
+	width: 100%;
+}
+
+.staff-Buttons__structure_description {
+	margin-top: 1px;
+}
+
+.staff-Buttons__iconsPanel_iconSize {
+	width: var(--icon-size_m);
+	height: var(--icon-size_m);
+}
+
+.staff-Buttons__iconsPanel_currentIcon {
+	border: 1px solid var(--primary_color);
+	border-radius: var(--border-radius_s_image);
+}
+
+.ws-is-hover .staff-Buttons__structure_staticItem:hover {
+	background: var(--hover_background-color);
+}
+
+.ws-is-hover .staff-Buttons__iconsPanel:hover {
+	background: var(--box-shadow_block);
+	border-radius: var(--border-radius_s_image);
+	box-shadow: 0 0 4px 4px #e7e7e7;
+}

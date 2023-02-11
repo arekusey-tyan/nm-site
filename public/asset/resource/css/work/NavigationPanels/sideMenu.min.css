@@ -1,0 +1,72 @@
+.NavigationPanels-SideMenu_panel {
+	min-width: 190px;
+	height: 100%;
+}
+
+.NavigationPanels-Layout_sideMenu-MasterDetail .controls-master-template-default {
+	border: none;
+}
+
+.NavigationPanels-Layout_sideMenu-MasterDetail {
+	width: inherit;
+	height: inherit;
+}
+
+.NavigationPanels-SideMenu_Item_main_content {
+	position: relative;
+}
+
+.NavigationPanels-SideMenu_Item_counter {
+	margin-left: auto;
+	font-size: var(--font-size_m);
+	color: var(--label_text-color);
+	font-weight: 400;
+}
+
+.NavigationPanels-SideMenu_ItemsView_left {
+	padding-right: var(--offset_2xs);
+}
+
+.NavigationPanels-SideMenu_ItemsView-offset_3xs {
+	margin-top: var(--offset_3xs);
+}
+
+.NavigationPanels-SideMenu_ItemsView-offset_2xs {
+	margin-top: var(--offset_2xs);
+}
+
+.NavigationPanels-SideMenu_ItemsView-offset_xs {
+	margin-top: var(--offset_xs);
+}
+
+.NavigationPanels-SideMenu_ItemsView-offset_s {
+	margin-top: var(--offset_s);
+}
+
+.NavigationPanels-SideMenu_ItemsView-offset_m {
+	margin-top: calc(var(--offset_m) + 1px);
+}
+
+.NavigationPanels-SideMenu_ItemsView-offset_l {
+	margin-top: var(--offset_l);
+}
+
+.NavigationPanels-SideMenu_ItemsView-offset_2xl {
+	margin-top: var(--offset_2xl);
+}
+
+.NavigationPanels-SideMenu_ItemsView-offset_3xl {
+	margin-top: var(--offset_3xl);
+}
+
+.ws-is-ie .NavigationPanels-SideMenu_Item_title {
+	flex-basis: 100%;
+}
+
+.NavigationPanels-SideMenu_ItemsView__item_list {
+	min-height: var(--cell_min-height_grid);
+}
+
+.NavigationPanels-SideMenu_ItemsView__item_list:last-of-type {
+	margin-bottom: 0;
+}

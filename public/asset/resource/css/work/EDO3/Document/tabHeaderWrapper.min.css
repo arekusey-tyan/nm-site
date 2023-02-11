@@ -1,0 +1,13 @@
+.edo3-DocumentTabHeader {
+	height: 100%;
+}
+
+.edo3-DocumentTabHeader__icon {
+	position: relative;
+	top: 4px;
+}
+
+.edo3-DocumentTabHeader__countWithIcon {
+	position: relative;
+	bottom: 1px;
+}

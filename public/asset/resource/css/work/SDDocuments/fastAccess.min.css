@@ -1,0 +1,30 @@
+.fastAccess__page,.fastAccess__page__list-container,.fastAccess__page__scroll-container {
+    height: 100%;
+    min-height: 0;
+}
+
+.fastAccess__page__scroll-container {
+    padding: 0 3px 0 3px;
+}
+
+.fastAccess__page__scroll-container-content {
+    height: 100%;
+    width: 100%;
+}
+
+.fastAccess__page__recent-list {
+    padding-bottom: 5px;
+}
+
+.fastAccess__page__empty {
+    padding-top: 120px;
+}
+
+.fastAccess__page__more-button {
+    padding-left: 12px;
+    margin-bottom: 5px;
+}
+
+.fastAccess__page__more-button.fastAccess__page__more-button-list {
+    padding-left: 8px;
+}

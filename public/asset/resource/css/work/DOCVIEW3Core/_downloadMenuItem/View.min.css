@@ -1,0 +1,24 @@
+.docview3-download-menu-item__size {
+    color: #a9acc0;
+    margin-left: .6em;
+    margin-top: 1px;
+}
+
+.docview3-download-menu-item__downloadByPlugin {
+    position: absolute;
+    right: 1px;
+    top: 2px;
+}
+
+.docview3-download-menu-item__button {
+    width: 44px;
+    visibility: hidden;
+}
+
+.docview3-download-menu-item__button .controls-Button_radius-functionalButton {
+    border-radius: 50%;
+}
+
+.ws-is-hover .controls-Menu__row:hover .docview3-download-menu-item__button {
+    visibility: visible;
+}

@@ -1,0 +1,304 @@
+.person-Card__body {
+	height: 100%;
+	min-height: 0;
+	flex-shrink: 1;
+	flex-grow: 1;
+}
+
+.person-Card__tabBlock {
+	width: 100%;
+	height: 100%;
+	min-height: 0;
+}
+
+.person-Card__content {
+	height: 100%;
+	flex-shrink: 1;
+	flex-grow: 1;
+	min-height: 0;
+}
+
+.person-Card__content__wrapper {
+	flex-shrink: 1;
+	min-height: 0;
+}
+
+.person-Card__stack .controls-StackTemplate__rightPanel {
+	position: static;
+}
+
+.person-Card__error {
+	width: 610px;
+	height: 100%;
+}
+
+.person-Card {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	flex-shrink: 1;
+	min-height: 0;
+	background-color: var(--master_item_background-color_list);
+}
+
+.person-Card__contentArea {
+	width: 610px;
+	min-width: 0;
+	flex-shrink: 1;
+	flex-grow: 1;
+}
+
+.person-Card__switchableArea {
+	height: 100%;
+}
+
+.person-Card__PageBackground {
+	background: url(/asset/resource/OnlineCDN/themes/1.0.0/background.jpg);
+	background-attachment: fixed;
+}
+
+.person-Card__PageWrapper {
+	width: 100%;
+	height: 100%;
+	box-shadow: 0 0 16px #a0a0a0;
+}
+
+.person-Card__navigation {
+	width: 200px;
+	flex-shrink: 0;
+	flex-grow: 0;
+}
+
+.person-Card__padding_left {
+	padding-left: var(--offset_xl);
+}
+
+.person-Card__page {
+	flex-shrink: 1;
+	flex-grow: 1;
+	min-height: 0;
+	height: 100%;
+}
+
+.person-Card__User-withoutPhoto {
+	margin-top: -33px;
+}
+
+.person-Card__Actions {
+	margin-top: 53px;
+}
+
+.person-Card__Actions-withoutPhoto {
+	margin-top: var(--offset_xl);
+}
+
+.person-Card__InImprest,.person-Card__KPI,.person-Card__Plans,.person-Card__Projects {
+	margin-top: 40px;
+}
+
+.person-Card__InImprest-withoutPhoto,.person-Card__KPI-withoutPhoto,.person-Card__Plans-withoutPhoto,.person-Card__Projects-withoutPhoto {
+	margin-top: calc(var(--offset_xs) + var(--border-thickness));
+}
+
+.person-Card__SmotFunds {
+	margin-top: 34px;
+}
+
+.person-Card__SmotFunds-withoutPhoto {
+	margin-top: var(--offset_s);
+}
+
+.person-Card__CRM,.person-Card__Violations {
+	margin-top: calc(34px + var(--offset_s));
+}
+
+.person-Card__CRM-withoutPhoto,.person-Card__Violations-withoutPhoto {
+	margin-top: calc(var(--offset_s) + var(--border-thickness));
+}
+
+.person-Card__PersonalFile {
+	margin-top: 34px;
+}
+
+.person-Card__AreasOfResponsibility,.person-Card__Instructions,.person-Card__Property,.person-Card__Tasks {
+	margin-top: 34px;
+}
+
+.person-Card__AreasOfResponsibility-withoutPhoto,.person-Card__Instructions-withoutPhoto,.person-Card__Property-withoutPhoto,.person-Card__Tasks-withoutPhoto {
+	margin-top: 1px;
+}
+
+.person-Card__TimeDistributionOverall {
+	margin-top: calc(var(--offset_l) + 34px);
+}
+
+.person-Card__TimeDistributionOverall-withoutPhoto {
+	margin-top: 17px;
+}
+
+.person-Card__Exemptions {
+	margin-top: calc(34px + var(--offset_xs));
+}
+
+.person-Card__StaffSkills {
+	margin-top: 34px;
+}
+
+.person-Card__StaffSkills-withoutPhoto {
+	margin-top: 1px;
+}
+
+.person-Card__BuildingEntrance {
+	padding-top: var(--offset_l);
+}
+
+.person-Card__BuildingEntrance-withoutPhoto {
+	padding-top: var(--offset_l);
+}
+
+.person-Card__BusinessProcesses,.person-Card__NoticeSettings {
+	padding-top: calc(34px + 7px);
+}
+
+.person-Card__BusinessProcesses-withoutPhoto,.person-Card__NoticeSettings-withoutPhoto {
+	padding-top: var(--offset_s);
+}
+
+.person-Card__Exemptions-withoutPhoto,.person-Card__KPI-withoutPhoto {
+	padding-top: var(--offset_xs);
+}
+
+.person-Card__Activity {
+	margin-top: 40px;
+	width: 100%;
+}
+
+.person-Card__Activity-withoutPhoto {
+	margin-top: calc(var(--offset_xs) + var(--border-thickness));
+	width: 100%;
+}
+
+.person-Card__Photo {
+	margin-top: calc(7px + var(--border-thickness));
+}
+
+.person-Card__topOffset-s {
+	margin-top: calc(var(--offset_l) + var(--border-thickness));
+}
+
+.person-Card__topOffset-l {
+	margin-top: 46px;
+}
+
+.person-Card_blockLayout .NavigationPanels-SideMenu_ItemsView-offset_m {
+	margin-top: calc(var(--offset_m) + 1px - var(--offset_block));
+}
+
+.person-Card_base .headers-Header__toolbarContent {
+	background-color: var(--master_item_background-color_list);
+}
+
+.controls-StackTemplate .person-Card_base.headers-Layout .controls-Scroll__background-Shadow_style-default,.person-Card_base.headers-Layout .controls-Scroll__shadow_top_style-default {
+	background: 0 0;
+}
+
+.ws-is-mobile-safari .person-Card {
+	z-index: 0;
+}
+
+.person-Card_base {
+	height: 100%;
+	position: relative;
+}
+
+.person-Card_headerLogo {
+	position: absolute;
+	z-index: 60;
+	top: 0;
+	left: 20px;
+}
+
+.person-Card__headerFixedLogo {
+	position: absolute;
+	z-index: 60;
+	top: 87px;
+	left: 12px;
+}
+
+.person-Card_headerLogoWrapper {
+	margin-left: calc(8px + 144px + 12px);
+}
+
+.person-Card_headerLogoWrapper__noPhoto {
+	margin-left: calc(8px + 96px + 12px);
+}
+
+.person-Card_headerFixedLogoWrapper {
+	margin-left: calc(32px + 12px);
+}
+
+.person-CardHeader_contractor {
+	max-width: 100%;
+	padding-right: var(--offset_m);
+	line-height: var(--inline_height_m);
+}
+
+.person-CardHeader__additionalPinText {
+	max-width: 190px;
+}
+
+.person-Card__headerButtons {
+	display: flex;
+	align-items: baseline;
+}
+
+.person-Card__headerButtons_toolBtn {
+	margin: 0 var(--offset_m) 0 10px;
+}
+
+.person-Card__headerButtons_edit {
+	margin: 0 10px 0 0;
+}
+
+.person-Card__editHeader_fieldWidth {
+	width: 402px;
+}
+
+.person-Card__editHeader_nameToggler {
+	margin-left: var(--offset_l);
+	font-weight: 700;
+}
+
+.person-Card__headerButtons_menu {
+	min-width: 268px;
+}
+
+.person-Card__tabs {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.person-CardHeader {
+	width: 100%;
+	min-height: 119px;
+}
+
+.person-CardHeader_withPhoto {
+	margin-left: 176px;
+}
+
+.person-CardHeader_firstLineMargin {
+	margin-left: calc(-1 * var(--offset_2xs));
+	min-height: var(--inline_height_xl);
+}
+
+.person-Card__headerLine__first {
+	margin-left: calc(8px + 144px + 8px);
+}
+
+.person-Card__noPhoto {
+	margin-top: 40px;
+}

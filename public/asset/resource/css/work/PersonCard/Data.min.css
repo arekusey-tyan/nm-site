@@ -1,0 +1,262 @@
+.personData_Language__header {
+	margin-bottom: var(--offset_3xs);
+	display: flex;
+}
+
+.personData_Language__list {
+	max-width: 100%;
+}
+
+.personData_Language__editor,.personData_Language__viewData {
+	display: flex;
+}
+
+.personData_Language__icon {
+	margin: calc(-1 * var(--offset_xl)) 19px var(--offset_2xs) auto;
+}
+
+.personData_Language__viewData {
+	width: 100%;
+	padding: 3px 0;
+}
+
+.personData_Language__viewData_disabled {
+	cursor: default;
+}
+
+.personData_Language__viewData_withPrivateConfig {
+	line-height: var(--offset_l);
+}
+
+.personData_Language__inputName {
+	width: 278px;
+}
+
+.personData_Language__emptyTemplate_withIcon {
+	display: flex;
+	align-items: center;
+	margin-top: calc(-1 * var(--offset_xs));
+	margin-right: var(--offset_m);
+	height: var(--inline_height_2xl);
+}
+
+.personData_Language__emptyTemplate {
+	margin-top: var(--offset_s);
+}
+
+.personData_Language__emptyText {
+	flex-shrink: 0;
+	margin-right: var(--offset_2xs);
+}
+
+.personData_Language__levelEditor {
+	margin-left: var(--offset_m);
+	width: 212px;
+}
+
+.personData_Language__editor {
+	margin-left: var(--offset_2xs);
+}
+
+.personData_Language__addBtn {
+	margin-left: var(--offset_m);
+}
+
+.personData_Language__name {
+	margin-right: var(--offset_3xs);
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.personData_Language__level {
+	color: var(--label_text-color);
+	margin-left: var(--offset_s);
+	flex-shrink: 0;
+}
+
+.personData_Language__title {
+	line-height: var(--inline_height_l);
+}
+
+.personData_Language__privacyBtn {
+	margin-left: auto;
+	margin-top: calc(-1 * var(--offset_2xs));
+}
+
+.personData_Language__publishBtn {
+	margin-left: auto;
+	margin-right: var(--offset_m);
+}
+
+.personData_Language__itemActions {
+	right: 84px;
+}
+
+.personData_Experience {
+	padding: 0 var(--offset_m);
+}
+
+.personData_Experience__header {
+	display: flex;
+	align-items: baseline;
+}
+
+.personData_Experience__headerOther {
+	width: 100%;
+}
+
+.personData_Experience__title {
+	line-height: 30px;
+	white-space: nowrap;
+}
+
+.personData_Experience__addBtn {
+	margin: 0 var(--offset_m) 0 var(--offset_l);
+}
+
+.personData_Experience__privacyBtn {
+	display: flex;
+	margin-left: var(--offset_l);
+	width: 90px;
+	flex-shrink: 0;
+}
+
+.personData_Experience__privacySlctr {
+	margin-left: auto;
+}
+
+.personData_Experience__separator {
+	margin: auto;
+	display: flex;
+}
+
+.personData_Experience__item {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.personData_Experience__itemRow {
+	display: flex;
+	justify-content: space-between;
+	max-height: 24px;
+	align-items: baseline;
+}
+
+.personData_Experience__otherItem {
+	display: flex;
+	flex-grow: 1;
+}
+
+.personData_Experience__otherItemRow {
+	display: flex;
+	flex-grow: 1;
+	justify-content: space-between;
+	max-height: 24px;
+	align-items: baseline;
+}
+
+.personData_Experience__org {
+	display: flex;
+	width: 100%;
+}
+
+.personData_Experience__orgName {
+	font-weight: 700;
+}
+
+.personData_Experience__orgName_gray {
+	color: var(--unaccented_color);
+}
+
+.personData_Experience__goals {
+	white-space: normal;
+	color: var(--label_text-color);
+}
+
+.personData_Experience__itemWrapper {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+}
+
+.personData_Experience__icon {
+	margin: -25px 19px 0 auto;
+}
+
+.personData_Experience__emptyTemplate {
+	display: flex;
+	align-items: center;
+	margin: -13px var(--offset_m) -7px;
+}
+
+.personData_ExperienceEditor__content {
+	display: flex;
+	flex-direction: column;
+	margin: var(--offset_s) var(--offset_m) var(--offset_2xs) var(--offset_m);
+}
+
+.personData_ExperienceEditor__header {
+	display: flex;
+	flex-grow: 1;
+	align-items: baseline;
+	justify-content: space-between;
+}
+
+.personData_ExperienceEditor__dates {
+	display: flex;
+	align-items: baseline;
+}
+
+.personData_ExperienceEditor__suggestList {
+	width: 550px;
+}
+
+.personData_ExperienceEditor__suggestItem {
+	display: flex;
+	flex-direction: column;
+}
+
+.personData-MedicalExaminations__scroll {
+	max-height: 100%;
+}
+
+.personData-MedicalExaminations__scroll_container {
+	height: 100%;
+	flex-grow: 1;
+	flex-shrink: 1;
+	min-height: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.personData-MedicalExaminations__date {
+	margin-right: var(--offset_xs);
+	width: 90px;
+}
+
+.personData-MedicalExaminations__readDate {
+	margin-right: var(--offset_3xs);
+	width: 90px;
+}
+
+.personData-MedicalExaminations_empty {
+	margin: 7px var(--offset_m) var(--offset_xs) 0;
+	color: #aab0c1;
+}
+
+.personData-MedicalExaminations__addBtn {
+	margin: 0 var(--offset_m) 0 var(--offset_l);
+}
+
+.personData-MedicalExaminations__medicalLimit {
+	width: 144px;
+}
+
+.personData-MedicalExaminations__medicalLimit_red {
+	color: var(--danger_color);
+}
+
+.personData-MedicalExaminations__medicalLimit_grey {
+	color: var(--label_text-color);
+}
