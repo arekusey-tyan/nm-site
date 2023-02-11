@@ -1,0 +1,468 @@
+.edo3-Comment {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.edo3-Comment__hidden-attaches {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    visibility: hidden;
+}
+
+.edo3-Comment__style--default {
+    background-color: #fffece;
+    border: 1px solid #eceba6;
+}
+
+.edo3-Comment__style--deep-blue {
+    background-color: #f0f5fb;
+    border: 1px solid #bed6eb;
+}
+
+.edo3-Comment__style--yellow {
+    background-color: #fffbe4;
+    border: 1px solid #ede9d3;
+}
+
+.edo3-Comment__style--green {
+    background-color: #e8fdc4;
+    border: 1px solid #d2e5b3;
+}
+
+.edo3-Comment__style--orange {
+    background-color: #ffe0cc;
+    border: 1px solid #e5c9b7;
+}
+
+.edo3-Comment__style--purple {
+    background-color: #f1e0f1;
+    border: 1px solid #d8c9d8;
+}
+
+.edo3-Comment__style--light-purple {
+    background-color: #f2f2fe;
+    border: 1px solid #c4c4fb;
+}
+
+.edo3-Comment__style--blue {
+    background-color: #d9f2ff;
+    border: 1px solid #c5dce8;
+}
+
+.edo3-Comment__content {
+    line-height: 24px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-flex;
+    position: relative;
+}
+
+.edo3-Comment .edo3-Comment__commentAttachments_inline {
+    padding-left: 4px;
+}
+
+.edo3-Comment__photo {
+    height: 24px;
+    width: 24px;
+    vertical-align: top;
+    flex: 0 0 auto;
+    z-index: 0;
+}
+
+.edo3-Comment__photo-exec {
+    margin-left: 4px;
+}
+
+.edo3-Comment__mask {
+    overflow: hidden;
+    width: 24px;
+    height: 24px;
+    vertical-align: top;
+    margin-right: -15px;
+    margin-left: -8px;
+    flex: 0 0 auto;
+}
+
+.edo3-Comment__drop {
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    border-bottom-left-radius: 0;
+    transform: rotate(45deg);
+    margin-left: 16px;
+}
+
+.edo3-Comment__content:not(.edo3-Comment__reverse-content) .edo3-Comment__comment {
+    border-left: none;
+}
+
+.edo3-Comment__comment {
+    margin-left: 8px;
+    border-radius: 12px;
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 11px;
+    padding: 0 4px 0 8px;
+    height: 24px;
+    box-sizing: border-box;
+    cursor: pointer;
+    vertical-align: bottom;
+    display: inline-flex;
+}
+
+.edo3-Comment__comment-content {
+    position: relative;
+}
+
+.edo3-Comment__message {
+    display: inline-flex;
+}
+
+.edo3-Comment__message>* {
+    line-height: 23px;
+}
+
+.edo3-Comment__message>* a:hover {
+    text-decoration: underline;
+}
+
+.edo3-Comment__message--without-author .edo3-Comment__text-message {
+    padding-left: 1px;
+}
+
+.edo3-Comment__data-event {
+    font-weight: 400;
+    font-size: 12px;
+    padding: 0 3px 0 1px;
+    line-height: 24px;
+}
+
+.edo3-Comment__icon {
+    line-height: 24px;
+    padding-left: 4px;
+}
+
+.edo3-Comment__author-name {
+    font-weight: 700;
+    margin-left: 1px;
+}
+
+.edo3-Comment .edo3-Comment__button-area {
+    padding-left: 8px;
+    display: inline-flex;
+}
+
+.edo3-Comment .edo3-Comment__button-area a:hover {
+    text-decoration: none;
+}
+
+.edo3-Comment .edo3-Comment__button-area .edo3-Comment__invisible-button {
+    margin-right: -9px;
+    z-index: 0;
+    overflow: hidden;
+    max-height: 22px;
+    background: 0 0;
+    border-color: transparent;
+}
+
+.edo3-Comment .edo3-Comment__button-area .edo3-Comment__invisible-button span {
+    color: transparent;
+}
+
+.edo3-Comment .edo3-Comment__visible-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.edo3-Comment__text-message {
+    padding-left: 4px;
+}
+
+.edo3-Comment__text-message--json .edo3-Comment__text-message--json-last-element p {
+    margin-right: 0;
+}
+
+.edo3-Comment__text-message--json p {
+    display: inline;
+    margin-right: 4px;
+}
+
+.edo3-Comment__text-message--json div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.edo3-Comment .edo3-Comment__user-template {
+    flex: 0 0 auto;
+}
+
+.edo3-Comment__photo-exec--position {
+    bottom: 1px;
+    z-index: 0;
+}
+
+.edo3-Comment__reverse-content {
+    flex-direction: row-reverse;
+}
+
+.edo3-Comment__reverse-content .edo3-Comment__mask {
+    margin-right: -8px;
+}
+
+.edo3-Comment__reverse-content .edo3-Comment__drop {
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: -16px;
+}
+
+.edo3-Comment__reverse-content .edo3-Comment__comment {
+    border-left-width: 1px;
+    border-right: none;
+    padding-right: 8px;
+    margin-left: 0;
+}
+
+.edo3-Comment__reverse-content .edo3-Comment__message {
+    flex-direction: row-reverse;
+}
+
+.edo3-Comment__reverse-content .edo3-Comment__author-name {
+    margin-left: 4px;
+}
+
+.edo3-CommentPicker {
+    border-radius: 10px;
+    border-top-left-radius: 15px;
+    padding: 0 8px 3px 8px;
+    line-height: 18px;
+    vertical-align: top;
+    display: table-cell;
+    word-wrap: break-word;
+    word-break: break-word;
+    cursor: pointer;
+    position: relative;
+}
+
+.edo3-CommentPicker__scroll-container {
+    max-height: inherit;
+    z-index: 1;
+}
+
+.edo3-CommentPicker__text-content {
+    flex: 1 1 auto;
+}
+
+.edo3-CommentPicker__invisible-button-area {
+    margin: 0 -8px 0 8px;
+}
+
+.edo3-CommentPicker .edo3-CommentPicker__visible-area {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    height: 24px;
+    z-index: 3;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 12px;
+    border-left: none;
+    border-bottom: none;
+}
+
+.edo3-CommentPicker .edo3-CommentPicker__visible-area--photo {
+    margin-right: 8px;
+    position: relative;
+}
+
+.edo3-CommentPicker .edo3-CommentPicker__visible-area--photo-border-top {
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    position: absolute;
+    height: 1px;
+    width: 24px;
+    top: -1px;
+    z-index: 1;
+    background: 0 0;
+}
+
+.edo3-CommentPicker .edo3-CommentPicker__visible-area--button {
+    margin: -1px -1px 0 0;
+    line-height: 23px;
+}
+
+.edo3-CommentPicker .edo3-CommentPicker__invisible-button {
+    margin: 0 -5px 0 8px;
+    overflow: hidden;
+    max-height: 22px;
+    background: 0 0;
+    border-color: transparent;
+}
+
+.edo3-CommentPicker .edo3-CommentPicker__invisible-button .controls-BaseButton__text {
+    color: transparent;
+}
+
+.edo3-CommentPicker__photo-exec {
+    margin-right: 12px;
+    height: 24px;
+    width: 24px;
+}
+
+.edo3-CommentPicker__photo-exec--position {
+    bottom: 1px;
+    z-index: 0;
+}
+
+.edo3-CommentPicker__data-event {
+    font-weight: 400;
+    font-size: 12px;
+    padding-right: 4px;
+    line-height: 24px;
+}
+
+.edo3-CommentPicker__author-name,.edo3-CommentPicker__data-event,.edo3-CommentPicker__icon {
+    float: left;
+    height: 18px;
+}
+
+.edo3-CommentPicker__author-name,.edo3-CommentPicker__text-message {
+    line-height: 23px;
+}
+
+.edo3-CommentPicker__text-message {
+    white-space: pre-line;
+    word-break: break-word;
+}
+
+.edo3-CommentPicker__text-message>* a:hover {
+    text-decoration: underline;
+}
+
+.edo3-CommentPicker__author-name {
+    margin-right: 4px;
+}
+
+.edo3-CommentPicker__icon {
+    margin-right: 4px;
+    line-height: 24px;
+}
+
+.edo3-CommentPicker__author-name {
+    font-weight: 700;
+}
+
+.edo3-CommentPicker__border-killer {
+    position: absolute;
+    margin: 0 0 0 -9px;
+    height: 22px;
+    width: 22px;
+    border: none;
+    border-top-left-radius: 11px;
+    transform: rotate(45deg);
+}
+
+.edo3-CommentPicker__commentAttachments_inline {
+    margin-bottom: 2px;
+}
+
+.ws-is-ie .edo3-Comment__message {
+    width: 100%;
+}
+
+.ws-is-ie .edo3-Comment__text-message {
+    width: auto;
+}
+
+.ws-is-ie .edo3-Comment__button-area,.ws-is-ie .edo3-Comment__photo-exec {
+    flex: 0 0 auto;
+}
+
+.ws-is-ie .edo3-Comment__button-area {
+    line-height: 18px;
+}
+
+.ws-is-mobile-safari .edo3-Comment__message>* {
+    line-height: 22px;
+}
+
+.ws-is-mobile-safari .edo3-Comment__data-event {
+    line-height: 24px;
+}
+
+.ws-is-mobile-safari .edo3-CommentPicker__author-name,.ws-is-mobile-safari .edo3-CommentPicker__text-message {
+    line-height: 22px;
+}
+
+.ws-is-mobile-safari .edo3-Comment__commentAttachments_inline {
+    line-height: 20px;
+}
+
+.ws-is-firefox .edo3-Comment__commentAttachments_inline,.ws-is-ie .edo3-Comment__commentAttachments_inline {
+    line-height: 22px;
+}
+
+.ws-is-firefox .edo3-CommentPicker__data-event,.ws-is-firefox .edo3-Comment__data-event,.ws-is-ie .edo3-CommentPicker__data-event,.ws-is-ie .edo3-Comment__data-event {
+    line-height: 23px;
+}
+
+.edo3-CommentAttachments {
+    align-items: baseline;
+    line-height: 20px;
+}
+
+.edo3-CommentAttachments__icon {
+    margin-right: 2px;
+    font-size: 13px;
+    font-family: cbuc-icons;
+    align-self: baseline;
+}
+
+.edo3-CommentAttachments__file-name {
+    flex-grow: 1;
+    flex-basis: 0;
+    align-self: baseline;
+}
+
+.edo3-CommentAttachments__titles {
+    transform: translateY(1px);
+    align-items: baseline;
+}
+
+.edo3-CommentAttachments__inline .edo3-CommentAttachments__icon {
+    vertical-align: baseline;
+}
+
+.edo3-CommentAttachments__inline .edo3-CommentAttachments__titles {
+    flex-wrap: wrap;
+}
+
+.edo3-CommentAttachments__and_more_button,.edo3-CommentAttachments__title {
+    cursor: pointer;
+    height: 24px;
+    color: var(--unaccented_text-color);
+    font-size: 14px;
+    align-items: baseline;
+}
+
+.edo3-CommentAttachments__title {
+    margin-right: 6px;
+}
+
+.edo3-CommentAttachments__and_more_button:hover {
+    text-decoration: underline;
+}
+
+.edo3-CommentAttachments--inline .edo3-CommentAttachments__titles {
+    max-width: calc(100% - 16px);
+}
+
+.ws-is-hover .edo3-CommentAttachments__file-name:hover {
+    text-decoration: underline;
+}

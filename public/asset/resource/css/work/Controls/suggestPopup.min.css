@@ -1,0 +1,99 @@
+.controls-SuggestV__dialog {
+	width: 100%;
+	height: 100%;
+}
+
+.controls-SuggestV__dialog-layout {
+	display: flex;
+	flex-direction: column;
+	min-height: 0;
+	height: 100%;
+}
+
+.controls-Suggest__dialog-scrollContainer {
+	height: 100%;
+}
+
+.controls-Suggest__suggestionsContainer_popup {
+	margin-left: calc(-1 * var(--offset_m));
+}
+
+.controls-Suggest__suggestionsContainer_popup-contrastBackground {
+	margin-left: calc(-1 * var(--offset_s));
+}
+
+.controls-Suggest__suggestionsContainer_popup_bottom {
+	margin-top: calc(-1 * var(--border-thickness));
+}
+
+.controls-Suggest__suggestionsContainer_popup_top {
+	margin-top: var(--border-thickness);
+}
+
+.controls-Suggest__suggestionsContainer_popup_shadow_top {
+	box-shadow: var(--offset_2xs) calc(-1 * var(--offset_m)) var(--shadow-blur_a) var(--shadow-color_a);
+}
+
+.controls-Suggest__suggestionsContainer_popup_shadow_bottom {
+	box-shadow: var(--offset_2xs) var(--offset_m) var(--shadow-blur_a) var(--shadow-color_a);
+}
+
+.ws-is-ie .controls-Suggest__suggestionsContainer_popup_shadow_top {
+	box-shadow: 0 -4px 6px rgba(0,0,0,.2);
+}
+
+.controls-Suggest__suggestionsContainer-inInput {
+	top: calc(-1 * var(--offset_s));
+	display: flex;
+	flex-direction: column;
+	border: var(--border-thickness) solid var(--popup_border-color_suggest);
+	box-shadow: var(--offset_2xs) var(--offset_m) var(--shadow-blur_a) var(--shadow-color_a);
+	position: absolute;
+	overflow: hidden;
+	max-width: 100vw;
+}
+
+.controls-Suggest__tabs_ContentLayer {
+	margin-top: 0;
+}
+
+.controls-Suggest__suggestionsContainer_direction-right {
+	left: calc(-1 * var(--offset_m));
+}
+
+.controls-Suggest__suggestionsContainer_direction-right-adaptive {
+	left: calc(-1 * var(--offset_xs));
+}
+
+.controls-Suggest__suggestionsContainer_direction-left {
+	right: calc((-1 * var(--offset_m)) - var(--width_closeButton_toolButton));
+}
+
+.controls-Suggest__suggestionsContainer_hidden {
+	visibility: hidden;
+}
+
+.controls-Suggest__suggestionsContainer_popup {
+	height: 100%;
+	overflow: hidden;
+}
+
+.ws-is-desktop-safari .controls-Suggest__suggestionsContainer_popup,.ws-is-mobile-safari .controls-Suggest__suggestionsContainer_popup {
+	transform: translateZ(0);
+}
+
+.controls-Suggest__tabs_PopupLayer {
+	margin-top: var(--tabs_offset-top_suggest);
+}
+
+.controls-Suggest_list_empty {
+	min-height: calc(var(--offset_l) * 2 + var(--spinner_l_size_loadingIndicator));
+}
+
+.controls-Suggest_breadCrumbs {
+	pointer-events: none;
+}
+
+.controls-Suggest_list-content-adaptive {
+	max-width: 100vw;
+}

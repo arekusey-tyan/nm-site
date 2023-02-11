@@ -1,0 +1,27 @@
+.person-Slip__photo {
+	height: 100%;
+}
+
+.person-Slip__photo_container {
+	position: relative;
+}
+
+.person-Slip__photo_container .docview3-Preview__image {
+	display: none;
+}
+
+.person-Slip__photo_imageGallery {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.person-Slip__photo_background {
+	box-shadow: var(--box-shadow_block);
+	background-color: var(--background-color);
+}
+
+.person-Slip__photo_rounded {
+	border-radius: var(--border-radius_m_image);
+	overflow: hidden;
+}

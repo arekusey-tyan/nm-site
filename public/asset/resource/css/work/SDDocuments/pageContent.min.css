@@ -1,0 +1,222 @@
+.sdPageContent__centerArea {
+    height: 100%;
+}
+
+.sdPageContent__View,.sdPageContent__View__new-browser {
+    height: 100%;
+}
+
+.sdPageContent__View__with-master-padding .controls-MasterDetail_master {
+    margin-top: 36px;
+}
+
+.sdPageContent__View .diskFolderHeader__top-background-container {
+    box-sizing: border-box;
+    margin: 6px 6px 12px 6px;
+    border-radius: var(--border-radius_default_block);
+}
+
+.sdPageContent__View__detail-content {
+    box-sizing: border-box;
+}
+
+.sdPageContent__View__detail-content-margin {
+    margin: 3px 3px 0;
+}
+
+.sdPageContent__View__detail-content .controls-ColumnsView,.sdPageContent__View__detail-content .controls-Grid {
+    padding-top: 5px;
+}
+
+.sdPageContent__View__detail-content .controls-Grid.controls-Grid__empty {
+    padding-top: 0;
+}
+
+.sdPageContent__View .controls-newBrowser__detail {
+    background-color: var(--unaccented_background-color)!important;
+}
+
+.sdPageContent__View .controls-newBrowser__detail.controls-MasterDetail_details-newDesign {
+    box-shadow: none;
+}
+
+.sdPageContent__title-fakeFolder {
+    margin-left: -2px;
+    padding-right: 6px;
+}
+
+.sdPageContent__title-content {
+    width: 100%;
+    min-width: 0;
+}
+
+.sdPageContent__title-fakeFolder-title {
+    min-width: 0;
+}
+
+.sdPageContent__title-catalog-size {
+    font-weight: 400;
+}
+
+.ws-is-hover .sdPageContent__title-catalog-size:hover {
+    color: var(--secondary_text-color);
+}
+
+.diskRegistry.controls-newBrowser__detail-list {
+    overflow: inherit;
+}
+
+.sdPageContent__View .docview3-DiskFlatAttach__empty-represent-title {
+    padding-left: 20px;
+}
+
+.sdPageContent__View .docview3-DiskFlatAttach__empty-represent-title {
+    color: var(--text_color_Hint-Template);
+}
+
+.sdPageContent__View .diskFolderHeader__path-description-container-style-none {
+    padding-top: 5px;
+    padding-bottom: 4px;
+    padding-right: 0;
+}
+
+.rtl-Body .sdPageContent__View .layout-Browser__header {
+    display: none!important;
+}
+
+.rtl-Body .sdPageContent__View .controls-background-detail {
+    background-color: var(--unaccented_background-color);
+}
+
+.sdPageContent__View .controls-TreeGrid__row-expander_hiddenNode_iconSize_master::before {
+    font-size: 16px;
+    position: absolute;
+    top: 3px;
+}
+
+.ws-is-ie .sdPageContent__View .controls-TreeGrid__row-expander_hiddenNode_iconSize_master::before {
+    position: relative;
+}
+
+.sdPageContent__title-fakeFolder.icon-TFComputer {
+    font-weight: 400;
+}
+
+.diskPanelFixDetail .diskRegistry__detail-content-wrapper {
+    padding-right: 0;
+}
+
+.diskPanelFixDetail .sdPageContent__View__detail-content-margin {
+    margin-right: 0;
+}
+
+.diskPanelFixDetail .fastAccess__page__table-content {
+    margin-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.diskPanelFixDetail .controls-MasterDetail_details-newDesign.tlr {
+    border-top-right-radius: 0;
+}
+
+.diskPanelAFD .controls__BaseControl__footer-default__paddingLeft_withCheckboxes {
+    padding-left: 0;
+}
+
+.diskPanelView .diskRegistry__detail-content-wrapper {
+    padding-right: 0;
+}
+
+.diskPanelView .sdPageContent__View__detail-content-margin {
+    margin-right: 0;
+}
+
+.diskPanelView .fastAccess__page__table-content {
+    margin-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.diskPanelView .controls-MasterDetail_details-newDesign.tlr {
+    border-top-right-radius: 0;
+}
+
+.sdPageContent__View__detail-content .fastAccess__page__list .docview3-List__view {
+    padding-top: 0;
+}
+
+.fastAccess__page__table-columns-content .controls-ColumnsView__itemV.docview3-List_column__item {
+    padding-left: 12px;
+}
+
+.fastAccess__page__moreButton-tile .controls-text-listMore {
+    padding-left: 12px;
+}
+
+.fastAccess__page .fastAccess__page__header {
+    padding-top: 8px;
+}
+
+.fastAccess__page__table-content {
+    border-radius: var(--border-radius_default_block) var(--border-radius_default_block) var(--border-radius_default_block) var(--border-radius_default_block);
+    box-shadow: 0 0 6px rgba(0,0,0,.15);
+    background-color: var(--detail_contrast_background-color_masterDetail);
+    margin: 3px;
+}
+
+.diskRegistry__quickList .diskRegistry__search-container-outer {
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.diskRegistry__ffList .diskRegistry__search-container-outer .controls-TreeGrid__node-extraItem-expanderPadding {
+    display: none;
+}
+
+.diskRegistry__ffList .sdPageContent__View__detail-content-margin {
+    margin: 0;
+}
+
+.diskRegistry__quickList .controls-ListViewV .controls-ListView__itemV_marker-default_topPadding-l {
+    padding-top: 0;
+}
+
+.fastAccess__page__table-columns-content .docview3-List_list-item__title-folder .docview3-List_list-item__title__name {
+    margin-left: 30px;
+    font-size: 17px;
+}
+
+.fastAccess__page__table-columns-content .docview3-List_list-item__title-folder:before {
+    content: '\e96e';
+    font-family: var(--icon_font-family_s);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    flex-shrink: 0;
+    overflow: hidden;
+    text-align: center;
+    font-weight: 400;
+    position: absolute;
+    color: var(--node_expander_icon-color_treeGrid);
+    font-size: var(--icon-size_s);
+    bottom: calc(-1 * var(--expander_padding_icon-treeGrid));
+    left: 4px;
+}
+
+.ws-is-hover .diskRegistry__ffList .fastAccess__page__table-columns-content .controls-ColumnsView__item_shadow.controls-ColumnsView__item_hovering:hover {
+    box-shadow: none;
+}
+
+.fastAccess__page__table-columns-content .docview3-DiskList.docview3-List_column .controls-ColumnsView_column {
+    padding: 0;
+}
+
+.fastAccess__searchContainer .hint-Template-Wrapper__hint_emptyTemplate {
+    padding-top: 120px;
+}
+
+.fastAccess__searchContainer .docview3-List_list-item__title-folder {
+    font-size: 16px;
+}

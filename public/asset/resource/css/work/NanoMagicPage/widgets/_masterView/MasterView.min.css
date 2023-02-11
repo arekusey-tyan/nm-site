@@ -1,0 +1,37 @@
+.nanomagicPage-MasterView {
+	margin-top: 5px;
+}
+
+.nanomagicPage-MasterView__ItemTemplate-reference {
+	display: contents;
+}
+
+.ws-is-not-full-grid-support.ws-is-windows-xp .nanomagicPage-MasterView__ItemTemplate-reference {
+	display: block;
+}
+
+.nanomagicPage-MasterView__ItemTemplate {
+	width: 100%;
+	min-width: 0;
+	color: var(--text-color);
+}
+
+.ws-is-not-full-grid-support.ws-is-windows-xp .nanomagicPage-MasterView__ItemTemplate {
+	display: block;
+}
+
+.nanomagicPage-MasterView__ItemTemplate-main {
+	line-height: var(--inline_height_s);
+}
+
+.nanomagicPage-MasterView__icon {
+	margin-right: var(--offset_xs);
+	font-weight: var(--font-weight);
+}
+
+.nanomagicPage-MasterView__masterGroupTemplate {
+	min-width: 0;
+	width: 100%;
+	display: flex;
+	margin-left: calc(var(--icon-size_s) + var(--offset_xs));
+}

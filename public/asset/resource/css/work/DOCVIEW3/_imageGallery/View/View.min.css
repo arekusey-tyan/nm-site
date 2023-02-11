@@ -1,0 +1,75 @@
+.docview3-PhotoGallery {
+	position: relative;
+	box-sizing: border-box;
+}
+
+.docview3-PhotoGallery_readOnly .docview3-PhotoGallery__view {
+	cursor: default;
+}
+
+.docview3-PhotoGallery__view {
+	position: relative;
+	z-index: 1;
+	box-sizing: content-box;
+	overflow: hidden;
+}
+
+.docview3-PhotoGallery__view--pointer {
+	cursor: pointer!important;
+}
+
+.docview3-PhotoGallery .docview3-Preview__image {
+	max-width: 100%;
+}
+
+.docview3-PhotoGallery__zoomLayer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 5;
+	top: 0;
+	display: none;
+	pointer-events: none;
+}
+
+.ws-is-hover .docview3-PhotoGallery__view:hover .docview3-PhotoGallery__zoomLayer,.ws-is-touch .docview3-PhotoGallery__zoomLayer {
+	display: block;
+}
+
+.ws-is-no-touch .docview3-PhotoGallery__zoomLayer--icon {
+	background: url('../images/zoom-in.svg?x_module=2380ce891f94d23df8ccad32ecc7d64a') no-repeat center center;
+}
+
+.docview3-PhotoGallery_empty .docview3-PhotoGallery__view {
+	cursor: default;
+}
+
+.docview3-PhotoGallery__dnd-overlay {
+	font-size: 16px;
+}
+
+.docview3-PhotoGallery_viewBorder .docview3-PhotoGallery__view {
+	border: var(--border-thickness) solid var(--border-color);
+}
+
+.docview3-PhotoGallery_viewBorder .docview3-PhotoGallery_previews-left .docview3-PhotoGallery__view,.docview3-PhotoGallery_viewBorder .docview3-PhotoGallery_previews-right .docview3-PhotoGallery__view {
+	margin-bottom: 25px;
+}
+
+.docview3-PhotoGallery.docview3-PhotoGallery_stretchPreview .docview3-Preview__image {
+	width: 100%;
+	height: 100%;
+}
+
+.docview3-PhotoGallery__view-split-side {
+	overflow: visible;
+}
+
+.docview3-PhotoGallery__view-split-side:hover::before {
+	content: '';
+	position: absolute;
+	width: calc(60px + var(--offset_m));
+	top: 0;
+	bottom: 0;
+	right: calc(-60px - var(--offset_m));
+}

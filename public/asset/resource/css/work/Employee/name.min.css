@@ -1,0 +1,22 @@
+.employee-ExistingDialog__message {
+	text-align: center;
+}
+
+.employee-ExistingDialog__title {
+	margin-bottom: var(--offset_s);
+	line-height: var(--inline_height_m);
+	font-size: var(--font-size_3xl);
+}
+
+.employee-ExistingDialog__details {
+	font-size: var(--font-size_m);
+	line-height: 18px;
+}
+
+.employee-Name__showAllbtn {
+	margin: 0 var(--offset_m) var(--offset_s) 0;
+}
+
+.employee-Name__suggestDialog {
+	width: 500px;
+}

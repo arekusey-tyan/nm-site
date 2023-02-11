@@ -1,0 +1,17 @@
+.SaleScript_indicator {
+    position: relative;
+}
+
+.SaleScript_indicator.NavigationPanels-Accordion__icon_user::before {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: "\e922";
+    cursor: pointer;
+    box-sizing: border-box;
+    height: 24px;
+    width: 24px;
+    font-family: Accordion-Font-20;
+    font-size: 20px;
+    line-height: 20px;
+}

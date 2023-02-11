@@ -1,0 +1,116 @@
+.personData_PageFrom {
+	display: flex;
+	flex-direction: column;
+}
+
+.personData_PageFrom__field {
+	display: flex;
+	justify-content: space-between;
+}
+
+.personData_PageFrom__title {
+	min-width: 52px;
+}
+
+.personData_PageFrom__value {
+	display: flex;
+}
+
+.personData_PageFrom__value--location {
+	width: 488px;
+}
+
+.personData_PageFrom__value--small {
+	width: 93px;
+}
+
+.personData_PageFrom__value--snils {
+	width: 120px;
+}
+
+.personData_PageFrom__value--tax {
+	width: 119px;
+}
+
+.myProfile-generalInfo {
+	height: 100%;
+}
+
+.myProfile-generalInfo__widthFix {
+	width: 634px;
+	min-width: 0;
+}
+
+.myProfile-generalInfo__width {
+	width: 100%;
+}
+
+.myProfile-generalInfo__blockContact {
+	flex-shrink: 0;
+}
+
+.myProfile-generalInfo__column {
+	flex-direction: column;
+	width: 100%;
+}
+
+.myProfile-generalInfo__columnOffset {
+	margin-top: 38px;
+}
+
+.myProfile-generalInfo__note {
+	display: flex;
+	overflow: hidden;
+}
+
+.myProfile-generalInfo__note_block {
+	margin: 10px 0 var(--offset_m);
+}
+
+.myProfile-generalInfo__note_blockContacts {
+	width: 100%;
+}
+
+.myProfile-generalInfo__genderIcon {
+	margin-bottom: calc(-1 * var(--offset_2xs));
+}
+
+.personData_Page {
+	display: flex;
+	flex-direction: column;
+}
+
+.personData_Page__block {
+	display: flex;
+	background: var(--background-color);
+}
+
+.personData_Page__blocks {
+	height: 100%;
+	width: 100%;
+}
+
+.personData_Page__formPrivacyWrapper {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.personData_Page__education {
+	flex-shrink: 1;
+	flex-grow: 1;
+	margin: 10px 0 var(--offset_m);
+}
+
+.personData_Page__experience {
+	margin: 10px 0 var(--offset_m);
+}
+
+.personData_Page__languages {
+	margin-top: var(--offset_m);
+	margin-bottom: var(--offset_m);
+}
+
+.ws-is-hover .myProfile-generalInfo__note:hover {
+	background-color: var(--hover_background-color);
+	cursor: pointer;
+}

@@ -1,0 +1,26 @@
+.staff-Browser__view_employee_motivationContainer {
+	width: 100px;
+	min-width: 100px;
+	margin-left: var(--offset_m);
+	margin-right: var(--offset_2xs);
+}
+
+.staff-Browser__view_employee_motivationTileContainer {
+	margin-right: calc(-1 * var(--offset_m));
+}
+
+.ws-is-hover .staffCommon-List__view_employee:hover .mot-Icons__motivationItemCount {
+	background-color: var(--hover_background-color);
+}
+
+.staff-Browser__invite_rights .rightsAppointedRoles-list__footer {
+	margin-left: -4px;
+}
+
+.staff-Browser__invite_employee {
+	min-width: 0;
+}
+
+.staff-Browser__invite_roles {
+	max-height: 50%;
+}

@@ -1,0 +1,18 @@
+.ssTemplate__search-input {
+    width: 300px;
+}
+
+.ws-is-hover .ssTemplate__search-input__settings:hover {
+    cursor: pointer;
+}
+
+.diskFilter__wrapper {
+    position: relative;
+}
+
+.diskFilter__notLoaded {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}

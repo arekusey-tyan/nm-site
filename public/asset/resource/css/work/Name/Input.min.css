@@ -1,0 +1,138 @@
+.Name-Input__container {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	box-sizing: border-box;
+	-ms-grid-row-align: center;
+	align-self: center;
+	align-items: center;
+}
+
+.Name-Input__field_padding-xs {
+	padding: 2px 4px;
+}
+
+.Name-Input__field_padding-null {
+	padding: 2px 0;
+}
+
+.Name-Input__text {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.Name-Input__fakeField {
+	visibility: hidden;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.Name-Input__text-placeholder {
+	color: var(--placeholder-color_inputText);
+	opacity: 1;
+}
+
+.Name-Input__inputWrapper_last {
+	flex-grow: 1;
+}
+
+.ws-is-hover .Name-Input__input_mark {
+	background-color: var(--text_background-color_decoratorHighlight);
+}
+
+.Name-Input__separator {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	padding-top: var(--separator_verticalPadding_Name_Input);
+	padding-right: var(--separator_horizontalPadding_Name_Input);
+	padding-bottom: var(--separator_verticalPadding_Name_Input);
+	padding-left: calc(var(--separator_horizontalPadding_Name_Input) - 3px);
+	display: inline-flex;
+	flex-shrink: 0;
+	justify-content: center;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.Name-Input__separator:after {
+	content: '';
+	display: block;
+	width: 1px;
+	height: 100%;
+	background-color: var(--separator_color);
+}
+
+.Name-Input__separator_active {
+	cursor: col-resize;
+}
+
+.Name-Input__buffer {
+	position: absolute;
+	top: -10000px;
+	left: -10000px;
+	visibility: hidden;
+	white-space: pre;
+}
+
+.Name-Input__text_offset {
+	padding-right: 3px;
+}
+
+.ws-is-ie12 .Name-Input__text_offset {
+	padding-left: 1px;
+}
+
+.Name-Input__text_offset-readOnly {
+	padding-right: var(--offset_xs);
+}
+
+.Name-Input__reorder {
+	margin-right: var(--offset_2xs);
+	color: var(--unaccented_border-color);
+}
+
+.ws-is-hover .Name-input__reorder_action-hover:not(.ws-disabled):hover {
+	color: var(--label_text-color);
+}
+
+.Name-Input__inputWrapper {
+	position: relative;
+	overflow: hidden;
+	min-width: 2ch;
+}
+
+.ws-is-drag.ws-is-desktop-safari .Name-Input__inputWrapper {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.Name-Input__inputPlaceholder {
+	max-width: 100%;
+	background-color: transparent;
+	cursor: text;
+	pointer-events: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.Name-Input__input,.Name-Input__inputPlaceholder {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.Name-Input__hint {
+	width: var(--infobox_width_Name_Input);
+}

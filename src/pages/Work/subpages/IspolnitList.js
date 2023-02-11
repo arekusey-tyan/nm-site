@@ -6,6 +6,7 @@ class IspolnitelList extends React.Component {
 
 		this.ispolns = props.data
 	}
+
 	render() {
 		let renderElem = []
 		for (let i = 0, j = 0; i < this.ispolns.length; i++) {

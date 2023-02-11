@@ -1,0 +1,349 @@
+.ProfileAccess-SocialProfiles {
+	width: 100%;
+}
+
+.ProfileAccess-SocialProfiles__table {
+	width: 50%;
+	float: left;
+}
+
+.ProfileAccess-SocialProfiles__table-emptyImage {
+	cursor: pointer;
+}
+
+.ProfileAccess-SocialProfiles__table-image {
+	text-decoration: none;
+	float: left;
+}
+
+.ProfileAccess-SocialProfiles__table-link {
+	font-weight: 700;
+}
+
+.ProfileAccess-SocialProfiles__item-actions {
+	margin-right: 60px;
+}
+
+.ws-is-hover .ProfileAccess-SocialProfiles__table-link:hover {
+	text-decoration: underline;
+	cursor: text;
+}
+
+@media (max-width:450px) {
+	.ProfileAccess-SocialProfiles__table {
+		width: auto;
+		float: inherit;
+	}
+}
+
+.oauth__toolbar {
+	width: 360px;
+}
+
+.oauth__icon {
+	color: var(--secondary_color);
+	margin-right: 6px;
+	vertical-align: top;
+}
+
+.ws-is-hover .oauth__icon:not(.notHover) {
+	color: var(--label_hover_text-color);
+}
+
+.ws-is-hover .oauth__icon:hover {
+	color: var(--label_hover_text-color);
+}
+
+.oauth__icon.small {
+	font-size: 16px;
+}
+
+.OAuth_construct {
+	float: left;
+}
+
+.oauth-icon {
+	background: url('./_SocialProfiles/Templates/icons/OAuthIcons.svg') no-repeat;
+}
+
+.oauth-icon-Coca-Cola.oauth-icon-size32 {
+	background-position: -440px 0;
+}
+
+.oauth-icon-Coca-Cola.oauth-icon-size32:not(.notHover):hover {
+	background-position: -440px -44px;
+}
+
+.oauth-icon-Coca-Cola.oauth-icon-size24 {
+	background-position: -352px -100px;
+}
+
+.oauth-icon-Coca-Cola.oauth-icon-size24:not(.notHover):hover {
+	background-position: -352px -136px;
+}
+
+.oauth-icon-Coca-Cola.oauth-icon-size16 {
+	background-position: -264px -184px;
+}
+
+.oauth-icon-Coca-Cola.oauth-icon-size16:not(.notHover):hover {
+	background-position: -264px -212px;
+}
+
+.oauth-icon-Menu.oauth-icon-size32 {
+	background-position: -400px 0;
+}
+
+.oauth-icon-Menu.oauth-icon-size32:not(.notHover):hover {
+	background-position: -400px -44px;
+}
+
+.oauth-icon-Menu.oauth-icon-size24 {
+	background-position: -320px -100px;
+}
+
+.oauth-icon-Menu.oauth-icon-size24:not(.notHover):hover {
+	background-position: -320px -136px;
+}
+
+.oauth-icon-Menu.oauth-icon-size16 {
+	background-position: -240px -184px;
+}
+
+.oauth-icon-Menu.oauth-icon-size16:not(.notHover):hover {
+	background-position: -240px -212px;
+}
+
+.oauth-icon-Esia.oauth-icon-size32 {
+	background-position: -360px 0;
+}
+
+.oauth-icon-Esia.oauth-icon-size32:not(.notHover):hover {
+	background-position: -360px -44px;
+}
+
+.oauth-icon-Esia.oauth-icon-size24 {
+	background-position: -288px -100px;
+}
+
+.oauth-icon-Esia.oauth-icon-size24:not(.notHover):hover {
+	background-position: -288px -136px;
+}
+
+.oauth-icon-Esia.oauth-icon-size16 {
+	background-position: -216px -184px;
+}
+
+.oauth-icon-Esia.oauth-icon-size16:not(.notHover):hover {
+	background-position: -216px -212px;
+}
+
+.oauth-icon-Ldap.oauth-icon-size32 {
+	background-position: -320px 0;
+}
+
+.oauth-icon-Ldap.oauth-icon-size32:not(.notHover):hover {
+	background-position: -320px -44px;
+}
+
+.oauth-icon-Ldap.oauth-icon-size24 {
+	background-position: -256px -100px;
+}
+
+.oauth-icon-Ldap.oauth-icon-size24:not(.notHover):hover {
+	background-position: -256px -136px;
+}
+
+.oauth-icon-Ldap.oauth-icon-size16 {
+	background-position: -192px -184px;
+}
+
+.oauth-icon-Ldap.oauth-icon-size16:not(.notHover):hover {
+	background-position: -192px -212px;
+}
+
+.oauth-icon-Odnoklassniki.oauth-icon-size32 {
+	background-position: -240px 0;
+}
+
+.oauth-icon-Odnoklassniki.oauth-icon-size32:not(.notHover):hover {
+	background-position: -240px -44px;
+}
+
+.oauth-icon-Odnoklassniki.oauth-icon-size24 {
+	background-position: -192px -100px;
+}
+
+.oauth-icon-Odnoklassniki.oauth-icon-size24:not(.notHover):hover {
+	background-position: -192px -136px;
+}
+
+.oauth-icon-Odnoklassniki.oauth-icon-size16 {
+	background-position: -144px -184px;
+}
+
+.oauth-icon-Odnoklassniki.oauth-icon-size16:not(.notHover):hover {
+	background-position: -144px -212px;
+}
+
+.oauth-icon-Mail.oauth-icon-size32 {
+	background-position: -200px 0;
+}
+
+.oauth-icon-Mail.oauth-icon-size32:not(.notHover):hover {
+	background-position: -200px -44px;
+}
+
+.oauth-icon-Mail.oauth-icon-size24 {
+	background-position: -160px -100px;
+}
+
+.oauth-icon-Mail.oauth-icon-size24:not(.notHover):hover {
+	background-position: -160px -136px;
+}
+
+.oauth-icon-Mail.oauth-icon-size16 {
+	background-position: -120px -184px;
+}
+
+.oauth-icon-Mail.oauth-icon-size16:not(.notHover):hover {
+	background-position: -120px -212px;
+}
+
+.oauth-icon-Yandex.oauth-icon-size32 {
+	background-position: -160px 0;
+}
+
+.oauth-icon-Yandex.oauth-icon-size32:not(.notHover):hover {
+	background-position: -160px -44px;
+}
+
+.oauth-icon-Yandex.oauth-icon-size24 {
+	background-position: -128px -100px;
+}
+
+.oauth-icon-Yandex.oauth-icon-size24:not(.notHover):hover {
+	background-position: -128px -136px;
+}
+
+.oauth-icon-Yandex.oauth-icon-size16 {
+	background-position: -96px -184px;
+}
+
+.oauth-icon-Yandex.oauth-icon-size16:not(.notHover):hover {
+	background-position: -96px -212px;
+}
+
+.oauth-icon-Google.oauth-icon-size32 {
+	background-position: -120px 0;
+}
+
+.oauth-icon-Google.oauth-icon-size32:not(.notHover):hover {
+	background-position: -120px -44px;
+}
+
+.oauth-icon-Google.oauth-icon-size24 {
+	background-position: -96px -100px;
+}
+
+.oauth-icon-Google.oauth-icon-size24:not(.notHover):hover {
+	background-position: -96px -136px;
+}
+
+.oauth-icon-Google.oauth-icon-size16 {
+	background-position: -72px -184px;
+}
+
+.oauth-icon-Google.oauth-icon-size16:not(.notHover):hover {
+	background-position: -72px -212px;
+}
+
+.oauth-icon-Apple.oauth-icon-size32 {
+	background-position: 0 0;
+}
+
+.oauth-icon-Apple.oauth-icon-size32:not(.notHover):hover {
+	background-position: 0 -44px;
+}
+
+.oauth-icon-Apple.oauth-icon-size24 {
+	background-position: 0 -100px;
+}
+
+.oauth-icon-Apple.oauth-icon-size24:not(.notHover):hover {
+	background-position: 0 -136px;
+}
+
+.oauth-icon-Apple.oauth-icon-size16 {
+	background-position: 0 -184px;
+}
+
+.oauth-icon-Apple.oauth-icon-size16:not(.notHover):hover {
+	background-position: 0 -212px;
+}
+
+.oauth-icon-Facebook.oauth-icon-size32 {
+	background-position: -40px 0;
+}
+
+.oauth-icon-Facebook.oauth-icon-size32:not(.notHover):hover {
+	background-position: -40px -44px;
+}
+
+.oauth-icon-Facebook.oauth-icon-size24 {
+	background-position: -32px -100px;
+}
+
+.oauth-icon-Facebook.oauth-icon-size24:not(.notHover):hover {
+	background-position: -32px -136px;
+}
+
+.oauth-icon-Facebook.oauth-icon-size16 {
+	background-position: -24px -184px;
+}
+
+.oauth-icon-Facebook.oauth-icon-size16:not(.notHover):hover {
+	background-position: -24px -212px;
+}
+
+.oauth-icon-VK.oauth-icon-size32 {
+	background-position: -80px 0;
+}
+
+.oauth-icon-VK.oauth-icon-size32:not(.notHover):hover {
+	background-position: -80px -44px;
+}
+
+.oauth-icon-VK.oauth-icon-size24 {
+	background-position: -64px -100px;
+}
+
+.oauth-icon-VK.oauth-icon-size24:not(.notHover):hover {
+	background-position: -64px -136px;
+}
+
+.oauth-icon-VK.oauth-icon-size16 {
+	background-position: -48px -184px;
+}
+
+.oauth-icon-VK.oauth-icon-size16:not(.notHover):hover {
+	background-position: -48px -212px;
+}
+
+.oauth-icon-size32 {
+	height: 32px;
+	width: 32px;
+	border-radius: 4px;
+}
+
+.oauth-icon-size24 {
+	height: 24px;
+	width: 24px;
+	border-radius: 3px;
+}
+
+.oauth-icon-size16 {
+	height: 16px;
+	width: 16px;
+	border-radius: 2px;
+}

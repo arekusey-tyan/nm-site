@@ -2025,28 +2025,28 @@ body:not(.ws-is-ie10):not(.ws-is-ie11) .controls-BlockLayout__block::after {
 
 @font-face {
 	font-family: TensorFont;
-	src: url('/asset/resource/fonts/TensorFont.woff2') format('woff2'), url('/asset/resource/fonts/TensorFont.eot');
+	src: url('/asset/resource/fonts/work/TensorFont.woff2') format('woff2'), url('/asset/resource/fonts/work/TensorFont.eot');
 	font-weight: 400;
 	font-style: normal
 }
 
 @font-face {
 	font-family: TensorFont;
-	src: url('/asset/resource/fonts/TensorFontBold.woff2') format('woff2'), url('/asset/resource/fonts/TensorFontBold.eot');
+	src: url('/asset/resource/fonts/work/TensorFontBold.woff2') format('woff2'), url('/asset/resource/fonts/work/TensorFontBold.eot');
 	font-weight: 700;
 	font-style: normal
 }
 
 @font-face {
 	font-family: TensorFont;
-	src: url('/asset/resource/fonts/TensorFontBoldItalic.woff2') format('woff2'), url('/asset/resource/fonts/TensorFontBoldItalic.eot');
+	src: url('/asset/resource/fonts/work/TensorFontBoldItalic.woff2') format('woff2'), url('/asset/resource/fonts/work/TensorFontBoldItalic.eot');
 	font-weight: 700;
 	font-style: italic
 }
 
 @font-face {
 	font-family: TensorFont;
-	src: url('/asset/resource/fonts/TensorFontItalic.woff2') format('woff2'), url('/asset/resource/fonts/TensorFontItalic.eot');
+	src: url('/asset/resource/fonts/work/TensorFontItalic.woff2') format('woff2'), url('/asset/resource/fonts/work/TensorFontItalic.eot');
 	font-weight: 400;
 	font-style: italic
 }
@@ -2081,42 +2081,42 @@ body:not(.ws-is-ie10):not(.ws-is-ie11) .controls-BlockLayout__block::after {
 
 @font-face {
 	font-family: 'Maison Neue';
-	src: url('/asset/resource/fonts/MaisonNeue.woff2') format('woff2'), url('/asset/resource/fonts/MaisonNeue.woff') format('woff');
+	src: url('/asset/resource/fonts/work/MaisonNeue.woff2') format('woff2'), url('/asset/resource/fonts/work/MaisonNeue.woff') format('woff');
 	font-weight: 400;
 	font-style: normal
 }
 
 @font-face {
 	font-family: 'Maison Neue';
-	src: url('/asset/resource/fonts/MaisonNeueBold.woff2') format('woff2'), url('/asset/resource/fonts/MaisonNeueBold.woff') format('woff');
+	src: url('/asset/resource/fonts/work/MaisonNeueBold.woff2') format('woff2'), url('/asset/resource/fonts/work/MaisonNeueBold.woff') format('woff');
 	font-weight: 700;
 	font-style: normal
 }
 
 @font-face {
 	font-family: 'Maison Neue';
-	src: url('/asset/resource/fonts/MaisonNeueItalic.woff2') format('woff2'), url('/asset/resource/fonts/MaisonNeueItalic.woff') format('woff');
+	src: url('/asset/resource/fonts/work/MaisonNeueItalic.woff2') format('woff2'), url('/asset/resource/fonts/work/MaisonNeueItalic.woff') format('woff');
 	font-weight: 400;
 	font-style: italic
 }
 
 @font-face {
 	font-family: 'Maison Neue';
-	src: url('/asset/resource/fonts/MaisonNeueBoldItalic.woff2') format('woff2'), url('/asset/resource/fonts/MaisonNeueBoldItalic.woff') format('woff');
+	src: url('/asset/resource/fonts/work/MaisonNeueBoldItalic.woff2') format('woff2'), url('/asset/resource/fonts/work/MaisonNeueBoldItalic.woff') format('woff');
 	font-weight: 700;
 	font-style: italic
 }
 
 @font-face {
 	font-family: 'Maison Neue Extended';
-	src: url('/asset/resource/fonts/MaisonNeueExtendedBook.woff2') format('woff2'), url('/asset/resource/fonts/MaisonNeueExtendedBook.woff') format('woff');
+	src: url('/asset/resource/fonts/work/MaisonNeueExtendedBook.woff2') format('woff2'), url('/asset/resource/fonts/work/MaisonNeueExtendedBook.woff') format('woff');
 	font-weight: 400;
 	font-style: normal
 }
 
 @font-face {
 	font-family: 'Maison Neue Extended';
-	src: url('/asset/resource/fonts/MaisonNeueExtendedDemi.woff2') format('woff2'), url('/asset/resource/fonts/MaisonNeueExtendedDemi.woff') format('woff');
+	src: url('/asset/resource/fonts/work/MaisonNeueExtendedDemi.woff2') format('woff2'), url('/asset/resource/fonts/work/MaisonNeueExtendedDemi.woff') format('woff');
 	font-weight: 700;
 	font-style: normal
 }
@@ -6232,14 +6232,14 @@ body:not(.ws-is-ie10):not(.ws-is-ie11) .controls-BlockLayout__block::after {
 
 @font-face {
 	font-family: cbuc-icons;
-	src: url('/asset/resource/fonts/cbuc-icons.woff2') format('woff2'), url('asset/resource/fonts/cbuc-icons.woff') format('woff'), url('asset/resource/fonts/cbuc-icons.eot');
+	src: url('/asset/resource/fonts/work/cbuc-icons.woff2') format('woff2'), url('asset/resource/fonts/work/cbuc-icons.woff') format('woff'), url('asset/resource/fonts/work/cbuc-icons.eot');
 	font-weight: 400;
 	font-style: normal
 }
 
 @font-face {
 	font-family: cbuc-icons24;
-	src: url('/asset/resource/fonts/cbuc-icons24.woff2') format('woff2'), url('asset/resource/fonts/cbuc-icons24.woff') format('woff'), url('asset/resource/fonts/cbuc-icons24.eot');
+	src: url('/asset/resource/fonts/work/cbuc-icons24.woff2') format('woff2'), url('asset/resource/fonts/work/cbuc-icons24.woff') format('woff'), url('asset/resource/fonts/work/cbuc-icons24.eot');
 	font-weight: 400;
 	font-style: normal
 }

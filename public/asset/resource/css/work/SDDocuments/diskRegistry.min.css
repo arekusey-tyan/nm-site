@@ -1,0 +1,134 @@
+.diskRegistry,.diskRegistry__ffList {
+    height: 100%;
+    width: 100%;
+    min-height: 0;
+}
+
+.diskRegistry__full-width {
+    width: 100%;
+}
+
+.diskRegistry__scroll-container {
+    height: 100%;
+    width: 100%;
+    min-height: 0;
+}
+
+.diskRegistry__dropArea {
+    height: 100%;
+    width: 100%;
+}
+
+.diskRegistry__detail-content-wrapper {
+    height: 100%;
+    width: 100%;
+    min-height: 0;
+    padding: 3px 3px 0;
+    box-sizing: border-box;
+}
+
+.sdPageContent__View .controls-MasterDetail_details-newDesign {
+    overflow: visible;
+}
+
+.sdPageContent__View .diskRegistry__pmoExpanded .diskRegistry__detail-content-wrapper {
+    padding-top: 0;
+}
+
+.sdPageContent__View .diskRegistry__pmoExpanded .controls-operationsPanelV {
+    width: calc(100% + 6px);
+    margin: 0 -3px;
+}
+
+.sdPageContent__View .diskRegistry__pmoExpanded .controls-operationsPanelV__multiSelector {
+    padding-left: 3px;
+}
+
+.diskRegistry__detail-content-wrapper .sdPageContent__View__detail-content-margin {
+    margin: 0;
+}
+
+.diskRegistry__scroll-container-ffList.controls-newBrowser__detail-list {
+    flex-shrink: 1;
+}
+
+.diskRegistry__fix-hint-template .hint-Template__content {
+    align-items: flex-start;
+}
+
+.diskRegistry__fix-hint-template .hint-Template__content_l,.diskRegistry__fix-hint-template .hint-Template__textWrapper_l,.diskRegistry__fix-hint-template .hint-Template__text_l {
+    min-height: 470px;
+}
+
+.diskRegistry__fix-hint-template .diskRegistry__HintContainer {
+    z-index: 6;
+    min-height: 440px;
+}
+
+.diskRegistry__HintContainer__attach {
+    color: var(--label_text-color);
+}
+
+.diskRegistry__search-container,.diskRegistry__search-container-outer {
+    height: 100%;
+    min-height: 0;
+    width: 100%;
+}
+
+.docview3-wsDiskMoveDialog .controls-MoveDialog__search {
+    display: none;
+}
+
+.diskRegistry__ffList__hide-sign .docview3-List_list-item__title+div.docview3-icon__signs {
+    display: none;
+}
+
+.diskRegistry__searchResultContainer {
+    height: 100%;
+    min-height: 0;
+    width: 100%;
+}
+
+.diskRegistry__searchResultContainer__indicator-inst {
+    position: relative;
+}
+
+.diskRegistry__searchResultContainer__indicator-content {
+    width: 100%;
+    height: 100px;
+}
+
+.diskRegistry__search-container .controls-ListView__group {
+    cursor: default;
+    padding-bottom: 8px;
+}
+
+.diskRegistry__search-container .controls-ListView__group:not(:first-child) {
+    padding-top: 5px;
+}
+
+.diskRegistry__search-container .controls-ListView__group:not(:first-child) .controls-ListView__groupContent-text {
+    margin-top: 32px;
+}
+
+.diskRegistry__search-container .controls-ListView__group .controls-ListView__groupContent-text {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.diskRegistry__HintContainer .hint-Template__text_message {
+    text-align: center;
+}
+
+.diskRegistry__column-folder {
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.sdDocumentsMC-List_list-item__title-folder {
+    line-height: 24px;
+}
+
+.sdDocumentsMC-List_list-item__title-file {
+    line-height: 23px;
+}
