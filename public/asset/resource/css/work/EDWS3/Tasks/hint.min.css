@@ -1,0 +1,20 @@
+.edws-tasks-hintTemplate__text {
+	padding-bottom: 12px
+}
+
+.edws-tasks-hintBanner__without-title {
+	padding-top: 8px
+}
+
+.edws-tasks-hintBanner__link {
+	display: flex;
+	line-height: 24px
+}
+
+.edws-tasks-hintBanner__icon {
+	padding: 1px 6px
+}
+
+.edws-tasks-hintBanner__icon::before {
+	vertical-align: middle
+}

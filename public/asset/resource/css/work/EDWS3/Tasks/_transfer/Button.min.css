@@ -1,0 +1,35 @@
+.edws-TransferButton__personCard {
+	font-size: var(--font-size_m)
+}
+
+.edws-TransferButton__personCard_opener {
+	max-height: 18px
+}
+
+.edws-TransferButton__personCard_opener_link {
+	width: 100%
+}
+
+.edws-TransferButton__arrowButton,
+.edws-TransferButton__caption,
+.edws-TransferButton__employeeTasks,
+.edws-TransferButton__onlyCounter {
+	margin-right: 3px
+}
+
+.edws-TransferButton__close {
+	cursor: pointer
+}
+
+.edws-TransferButton__arrowButton-disabled {
+	cursor: default
+}
+
+.edws-TransferButton__label {
+	color: var(--label_text-color);
+	font-size: var(--font-size_m)
+}
+
+.edws-TransferButton__functionalButton_withPerson {
+	margin-left: 4px
+}

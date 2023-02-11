@@ -1,0 +1,252 @@
+.edo3-Dialog {
+	height: 100%;
+	max-height: 100%;
+	width: 100%;
+	max-width: 100%;
+	background-color: var(--header_background-color_stack)
+}
+
+.edo3-Dialog__fullHeight {
+	min-height: 0;
+	min-width: 0;
+	width: 100%;
+	height: 100%
+}
+
+.edo3-Dialog__head {
+	background: var(--header_background-color_stack)
+}
+
+.edo3-Dialog__head-firstLine {
+	height: 24px;
+	padding: 10px 0 10px 12px;
+	flex-direction: row-reverse
+}
+
+.edo3-Dialog__head-firstLine-customContent {
+	flex: 1;
+	flex-shrink: 6;
+	min-width: 150px
+}
+
+.edo3-Dialog__head-firstLine-passageButton {
+	margin-left: var(--offset_l)
+}
+
+.edo3-Dialog__head-firstLine-buttons {
+	max-width: 100%
+}
+
+.edo3-Dialog__head-secondLine {
+	padding: 0 12px
+}
+
+.edo3-Dialog__head .edo3-Comment {
+	width: auto
+}
+
+.edo3-Dialog__layout {
+	width: 100%;
+	min-height: 0
+}
+
+.edo3-Dialog__layout-tabs {
+	display: inline-flex;
+	background: var(--header_background-color_stack)
+}
+
+.edo3-Dialog__layout-extended {
+	height: 100%;
+	min-height: 0;
+	z-index: 4;
+	background-color: var(--header_background-color_stack)
+}
+
+.edo3-Dialog__layout-extended__mainInfo {
+	min-height: 0;
+	box-sizing: border-box;
+	flex-shrink: 2
+}
+
+.edo3-Dialog__layout-extended__mainInfo.controls__block-wrapper {
+	overflow: visible
+}
+
+.edo3-Dialog__layout-extended__mainInfo.controls__block-wrapper .edo3-Dialog__layout-extended__mainInfo-tab.controls__block {
+	overflow: visible
+}
+
+.edo3-Dialog__layout-extended__tabsContent {
+	width: 50%;
+	flex-grow: 1;
+	min-width: 0;
+	flex-shrink: 1;
+	flex-basis: 450px
+}
+
+.edo3-Dialog__adaptiveActionsArea {
+	max-width: 90vw
+}
+
+.edo3-Dialog__fullWidth {
+	width: 100%;
+	min-width: 0
+}
+
+.edo3-Dialog__emptyFirstLine .edo3-Dialog__head-firstLine-customContent {
+	min-width: 0
+}
+
+.edo3-Dialog__head-crumbs.edo3-Crumbs__hasData {
+	padding-bottom: 4px
+}
+
+.edo3-Dialog__head-secondLineBlock {
+	padding: 0 12px 4px 12px
+}
+
+.edo3-Dialog__bodyContent .edo3-Dialog__head-comment {
+	width: auto
+}
+
+.edo3-Dialog__bodyContent .edo3-Dialog__head-comment .edo3-Dialog__agreements-count {
+	margin-left: 12px
+}
+
+.edo3-Dialog__state {
+	-ms-grid-row-align: center;
+	align-self: center
+}
+
+.edo3-Dialog__actionsContainer {
+	height: 100%
+}
+
+.edo3-DialogLayout-sticky {
+	padding-left: 12px;
+	color: var(--secondary_text-color);
+	display: inline-flex;
+	flex-grow: 1
+}
+
+.ws-is-mobile-safari .edo3-Dialog__stickyHeader {
+	transform: translate3d(0, 0, 0)
+}
+
+.edo3-DialogLayout {
+	height: 100%;
+	min-height: 0
+}
+
+.edo3-DialogLayout-tabs {
+	width: 100%;
+	position: relative
+}
+
+.ws-is-ie .edo3-DialogLayout-tabs .controls-Tabs__itemClickableArea {
+	flex-shrink: 1
+}
+
+.edo3-DialogLayout-extraTabs {
+	width: 100%;
+	position: relative
+}
+
+.edo3-DialogLayout-Resize {
+	width: 6px;
+	z-index: 12
+}
+
+.edo3-DialogLayout-ResizingLine {
+	height: 100%
+}
+
+.edo3-DialogLayout-tabTitle {
+	margin-left: 12px;
+	height: 20px
+}
+
+.edo3-DialogLayout-title {
+	height: 37px
+}
+
+.edo3-DialogLayout__relativeContainer {
+	position: relative
+}
+
+.edo3-DialogLayout .edo3-ComplementaryFieldsTabHeader__icon {
+	display: inline-flex;
+	position: relative;
+	vertical-align: middle;
+	color: var(--secondary_text-color)
+}
+
+.edo3-DialogLayout .edo3-ComplementaryFieldsTabHeader__selected {
+	color: var(--text-color)
+}
+
+.edo3-DialogLayout__adaptiveSwitchableArea {
+	padding-bottom: 70px
+}
+
+.edo3-PassageButton {
+	flex: 0 1 auto
+}
+
+.edo3-PassageButton .edo3-PassageButton__photo {
+	margin-right: 6px;
+	min-width: 24px;
+	flex: 0 0 auto
+}
+
+.edo3-PassageButton .edo3-PassageButton__button {
+	flex: 0 1 auto
+}
+
+.edo3-Mark__red {
+	color: var(--danger_text-color)
+}
+
+.edo3-Mark__blue {
+	color: var(--link_text-color)
+}
+
+.edo3-Mark__green {
+	color: var(--success_text-color)
+}
+
+.edo3-Mark__yellow {
+	color: var(--warning_text-color)
+}
+
+.edo3-Mark__orange {
+	color: var(--primary_color)
+}
+
+.edo3-Mark__gray {
+	color: var(--unaccented_icon-color)
+}
+
+.edo3-Mark__mauve {
+	color: var(--palette_color3_3)
+}
+
+.edo3-Mark__violet {
+	color: var(--palette_color4_3)
+}
+
+.edo3-Mark__crimson {
+	color: var(--palette_color5_3)
+}
+
+.edo3-Mark__ocher {
+	color: var(--palette_color7_3)
+}
+
+.edo3-Mark__olive {
+	color: var(--palette_color9_3)
+}
+
+.edo3-Mark__azure {
+	color: var(--palette_color11_3)
+}

@@ -1,0 +1,779 @@
+.edo3-Timeline__attachments {
+	margin-right: 20px;
+	position: relative;
+	align-items: center;
+}
+
+.edo3-Timeline__attachments-item {
+	margin-right: var(--offset_2xs);
+	cursor: pointer;
+}
+
+.ws-is-hover .edo3-Timeline__attachments-item:hover {
+	text-decoration: underline;
+}
+
+.edo3-Timeline__attachments-moreLink {
+	cursor: pointer;
+}
+
+.ws-is-hover .edo3-Timeline__attachments-moreLink:hover {
+	text-decoration: underline;
+}
+
+.edo3-Timeline__attachments-iconIndent {
+	left: calc(-1 * var(--icon-size_s));
+}
+
+.edo3-Timeline__attachments-icon {
+	margin-right: 2px;
+	left: -1px;
+	position: relative;
+}
+
+.edo3-Timeline__attachments-moreLink__default {
+	background-color: var(--background-color_2_block);
+	box-shadow: -10px 0 10px 0 var(--background-color_2_block);
+}
+
+.edo3-Timeline__attachments-moreLink__currentState {
+	background-color: #f2f2fe;
+	box-shadow: -10px 0 10px 0 #f2f2fe;
+}
+
+.edo3-Timeline__attachments-moreLink__my {
+	background-color: #eef0fc;
+	box-shadow: -10px 0 10px 0 #eef0fc;
+}
+
+.edo3-Timeline__controlPanel {
+	height: 44px;
+}
+
+.edo3-Timeline__controlPanel-stickyHeader {
+	background-color: transparent;
+	width: -webkit-min-content;
+	width: -moz-min-content;
+	width: min-content;
+}
+
+.edo3-Timeline__controlPanel-fixed-buttonsContainer {
+	border-radius: var(--border-radius_m);
+	background-color: var(--unaccented_background-color);
+	box-shadow: var(--box-shadow_block);
+}
+
+.edo3-Timeline__controlPanel-margin_right {
+	margin-right: 10px;
+}
+
+.edo3-Timeline__controlPanel-margin_left {
+	margin-left: auto;
+}
+
+.edo3-Timeline__messages {
+	position: relative;
+	padding: 0 calc(18px - var(--offset_xs)) 0 var(--offset_2xl);
+}
+
+.edo3-Timeline__messages-block {
+	background-color: var(--background-color_2_block);
+	border: var(--border-thickness) solid var(--background-color_2_block);
+	padding: 0 calc(var(--offset_xs) - var(--border-thickness)) 2px var(--offset_2xl);
+	margin-right: var(--offset_xs);
+	border-radius: 5px;
+}
+
+.edo3-Timeline__messages-expand {
+	position: absolute;
+	top: 0;
+	left: 2px;
+}
+
+.edo3-Timeline__messages-expandGroup {
+	cursor: pointer;
+}
+
+.edo3-Timeline__messages-arrowIcon {
+	margin-right: var(--offset_2xs);
+}
+
+.edo3-Timeline__messages-participants {
+	padding-left: 4px;
+	margin-right: 18px;
+}
+
+.edo3-Timeline__messages-participants .edo3-Timeline__bottomMessages {
+	padding-top: 0;
+}
+
+.edo3-Timeline__messages-indent {
+	margin-bottom: 8px;
+	padding-bottom: 8px;
+}
+
+.edo3-Timeline__message-text {
+	white-space: pre-wrap;
+	word-break: break-word;
+}
+
+.edo3-Timeline__message-text {
+	line-height: 129%;
+}
+
+.edo3-Timeline__message-photo {
+	width: 24px;
+	height: 24px;
+	margin-right: 8px;
+}
+
+.edo3-Timeline__message-sender {
+	color: var(--secondary_text-color);
+	margin-right: var(--offset_2xs);
+	max-width: 75%;
+	cursor: pointer;
+}
+
+.ws-is-hover .edo3-Timeline__message-sender:hover {
+	text-decoration: underline;
+}
+
+.edo3-Timeline__message-sender-default {
+	color: var(--secondary_text-color);
+}
+
+.edo3-Timeline__message-sender-external {
+	color: #4e7c8b;
+}
+
+.edo3-Timeline__message-main {
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.edo3-Timeline__message-style-default {
+	background-color: var(--background-color_2_block);
+}
+
+.edo3-Timeline__message-style-my {
+	background-color: #eef0fc;
+}
+
+.edo3-Timeline__message-style-currentState {
+	background-color: #f2f2fe;
+}
+
+.edo3-Timeline__message-attachments {
+	margin-left: var(--offset_l);
+}
+
+.edo3-Timeline__message-unreadIcon {
+	margin-right: 8px;
+	align-self: flex-end;
+}
+
+.edo3-Timeline__message-currentState {
+	margin-left: var(--offset_2xl);
+}
+
+.edo3-Timeline__message-currentState-changedIcon,.edo3-Timeline__message-currentState-sender {
+	display: inline;
+	float: left;
+}
+
+.edo3-Timeline__message-currentState-time {
+	float: right;
+}
+
+.edo3-Timeline__message-currentState-text {
+	white-space: pre-wrap;
+	text-overflow: ellipsis;
+	word-break: break-word;
+}
+
+.edo3-Timeline__message-currentState-main {
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.edo3-Timeline__message-iconTemplate {
+	height: 16px;
+	width: 16px;
+	margin-right: 4px;
+}
+
+.ws-is-hover .edo3-Timeline__item:hover .edo3-Timeline__messages-block {
+	border: var(--border-thickness) solid #ebebeb;
+}
+
+.ws-is-hover .edo3-Timeline__messages-icon:hover {
+	color: var(--link_hover_text-color);
+}
+
+.edo3-Timeline__message-topIndent {
+	margin-top: var(--offset_xs);
+}
+
+.edo3-Timeline__message-bottomIndent {
+	margin-bottom: var(--offset_xs);
+}
+
+.edo3-Timeline__message-meSender {
+	padding-left: 50px;
+}
+
+.edo3-Timeline__message-time-outOfMessage {
+	margin: 0 var(--offset_xs) 0 20px;
+}
+
+.edo3-Timeline__messages .edo3-Timeline__message-style-default .msg-blockquote-content__expander {
+	background: linear-gradient(to bottom,rgba(255,255,255,0) 1px,var(--background-color_2_block) 4px,var(--background-color_2_block) 100%);
+}
+
+.edo3-Timeline__messages .edo3-Timeline__message-style-my .msg-blockquote-content__expander {
+	background: linear-gradient(to bottom,rgba(255,255,255,0) 1px,#eef0fc 4px,#eef0fc 100%);
+}
+
+.edo3-Timeline__photo {
+	overflow: hidden;
+}
+
+.edo3-Timeline__photo-image {
+	height: inherit;
+	width: inherit;
+}
+
+.edo3-Timeline__fullHeight {
+	height: 100%;
+	min-height: 0;
+	width: 100%;
+	min-width: 0;
+}
+
+.edo3-Timeline__mainContent {
+	position: relative;
+}
+
+.edo3-Timeline__eventsList {
+	flex: 1;
+}
+
+.edo3-Timeline__headingTitle {
+	height: 0;
+}
+
+.edo3-Timeline__paging {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+
+.edo3-Timeline__messageEditor {
+	max-height: 241px;
+}
+
+.edo3-Timeline__messagesSticky {
+	z-index: 30;
+	width: 100%;
+}
+
+.edo3-Timeline__bottomFixContainer {
+	position: fixed;
+	bottom: 0;
+}
+
+.edo3-Timeline__messageEditor-fixed {
+	position: fixed;
+}
+
+.edo3-TimelineDocflowEvent {
+	padding: var(--offset_s) 0 var(--offset_s) 0;
+}
+
+.edo3-TimelineDocflowEvent__header {
+	margin-bottom: 2px;
+}
+
+.edo3-TimelineDocflowEvent__header-bold,.edo3-TimelineDocflowEvent__header-thin {
+	margin-right: var(--offset_xs);
+}
+
+.edo3-TimelineDocflowEvent__header-bold {
+	font-weight: 700;
+}
+
+.edo3-TimelineDocflowEvent__header-thin {
+	font-weight: 400;
+}
+
+.edo3-TimelineDocflowEvent__style-default {
+	color: var(--secondary_text-color);
+}
+
+.edo3-TimelineDocflowEvent__style-active {
+	color: var(--primary_text-color);
+}
+
+.edo3-TimelineDocflowEvent__style-future {
+	color: var(--readonly_color);
+}
+
+.edo3-TimelineDocflowEvent__style-disabled {
+	color: var(--unaccented_color);
+}
+
+.edo3-TimelineDocflowEvent__statusIcon {
+	height: 20px;
+	width: 20px;
+	min-width: 20px;
+	line-height: 20px;
+	font-size: 20px;
+	font-family: var(--icon_font-family_s);
+	margin: 0 5px;
+}
+
+.edo3-TimelineDocflowTriggers {
+	display: -ms-grid;
+	display: grid;
+	width: 100%;
+	-ms-grid-columns: 22px -webkit-min-content auto;
+	-ms-grid-columns: 22px min-content auto;
+	grid-template-columns: 22px -webkit-min-content auto;
+	grid-template-columns: 22px min-content auto;
+}
+
+.edo3-TimelineDocflowTrigger__marginRight {
+	margin-right: 18px;
+}
+
+.edo3-TimelineDocflowTrigger__triggerIconContainer {
+	line-height: 32px;
+	margin-right: var(--offset_xs);
+}
+
+.edo3-TimelineDocflowTrigger__maxWidthContainer {
+	width: 100%;
+}
+
+.edo-TimelineDocflowTrigger__executor {
+	max-width: 35%;
+}
+
+.edo-TimelineDocflowTrigger__comment {
+	max-width: 65%;
+}
+
+.edo3-TimelineCycle {
+	position: relative;
+	cursor: pointer;
+}
+
+.edo3-TimelineCycle__counter-wrapper {
+	border-radius: calc(var(--icon-size_2xs)/ 2);
+	position: absolute;
+	top: -4px;
+	right: 4px;
+	display: flex;
+}
+
+.edo3-TimelineCycle__counter {
+	margin: auto;
+}
+
+.edo3-TimelinePassage__indents {
+	padding-left: calc(30px + var(--offset_l));
+}
+
+.edo3-TimelinePassage__indents+.edo3-TimelinePassage__indents {
+	margin-top: 10px;
+}
+
+.edo3-TimelinePassage__mainContent {
+	min-width: 0;
+}
+
+.edo3-TimelinePassage__body {
+	position: relative;
+}
+
+.edo3-TimelinePassage__action {
+	position: relative;
+}
+
+.edo3-TimelinePassage__actionName {
+	font-style: italic;
+}
+
+.edo3-TimelinePassage__actionName:not(.edo3-TimelinePassage__actionName-thin) {
+	max-width: 65%;
+}
+
+.edo3-TimelinePassage__expandIcon {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.edo3-TimelinePassage__photo {
+	position: relative;
+	margin-right: var(--offset_xs);
+	min-width: 32px;
+}
+
+.edo3-TimelinePassage__photo .edo3-Timeline__photo {
+	margin-left: auto;
+}
+
+.edo3-TimelinePassage__futurePhotoOverlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: var(--background-color);
+	opacity: .6;
+	cursor: pointer;
+}
+
+.edo3-TimelinePassage__actionIcon,.edo3-TimelinePassage__actionName,.edo3-TimelinePassage__actionTarget {
+	padding-right: var(--offset_s);
+}
+
+.edo3-TimelinePassage__actionIcon {
+	-ms-grid-row-align: center;
+	align-self: center;
+}
+
+.edo3-TimelinePassage__actionIcon-default {
+	color: var(--readonly_color);
+}
+
+.edo3-TimelinePassage__actionIcon-end {
+	color: var(--primary_text-color);
+}
+
+.edo3-TimelinePassage__unreadIcon {
+	margin: 0 var(--offset_s) 0 auto;
+	-ms-grid-row-align: center;
+	align-self: center;
+	line-height: 18px;
+}
+
+.edo3-TimelinePassage__lineGap {
+	padding-left: 19px;
+}
+
+.edo3-TimelinePassage__attachmentsLineGap {
+	padding-left: 18px;
+}
+
+.edo3-TimelinePassage__responsibleDepartment-future {
+	color: var(--readonly_color);
+}
+
+.edo3-TimelinePassage__agreementInitiator,.edo3-TimelinePassage__responsibleDepartment,.edo3-TimelinePassage__sign {
+	margin-right: var(--offset_s);
+}
+
+.edo3-TimelinePassage__responsibleName {
+	margin-right: var(--offset_s);
+}
+
+.edo3-TimelinePassage__responsibleName:not(.edo3-TimelinePassage__responsibleName-thin) {
+	max-width: 65%;
+}
+
+.edo3-TimelineDescription {
+	margin-right: 18px;
+	cursor: pointer;
+}
+
+.edo3-TimelineDescription__text {
+	display: block;
+}
+
+.edo3-TimelineDescription__ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.edo3-TimelineDescription__lineBreak {
+	white-space: pre-line;
+	word-wrap: break-word;
+}
+
+.edo3-TimelineSignature {
+	height: 100%;
+}
+
+.edo3-TimelineSignature__singleIcon {
+	-ms-grid-row-align: center;
+	align-self: center;
+}
+
+.edo3-TimelineSignature__icon {
+	cursor: pointer;
+	-ms-grid-row-align: center;
+	align-self: center;
+}
+
+.edo3-TimelineSignature__caption+.edo3-TimelineSignature__icon,.edo3-TimelineSignature__icon+.edo3-TimelineSignature__caption {
+	margin-right: var(--offset_2xs);
+}
+
+.edo3-TimelineSignature__iconStyle-my {
+	color: var(--secondary_color);
+}
+
+.edo3-TimelineSignature__iconStyle-other {
+	color: var(--primary_color);
+}
+
+.edo3-Timeline__deferredSigning-active {
+	color: var(--primary_text-color);
+}
+
+.edo3-Timeline__deferredSigning-default {
+	color: var(--secondary_text-color);
+}
+
+.edo3-Timeline__deferredSigning-caption {
+	font-weight: 700;
+	font-style: italic;
+	margin-right: var(--offset_s);
+}
+
+.edo3-Timeline__deferredSigning-name {
+	margin-left: var(--offset_s);
+}
+
+.edo3-TimelineLinkedDoc {
+	padding: calc(var(--offset_s)/ 2) 0 calc(var(--offset_s)/ 2) 30px;
+}
+
+.edo3-TimelineLinkedDoc__responsible {
+	margin-left: 8px;
+	max-width: 50%;
+}
+
+.edo3-TimelineLinkedDoc__activePhase {
+	margin-left: auto;
+	max-width: 50%;
+	min-width: 10%;
+}
+
+.edo3-TimelineLinkedDoc__stateIcon {
+	-ms-grid-row-align: center;
+	align-self: center;
+}
+
+.edo3-TimelineLinkedDoc__activePhase,.edo3-TimelineLinkedDoc__responsible,.edo3-TimelineLinkedDoc__stateIcon {
+	margin-right: var(--offset_s);
+}
+
+.edo3-TimelineReminderEvent {
+	padding: calc(var(--offset_s)/ 2) 0 calc(var(--offset_s)/ 2) 30px;
+}
+
+.edo3-TimelineReminderEvent__eventIcon,.edo3-TimelineReminderEvent__sender,.edo3-TimelineReminderEvent__text {
+	margin-right: var(--offset_2xs);
+}
+
+.edo3-TimelineSendingEvent {
+	padding: var(--offset_s) 0 var(--offset_s) 7px;
+}
+
+.edo3-TimelineSendingEvent__header-bold,.edo3-TimelineSendingEvent__header-thin {
+	margin-right: var(--offset_xs);
+}
+
+.edo3-TimelineSendingEvent__header-bold {
+	font-weight: 700;
+}
+
+.edo3-TimelineSendingEvent__header-thin {
+	font-weight: 400;
+}
+
+.edo3-TimelineSendingEvent__style-disabled {
+	color: var(--unaccented_color);
+}
+
+.edo3-TimelineSendingEvent__mainContent {
+	min-width: 0;
+}
+
+.edo3-TimelineSendingEvent__photo {
+	position: relative;
+	min-width: 32px;
+}
+
+.edo3-TimelineSendingEvent__photo .edo3-Timeline__photo {
+	margin-left: auto;
+}
+
+.edo3-TimelineSendingEvent__futurePhotoOverlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: var(--background-color);
+	opacity: .6;
+	cursor: pointer;
+}
+
+.edo3-TimelineSendingEvent__indents {
+	padding-left: calc(30px + 9px);
+}
+
+.edo3-TimelineSendingEvent__message {
+	margin-right: 34px;
+}
+
+.edo3-TimelineSendingEvent__unreadIcon {
+	margin: 0 18px 0 auto;
+	-ms-grid-row-align: center;
+	align-self: center;
+	line-height: 18px;
+}
+
+.edo3-TimelineHistory {
+	margin: calc(var(--offset_s)/ 2) 0 calc(var(--offset_s)/ 2) 30px;
+}
+
+.edo3-TimelineHistory__caption {
+	color: var(--secondary_text-color);
+}
+
+.edo3-Timeline__stateIcon-active {
+	color: var(--primary_text-color);
+}
+
+.edo3-Timeline__stateIcon-positive {
+	color: var(--success_color);
+}
+
+.edo3-Timeline__stateIcon-negative {
+	color: var(--danger_color);
+}
+
+.edo3-Timeline__stateIcon-accorded {
+	color: var(--readonly_color);
+}
+
+.edo3-Timeline__stateIcon-interrupted {
+	color: var(--readonly_color);
+}
+
+.edo3-Timeline__stateIcon-default {
+	color: var(--secondary_text-color);
+}
+
+.edo3-TimelineReassignments__chain {
+	padding-right: 80px;
+}
+
+.edo3-TimelineReassignments__arrowIcon,.edo3-TimelineReassignments__ellipsis,.edo3-TimelineReassignments__passageInfo,.edo3-TimelineReassignments__photo {
+	margin-right: var(--offset_xs);
+}
+
+.edo3-TimelineReassignments__expandIcon {
+	margin-right: var(--offset_2xs);
+}
+
+.edo3-TimelineReassignments__arrowIcon {
+	-ms-grid-row-align: center;
+	align-self: center;
+}
+
+.edo3-TimelineReassignments__messages {
+	position: relative;
+	margin-left: calc(var(--offset_xs) + var(--icon-size_l));
+	padding-left: calc(var(--icon-size_s) + var(--offset_2xs));
+}
+
+.edo3-TimelineAgreement__initiator-photo {
+	-ms-grid-row-align: center;
+	align-self: center;
+	margin-right: var(--offset_2xs);
+	margin-left: var(--offset_2xs);
+}
+
+.edo3-TimelineRedaction {
+	margin: 4px 0;
+}
+
+.edo3-TimelineRedaction__expandIcon {
+	margin-left: 4px;
+}
+
+.edo3-TimelineRedaction__separator {
+	flex: 1;
+	border-bottom: 1px solid #eaeaea;
+	margin: auto 0;
+}
+
+.edo3-TimelineRedaction__icon {
+	margin: 0 4px;
+}
+
+.edo3-TimelineRedaction__title {
+	margin-right: 4px;
+}
+
+.edo3-TimelineRedaction__iconFiller {
+	width: var(--icon-size_s);
+}
+
+.edo3-Timeline__time {
+	align-items: center;
+	margin-right: 18px;
+}
+
+.edo-TimelineInterrupting {
+	color: var(--unaccented_color);
+	font-style: italic;
+}
+
+.edo-TimelineInterrupting__caption {
+	margin-right: 8px;
+}
+
+.edo-TimelineInterrupting__photo {
+	margin-right: 4px;
+}
+
+.edo-TimelineInterrupting__time {
+	font-style: normal;
+	margin-left: auto;
+}
+
+.edo3-Timeline__message-box_border-top {
+	border-top: var(--border-thickness) solid var(--readonly_border-color);
+}
+
+.ws-is-desktop-safari .edo3-Timeline__scrollContent {
+	will-change: scroll-position,transform;
+	transform: translate3d(0,0,0);
+}
+
+.ws-is-desktop-safari .edo3-Timeline__scrollContent .edo3-Timeline__photo {
+	transform: translate3d(0,0,0);
+}
+
+.ws-is-hover .edo-TimelineDocflowTrigger__executor:hover,.ws-is-hover .edo-TimelineDocflowTrigger__triggerPhaseName:hover,.ws-is-hover .edo3-TimelineAgreement__initiatorName:hover,.ws-is-hover .edo3-TimelineCall__mainCaption:hover,.ws-is-hover .edo3-TimelineDocflowEvent__header-clickable:hover,.ws-is-hover .edo3-TimelineLinkedDoc__activePhase:hover,.ws-is-hover .edo3-TimelineLinkedDoc__mainInfo:hover,.ws-is-hover .edo3-TimelinePassage__responsibleName-clickable:hover,.ws-is-hover .edo3-TimelineReminderEvent__sender:hover,.ws-is-hover .edo3-TimelineSendingEvent__attachmentsTitle:hover,.ws-is-hover .edo3-TimelineSendingEvent__responsibleName:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.ws-is-hover .edo3-TimelineReassignments:hover {
+	cursor: pointer;
+}
+
+.ws-is-hover .edo3-TimelinePassage__expandIcon:hover,.ws-is-hover .edo3-TimelineReassignments__expandIcon:hover,.ws-is-hover .edo3-TimelineRedaction__caption:hover {
+	cursor: pointer;
+	color: var(--link_hover_text-color);
+}

@@ -1,0 +1,40 @@
+.edo3-FileViewer__successfulScanPanel .docview3-CommandPanel__commands,.edo3-FileViewer__successfulScanPanel .docview3-CommandPanel__commands_default {
+    background: #fffece;
+}
+
+.edo3-FileViewer__fullWidth {
+    width: 100%;
+    min-width: 1px;
+}
+
+.edo3-FileViewer__counter {
+    margin-left: 4px;
+}
+
+.edo3-FileViewer__refreshButton {
+    margin-left: 8px;
+}
+
+.edo3-FileViewer__flat-caption {
+    height: 20px;
+    margin-right: 6px;
+}
+
+.edo3-FileViewer__empty-flat-header {
+    cursor: default;
+}
+
+.edo3-FileViewer__before-search-template-area {
+    height: 32px;
+    padding-right: 8px;
+}
+
+.edo3-FileViewer__brandbook-graphic-container {
+    box-shadow: var(--box-shadow_block);
+    border-bottom-left-radius: var(--border-radius_default_block);
+    border-bottom-right-radius: var(--border-radius_default_block);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: auto;
+}

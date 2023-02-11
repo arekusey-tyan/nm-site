@@ -1,0 +1,60 @@
+.edws-TaskDialog__mainTab {
+    min-height: 152px;
+}
+
+.edws-TaskDialog__mainTab-mainInfoContainer {
+    margin-top: 4px;
+    padding: 0 12px 0 12px;
+}
+
+.ws-is-desktop-safari .edws-TaskDialog__mainTab-mainInfoContainer,.ws-is-mobile-safari .edws-TaskDialog__mainTab-mainInfoContainer {
+    height: -webkit-max-content;
+}
+
+.edws-TaskDialog__mainTab-spoiler {
+    padding-top: 0;
+    padding-bottom: 16px;
+}
+
+.edws-TaskDialog__mainTab-spoiler-readOnly {
+    padding-top: 0;
+}
+
+.docview3-attachButtonContainer+.edo3-FileViewer__userTemplate .edws-TaskDialog__bottomAddSubtask {
+    margin-left: 12px;
+}
+
+.edo3-FileViewer__counter+.edo3-FileViewer__userTemplate .edws-TaskDialog__bottomAddSubtask {
+    margin-left: 12px;
+}
+
+.edo3-FileViewer__userTemplate .edws-TaskDialog__bottomAddSubtask {
+    margin-left: 0;
+}
+
+.edo3-Spoiler+.edws-TaskDialog__bottomAddSubtask,.edws-TaskDialog__mainTab-mainInfoContainer+.edws-TaskDialog__bottomAddSubtask {
+    margin-left: 12px;
+}
+
+.edws-TaskDialog__subtasks {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+}
+
+.edws-TaskDialog__bottomAddSubtask {
+    display: inline-block;
+}
+
+.edws-TaskDialog__subtaskButtonWithoutAttachments {
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
+
+.edws-TaskDialogExt-att .edo3-AttachmentButtonsPanel__title-text {
+    display: none;
+}
+
+.edws3-extendedCard .edws-TaskDialog__mainTab {
+    margin-top: 6px;
+}

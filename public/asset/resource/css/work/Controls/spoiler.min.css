@@ -1,0 +1,1785 @@
+.controls-Cut__container {
+	z-index: 1;
+}
+
+.controls-Cut__ellipsisWrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.controls-Cut {
+	display: flex;
+	flex-direction: column;
+	z-index: 1;
+	overflow: hidden;
+	position: relative;
+}
+
+.controls-TextCut__ellipsisWrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.controls-TextCut__ellipsisWrapper_expanded_lineHeight-richEditor {
+	margin-top: var(--line-height_richEditor_inputArea);
+}
+
+.controls-TextCut_lineHeight-richEditor {
+	line-height: var(--line-height_richEditor_inputArea);
+}
+
+.controls-TextCut__ellipsisWrapper_expanded_lineHeight-5xl {
+	margin-top: var(--line-height_5xl_inputArea);
+}
+
+.controls-TextCut_lineHeight-5xl {
+	line-height: var(--line-height_5xl_inputArea);
+}
+
+.controls-TextCut__ellipsisWrapper_expanded_lineHeight-4xl {
+	margin-top: var(--line-height_4xl_inputArea);
+}
+
+.controls-TextCut_lineHeight-4xl {
+	line-height: var(--line-height_4xl_inputArea);
+}
+
+.controls-TextCut__ellipsisWrapper_expanded_lineHeight-3xl {
+	margin-top: var(--line-height_3xl_inputArea);
+}
+
+.controls-TextCut_lineHeight-3xl {
+	line-height: var(--line-height_3xl_inputArea);
+}
+
+.controls-TextCut__ellipsisWrapper_expanded_lineHeight-2xl {
+	margin-top: var(--line-height_2xl_inputArea);
+}
+
+.controls-TextCut_lineHeight-2xl {
+	line-height: var(--line-height_2xl_inputArea);
+}
+
+.controls-TextCut__ellipsisWrapper_expanded_lineHeight-xl {
+	margin-top: var(--line-height_xl_inputArea);
+}
+
+.controls-TextCut_lineHeight-xl {
+	line-height: var(--line-height_xl_inputArea);
+}
+
+.controls-TextCut__ellipsisWrapper_expanded_lineHeight-l {
+	margin-top: var(--line-height_l_inputArea);
+}
+
+.controls-TextCut_lineHeight-l {
+	line-height: var(--line-height_l_inputArea);
+}
+
+.controls-TextCut__ellipsisWrapper_expanded_lineHeight-m {
+	margin-top: var(--line-height_m_inputArea);
+}
+
+.controls-TextCut_lineHeight-m {
+	line-height: var(--line-height_m_inputArea);
+}
+
+.controls-TextCut__ellipsisWrapper_expanded_lineHeight-s {
+	margin-top: var(--line-height_s_inputArea);
+}
+
+.controls-TextCut_lineHeight-s {
+	line-height: var(--line-height_s_inputArea);
+}
+
+.controls-TextCut__ellipsisWrapper_expanded_lineHeight-xs {
+	margin-top: var(--line-height_xs_inputArea);
+}
+
+.controls-TextCut_lineHeight-xs {
+	line-height: var(--line-height_xs_inputArea);
+}
+
+.controls-BaseCut__ellipsis {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.controls-BaseCut__shadow {
+	z-index: 1;
+	width: 100%;
+	position: absolute;
+	height: 5px;
+}
+
+.controls-BaseCut__shadow_background-default {
+	background: linear-gradient(180deg,rgba(255,255,255,0) 0,var(--background-color) 100%);
+}
+
+.controls-BaseCut__shadow_background-unaccented {
+	background: linear-gradient(180deg,rgba(255,255,255,0) 0,var(--unaccented_background-color) 100%);
+}
+
+.controls-BaseCut__shadow_lineHeight-richEditor {
+	bottom: var(--line-height_richEditor_inputArea);
+}
+
+.controls-BaseCut__shadow_lineHeight-5xl {
+	bottom: var(--line-height_5xl_inputArea);
+}
+
+.controls-BaseCut__shadow_lineHeight-4xl {
+	bottom: var(--line-height_4xl_inputArea);
+}
+
+.controls-BaseCut__shadow_lineHeight-3xl {
+	bottom: var(--line-height_3xl_inputArea);
+}
+
+.controls-BaseCut__shadow_lineHeight-2xl {
+	bottom: var(--line-height_2xl_inputArea);
+}
+
+.controls-BaseCut__shadow_lineHeight-xl {
+	bottom: var(--line-height_xl_inputArea);
+}
+
+.controls-BaseCut__shadow_lineHeight-l {
+	bottom: var(--line-height_l_inputArea);
+}
+
+.controls-BaseCut__shadow_lineHeight-m {
+	bottom: var(--line-height_m_inputArea);
+}
+
+.controls-BaseCut__shadow_lineHeight-s {
+	bottom: var(--line-height_s_inputArea);
+}
+
+.controls-BaseCut__shadow_lineHeight-xs {
+	bottom: var(--line-height_xs_inputArea);
+}
+
+.controls-BaseCut__notExpandedButtonWrapper {
+	width: 100%;
+	flex-wrap: wrap-reverse;
+	flex-shrink: 1;
+	min-height: 1px;
+	margin-left: 100%;
+}
+
+.controls-BaseCut__notExpandedButtonWrapBlock {
+	height: 1px;
+	width: 100%;
+	flex-shrink: 0;
+}
+
+.controls-BaseCut__notExpandedButtonContainer {
+	width: 100%;
+	height: 1px;
+	flex-shrink: 0;
+}
+
+.controls-BaseCut__notExpandedButton {
+	height: var(--line-height_m_inputArea);
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
+
+.controls-SpoilerHeading__wrapper {
+	width: 100%;
+	cursor: pointer;
+	align-items: center;
+	display: inline-flex;
+	height: var(--inline_height_m);
+}
+
+.controls-SpoilerHeading__icon {
+	padding: 0 var(--offset_3xs);
+	width: var(--icon-size_s);
+	height: var(--icon-size_s);
+}
+
+.controls-SpoilerHeading__iconWrapper {
+	display: flex;
+	order: 1;
+	flex-shrink: 0;
+	align-items: center;
+	height: 100%;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.controls-SpoilerHeading__caption_captionPosition-left {
+	order: 0;
+}
+
+.controls-SpoilerHeading__caption_captionPosition-right {
+	order: 2;
+}
+
+.controls-SpoilerHeading__icon_fontColorStyle-secondary {
+	fill: var(--secondary_text-color);
+}
+
+.controls-SpoilerHeading__icon_fontColorStyle-default {
+	fill: var(--label_icon-color);
+}
+
+.controls-SpoilerHeading__icon_fontColorStyle-label {
+	fill: var(--label_text-color);
+}
+
+.controls-SpoilerHeading__caption_fontColorStyle-secondary {
+	color: var(--secondary_text-color);
+}
+
+.controls-SpoilerHeading__caption_fontColorStyle-default {
+	color: var(--text-color);
+}
+
+.controls-SpoilerHeading__caption_fontColorStyle-label {
+	color: var(--label_text-color);
+}
+
+.ws-is-hover .controls-SpoilerHeading__wrapper:hover .controls-SpoilerHeading__icon_fontColorStyle-secondary {
+	fill: var(--secondary_text-color);
+}
+
+.ws-is-hover .controls-SpoilerHeading__wrapper:hover .controls-SpoilerHeading__icon_fontColorStyle-default {
+	fill: var(--label_icon-color);
+}
+
+.ws-is-hover .controls-SpoilerHeading__wrapper:hover .controls-SpoilerHeading__icon_fontColorStyle-label {
+	fill: var(--secondary_text-color);
+}
+
+.ws-is-hover .controls-SpoilerHeading__wrapper:hover .controls-SpoilerHeading__caption_fontColorStyle-secondary {
+	color: var(--secondary_text-color);
+}
+
+.ws-is-hover .controls-SpoilerHeading__wrapper:hover .controls-SpoilerHeading__caption_fontColorStyle-default {
+	color: var(--text-color);
+}
+
+.ws-is-hover .controls-SpoilerHeading__wrapper:hover .controls-SpoilerHeading__caption_fontColorStyle-label {
+	color: var(--secondary_text-color);
+}
+
+.controls-SpoilerView__header {
+	width: 100%;
+}
+
+.controls-SpoilerView__header__headerContentTemplate {
+	flex-grow: 1;
+	min-width: 1px;
+	flex-shrink: 0;
+	max-width: 100%;
+}
+
+.controls-CutButton__container {
+	z-index: 2;
+	display: flex;
+	justify-content: center;
+	pointer-events: all;
+}
+
+.controls-CutButton {
+	display: flex;
+	align-items: flex-start;
+	z-index: 1;
+}
+
+.controls-CutButton_size-s {
+	margin-top: var(--offset_3xs);
+	line-height: var(--height_s_BigSeparator);
+}
+
+.controls-CutButton_size-m {
+	margin-top: var(--offset_3xs);
+	line-height: var(--height_m_BigSeparator);
+}
+
+.controls-CutButton_size-l {
+	margin-top: var(--offset_xs);
+	line-height: var(--height_l_BigSeparator);
+}
+
+.controls-CutButton__container_background-unaccented {
+	background: var(--unaccented_background-color);
+}
+
+.controls-CutButton__container_position-center {
+	justify-content: center;
+}
+
+.controls-CutButton__container_position-start {
+	justify-content: flex-start;
+}
+
+.controls-CutButton__container_position-start .controls-CutButton_size-s {
+	margin-left: var(--offset_2xs);
+}
+
+.controls-CutButton__container_position-start .controls-CutButton_size-m {
+	margin-left: var(--offset_xs);
+}
+
+.controls-CutButton__container_position-start .controls-CutButton_size-l {
+	margin-left: var(--offset_s);
+}
+
+.controls-CutButton__container_lineHeight-xs {
+	height: var(--line-height_xs_inputArea);
+}
+
+.controls-CutButton__container_lineHeight-s {
+	height: var(--line-height_s_inputArea);
+}
+
+.controls-CutButton__container_lineHeight-m {
+	height: var(--line-height_m_inputArea);
+}
+
+.controls-CutButton__container_lineHeight-l {
+	height: var(--line-height_l_inputArea);
+}
+
+.controls-CutButton__container_lineHeight-xl {
+	height: var(--line-height_xl_inputArea);
+}
+
+.controls-CutButton__container_lineHeight-2xl {
+	height: var(--line-height_2xl_inputArea);
+}
+
+.controls-CutButton__container_lineHeight-3xl {
+	height: var(--line-height_3xl_inputArea);
+}
+
+.controls-CutButton__container_lineHeight-4xl {
+	height: var(--line-height_4xl_inputArea);
+}
+
+.controls-CutButton__container_lineHeight-5xl {
+	height: var(--line-height_5xl_inputArea);
+}
+
+.controls-CutButton__container_lineHeight-richEditor {
+	height: var(--line-height_richEditor_inputArea);
+}
+
+.controls-AreaCut__container {
+	overflow: hidden;
+}
+
+.controls-AreaCut {
+	display: flex;
+	flex-direction: column;
+	overflow: visible;
+	position: relative;
+}
+
+.controls-AreaCut__content {
+	height: 100%;
+}
+
+.controls-AreaCut_active .controls-CutButton__container_extended::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	height: var(--border-thickness);
+	background: var(--border-color);
+}
+
+.controls-AreaCut_active .controls-CutButton__container_extended::after {
+	content: "";
+	position: absolute;
+	right: 0;
+	height: var(--border-thickness);
+	background: var(--border-color);
+}
+
+.controls-AreaCut_active .controls-CutButton__container_extended_size-s::before {
+	top: calc(var(--height_s_BigSeparator)/ 2 + var(--border-thickness));
+	width: calc((100% - var(--width_s_BigSeparator))/ 2 - var(--offset_s));
+}
+
+.controls-AreaCut_active .controls-CutButton__container_extended_size-s::after {
+	top: calc(var(--height_s_BigSeparator)/ 2 + var(--border-thickness));
+	width: calc((100% - var(--width_s_BigSeparator))/ 2 - var(--offset_s));
+}
+
+.controls-AreaCut_active .controls-CutButton__container_extended_size-m::before {
+	top: calc(var(--height_m_BigSeparator)/ 2 + var(--border-thickness));
+	width: calc((100% - var(--width_m_BigSeparator))/ 2 - var(--offset_st));
+}
+
+.controls-AreaCut_active .controls-CutButton__container_extended_size-m::after {
+	top: calc(var(--height_m_BigSeparator)/ 2 + var(--border-thickness));
+	width: calc((100% - var(--width_m_BigSeparator))/ 2 - var(--offset_st));
+}
+
+.controls-AreaCut_active .controls-CutButton__container_extended_size-l::before {
+	top: calc(var(--height_l_BigSeparator)/ 2 + var(--border-thickness));
+	width: calc((100% - var(--width_l_BigSeparator))/ 2 - var(--offset_m));
+}
+
+.controls-AreaCut_active .controls-CutButton__container_extended_size-l::after {
+	top: calc(var(--height_l_BigSeparator)/ 2 + var(--border-thickness));
+	width: calc((100% - var(--width_l_BigSeparator))/ 2 - var(--offset_m));
+}
+
+.controls-AreaCut__ellipsisWrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.controls-AreaCut__ellipsisWrapper_notExpanded_active {
+	cursor: pointer;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	pointer-events: none;
+}
+
+.controls-AreaCut__ellipsis {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.controls-AreaCut_lineHeight-xs_lines-1_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (1 + 1) * var(--line-height_xs_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xs_lines-1_height {
+	height: calc((1 + 1) * var(--line-height_xs_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-xs_lines-1 {
+	top: calc((1 + 2) * var(--line-height_xs_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xs_lines-2_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (2 + 1) * var(--line-height_xs_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xs_lines-2_height {
+	height: calc((2 + 1) * var(--line-height_xs_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-xs_lines-2 {
+	top: calc((2 + 2) * var(--line-height_xs_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xs_lines-3_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (3 + 1) * var(--line-height_xs_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xs_lines-3_height {
+	height: calc((3 + 1) * var(--line-height_xs_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-xs_lines-3 {
+	top: calc((3 + 2) * var(--line-height_xs_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xs_lines-4_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (4 + 1) * var(--line-height_xs_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xs_lines-4_height {
+	height: calc((4 + 1) * var(--line-height_xs_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-xs_lines-4 {
+	top: calc((4 + 2) * var(--line-height_xs_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xs_lines-5_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (5 + 1) * var(--line-height_xs_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xs_lines-5_height {
+	height: calc((5 + 1) * var(--line-height_xs_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-xs_lines-5 {
+	top: calc((5 + 2) * var(--line-height_xs_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xs_lines-6_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (6 + 1) * var(--line-height_xs_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xs_lines-6_height {
+	height: calc((6 + 1) * var(--line-height_xs_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-xs_lines-6 {
+	top: calc((6 + 2) * var(--line-height_xs_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xs_lines-7_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (7 + 1) * var(--line-height_xs_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xs_lines-7_height {
+	height: calc((7 + 1) * var(--line-height_xs_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-xs_lines-7 {
+	top: calc((7 + 2) * var(--line-height_xs_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xs_lines-8_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (8 + 1) * var(--line-height_xs_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xs_lines-8_height {
+	height: calc((8 + 1) * var(--line-height_xs_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-xs_lines-8 {
+	top: calc((8 + 2) * var(--line-height_xs_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xs_lines-9_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (9 + 1) * var(--line-height_xs_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xs_lines-9_height {
+	height: calc((9 + 1) * var(--line-height_xs_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-xs_lines-9 {
+	top: calc((9 + 2) * var(--line-height_xs_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xs_lines-10_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (10 + 1) * var(--line-height_xs_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xs_lines-10_height {
+	height: calc((10 + 1) * var(--line-height_xs_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-xs_lines-10 {
+	top: calc((10 + 2) * var(--line-height_xs_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-s_lines-1_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (1 + 1) * var(--line-height_s_inputArea));
+}
+
+.controls-AreaCut_lineHeight-s_lines-1_height {
+	height: calc((1 + 1) * var(--line-height_s_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-s_lines-1 {
+	top: calc((1 + 2) * var(--line-height_s_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-s_lines-2_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (2 + 1) * var(--line-height_s_inputArea));
+}
+
+.controls-AreaCut_lineHeight-s_lines-2_height {
+	height: calc((2 + 1) * var(--line-height_s_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-s_lines-2 {
+	top: calc((2 + 2) * var(--line-height_s_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-s_lines-3_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (3 + 1) * var(--line-height_s_inputArea));
+}
+
+.controls-AreaCut_lineHeight-s_lines-3_height {
+	height: calc((3 + 1) * var(--line-height_s_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-s_lines-3 {
+	top: calc((3 + 2) * var(--line-height_s_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-s_lines-4_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (4 + 1) * var(--line-height_s_inputArea));
+}
+
+.controls-AreaCut_lineHeight-s_lines-4_height {
+	height: calc((4 + 1) * var(--line-height_s_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-s_lines-4 {
+	top: calc((4 + 2) * var(--line-height_s_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-s_lines-5_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (5 + 1) * var(--line-height_s_inputArea));
+}
+
+.controls-AreaCut_lineHeight-s_lines-5_height {
+	height: calc((5 + 1) * var(--line-height_s_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-s_lines-5 {
+	top: calc((5 + 2) * var(--line-height_s_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-s_lines-6_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (6 + 1) * var(--line-height_s_inputArea));
+}
+
+.controls-AreaCut_lineHeight-s_lines-6_height {
+	height: calc((6 + 1) * var(--line-height_s_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-s_lines-6 {
+	top: calc((6 + 2) * var(--line-height_s_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-s_lines-7_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (7 + 1) * var(--line-height_s_inputArea));
+}
+
+.controls-AreaCut_lineHeight-s_lines-7_height {
+	height: calc((7 + 1) * var(--line-height_s_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-s_lines-7 {
+	top: calc((7 + 2) * var(--line-height_s_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-s_lines-8_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (8 + 1) * var(--line-height_s_inputArea));
+}
+
+.controls-AreaCut_lineHeight-s_lines-8_height {
+	height: calc((8 + 1) * var(--line-height_s_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-s_lines-8 {
+	top: calc((8 + 2) * var(--line-height_s_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-s_lines-9_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (9 + 1) * var(--line-height_s_inputArea));
+}
+
+.controls-AreaCut_lineHeight-s_lines-9_height {
+	height: calc((9 + 1) * var(--line-height_s_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-s_lines-9 {
+	top: calc((9 + 2) * var(--line-height_s_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-s_lines-10_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (10 + 1) * var(--line-height_s_inputArea));
+}
+
+.controls-AreaCut_lineHeight-s_lines-10_height {
+	height: calc((10 + 1) * var(--line-height_s_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-s_lines-10 {
+	top: calc((10 + 2) * var(--line-height_s_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-m_lines-1_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (1 + 1) * var(--line-height_m_inputArea));
+}
+
+.controls-AreaCut_lineHeight-m_lines-1_height {
+	height: calc((1 + 1) * var(--line-height_m_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-m_lines-1 {
+	top: calc((1 + 2) * var(--line-height_m_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-m_lines-2_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (2 + 1) * var(--line-height_m_inputArea));
+}
+
+.controls-AreaCut_lineHeight-m_lines-2_height {
+	height: calc((2 + 1) * var(--line-height_m_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-m_lines-2 {
+	top: calc((2 + 2) * var(--line-height_m_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-m_lines-3_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (3 + 1) * var(--line-height_m_inputArea));
+}
+
+.controls-AreaCut_lineHeight-m_lines-3_height {
+	height: calc((3 + 1) * var(--line-height_m_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-m_lines-3 {
+	top: calc((3 + 2) * var(--line-height_m_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-m_lines-4_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (4 + 1) * var(--line-height_m_inputArea));
+}
+
+.controls-AreaCut_lineHeight-m_lines-4_height {
+	height: calc((4 + 1) * var(--line-height_m_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-m_lines-4 {
+	top: calc((4 + 2) * var(--line-height_m_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-m_lines-5_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (5 + 1) * var(--line-height_m_inputArea));
+}
+
+.controls-AreaCut_lineHeight-m_lines-5_height {
+	height: calc((5 + 1) * var(--line-height_m_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-m_lines-5 {
+	top: calc((5 + 2) * var(--line-height_m_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-m_lines-6_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (6 + 1) * var(--line-height_m_inputArea));
+}
+
+.controls-AreaCut_lineHeight-m_lines-6_height {
+	height: calc((6 + 1) * var(--line-height_m_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-m_lines-6 {
+	top: calc((6 + 2) * var(--line-height_m_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-m_lines-7_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (7 + 1) * var(--line-height_m_inputArea));
+}
+
+.controls-AreaCut_lineHeight-m_lines-7_height {
+	height: calc((7 + 1) * var(--line-height_m_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-m_lines-7 {
+	top: calc((7 + 2) * var(--line-height_m_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-m_lines-8_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (8 + 1) * var(--line-height_m_inputArea));
+}
+
+.controls-AreaCut_lineHeight-m_lines-8_height {
+	height: calc((8 + 1) * var(--line-height_m_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-m_lines-8 {
+	top: calc((8 + 2) * var(--line-height_m_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-m_lines-9_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (9 + 1) * var(--line-height_m_inputArea));
+}
+
+.controls-AreaCut_lineHeight-m_lines-9_height {
+	height: calc((9 + 1) * var(--line-height_m_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-m_lines-9 {
+	top: calc((9 + 2) * var(--line-height_m_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-m_lines-10_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (10 + 1) * var(--line-height_m_inputArea));
+}
+
+.controls-AreaCut_lineHeight-m_lines-10_height {
+	height: calc((10 + 1) * var(--line-height_m_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-m_lines-10 {
+	top: calc((10 + 2) * var(--line-height_m_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-l_lines-1_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (1 + 1) * var(--line-height_l_inputArea));
+}
+
+.controls-AreaCut_lineHeight-l_lines-1_height {
+	height: calc((1 + 1) * var(--line-height_l_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-l_lines-1 {
+	top: calc((1 + 2) * var(--line-height_l_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-l_lines-2_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (2 + 1) * var(--line-height_l_inputArea));
+}
+
+.controls-AreaCut_lineHeight-l_lines-2_height {
+	height: calc((2 + 1) * var(--line-height_l_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-l_lines-2 {
+	top: calc((2 + 2) * var(--line-height_l_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-l_lines-3_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (3 + 1) * var(--line-height_l_inputArea));
+}
+
+.controls-AreaCut_lineHeight-l_lines-3_height {
+	height: calc((3 + 1) * var(--line-height_l_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-l_lines-3 {
+	top: calc((3 + 2) * var(--line-height_l_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-l_lines-4_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (4 + 1) * var(--line-height_l_inputArea));
+}
+
+.controls-AreaCut_lineHeight-l_lines-4_height {
+	height: calc((4 + 1) * var(--line-height_l_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-l_lines-4 {
+	top: calc((4 + 2) * var(--line-height_l_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-l_lines-5_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (5 + 1) * var(--line-height_l_inputArea));
+}
+
+.controls-AreaCut_lineHeight-l_lines-5_height {
+	height: calc((5 + 1) * var(--line-height_l_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-l_lines-5 {
+	top: calc((5 + 2) * var(--line-height_l_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-l_lines-6_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (6 + 1) * var(--line-height_l_inputArea));
+}
+
+.controls-AreaCut_lineHeight-l_lines-6_height {
+	height: calc((6 + 1) * var(--line-height_l_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-l_lines-6 {
+	top: calc((6 + 2) * var(--line-height_l_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-l_lines-7_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (7 + 1) * var(--line-height_l_inputArea));
+}
+
+.controls-AreaCut_lineHeight-l_lines-7_height {
+	height: calc((7 + 1) * var(--line-height_l_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-l_lines-7 {
+	top: calc((7 + 2) * var(--line-height_l_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-l_lines-8_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (8 + 1) * var(--line-height_l_inputArea));
+}
+
+.controls-AreaCut_lineHeight-l_lines-8_height {
+	height: calc((8 + 1) * var(--line-height_l_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-l_lines-8 {
+	top: calc((8 + 2) * var(--line-height_l_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-l_lines-9_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (9 + 1) * var(--line-height_l_inputArea));
+}
+
+.controls-AreaCut_lineHeight-l_lines-9_height {
+	height: calc((9 + 1) * var(--line-height_l_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-l_lines-9 {
+	top: calc((9 + 2) * var(--line-height_l_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-l_lines-10_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (10 + 1) * var(--line-height_l_inputArea));
+}
+
+.controls-AreaCut_lineHeight-l_lines-10_height {
+	height: calc((10 + 1) * var(--line-height_l_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-l_lines-10 {
+	top: calc((10 + 2) * var(--line-height_l_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xl_lines-1_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (1 + 1) * var(--line-height_xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xl_lines-1_height {
+	height: calc((1 + 1) * var(--line-height_xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-xl_lines-1 {
+	top: calc((1 + 2) * var(--line-height_xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xl_lines-2_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (2 + 1) * var(--line-height_xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xl_lines-2_height {
+	height: calc((2 + 1) * var(--line-height_xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-xl_lines-2 {
+	top: calc((2 + 2) * var(--line-height_xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xl_lines-3_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (3 + 1) * var(--line-height_xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xl_lines-3_height {
+	height: calc((3 + 1) * var(--line-height_xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-xl_lines-3 {
+	top: calc((3 + 2) * var(--line-height_xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xl_lines-4_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (4 + 1) * var(--line-height_xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xl_lines-4_height {
+	height: calc((4 + 1) * var(--line-height_xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-xl_lines-4 {
+	top: calc((4 + 2) * var(--line-height_xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xl_lines-5_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (5 + 1) * var(--line-height_xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xl_lines-5_height {
+	height: calc((5 + 1) * var(--line-height_xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-xl_lines-5 {
+	top: calc((5 + 2) * var(--line-height_xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xl_lines-6_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (6 + 1) * var(--line-height_xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xl_lines-6_height {
+	height: calc((6 + 1) * var(--line-height_xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-xl_lines-6 {
+	top: calc((6 + 2) * var(--line-height_xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xl_lines-7_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (7 + 1) * var(--line-height_xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xl_lines-7_height {
+	height: calc((7 + 1) * var(--line-height_xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-xl_lines-7 {
+	top: calc((7 + 2) * var(--line-height_xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xl_lines-8_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (8 + 1) * var(--line-height_xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xl_lines-8_height {
+	height: calc((8 + 1) * var(--line-height_xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-xl_lines-8 {
+	top: calc((8 + 2) * var(--line-height_xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xl_lines-9_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (9 + 1) * var(--line-height_xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xl_lines-9_height {
+	height: calc((9 + 1) * var(--line-height_xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-xl_lines-9 {
+	top: calc((9 + 2) * var(--line-height_xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xl_lines-10_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (10 + 1) * var(--line-height_xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-xl_lines-10_height {
+	height: calc((10 + 1) * var(--line-height_xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-xl_lines-10 {
+	top: calc((10 + 2) * var(--line-height_xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-2xl_lines-1_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (1 + 1) * var(--line-height_2xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-2xl_lines-1_height {
+	height: calc((1 + 1) * var(--line-height_2xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-2xl_lines-1 {
+	top: calc((1 + 2) * var(--line-height_2xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-2xl_lines-2_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (2 + 1) * var(--line-height_2xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-2xl_lines-2_height {
+	height: calc((2 + 1) * var(--line-height_2xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-2xl_lines-2 {
+	top: calc((2 + 2) * var(--line-height_2xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-2xl_lines-3_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (3 + 1) * var(--line-height_2xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-2xl_lines-3_height {
+	height: calc((3 + 1) * var(--line-height_2xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-2xl_lines-3 {
+	top: calc((3 + 2) * var(--line-height_2xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-2xl_lines-4_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (4 + 1) * var(--line-height_2xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-2xl_lines-4_height {
+	height: calc((4 + 1) * var(--line-height_2xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-2xl_lines-4 {
+	top: calc((4 + 2) * var(--line-height_2xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-2xl_lines-5_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (5 + 1) * var(--line-height_2xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-2xl_lines-5_height {
+	height: calc((5 + 1) * var(--line-height_2xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-2xl_lines-5 {
+	top: calc((5 + 2) * var(--line-height_2xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-2xl_lines-6_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (6 + 1) * var(--line-height_2xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-2xl_lines-6_height {
+	height: calc((6 + 1) * var(--line-height_2xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-2xl_lines-6 {
+	top: calc((6 + 2) * var(--line-height_2xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-2xl_lines-7_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (7 + 1) * var(--line-height_2xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-2xl_lines-7_height {
+	height: calc((7 + 1) * var(--line-height_2xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-2xl_lines-7 {
+	top: calc((7 + 2) * var(--line-height_2xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-2xl_lines-8_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (8 + 1) * var(--line-height_2xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-2xl_lines-8_height {
+	height: calc((8 + 1) * var(--line-height_2xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-2xl_lines-8 {
+	top: calc((8 + 2) * var(--line-height_2xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-2xl_lines-9_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (9 + 1) * var(--line-height_2xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-2xl_lines-9_height {
+	height: calc((9 + 1) * var(--line-height_2xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-2xl_lines-9 {
+	top: calc((9 + 2) * var(--line-height_2xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-2xl_lines-10_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (10 + 1) * var(--line-height_2xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-2xl_lines-10_height {
+	height: calc((10 + 1) * var(--line-height_2xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-2xl_lines-10 {
+	top: calc((10 + 2) * var(--line-height_2xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-3xl_lines-1_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (1 + 1) * var(--line-height_3xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-3xl_lines-1_height {
+	height: calc((1 + 1) * var(--line-height_3xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-3xl_lines-1 {
+	top: calc((1 + 2) * var(--line-height_3xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-3xl_lines-2_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (2 + 1) * var(--line-height_3xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-3xl_lines-2_height {
+	height: calc((2 + 1) * var(--line-height_3xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-3xl_lines-2 {
+	top: calc((2 + 2) * var(--line-height_3xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-3xl_lines-3_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (3 + 1) * var(--line-height_3xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-3xl_lines-3_height {
+	height: calc((3 + 1) * var(--line-height_3xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-3xl_lines-3 {
+	top: calc((3 + 2) * var(--line-height_3xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-3xl_lines-4_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (4 + 1) * var(--line-height_3xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-3xl_lines-4_height {
+	height: calc((4 + 1) * var(--line-height_3xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-3xl_lines-4 {
+	top: calc((4 + 2) * var(--line-height_3xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-3xl_lines-5_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (5 + 1) * var(--line-height_3xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-3xl_lines-5_height {
+	height: calc((5 + 1) * var(--line-height_3xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-3xl_lines-5 {
+	top: calc((5 + 2) * var(--line-height_3xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-3xl_lines-6_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (6 + 1) * var(--line-height_3xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-3xl_lines-6_height {
+	height: calc((6 + 1) * var(--line-height_3xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-3xl_lines-6 {
+	top: calc((6 + 2) * var(--line-height_3xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-3xl_lines-7_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (7 + 1) * var(--line-height_3xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-3xl_lines-7_height {
+	height: calc((7 + 1) * var(--line-height_3xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-3xl_lines-7 {
+	top: calc((7 + 2) * var(--line-height_3xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-3xl_lines-8_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (8 + 1) * var(--line-height_3xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-3xl_lines-8_height {
+	height: calc((8 + 1) * var(--line-height_3xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-3xl_lines-8 {
+	top: calc((8 + 2) * var(--line-height_3xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-3xl_lines-9_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (9 + 1) * var(--line-height_3xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-3xl_lines-9_height {
+	height: calc((9 + 1) * var(--line-height_3xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-3xl_lines-9 {
+	top: calc((9 + 2) * var(--line-height_3xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-3xl_lines-10_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (10 + 1) * var(--line-height_3xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-3xl_lines-10_height {
+	height: calc((10 + 1) * var(--line-height_3xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-3xl_lines-10 {
+	top: calc((10 + 2) * var(--line-height_3xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-4xl_lines-1_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (1 + 1) * var(--line-height_4xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-4xl_lines-1_height {
+	height: calc((1 + 1) * var(--line-height_4xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-4xl_lines-1 {
+	top: calc((1 + 2) * var(--line-height_4xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-4xl_lines-2_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (2 + 1) * var(--line-height_4xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-4xl_lines-2_height {
+	height: calc((2 + 1) * var(--line-height_4xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-4xl_lines-2 {
+	top: calc((2 + 2) * var(--line-height_4xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-4xl_lines-3_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (3 + 1) * var(--line-height_4xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-4xl_lines-3_height {
+	height: calc((3 + 1) * var(--line-height_4xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-4xl_lines-3 {
+	top: calc((3 + 2) * var(--line-height_4xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-4xl_lines-4_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (4 + 1) * var(--line-height_4xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-4xl_lines-4_height {
+	height: calc((4 + 1) * var(--line-height_4xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-4xl_lines-4 {
+	top: calc((4 + 2) * var(--line-height_4xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-4xl_lines-5_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (5 + 1) * var(--line-height_4xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-4xl_lines-5_height {
+	height: calc((5 + 1) * var(--line-height_4xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-4xl_lines-5 {
+	top: calc((5 + 2) * var(--line-height_4xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-4xl_lines-6_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (6 + 1) * var(--line-height_4xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-4xl_lines-6_height {
+	height: calc((6 + 1) * var(--line-height_4xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-4xl_lines-6 {
+	top: calc((6 + 2) * var(--line-height_4xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-4xl_lines-7_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (7 + 1) * var(--line-height_4xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-4xl_lines-7_height {
+	height: calc((7 + 1) * var(--line-height_4xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-4xl_lines-7 {
+	top: calc((7 + 2) * var(--line-height_4xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-4xl_lines-8_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (8 + 1) * var(--line-height_4xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-4xl_lines-8_height {
+	height: calc((8 + 1) * var(--line-height_4xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-4xl_lines-8 {
+	top: calc((8 + 2) * var(--line-height_4xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-4xl_lines-9_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (9 + 1) * var(--line-height_4xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-4xl_lines-9_height {
+	height: calc((9 + 1) * var(--line-height_4xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-4xl_lines-9 {
+	top: calc((9 + 2) * var(--line-height_4xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-4xl_lines-10_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (10 + 1) * var(--line-height_4xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-4xl_lines-10_height {
+	height: calc((10 + 1) * var(--line-height_4xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-4xl_lines-10 {
+	top: calc((10 + 2) * var(--line-height_4xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-5xl_lines-1_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (1 + 1) * var(--line-height_5xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-5xl_lines-1_height {
+	height: calc((1 + 1) * var(--line-height_5xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-5xl_lines-1 {
+	top: calc((1 + 2) * var(--line-height_5xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-5xl_lines-2_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (2 + 1) * var(--line-height_5xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-5xl_lines-2_height {
+	height: calc((2 + 1) * var(--line-height_5xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-5xl_lines-2 {
+	top: calc((2 + 2) * var(--line-height_5xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-5xl_lines-3_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (3 + 1) * var(--line-height_5xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-5xl_lines-3_height {
+	height: calc((3 + 1) * var(--line-height_5xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-5xl_lines-3 {
+	top: calc((3 + 2) * var(--line-height_5xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-5xl_lines-4_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (4 + 1) * var(--line-height_5xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-5xl_lines-4_height {
+	height: calc((4 + 1) * var(--line-height_5xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-5xl_lines-4 {
+	top: calc((4 + 2) * var(--line-height_5xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-5xl_lines-5_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (5 + 1) * var(--line-height_5xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-5xl_lines-5_height {
+	height: calc((5 + 1) * var(--line-height_5xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-5xl_lines-5 {
+	top: calc((5 + 2) * var(--line-height_5xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-5xl_lines-6_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (6 + 1) * var(--line-height_5xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-5xl_lines-6_height {
+	height: calc((6 + 1) * var(--line-height_5xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-5xl_lines-6 {
+	top: calc((6 + 2) * var(--line-height_5xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-5xl_lines-7_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (7 + 1) * var(--line-height_5xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-5xl_lines-7_height {
+	height: calc((7 + 1) * var(--line-height_5xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-5xl_lines-7 {
+	top: calc((7 + 2) * var(--line-height_5xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-5xl_lines-8_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (8 + 1) * var(--line-height_5xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-5xl_lines-8_height {
+	height: calc((8 + 1) * var(--line-height_5xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-5xl_lines-8 {
+	top: calc((8 + 2) * var(--line-height_5xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-5xl_lines-9_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (9 + 1) * var(--line-height_5xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-5xl_lines-9_height {
+	height: calc((9 + 1) * var(--line-height_5xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-5xl_lines-9 {
+	top: calc((9 + 2) * var(--line-height_5xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-5xl_lines-10_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (10 + 1) * var(--line-height_5xl_inputArea));
+}
+
+.controls-AreaCut_lineHeight-5xl_lines-10_height {
+	height: calc((10 + 1) * var(--line-height_5xl_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-5xl_lines-10 {
+	top: calc((10 + 2) * var(--line-height_5xl_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-richEditor_lines-1_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (1 + 1) * var(--line-height_richEditor_inputArea));
+}
+
+.controls-AreaCut_lineHeight-richEditor_lines-1_height {
+	height: calc((1 + 1) * var(--line-height_richEditor_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-richEditor_lines-1 {
+	top: calc((1 + 2) * var(--line-height_richEditor_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-richEditor_lines-2_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (2 + 1) * var(--line-height_richEditor_inputArea));
+}
+
+.controls-AreaCut_lineHeight-richEditor_lines-2_height {
+	height: calc((2 + 1) * var(--line-height_richEditor_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-richEditor_lines-2 {
+	top: calc((2 + 2) * var(--line-height_richEditor_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-richEditor_lines-3_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (3 + 1) * var(--line-height_richEditor_inputArea));
+}
+
+.controls-AreaCut_lineHeight-richEditor_lines-3_height {
+	height: calc((3 + 1) * var(--line-height_richEditor_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-richEditor_lines-3 {
+	top: calc((3 + 2) * var(--line-height_richEditor_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-richEditor_lines-4_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (4 + 1) * var(--line-height_richEditor_inputArea));
+}
+
+.controls-AreaCut_lineHeight-richEditor_lines-4_height {
+	height: calc((4 + 1) * var(--line-height_richEditor_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-richEditor_lines-4 {
+	top: calc((4 + 2) * var(--line-height_richEditor_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-richEditor_lines-5_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (5 + 1) * var(--line-height_richEditor_inputArea));
+}
+
+.controls-AreaCut_lineHeight-richEditor_lines-5_height {
+	height: calc((5 + 1) * var(--line-height_richEditor_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-richEditor_lines-5 {
+	top: calc((5 + 2) * var(--line-height_richEditor_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-richEditor_lines-6_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (6 + 1) * var(--line-height_richEditor_inputArea));
+}
+
+.controls-AreaCut_lineHeight-richEditor_lines-6_height {
+	height: calc((6 + 1) * var(--line-height_richEditor_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-richEditor_lines-6 {
+	top: calc((6 + 2) * var(--line-height_richEditor_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-richEditor_lines-7_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (7 + 1) * var(--line-height_richEditor_inputArea));
+}
+
+.controls-AreaCut_lineHeight-richEditor_lines-7_height {
+	height: calc((7 + 1) * var(--line-height_richEditor_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-richEditor_lines-7 {
+	top: calc((7 + 2) * var(--line-height_richEditor_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-richEditor_lines-8_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (8 + 1) * var(--line-height_richEditor_inputArea));
+}
+
+.controls-AreaCut_lineHeight-richEditor_lines-8_height {
+	height: calc((8 + 1) * var(--line-height_richEditor_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-richEditor_lines-8 {
+	top: calc((8 + 2) * var(--line-height_richEditor_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-richEditor_lines-9_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (9 + 1) * var(--line-height_richEditor_inputArea));
+}
+
+.controls-AreaCut_lineHeight-richEditor_lines-9_height {
+	height: calc((9 + 1) * var(--line-height_richEditor_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-richEditor_lines-9 {
+	top: calc((9 + 2) * var(--line-height_richEditor_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut_lineHeight-richEditor_lines-10_maxHeight {
+	max-height: calc(var(--padding-vertical_inputArea) * 2 + (10 + 1) * var(--line-height_richEditor_inputArea));
+}
+
+.controls-AreaCut_lineHeight-richEditor_lines-10_height {
+	height: calc((10 + 1) * var(--line-height_richEditor_inputArea) + var(--padding-vertical_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut__ellipsisWrapper_expanded_lineHeight-richEditor_lines-10 {
+	top: calc((10 + 2) * var(--line-height_richEditor_inputArea) + var(--border-thickness) + var(--padding-vertical_inputArea));
+}
+
+.controls-AreaCut__ellipsisWrapper_lineHeight-richEditor {
+	bottom: calc(-1 * var(--line-height_richEditor_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut_lineHeight-richEditor_expanded {
+	margin-bottom: var(--line-height_richEditor_inputArea);
+}
+
+.controls-AreaCut__shadow_lineHeight-richEditor {
+	bottom: var(--line-height_richEditor_inputArea);
+}
+
+.controls-AreaCut__ellipsisWrapper_lineHeight-5xl {
+	bottom: calc(-1 * var(--line-height_5xl_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut_lineHeight-5xl_expanded {
+	margin-bottom: var(--line-height_5xl_inputArea);
+}
+
+.controls-AreaCut__shadow_lineHeight-5xl {
+	bottom: var(--line-height_5xl_inputArea);
+}
+
+.controls-AreaCut__ellipsisWrapper_lineHeight-4xl {
+	bottom: calc(-1 * var(--line-height_4xl_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut_lineHeight-4xl_expanded {
+	margin-bottom: var(--line-height_4xl_inputArea);
+}
+
+.controls-AreaCut__shadow_lineHeight-4xl {
+	bottom: var(--line-height_4xl_inputArea);
+}
+
+.controls-AreaCut__ellipsisWrapper_lineHeight-3xl {
+	bottom: calc(-1 * var(--line-height_3xl_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut_lineHeight-3xl_expanded {
+	margin-bottom: var(--line-height_3xl_inputArea);
+}
+
+.controls-AreaCut__shadow_lineHeight-3xl {
+	bottom: var(--line-height_3xl_inputArea);
+}
+
+.controls-AreaCut__ellipsisWrapper_lineHeight-2xl {
+	bottom: calc(-1 * var(--line-height_2xl_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut_lineHeight-2xl_expanded {
+	margin-bottom: var(--line-height_2xl_inputArea);
+}
+
+.controls-AreaCut__shadow_lineHeight-2xl {
+	bottom: var(--line-height_2xl_inputArea);
+}
+
+.controls-AreaCut__ellipsisWrapper_lineHeight-xl {
+	bottom: calc(-1 * var(--line-height_xl_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut_lineHeight-xl_expanded {
+	margin-bottom: var(--line-height_xl_inputArea);
+}
+
+.controls-AreaCut__shadow_lineHeight-xl {
+	bottom: var(--line-height_xl_inputArea);
+}
+
+.controls-AreaCut__ellipsisWrapper_lineHeight-l {
+	bottom: calc(-1 * var(--line-height_l_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut_lineHeight-l_expanded {
+	margin-bottom: var(--line-height_l_inputArea);
+}
+
+.controls-AreaCut__shadow_lineHeight-l {
+	bottom: var(--line-height_l_inputArea);
+}
+
+.controls-AreaCut__ellipsisWrapper_lineHeight-m {
+	bottom: calc(-1 * var(--line-height_m_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut_lineHeight-m_expanded {
+	margin-bottom: var(--line-height_m_inputArea);
+}
+
+.controls-AreaCut__shadow_lineHeight-m {
+	bottom: var(--line-height_m_inputArea);
+}
+
+.controls-AreaCut__ellipsisWrapper_lineHeight-s {
+	bottom: calc(-1 * var(--line-height_s_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut_lineHeight-s_expanded {
+	margin-bottom: var(--line-height_s_inputArea);
+}
+
+.controls-AreaCut__shadow_lineHeight-s {
+	bottom: var(--line-height_s_inputArea);
+}
+
+.controls-AreaCut__ellipsisWrapper_lineHeight-xs {
+	bottom: calc(-1 * var(--line-height_xs_inputArea) + var(--border-thickness));
+}
+
+.controls-AreaCut_lineHeight-xs_expanded {
+	margin-bottom: var(--line-height_xs_inputArea);
+}
+
+.controls-AreaCut__shadow_lineHeight-xs {
+	bottom: var(--line-height_xs_inputArea);
+}

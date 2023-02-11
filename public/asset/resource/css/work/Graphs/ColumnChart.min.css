@@ -1,0 +1,101 @@
+.graphs-ColumnChart {
+	height: 100%
+}
+
+.graphs-ColumnChart .highcharts-column-series rect.highcharts-point {
+	stroke: none
+}
+
+.graphs-ColumnChart .highcharts-color-extra-0.highcharts-point {
+	fill: var(--graphs__extraColors_color-0)
+}
+
+.graphs-ColumnChart .highcharts-color-main-0.highcharts-point {
+	fill: var(--graphs__baseColors_color-0)
+}
+
+.graphs-ColumnChart .highcharts-color-extra-1.highcharts-point {
+	fill: var(--graphs__extraColors_color-1)
+}
+
+.graphs-ColumnChart .highcharts-color-main-1.highcharts-point {
+	fill: var(--graphs__baseColors_color-1)
+}
+
+.graphs-ColumnChart .highcharts-color-extra-2.highcharts-point {
+	fill: #ffcdb5
+}
+
+.graphs-ColumnChart .highcharts-color-main-2.highcharts-point {
+	fill: var(--graphs__baseColors_color-3)
+}
+
+.graphs-ColumnChart .highcharts-color-extra-3.highcharts-point {
+	fill: #dee0ff
+}
+
+.graphs-ColumnChart .highcharts-color-main-3.highcharts-point {
+	fill: var(--graphs__baseColors_color-6)
+}
+
+.graphs-ColumnChart__tooltip {
+	display: flex;
+	flex-wrap: wrap
+}
+
+.graphs-ColumnChart__tooltipTitle {
+	font-weight: 700;
+	width: 100%;
+	margin-bottom: 5px
+}
+
+.graphs-ColumnChart__tooltipLegend {
+	margin-right: 8px;
+	width: 8px;
+	height: 8px
+}
+
+.graphs-ColumnChart__tooltipLegend-extra-0 {
+	background-color: var(--graphs__extraColors_color-0)
+}
+
+.graphs-ColumnChart__tooltipLegend-extra-1 {
+	background-color: var(--graphs__extraColors_color-1)
+}
+
+.graphs-ColumnChart__tooltipLegend-extra-2 {
+	background-color: pink
+}
+
+.graphs-ColumnChart__tooltipLegend-extra-3 {
+	background-color: #dee0ff
+}
+
+.graphs-ColumnChart__tooltipLegend-main-0 {
+	background-color: var(--graphs__baseColors_color-0)
+}
+
+.graphs-ColumnChart__tooltipLegend-main-1 {
+	background-color: var(--graphs__baseColors_color-1)
+}
+
+.graphs-ColumnChart__tooltipLegend-main-2 {
+	background-color: var(--graphs__baseColors_color-3)
+}
+
+.graphs-ColumnChart__tooltipLegend-main-3 {
+	background-color: var(--graphs__baseColors_color-6)
+}
+
+.graphs-ColumnChart__tooltipData {
+	display: flex;
+	align-items: center
+}
+
+.graphs-ColumnChart__tooltipName {
+	margin-right: 16px
+}
+
+.graphs-ColumnChart__tooltipValue-extra {
+	color: var(--label_text-color)
+}

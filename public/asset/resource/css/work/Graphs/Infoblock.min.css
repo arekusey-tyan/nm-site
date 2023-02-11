@@ -1,0 +1,627 @@
+.graphs-InfoBlock {
+	box-sizing: border-box;
+	display: flex;
+	font-size: var(--font-size_m);
+	width: 100%;
+	font-family: var(--font-family)
+}
+
+.graphs-InfoBlock__titleValue_maxWidth {
+	max-width: calc(var(--period_selector_short_quarter_width_Graphs-comparison) + var(--offset_xs))
+}
+
+.graphs-InfoBlock__rightWrapper {
+	min-width: 1px;
+	flex-shrink: 1
+}
+
+.graphs-InfoBlock--detail {
+	justify-content: flex-end
+}
+
+.graphs-InfoBlock__container {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap
+}
+
+.graphs-InfoBlock__container-noWrap {
+	flex-wrap: nowrap
+}
+
+.graphs-InfoBlock__data {
+	display: flex;
+	flex-shrink: 0;
+	width: 100%
+}
+
+.graphs-InfoBlock__container--notCurrent .graphs-InfoBlock__data {
+	padding-top: var(--infoblock_value_height_Graphs-comparison)
+}
+
+.graphs-InfoBlock__left {
+	display: flex;
+	width: 50%;
+	flex-shrink: 0;
+	justify-content: space-between
+}
+
+.graphs-InfoBlock__right {
+	width: 50%
+}
+
+.graphs-InfoBlock__item {
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box
+}
+
+.graphs-InfoBlock__item--single {
+	flex: 1;
+	justify-content: center
+}
+
+.graphs-InfoBlock__info {
+	display: flex;
+	justify-content: flex-end
+}
+
+.graphs-InfoBlock__info--right {
+	justify-content: flex-start
+}
+
+.graphs-InfoBlock__info--single {
+	justify-content: center
+}
+
+.graphs-InfoBlock__infoColumn {
+	display: flex;
+	width: 100%;
+	flex-shrink: 1
+}
+
+.graphs-InfoBlock__infoContent {
+	width: 100%;
+	flex-shrink: 1;
+	display: flex;
+	height: var(--infoblock_value_height_Graphs-comparison);
+	line-height: var(--infoblock_value_height_Graphs-comparison);
+	white-space: nowrap;
+	overflow: hidden
+}
+
+.graphs-InfoBlock__infoContent-leftContent {
+	margin-right: var(--offset_xs)
+}
+
+.graphs-InfoBlock__infoContent-rightContent {
+	margin-left: var(--offset_xs)
+}
+
+.graphs-InfoBlock__period {
+	display: flex;
+	position: relative;
+	height: var(--period_height_Graphs-comparison);
+	margin-bottom: var(--offset_2xs)
+}
+
+.graphs-InfoBlock__period::before {
+	content: '.';
+	width: 0;
+	display: inline-block;
+	visibility: hidden;
+	font-size: var(--font-size_3xl)
+}
+
+.graphs-InfoBlock__period--first {
+	justify-content: flex-end
+}
+
+.graphs-InfoBlock__period--single {
+	justify-content: center
+}
+
+.graphs-InfoBlock__periodContent {
+	min-width: 0;
+	display: flex;
+	align-items: baseline;
+	height: var(--period_height_Graphs-comparison);
+	line-height: var(--period_height_Graphs-comparison);
+	white-space: nowrap;
+	overflow: hidden
+}
+
+.graphs-InfoBlock__periodContent::before {
+	content: '.';
+	width: 0;
+	display: inline-block;
+	visibility: hidden;
+	font-size: var(--font-size_3xl)
+}
+
+.graphs-InfoBlock__periodContent--left {
+	margin-right: var(--offset_m)
+}
+
+.graphs-InfoBlock__periodContent--right {
+	justify-content: flex-end;
+	margin-left: var(--offset_m)
+}
+
+.graphs-InfoBlock__periodContent--flex-basis {
+	flex-basis: 0%
+}
+
+.graphs-InfoBlock__value {
+	text-align: right;
+	line-height: var(--infoblock_value_height_Graphs-comparison);
+	height: var(--infoblock_value_height_Graphs-comparison);
+	display: flex;
+	align-items: center;
+	white-space: nowrap
+}
+
+.graphs-InfoBlock__value--caption {
+	justify-content: flex-end
+}
+
+.graphs-InfoBlock__value--right {
+	min-width: calc(var(--offset_l) * 2)
+}
+
+.graphs-InfoBlock__selector {
+	display: flex;
+	align-items: baseline;
+	padding: 0
+}
+
+.graphs-InfoBlock__selector::before {
+	content: '.';
+	width: 0;
+	display: inline-block;
+	visibility: hidden;
+	font-size: var(--font-size_3xl)
+}
+
+.graphs-InfoBlock__selector--maxValue {
+	max-width: calc(var(--period_selector_short_quarter_width_Graphs-comparison) * 2)
+}
+
+.graphs-InfoBlock__selector--first {
+	justify-content: flex-end
+}
+
+.graphs-InfoBlock__selector--firstCustom {
+	padding-left: var(--arrow-button_offset_Graphs-comparison)
+}
+
+.graphs-InfoBlock__selector--second {
+	justify-content: flex-end;
+	padding-right: var(--offset_m)
+}
+
+.graphs-InfoBlock__selector--single {
+	padding-left: var(--arrow-button_offset_Graphs-comparison);
+	padding-right: var(--arrow-button_offset_Graphs-comparison)
+}
+
+.graphs-InfoBlock__legendWrapper {
+	display: flex
+}
+
+.graphs-InfoBlock__legendWrapper::before {
+	content: '.';
+	width: 0;
+	display: inline-block;
+	visibility: hidden;
+	font-size: var(--font-size_3xl)
+}
+
+.graphs-InfoBlock__legend {
+	display: block;
+	box-sizing: border-box;
+	width: var(--legend_icon-width_Graphs-comparison);
+	height: var(--legend_icon-height_Graphs-comparison);
+	margin-top: 1px;
+	cursor: pointer;
+	border: var(--legend_icon_border-thickness_Graphs-comparison) solid;
+	-ms-grid-row-align: center;
+	align-self: center
+}
+
+.graphs-InfoBlock__legend--first {
+	border-radius: var(--border-radius_3xs);
+	margin-right: var(--offset_xs)
+}
+
+.graphs-InfoBlock__legend--first_color {
+	background-color: var(--graphs__baseColors_color-0);
+	border-color: var(--graphs__baseColors_color-0)
+}
+
+.graphs-InfoBlock__legend--first_color_category {
+	background-color: var(--graphs__baseColors_color-1);
+	border-color: var(--graphs__baseColors_color-1);
+	margin-bottom: var(--border-thickness)
+}
+
+.graphs-InfoBlock__legend--second {
+	border-radius: var(--border-radius_3xs);
+	margin-right: var(--offset_xs)
+}
+
+.graphs-InfoBlock__legend--second_color {
+	background-color: var(--graphs__baseColors_color-1);
+	border-color: var(--graphs__baseColors_color-1)
+}
+
+.graphs-InfoBlock__legend--second_color_category {
+	background-color: var(--graphs__baseColors_color-3);
+	border-color: var(--graphs__baseColors_color-3);
+	margin-bottom: var(--border-thickness)
+}
+
+.graphs-InfoBlock__legend--disabled {
+	background-color: transparent
+}
+
+.graphs-InfoBlock__captions {
+	color: var(--label_text-color);
+	white-space: pre
+}
+
+.graphs-InfoBlock__captions--left {
+	padding-right: var(--infoblock_single_labels_offset_Graphs-comparison)
+}
+
+.graphs-InfoBlock__values {
+	color: var(--label_text-color);
+	font-size: var(--font-size_l);
+	flex-shrink: 1;
+	min-width: 1px
+}
+
+.graphs-InfoBlock__values--right {
+	padding-left: var(--infoblock_single_labels_offset_Graphs-comparison)
+}
+
+.graphs-InfoBlock__stat {
+	margin-left: var(--offset_m)
+}
+
+.graphs-InfoBlock__stat--up {
+	color: var(--success_text-color)
+}
+
+.graphs-InfoBlock__stat--down {
+	color: var(--danger_text-color)
+}
+
+.graphs-InfoBlock__arrow {
+	-ms-grid-row-align: center;
+	align-self: center
+}
+
+.graphs-InfoBlock__tableRow {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end
+}
+
+.graphs-InfoBlock__tableRow--top {
+	margin-bottom: var(--offset_xs)
+}
+
+.graphs-InfoBlock__tableRow--notCurrent {
+	padding-bottom: var(--infoblock_value_height_Graphs-comparison)
+}
+
+.graphs-InfoBlock__tableSelector {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end
+}
+
+.graphs-InfoBlock__tableSelector--first {
+	width: auto
+}
+
+.graphs-InfoBlock__tableSelector--second {
+	width: calc(var(--detail-table_column_3_width_Graphs-comparison) + var(--detail-table_column_4_width_Graphs-comparison) + var(--arrow-button_offset_Graphs-comparison) + var(--arrow-button_size_Graphs-comparison))
+}
+
+.graphs-InfoBlock__tableSelector--secondWithOffset {
+	padding-right: calc(calc(var(--detail-table_column_5_width_Graphs-comparison) + var(--detail-table_column_6_width_Graphs-comparison) - var(--arrow-button_offset_Graphs-comparison) - var(--arrow-button_size_Graphs-comparison)) + var(--offset_xs))
+}
+
+.graphs-InfoBlock__tableColumn {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end
+}
+
+.graphs-InfoBlock__tableColumn--captions {
+	flex-direction: row;
+	padding-right: var(--detail-table_column_3_width_Graphs-comparison);
+	flex-shrink: 1;
+	min-width: 1px
+}
+
+.graphs-InfoBlock__tableColumn--first {
+	padding-right: var(--detail-table_column_3_width_Graphs-comparison)
+}
+
+.graphs-InfoBlock__tableColumn--secondWithOffset {
+	width: var(--detail-table_column_4_width_Graphs-comparison);
+	padding-right: calc(var(--detail-table_column_5_width_Graphs-comparison) + var(--offset_xs))
+}
+
+.graphs-InfoBlock__tableColumn--secondWithoutOffset {
+	width: var(--detail-table_column_4_width_Graphs-comparison);
+	padding-right: var(--detail-table_column_5_width_Graphs-comparison)
+}
+
+.graphs-InfoBlock__tableColumn--percent {
+	width: calc(var(--detail-table_column_6_width_Graphs-comparison) + var(--offset_xs))
+}
+
+.graphs-InfoBlock__tableColumn--percentLast {
+	width: var(--detail-table_column_6_width_Graphs-comparison)
+}
+
+.graphs-InfoBlock__leftContent {
+	flex-grow: 1
+}
+
+.graphs-InfoBlock__rightContent {
+	flex-grow: 1;
+	width: 100%
+}
+
+.graphs-InfoBlock__line-inlineHeight {
+	height: var(--period_height_Graphs-comparison);
+	line-height: var(--period_height_Graphs-comparison);
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+
+.graphs-InfoBlock__comparison-line-title,
+.graphs-InfoBlock__comparison-line-value {
+	padding-right: var(--offset_m)
+}
+
+.graphs-InfoBlock__comparison-container {
+	display: flex
+}
+
+.graphs-InfoBlock__container-grid {
+	display: -ms-grid;
+	display: grid
+}
+
+.graphs-InfoBlock__container-left {
+	min-width: 50%
+}
+
+.graphs-InfoBlock__container-right {
+	flex-grow: 1
+}
+
+.graphs-InfoBlock__selector--year,
+.graphs-InfoBlock__selector--year-short {
+	width: var(--period_selector_year_width_Graphs-comparison)
+}
+
+.graphs-InfoBlock__selector--halfyear-short {
+	width: var(--period_selector_short_halfyear_width_Graphs-comparison)
+}
+
+.graphs-InfoBlock__selector--halfyear {
+	width: var(--period_selector_halfyear_width_Graphs-comparison)
+}
+
+.graphs-InfoBlock__selector--quarter-short {
+	width: var(--period_selector_short_quarter_width_Graphs-comparison)
+}
+
+.graphs-InfoBlock__selector--quarter {
+	width: var(--period_selector_quarter_width_Graphs-comparison)
+}
+
+.graphs-InfoBlock__selector--month-short {
+	width: var(--period_selector_short_month_width_Graphs-comparison)
+}
+
+.graphs-InfoBlock__selector--month {
+	width: var(--period_selector_month_width_Graphs-comparison)
+}
+
+.graphs-InfoBlock__selector--day-short {
+	width: var(--period_selector_short_day_width_Graphs-comparison)
+}
+
+.graphs-InfoBlock__selector--day {
+	width: var(--period_selector_day_width_Graphs-comparison)
+}
+
+.graphs-InfoBlock__comparison-line-firstRightPartItem {
+	padding-left: calc(var(--legend_icon-width_Graphs-comparison) + var(--offset_xs));
+	min-width: var(--graph_InfoBlock-value-width)
+}
+
+.graphs-InfoBlock__comparison-line-lastLeftPartItem {
+	padding-right: calc(var(--offset_m)/ 2)
+}
+
+.graphs-InfoBlock__dynamics-line-lastLeftPartItem {
+	padding-right: calc(var(--period_offset-between_Graphs-comparison)/ 2)
+}
+
+.graphs-InfoBlock__dynamics-line-firstRightPartItem {
+	padding-left: calc(var(--period_offset-between_Graphs-comparison)/ 2)
+}
+
+.graphs-InfoBlock__comparison-selectorsContainer-left {
+	padding-right: calc(var(--period_offset-between_Graphs-comparison)/ 2)
+}
+
+.graphs-InfoBlock__comparison-selectorsContainer-right {
+	padding-left: calc(var(--period_offset-between_Graphs-comparison)/ 2)
+}
+
+.graphs-InfoBlock__comparison-dataContent-right {
+	display: flex;
+	justify-content: flex-end;
+	min-width: calc(var(--offset_l) * 2)
+}
+
+.graphs-InfoBlock__comparison-selector {
+	min-height: var(--period_height_Graphs-comparison);
+	margin-bottom: var(--offset_2xs);
+	justify-content: flex-end;
+	display: flex
+}
+
+.graphs-InfoBlock__comparison-rightSelector {
+	padding-right: var(--offset_m)
+}
+
+.graphs-InfoBlock__comparison-rightSelector_withoutPadding {
+	padding: 0
+}
+
+.graphs-InfoBlock__selector-comparison {
+	justify-content: flex-end
+}
+
+.graphs-InfoBlock-comparison__arrow {
+	margin-right: var(--offset_m)
+}
+
+.graphs-InfoBlock__statistic {
+	display: -ms-grid;
+	display: grid
+}
+
+.graphs-InfoBlock__arrow--left {
+	margin-right: var(--offset_m)
+}
+
+.graphs-InfoBlock__statistic-dateSelector-arrows {
+	padding-right: var(--offset_xl);
+	-ms-grid-column: 2;
+	grid-column: 2;
+	-ms-grid-row: 2;
+	grid-row: 2
+}
+
+.graphs-InfoBlock__statistic-secondSelector {
+	-ms-grid-column: 3;
+	grid-column: 3;
+	-ms-grid-row: 2;
+	grid-row: 2
+}
+
+.graphs-InfoBlock__statistic-firstSelector {
+	-ms-grid-column: 3;
+	grid-column: 3;
+	-ms-grid-row: 3;
+	grid-row: 3
+}
+
+.graphs-InfoBlock__statistic-column-title {
+	text-align: right
+}
+
+.graphs-InfoBlock__statistic_column-title_mainPadding {
+	padding: 0 0 var(--offset_2xs) var(--offset_m)
+}
+
+.graphs-InfoBlock__statistic_column-title_withSeparatorPadding {
+	padding: 0 var(--offset_xs) var(--offset_2xs)
+}
+
+.graphs-InfoBlock__statistic-firstLineContent-left {
+	-ms-grid-column: 1;
+	grid-column: 1;
+	-ms-grid-row: 1;
+	grid-row: 1
+}
+
+.graphs-InfoBlock__statistic-secondLineContent-left {
+	-ms-grid-column: 1;
+	grid-column: 1;
+	-ms-grid-row: 2;
+	grid-row: 2
+}
+
+.graphs-InfoBlock__statistic-firstLineContent-left,
+.graphs-InfoBlock__statistic-secondLineContent-left {
+	padding-right: var(--offset_m)
+}
+
+.graphs-InfoBlock__statistic-firstLineContent-right,
+.graphs-InfoBlock__statistic-secondLineContent-right {
+	display: flex;
+	justify-content: flex-end;
+	align-items: baseline;
+	padding-left: var(--offset_m)
+}
+
+.graphs-InfoBlock__value-textAlign-right {
+	text-align: right
+}
+
+.graphs-InfoBlock__value-noClickable {
+	pointer-events: none
+}
+
+.ws-is-hover .graphs-InfoBlock__value-clickable:hover {
+	text-decoration: underline;
+	cursor: pointer
+}
+
+.graphs-InfoBlock__dynamics,
+.graphs-InfoBlock__dynamics-periodContent {
+	display: flex;
+	width: 100%
+}
+
+.graphs-InfoBlock__statistic-column-row {
+	box-sizing: content-box;
+	min-width: 8ch
+}
+
+.graphs-InfoBlock__statistic-column-row::before {
+	content: '.';
+	width: 0;
+	display: inline-block;
+	visibility: hidden;
+	font-size: var(--font-size_3xl)
+}
+
+.graphs-InfoBlock__statistic_cell-mainPadding {
+	padding-left: var(--offset_m)
+}
+
+.graphs-InfoBlock__statistic_cell-withSeparatorPadding {
+	padding: 0 var(--offset_xs)
+}
+
+.graphs-InfoBlock__value_separator-bottom {
+	border-bottom: var(--border-thickness) solid var(--item_separator_s_color_list)
+}
+
+.graphs-InfoBlock__value_separator-right {
+	border-right: var(--border-thickness) solid var(--item_separator_s_color_list)
+}
+
+.graphs-InfoBlock__rightContent_fullWidth {
+	width: 100%;
+	min-width: 0
+}
+
+.ws-is-mac .graphs-InfoBlock__legend {
+	margin-top: calc(var(--border-thickness) * 2)
+}

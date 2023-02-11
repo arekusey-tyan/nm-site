@@ -1,0 +1,31 @@
+.complementaryFields-base-list__text-area {
+	max-height: calc(30 * var(--line-height_m_inputArea) + (2 * var(--padding-vertical_inputArea)));
+}
+
+.complementaryFields-base-list__icon-container {
+	padding-right: 4px;
+}
+
+.complementaryFields-base-list__icon-size-s {
+	height: 16px;
+	width: 16px;
+}
+
+.complementaryFields-base-list__icon-size-m {
+	height: 32px;
+	width: 32px;
+}
+
+.complementaryFields-base-list__icon-size-l {
+	height: 42px;
+	width: 42px;
+}
+
+.complementaryFields-base-list__dashed-line::after {
+	content: ' ';
+	width: 100%;
+	height: 2px;
+	display: block;
+	background-image: url("data:image/svg+xml,<svg width='6' height='1.6' xmlns='http://www.w3.org/2000/svg'><circle fill='%238991A9' cy='1.1' cx='1.1' r='0.4' id='svg_1'/></svg>");
+	background-repeat: repeat-x;
+}

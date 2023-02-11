@@ -1,0 +1,47 @@
+.edo3-Mark__red {
+	color: var(--danger_text-color)
+}
+
+.edo3-Mark__blue {
+	color: var(--link_text-color)
+}
+
+.edo3-Mark__green {
+	color: var(--success_text-color)
+}
+
+.edo3-Mark__yellow {
+	color: var(--warning_text-color)
+}
+
+.edo3-Mark__orange {
+	color: var(--primary_color)
+}
+
+.edo3-Mark__gray {
+	color: var(--unaccented_icon-color)
+}
+
+.edo3-Mark__mauve {
+	color: var(--palette_color3_3)
+}
+
+.edo3-Mark__violet {
+	color: var(--palette_color4_3)
+}
+
+.edo3-Mark__crimson {
+	color: var(--palette_color5_3)
+}
+
+.edo3-Mark__ocher {
+	color: var(--palette_color7_3)
+}
+
+.edo3-Mark__olive {
+	color: var(--palette_color9_3)
+}
+
+.edo3-Mark__azure {
+	color: var(--palette_color11_3)
+}

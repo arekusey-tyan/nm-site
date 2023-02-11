@@ -1,0 +1,54 @@
+.RatingNoticeCenterWidget__title {
+	max-width: 100%;
+	min-width: 0
+}
+
+.RatingNoticeCenterWidget__heading {
+	position: absolute
+}
+
+.RatingNoticeCenterWidget__separator-width {
+	width: 100%
+}
+
+.mot-Ratings-Widget__wrapper {
+	overflow: hidden;
+	max-width: 800px
+}
+
+.mot-Ratings-Widget__header {
+	max-width: 770px
+}
+
+.mot-Ratings-Widget__header_dashboard {
+	position: absolute
+}
+
+.mot-Ratings-Widget__raiting-title {
+	max-width: 70%
+}
+
+.mot-Ratings-Widget__raiting-title_wrapper {
+	width: 80%
+}
+
+.mot-Ratings-Widget__raiting-title_header-on-second-line {
+	max-width: 100%
+}
+
+.mot-Ratings-Widget__period_header-on-second-line {
+	flex-basis: auto;
+	padding-left: 0
+}
+
+.mot-Ratings-Widget__laggingParticipants_big-widget-width {
+	max-width: 460px
+}
+
+.mot-Ratings-Widget__separator_wrapper {
+	width: 100%
+}
+
+.ws-is-hover .RatingNoticeCenterWidget__title:hover {
+	cursor: pointer
+}

@@ -1,0 +1,68 @@
+.edws-TaskTab {
+	display: flex
+}
+
+.icon-edws-TabHeader {
+	display: inline-flex;
+	position: relative;
+	top: 4px;
+	color: var(--secondary_text-color)
+}
+
+.icon-edws-TabHeader.edws-Dialog__tabs-selected {
+	color: var(--text-color)
+}
+
+.edws-TabCount {
+	margin: 0 2px 0 2px;
+	display: inline-flex;
+	position: relative;
+	bottom: 1px;
+	min-width: 10px;
+	font-weight: 400
+}
+
+.edws-TabCount-min {
+	min-width: 0
+}
+
+.edws-TaskDialog__AttachButtonDropAreaWrapper {
+	height: 100%
+}
+
+.ws-is-desktop-safari .edws-TaskDialog__AttachButtonDropAreaWrapper {
+	height: auto;
+	display: flex;
+	min-height: 0;
+	flex-direction: column;
+	flex-grow: 1
+}
+
+.edws-TaskDialog-DiscussionsTitle {
+	margin-left: 12px;
+	font-weight: 700;
+	color: var(--text-color);
+	font-size: 15px;
+	height: 37px
+}
+
+.edws-TaskDialog-extended__rightContent {
+	position: relative
+}
+
+.edws-TaskDialog__docsHead {
+	height: 37px
+}
+
+.edws-TaskDialog-extended__rightContent .docview3-List__header,
+.edws-TaskDialog-extended__rightContent .edo3-Timeline__controlPanel {
+	height: 37px
+}
+
+.edws-TaskDialog-messages {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%
+}

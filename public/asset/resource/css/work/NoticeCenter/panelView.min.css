@@ -1,0 +1,417 @@
+.box-sizing_Panel_border-box {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+.shading_Panel-before::before {
+	content: '';
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: -12px;
+	width: 12px;
+	background: linear-gradient(to right, rgba(236, 237, 238, 0) 0, var(--notice-center_background-color, #ecedee) 100%)
+}
+
+.shading_Panel-before_unaccented::before {
+	content: '';
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: -12px;
+	width: 12px;
+	background: linear-gradient(to right, rgba(255, 255, 255, 0) 0, var(--unaccented_background-color) 100%)
+}
+
+.shading_Panel-before_white::before {
+	content: '';
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: -12px;
+	width: 12px;
+	background: linear-gradient(to right, rgba(255, 255, 255, 0) 0, #fff 100%)
+}
+
+.shading_Panel-before_hovered::before {
+	content: '';
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: -12px;
+	width: 12px;
+	background: linear-gradient(to right, rgba(243, 244, 248, 0) 0, var(--hover_background-color, #f3f4f8) 100%)
+}
+
+.shading_Notice-before_hovered_light::before {
+	content: '';
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: -12px;
+	width: 12px;
+	background: linear-gradient(to right, rgba(240, 245, 251, 0) 0, #f0f5fb 100%)
+}
+
+.shading_Panel-pseudo {
+	content: '';
+	position: absolute
+}
+
+.shading_Panel-before_position {
+	height: 100%;
+	top: 0;
+	left: -12px;
+	width: 12px
+}
+
+.shading-background_Notice_white {
+	background: linear-gradient(to right, rgba(255, 255, 255, 0) 0, #fff 100%)
+}
+
+.shading-background_Panel {
+	background: linear-gradient(to right, rgba(236, 237, 238, 0) 0, var(--notice-center_background-color, #ecedee) 100%)
+}
+
+.shading-background_Panel_unaccented {
+	background: linear-gradient(to right, rgba(255, 255, 255, 0) 0, var(--unaccented_background-color) 100%)
+}
+
+.shading-background_Panel_secondary {
+	background: linear-gradient(to right, rgba(255, 255, 255, 0) 0, var(--secondary_background-color) 100%)
+}
+
+.shading-background_Panel_hovered {
+	background: linear-gradient(to right, rgba(243, 244, 248, 0) 0, var(--hover_background-color, #f3f4f8) 100%)
+}
+
+.shading-background_Notice_hovered_light {
+	background: linear-gradient(to right, rgba(240, 245, 251, 0) 0, #f0f5fb 100%)
+}
+
+.noticeCenter-CategoryHeader {
+	position: relative;
+	padding: 0 18px;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+.noticeCenter-CategoryHeader__widget {
+	padding: 0 var(--offset_st);
+	margin: 0 var(--offset_3xs);
+	width: calc(100% - 2 * var(--offset_3xs))
+}
+
+.noticeCenter-CategoryHeader__fixed {
+	border-radius: 8px
+}
+
+.noticeCenter-CategoryHeader__fixedColored {
+	background: radial-gradient(209.49% 259.09% at 25.4% -15.15%, #fff 0, rgba(255, 255, 255, 0) 100%), var(--widget_background-color)
+}
+
+.noticeCenter-CategoryHeader__fixedTransparent {
+	background-color: var(--hover_background-color)
+}
+
+.noticeCenter-CategoryHeader__fixedWithShadow {
+	box-shadow: var(--shadow_b)
+}
+
+.noticeCenter-CategoryHeader__widgetstack {
+	background-color: var(--background-color)
+}
+
+.noticeCenter-CategoryHeader .noticeCenter-CategoryHeader__title {
+	font-weight: var(--font-weight)
+}
+
+.noticeCenter-CategoryHeader__info {
+	height: 100%;
+	margin: var(--offset_2xs) 0;
+	overflow: hidden;
+	cursor: default;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+.noticeCenter-CategoryHeader__info_clickable {
+	cursor: pointer
+}
+
+.noticeCenter-CategoryHeader__counter,
+.noticeCenter-CategoryHeader__icon {
+	margin-left: var(--offset_2xs)
+}
+
+.noticeCenter-CategoryHeader__readLink {
+	color: var(--link_text-color);
+	cursor: pointer;
+	display: none;
+	font-size: var(--font-size_xs);
+	margin-left: 12px;
+	transition: margin-right .2s step-end
+}
+
+.noticeCenter-CategoryHeader__readLink:active {
+	color: var(--secondary_text-color);
+	text-decoration: underline
+}
+
+.noticeCenter-CategoryHeader__readLink_inPopup {
+	margin-right: var(--offset_2xl)
+}
+
+.ws-is-hover .noticeCenter-CategoryHeader__readLink:hover {
+	color: var(--secondary_text-color);
+	text-decoration: underline
+}
+
+.ws-is-hover .noticeCenter-CategoryHeader:active .noticeCenter-CategoryHeader__readLink,
+.ws-is-hover .noticeCenter-CategoryHeader:hover .noticeCenter-CategoryHeader__readLink {
+	display: flex;
+	margin-right: calc(var(--icon-size_s) + var(--offset_m))
+}
+
+.ws-is-hover .noticeCenter-CategoryHeader:active .noticeCenter-CategoryHeader__readLink_inPopup,
+.ws-is-hover .noticeCenter-CategoryHeader:hover .noticeCenter-CategoryHeader__readLink_inPopup {
+	margin-right: calc(var(--icon-size_s) + var(--icon-size_m) + var(--offset_m))
+}
+
+.noticeCenter-CategoryList {
+	position: relative;
+	width: 100%
+}
+
+.noticeCenter-NoticeIcon_size_small {
+	height: var(--size_m_image);
+	width: var(--size_m_image)
+}
+
+.noticeCenter-NoticeIcon_size_medium {
+	height: 72px;
+	width: 72px
+}
+
+.noticeCenter-NoticeIcon_size_large {
+	height: 136px;
+	width: 136px
+}
+
+.noticeCenter-NoticeButtons,
+.noticeCenter-NoticeButtons__button {
+	overflow-x: hidden;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.noticeCenter-NoticeButtons__button_margin_left {
+	margin-left: 12px
+}
+
+.noticeCenter-NoticeOption {
+	margin-left: 12px;
+	cursor: pointer
+}
+
+.noticeCenter-NoticeWeb {
+	margin: 0 var(--offset_3xs);
+	min-height: var(--inline_height_xl)
+}
+
+.noticeCenter-NoticeWeb__widget {
+	margin: 0 var(--offset_3xs)
+}
+
+.noticeCenter-NoticeWeb_covered {
+	margin-top: var(--offset_xs);
+	margin-bottom: var(--offset_xs)
+}
+
+.noticeCenter-NoticeWeb_covered_first {
+	margin-top: var(--offset_2xs)
+}
+
+.noticeCenter-NoticeWeb__buttons {
+	margin-left: var(--offset_st)
+}
+
+.noticeCenter-NoticeWeb__buttons_padding_top {
+	padding-top: var(--offset_s)
+}
+
+.noticeCenter-Notice__collageNews_overlay {
+	position: relative
+}
+
+.noticeCenter-Notice__collageNews_overlay::after {
+	content: '';
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: var(--background-color);
+	opacity: 0;
+	z-index: 1
+}
+
+.ws-is-hover .noticeCenter-NoticeWeb_hover:active,
+.ws-is-hover .noticeCenter-NoticeWeb_hover:hover {
+	background-color: var(--hover_background-color, #f3f4f8)
+}
+
+.ws-is-touch .noticeCenter-NoticeWeb_hover:active {
+	background-color: var(--hover_background-color, #f3f4f8)
+}
+
+.noticeCenter-SwipeItem {
+	position: relative;
+	min-height: 32px
+}
+
+.noticeCenter-SwipeItem .noticeCenter-NoticeWeb {
+	width: calc(100% - 2 * var(--offset_3xs))
+}
+
+.noticeCenter-Panel {
+	height: 100%;
+	position: relative;
+	width: 250px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+.ws-is-old-webkit .noticeCenter-Panel {
+	-ms-grid-row-align: stretch;
+	align-self: stretch
+}
+
+.noticeCenter-Panel_stack {
+	width: 350px;
+	height: 100%
+}
+
+.noticeCenter-Panel_full {
+	width: 100%
+}
+
+.noticeCenter-Panel__headerCloseButton,
+.noticeCenter-Panel__settingsButton {
+	position: absolute;
+	top: var(--offset_st);
+	height: var(--icon-size_m);
+	z-index: 4
+}
+
+.noticeCenter-Panel__settingsButton {
+	right: calc(var(--offset_st) + var(--offset_s));
+	transition: visibility .2s step-end;
+	visibility: hidden
+}
+
+.noticeCenter-Panel__settingsButton_inPopup {
+	right: calc(var(--icon-size_m) + var(--offset_m));
+	padding-right: var(--offset_m)
+}
+
+.ws-is-hint-edit .noticeCenter-Panel__settingsButton,
+.ws-is-hint-view .noticeCenter-Panel__settingsButton {
+	visibility: visible
+}
+
+.noticeCenter-Panel__headerCloseButton {
+	right: var(--offset_m);
+	width: var(--icon-size_m)
+}
+
+.noticeCenter-Panel__buttonsOffset,
+.noticeCenter-Panel__buttonsOffset_inPopup {
+	transition: margin-right .2s step-end
+}
+
+.noticeCenter-Panel__buttonsOffset_inPopup {
+	margin-right: calc(var(--icon-size_m) + var(--offset_m))
+}
+
+.noticeCenter-Panel__scroll {
+	height: 100%;
+	max-height: 100%
+}
+
+.ws-is-old-webkit .noticeCenter-Panel__scroll {
+	-webkit-box-flex: 1;
+	flex-grow: 1
+}
+
+.noticeCenter-Panel__scrollContent_empty {
+	height: 100%
+}
+
+.controls-Scroll__background-Shadow_style-NoticeCustomBg_theme-default {
+	background-image: linear-gradient(var(--notice-center_background-color, #ecedee) 25%, rgba(255, 255, 255, 0)), linear-gradient(rgba(255, 255, 255, 0), var(--notice-center_background-color, #ecedee) 75%), linear-gradient(to bottom, rgba(0, 0, 0, .15), rgba(0, 0, 0, 0)), linear-gradient(to top, rgba(0, 0, 0, .15), rgba(0, 0, 0, 0))
+}
+
+.controls-Scroll__background-Shadow_style-NoticeUnaccentedCustomBg_theme-default {
+	background-image: linear-gradient(var(--unaccented_background-color) 25%, rgba(255, 255, 255, 0)), linear-gradient(rgba(255, 255, 255, 0), var(--unaccented_background-color) 75%), linear-gradient(to bottom, rgba(0, 0, 0, .15), rgba(0, 0, 0, 0)), linear-gradient(to top, rgba(0, 0, 0, .15), rgba(0, 0, 0, 0))
+}
+
+.controls-background-NoticeCustomBg {
+	background-color: transparent
+}
+
+.controls-StickyBlock__topGapFix-NoticeCustomBg {
+	box-shadow: 0 -1px 0 0 rgba(255, 255, 255, 0)
+}
+
+.noticeCenter-Panel__categoryHeader_padding_left {
+	padding-left: calc(var(--offset_s) + var(--offset_xs))
+}
+
+.noticeCenter-Panel__background {
+	background-color: var(--notice-center_background-color, #ecedee)
+}
+
+.noticeCenter-Panel__background_unaccented {
+	background-color: var(--unaccented_background-color)
+}
+
+.noticeCenter-Panel__background_error {
+	background-color: var(--background-color)
+}
+
+.noticeCenter-Panel__background_transparent {
+	background-color: transparent
+}
+
+.noticeCenter-Panel__padding_top {
+	padding-top: var(--offset_xs)
+}
+
+.noticeCenter-Panel__category_margin_bottom {
+	margin: 0 0 var(--offset_xs)
+}
+
+.ws-is-hover .noticeCenter-Panel:hover .noticeCenter-Panel__settingsButton {
+	visibility: visible
+}
+
+.ws-is-hover .noticeCenter-Panel:hover .noticeCenter-Panel__buttonsOffset {
+	margin-right: calc(var(--icon-size_s) + var(--offset_m))
+}
+
+.ws-is-hover .noticeCenter-Panel:hover .noticeCenter-Panel__buttonsOffset_inPopup {
+	margin-right: calc(var(--icon-size_s) + var(--icon-size_m) + 2 * var(--offset_m))
+}
+
+.dashboard-BaseWidget__withOverflow .noticeCenter-Panel__stickyBlock {
+	position: static
+}
+
+.noticeCenter-Controller {
+	height: 100%;
+	position: relative
+}

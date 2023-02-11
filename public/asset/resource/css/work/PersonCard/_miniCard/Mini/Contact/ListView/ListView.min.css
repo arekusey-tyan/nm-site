@@ -1,0 +1,77 @@
+.personCard-ContactListView__item {
+	position: relative;
+	padding: 5px 0;
+}
+
+.personCard-ContactListView__contacts {
+	font-size: var(--font-size_m);
+	color: var(--label_text-color);
+	height: 100%;
+}
+
+.personCard-ContactListView__pathShadow {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-right: 0;
+	height: var(--inline_height_m);
+	width: 40px;
+	background: linear-gradient(to right,rgba(255,255,255,0) 0,#fff 100%);
+}
+
+.personCard-ContactListView__value {
+	margin: 0 var(--offset_xs);
+	color: var(--text-color);
+	display: flex;
+	align-items: baseline;
+}
+
+.personCard-ContactListView__comment {
+	font-size: var(--font-size_xs);
+	color: var(--unaccented_color);
+	margin-left: var(--offset_s);
+	text-overflow: ellipsis;
+	overflow: hidden;
+	cursor: default;
+}
+
+.personCard-ContactListView__moreBtn {
+	cursor: pointer;
+	color: var(--link_hover_text-color_inline);
+	line-height: var(--inline_height_m);
+}
+
+.personCard-ContactListView__city {
+	min-width: 0;
+}
+
+.personCard-ContactListView__socnets {
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+}
+
+.personCore-ContactList__popUpWindow {
+	height: 100%;
+}
+
+.personCore-ContactList__mobileAppContainer {
+	margin-left: var(--offset_s);
+}
+
+.personCard-ContactListView__value .personCore-PhoneCallLinkButton__button_empty {
+	color: var(--text-color);
+}
+
+.personCard-ContactListView__messengersCell .personCore-ContactList__messenger {
+	margin: 0 var(--offset_xs) 0 0;
+}
+
+.personCard-ContactListView__messengersCell .icon-primary {
+	color: var(--readonly_color);
+	z-index: 5;
+}
+
+.ws-is-hover .personCard-ContactListView__moreBtn:hover {
+	color: var(--link_text-color_inline);
+}

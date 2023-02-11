@@ -1,0 +1,236 @@
+.edo3-ActiveFileViewer {
+	width: 100%;
+}
+
+.edo3-ActiveStage__comment {
+	background-color: var(--background-color);
+}
+
+.edo3-ActiveStage__cursorText {
+	cursor: text;
+}
+
+.edo3-ActiveStage__minTextWidth {
+	min-width: 20%;
+}
+
+.edo3-PassagePanelContent {
+	height: auto;
+	min-height: 0;
+	width: 100%;
+}
+
+.edo3-PassagePanelContent__signing {
+	padding-left: 36px;
+	padding-right: 16px;
+	background-color: var(--unaccented_background-color);
+}
+
+.edo3-PassagePanelContent__signing-certsChooser {
+	margin-left: -6px;
+}
+
+.edo3-PassagePanelContent__scroll-container {
+	height: 100%;
+}
+
+.edo3-PassagePanelContent__active-event {
+	padding-left: 36px;
+	padding-right: 16px;
+}
+
+.edo3-PassagePanelContent__timeMark {
+	padding: 0;
+	margin-left: -36px;
+	margin-right: -12px;
+	min-height: 0;
+}
+
+.edo3-PassagePanelContent__footer {
+	height: 100%;
+}
+
+.edo3-PassagePanelContent__activeStageText {
+	word-break: break-word;
+	white-space: pre-line;
+}
+
+.edo3-PassagePanelContent__agreementInitiatorName {
+	max-width: 140px;
+}
+
+.edo3-Signature-panel {
+	height: 100%;
+}
+
+.edo3-Signature-panel__content {
+	padding: 0 16px 0 36px;
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+}
+
+.edo3-Signature-panel__title {
+	height: 24px;
+	padding-top: 9px;
+	display: flex;
+	padding-right: 44px;
+	align-items: center;
+}
+
+.edo3-Signature-panel__title>* {
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.edo3-Signature-panel__text {
+	font-size: 15px;
+	color: var(--readonly_marker-color);
+	font-weight: 700;
+	max-width: 230px;
+	line-height: 14px;
+}
+
+.edo3-Signature-panel__date {
+	font-size: 14px;
+	margin-left: 8px;
+	color: var(--unaccented_color);
+}
+
+.edo3-Signature-panel__duration {
+	font-size: 12px;
+	margin-left: 4px;
+	color: var(--readonly_color);
+}
+
+.edo3-Signature-panel__executor {
+	padding-top: 6px;
+	display: flex;
+}
+
+.edo3-Signature-panel__executor--photo {
+	padding-right: 6px;
+	flex: 0 0 auto;
+}
+
+.edo3-Signature-panel__executor--name {
+	font-size: 15px;
+	font-weight: 700;
+	max-width: 400px;
+	flex: 0 1 auto;
+}
+
+.edo3-Signature-panel__executor--rank {
+	font-size: 12px;
+	color: var(--unaccented_color);
+	line-height: 21px;
+	max-width: 350px;
+	height: 19px;
+	padding-left: 4px;
+	flex: 0 1 auto;
+}
+
+.edo3-Signature-panel__text-area {
+	padding-top: 6px;
+	overflow: hidden;
+}
+
+.edo3-Signature-panel__text-area .edo3-Signature-panel__comment {
+	width: 100%;
+}
+
+.edo3-Signature-panel__activate-panel {
+	padding-top: 10px;
+}
+
+.edo3-Signature-panel__arrows-area,.edo3-Signature-panel__buttons-area,.edo3-Signature-panel__contragent-area,.edo3-Signature-panel__negative-answer {
+	flex-direction: column;
+}
+
+.edo3-Signature-panel__arrows-area,.edo3-Signature-panel__buttons-area {
+	flex: 0 0 auto;
+}
+
+.edo3-Signature-panel__contragent-area {
+	flex: 0 1 auto;
+}
+
+.edo3-Signature-panel__arrows {
+	padding: 7px 4px 4px;
+}
+
+.edo3-Signature-panel__arrow {
+	padding: 8px 8px;
+}
+
+.edo3-Signature-panel__button-area,.edo3-Signature-panel__positive-answer {
+	padding: 8px 0;
+}
+
+.edo3-Signature-panel__button {
+	width: 100%;
+}
+
+.edo3-Signature-panel__positive-answer {
+	height: 24px;
+	line-height: 24px;
+}
+
+.edo3-Signature-panel__negative-answer {
+	padding-top: 11px;
+}
+
+.edo3-Signature-panel__negative-answer--send-message {
+	height: 18px;
+}
+
+.edo3-Signature-panel__return-refuse {
+	padding-top: 6px;
+	display: flex;
+}
+
+.edo3-Signature-panel__return-refuse--photo {
+	padding-right: 6px;
+}
+
+.edo3-PassageTitles {
+	width: 100%;
+}
+
+.edo3-PassageTitles .edo3-PassageTitles__main-label {
+	color: var(--readonly_marker-color);
+	font-size: 14px;
+	height: 24px;
+	line-height: 24px;
+	margin-right: 8px;
+	font-weight: 700;
+}
+
+.edo3-PassageTitles .edo3-PassageTitles__show-hide-icon {
+	padding-top: 2px;
+}
+
+.edo3-PassageTitles__headline {
+	height: 30px;
+}
+
+.edo3-PassageTitles__cargo-accepted--dropdown-title {
+	width: 100%;
+}
+
+.edo3-PassageTitles__item {
+	height: 30px;
+	padding: 4px 0;
+}
+
+.edo3-PassageTitles__item--label {
+	min-width: 90px;
+}
+
+.edo3-PassageTitles__item--text-box {
+	flex: 1 1 auto;
+}
+
+.edo3-PassageTitles__item--text-box>* {
+	width: 100%;
+}

@@ -1,0 +1,183 @@
+.graphs-View {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between
+}
+
+.graphs-View_full {
+	height: calc(var(--graph_height_Graphs-comparison) + var(--period_height_Graphs-comparison) + var(--offset_2xs) + var(--infoblock_value_height_Graphs-comparison) * 2 + var(--offset_2xs) + var(--axis_tick_length_Graphs-comparison) + var(--axis_label_height_Graphs-comparison))
+}
+
+.graphs-View_onlyInfoDataAndCharts {
+	height: calc(var(--graph_height_Graphs-comparison) + var(--infoblock_value_height_Graphs-comparison) * 2 + var(--offset_2xs) + var(--axis_tick_length_Graphs-comparison) + var(--axis_label_height_Graphs-comparison))
+}
+
+.graphs-View_onlyInfoSelectorsAndCharts {
+	height: calc(var(--graph_height_Graphs-comparison) + var(--period_height_Graphs-comparison) + var(--infoblock_value_height_Graphs-comparison) + var(--offset_2xs) + var(--axis_tick_length_Graphs-comparison) + var(--axis_label_height_Graphs-comparison))
+}
+
+.graphs-View_onlyCharts {
+	height: calc(var(--graph_height_Graphs-comparison) + var(--offset_2xs) + var(--axis_tick_length_Graphs-comparison) + var(--axis_label_height_Graphs-comparison))
+}
+
+.graphs-View__charts {
+	direction: ltr;
+	display: flex;
+	min-height: 1px
+}
+
+.graphs-View__InfoBlock {
+	width: 100%
+}
+
+.graphs-View__LinearChart {
+	flex-shrink: 1;
+	width: 100%;
+	min-width: 240px
+}
+
+.graphs-View__LinearChart--full {
+	width: 100%
+}
+
+.graphs-View__ColumnChart {
+	z-index: 1
+}
+
+.graphs-View__ColumnChart--normal {
+	width: var(--columns_graph_width_Graphs-comparison);
+	min-width: var(--columns_graph_width_Graphs-comparison)
+}
+
+.graphs-View__ColumnChart--compact {
+	width: var(--columns_graph_compact_width_Graphs-comparison);
+	min-width: var(--columns_graph_compact_width_Graphs-comparison)
+}
+
+.graphs-View__ColumnChart--compact .highcharts-xaxis-labels {
+	display: none
+}
+
+.graphs-View__top {
+	z-index: 1;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	justify-self: flex-start;
+	margin-bottom: calc(-1 * (var(--graph_offset_negative_Graphs-comparison) + var(--offset_2xs)))
+}
+
+.graphs-View__empty {
+	height: 100%;
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: var(--label_text-color);
+	text-align: center
+}
+
+.graphs-View__emptyTitle {
+	font-size: var(--font-size_5xl);
+	line-height: var(--graph_placeholder_heading_height_Graphs-comparison);
+	margin-bottom: var(--offset_m)
+}
+
+.graphs-View__emptyDescription {
+	font-size: var(--font-size_l);
+	line-height: var(--inline_height_s)
+}
+
+.graphs-TreeView__charts {
+	display: flex;
+	margin-bottom: var(--offset_m);
+	padding: 0 var(--offset_m);
+	box-sizing: border-box;
+	height: 223px;
+	flex-shrink: 0;
+	align-items: center
+}
+
+.graphs-TreeView__chartsWrapper {
+	display: flex;
+	width: 100%
+}
+
+.graphs-TreeView__InfoBlock {
+	width: 100%;
+	box-sizing: border-box
+}
+
+.graphs-TreeView__InfoBlock_height {
+	height: 76px
+}
+
+.graphs-TreeView__LinearChart {
+	flex-shrink: 1;
+	width: 100%;
+	min-width: 1px;
+	overflow: hidden
+}
+
+.graphs-TreeView__ColumnChart {
+	width: var(--columns_graph_width_Graphs-comparison);
+	min-width: var(--columns_graph_width_Graphs-comparison);
+	z-index: 1
+}
+
+.graphs-TreeView__infoBlock-top {
+	display: flex;
+	justify-content: space-around
+}
+
+.graphs-TreeView__topTemplate {
+	height: var(--inline_height_m)
+}
+
+.graphs-TreeView__wrapper {
+	position: relative;
+	height: 100%
+}
+
+.graphs-TreeView__charts__gridHeader {
+	z-index: 5;
+	width: 100%
+}
+
+.graphs-TreeView__charts__gridHeader-position {
+	position: absolute
+}
+
+.graphs-TreeView__table_padding-right {
+	padding-right: var(--offset_m)
+}
+
+.graphs-TreeView__table_padding-left {
+	padding-left: var(--offset_m)
+}
+
+.graphs-LinearChart .highcharts-graph {
+	transition: stroke-width .2s ease
+}
+
+.graphs-LinearChart .highcharts-series-0.highcharts-series-hover .highcharts-graph,
+.graphs-LinearChart .highcharts-series-1.highcharts-series-hover .highcharts-graph {
+	stroke-width: 3
+}
+
+.graphs-LinearChart .highcharts-series-2.highcharts-series-hover .highcharts-graph {
+	stroke-width: 2
+}
+
+.graphs-LinearChart__gradient_svg {
+	height: 0;
+	position: absolute
+}
+
+.ar .graphs-ColumnChart .highcharts-xaxis-labels,
+.he .graphs-ColumnChart .highcharts-xaxis-labels {
+	font-size: var(--font-size_2xs)
+}

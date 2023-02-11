@@ -1,0 +1,159 @@
+.ws-is-no-touch:not(.ws-is-mobile-platform) .msg-theme-view_itemActionsV-hidden .controls-itemActionsV__action:not(.controls-itemActionsV__action_style_msg-theme-action) {
+	display: none;
+}
+
+.ws-is-hover .controls-icon_highlightOnHover_msg-channel_theme-online:hover {
+	fill: #f9f9f9;
+	color: #f9f9f9;
+}
+
+.msg-channel-list__empty {
+	padding: 120px 8px 0 8px;
+}
+
+.msg-channel-list__empty-default {
+	color: var(--unaccented_text-color);
+	text-align: center;
+	font-size: 15px;
+	padding: 8px 0;
+}
+
+.msg-channel-list__before-scroll {
+	visibility: hidden;
+}
+
+.ws-is-no-touch:not(.ws-is-mobile-platform) .msg-channel-list__item-search.msg-channel-list__item-search {
+	cursor: pointer;
+}
+
+.ws-is-no-touch:not(.ws-is-mobile-platform) .msg-theme-view_itemActionsV_position.msg-theme-view_itemActionsV_padding_s.msg-theme-view_itemActionsV-hidden:not(.controls-itemActionsV_editingToolbarVisible) {
+	right: 8px;
+}
+
+.msg-blockquote_cursor_pointer .contacts-Blockquote,.msg-blockquote_cursor_pointer .msg-blockquote {
+	cursor: pointer;
+}
+
+.msg-channel-view {
+	width: 100%;
+	height: 100%;
+}
+
+.msg-channel-view .msg-channel-view__item:last-child .msg-theme-view__itemActionsV_editing {
+	right: 0;
+	bottom: 30px;
+}
+
+.msg-channel-view .msg-channel-view__item .msg-theme-view__itemActionsV_editing {
+	right: 0;
+	bottom: 7px;
+}
+
+.msg-channel-view__editor_ie {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	z-index: 30;
+}
+
+.msg-channel-view__send-cloud {
+	margin-right: 8px;
+	pointer-events: auto;
+}
+
+.msg-channel-view__pin-ie {
+	height: 100%;
+}
+
+.msg-channel-view__scroll_grey {
+	background: linear-gradient(to top,rgba(255,255,255,.7),rgba(255,255,255,.7)),url(/cdn/OnlineCDN/themes/1.0.0/background.jpg) fixed;
+}
+
+.msg-channel-view_typing_enabled .msg-channel-list_end-loaded .msg-channel-view__item:last-child.msg-channel-view__item-padding {
+	padding-bottom: 16px;
+}
+
+.msg-channel-view_typing_enabled .msg-channel-list_end-loaded .msg-channel-view__item:last-child.msg-channel-view__item-padding .msg-theme-view__itemActionsV_editing {
+	padding-bottom: 16px;
+}
+
+.msg-channel-view_typing_enabled .msg-channel-list_end-loaded .msg-channel-view__item:last-child.msg-channel-view__item-padding .msg-theme-view__itemActionsV_editing.msg-theme-view_itemActionsV_position {
+	margin-bottom: 10px;
+}
+
+.ws-is-no-touch:not(.ws-is-mobile-platform) .msg-channel-view_typing_enabled .msg-channel-list_end-loaded .msg-channel-view__item:last-child.msg-channel-view__item-padding .msg-theme-view_itemActionsV_position:not(.controls-itemActionsV_editingToolbarVisible) {
+	bottom: 18px;
+}
+
+.msg-channel-view_typing_enabled .msg-channel-list_end-loaded .msg-channel-view__item:last-child.msg-channel-view__item-padding-paging_unread-threads {
+	padding-bottom: 36px;
+}
+
+.msg-channel-view_typing_enabled .msg-channel-list_end-loaded .msg-channel-view__item:last-child.msg-channel-view__item-padding-paging_unread-threads .msg-theme-view__itemActionsV_editing {
+	bottom: 24px;
+}
+
+.msg-channel-view_typing_enabled .msg-channel-list_end-loaded .msg-channel-view__item:last-child.msg-channel-view__item-padding-paging_unread-threads .msg-theme-view__itemActionsV_editing.msg-theme-view_itemActionsV_position {
+	margin-bottom: 30px;
+}
+
+.ws-is-no-touch:not(.ws-is-mobile-platform) .msg-channel-view_typing_enabled .msg-channel-list_end-loaded .msg-channel-view__item:last-child.msg-channel-view__item-padding-paging_unread-threads .msg-theme-view_itemActionsV_position:not(.controls-itemActionsV_editingToolbarVisible) {
+	bottom: 38px;
+}
+
+.msg-channel-view_typing_enabled .msg-channel-list_end-loaded .msg-channel-view__item:last-child.msg-channel-view__item-padding-paging {
+	padding-bottom: 24px;
+}
+
+.msg-channel-view_typing_enabled .msg-channel-list_end-loaded .msg-channel-view__item:last-child.msg-channel-view__item-padding-paging .msg-theme-view__itemActionsV_editing.msg-theme-view_itemActionsV_position {
+	margin-bottom: 18px;
+}
+
+.ws-is-no-touch:not(.ws-is-mobile-platform) .msg-channel-view_typing_enabled .msg-channel-list_end-loaded .msg-channel-view__item:last-child.msg-channel-view__item-padding-paging .msg-theme-view_itemActionsV_position:not(.controls-itemActionsV_editingToolbarVisible) {
+	bottom: 26px;
+}
+
+.msg-channel-view-loading .msg-channel-view__list {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	min-height: 100%;
+	background-color: transparent!important;
+}
+
+.msg-channel-view__bottom {
+	max-height: 400px;
+}
+
+.msg-channel-view__scroll {
+	height: 100%;
+}
+
+.msg-channel-view__scroll-s {
+	max-height: calc(100% - 43px);
+}
+
+.msg-channel-view__scroll-default {
+	max-height: 100%;
+}
+
+.ws-is-desktop-safari .msg-channel-view__scroll-content,.ws-is-mobile-safari .msg-channel-view__scroll-content {
+	will-change: scroll-position,transform;
+	transform: translate3d(0,0,0);
+}
+
+.msg-channel-view-loading-hidden {
+	visibility: hidden;
+}
+
+.msg-channel-view__list-content {
+	margin-bottom: auto;
+}
+
+.edws-TaskDialog-messages .msg-channel-view_without-scroll .controls-BaseControl__pagingContainer {
+	bottom: var(--msg-editor-size,6px);
+}
+
+.msg-channel-view__list-content-full-height {
+	height: 100%;
+}

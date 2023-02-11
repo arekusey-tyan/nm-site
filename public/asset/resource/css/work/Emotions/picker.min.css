@@ -1,0 +1,8 @@
+.emotions-Button__emoji {
+	border-radius: var(--border-radius_2xs);
+	cursor: pointer;
+}
+
+.ws-is-hover .emotions-Button__emoji:hover {
+	background-color: var(--emotions-button_background-color,var(--unaccented_background-color));
+}

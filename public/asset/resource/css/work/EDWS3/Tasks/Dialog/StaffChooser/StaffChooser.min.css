@@ -1,0 +1,178 @@
+.edws-StaffChooser__photo {
+    flex-basis: 40px;
+}
+
+.edws-StaffChooser__lookup {
+    flex-basis: 100%;
+    margin-left: 6px;
+}
+
+.edws-StaffChooser__lookup.edws-nonePhoto {
+    margin-left: 0;
+}
+
+.edws-StaffChooser__lookup-placeholder {
+    white-space: pre;
+}
+
+.edws-StaffChooser__lookupLink {
+    font-size: 12px;
+    color: var(--unaccented_color);
+    padding-bottom: 3px;
+}
+
+.edws-StaffChooser__lookupLinkBeside {
+    margin-left: 38px;
+    margin-right: 6px;
+    max-width: 280px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.edws-StaffChooser__Suggest-subMenuItem {
+    padding-right: 12px;
+}
+
+.edws-StaffChooser__Suggest-subMenuIcon {
+    position: absolute;
+    right: 8px;
+}
+
+.edws-StaffChooser__Suggest-subMenuIcon_workingGroups {
+    top: 8px;
+}
+
+.edws-StaffChooser__Suggest-subMenuIcon_responsible {
+    top: 5px;
+}
+
+.edws-StaffChooser__Suggest-ResponsibleComment {
+    font-size: 12px;
+    color: var(--unaccented_text-color);
+}
+
+.edws-StaffChooser__Suggest-personInfoContainer {
+    padding-top: 4px;
+}
+
+.edws-StaffChooser__Suggest-photo {
+    flex-basis: 24px;
+}
+
+.edws-StaffChooser__Suggest-personInfo {
+    flex-basis: 100%;
+    padding-left: 4px;
+}
+
+.edws-StaffChooser__Suggest-personName {
+    font-size: 15px;
+    max-width: 70%;
+}
+
+.edws-StaffChooser__Suggest-personPost {
+    flex-basis: 15%;
+    font-size: 12px;
+    color: var(--unaccented_text-color);
+    padding-left: 4px;
+}
+
+.edws-StaffChooser__Suggest-ResponsibleItemTemplate-container {
+    height: 40px;
+}
+
+.edws-StaffChooser__Suggest-ResponsibleItemTemplate-photo {
+    flex-basis: 32px;
+    min-width: 0;
+}
+
+.edws-StaffChooser__Suggest-ResponsibleItemTemplate-personInfo {
+    height: 32px;
+    min-width: 0;
+    padding-left: 6px;
+}
+
+.edws-StaffChooser__Suggest-ResponsibleItemTemplate-personName {
+    height: 17px;
+    font-size: 15px;
+}
+
+.edws-StaffChooser__Suggest-ResponsibleItemTemplate-personPost {
+    height: 15px;
+    font-size: 14px;
+    color: var(--readonly_text-color);
+}
+
+.edws-StaffChooser__Suggest-personMsg {
+    flex-basis: 15%;
+}
+
+.edws-StaffChooser-Suggest__depPhotoCollage {
+    flex-basis: 40px;
+}
+
+.edws-StaffChooser-Suggest__depName {
+    height: 38px;
+    flex-basis: 100%;
+    font-size: 15px;
+    margin-left: 6px;
+}
+
+.edws-StaffChooser__itemTpl:hover,.edws-StaffChooser__lookupContainer:hover .edws-StaffChooser__lookupLinkBeside-name {
+    cursor: pointer;
+    text-decoration: underline;
+    -webkit-text-decoration-color: var(--readonly_marker-color);
+    text-decoration-color: var(--readonly_marker-color);
+}
+
+.edws-StaffChooser__itemTpl-name {
+    color: var(--secondary_text-color);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.edws-StaffChooser__lookupLinkBeside-name {
+    color: var(--text-color);
+    font-size: 14px;
+}
+
+.edws-StaffChooser__itemTpl-zone {
+    color: var(--unaccented_text-color);
+    font-size: 12px;
+}
+
+.edws-StaffChooser__itemTpl-zone:before {
+    content: ' / ';
+    font-size: 14px;
+}
+
+.edws-StaffChooser__Suggest-workAreaButton {
+    padding-left: 8px;
+}
+
+.edws-StaffChooser__Suggest_list {
+    min-width: 210px;
+}
+
+.edws-StaffChooser__Suggest_list-withZone {
+    min-width: 230px;
+}
+
+.edws-StaffChooser__Footer {
+    height: 24px;
+    padding: 0 8px 0 8px;
+    margin-left: auto;
+    margin-right: 12px;
+}
+
+.edws-StaffChooser__suggestTemplate_fio {
+    font-size: var(--font-size_l);
+}
+
+.edws-StaffChooser__validateContainer {
+    display: contents;
+}
+
+.ws-is-ie .edws-StaffChooser__lookup,.ws-is-ie .edws-StaffChooser__validateContainer {
+    width: 100%;
+}

@@ -1,0 +1,18 @@
+.msg-send-editor-placeholder {
+	width: 100%;
+	box-sizing: border-box;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.msg-send-editor-placeholder_padding-s {
+	padding-right: 34px;
+}
+
+.msg-send-editor-placeholder_padding-m {
+	padding-right: 68px;
+}
+
+.msg-send-editor-placeholder_padding-l {
+	padding-right: 102px;
+}

@@ -1,0 +1,101 @@
+.hint-helpButton__iconWrapper-extended {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: var(--icon-size_l);
+	width: var(--icon-size_l)
+}
+
+.hint-helpButton__iconWrapper-extended:first-child {
+	padding-top: var(--offset_xs);
+	border-radius: var(--border-radius_xl) var(--border-radius_xl) 0 0
+}
+
+.hint-helpButton__iconWrapper-extended:last-child {
+	padding-bottom: var(--offset_3xs);
+	border-radius: 0 0 var(--border-radius_xl) var(--border-radius_xl)
+}
+
+.hint-helpButton__icon-extended {
+	background-position: center center;
+	background-repeat: no-repeat
+}
+
+.hint-helpButton__icon-selection {
+	background-image: url("./images/selection.svg?x_module=589e6f1a80e20b3ecef0fa757cdce6b2")
+}
+
+.ws-is-hover .hint-helpButton__icon-selection:hover {
+	background-image: url("./images/selection-hover.svg?x_module=589e6f1a80e20b3ecef0fa757cdce6b2")
+}
+
+.hint-helpButton__icon-cursor {
+	background-image: url("./images/cursor.svg?x_module=589e6f1a80e20b3ecef0fa757cdce6b2");
+	height: calc(var(--icon-size_l) - var(--icon-size_2xs));
+	width: calc(var(--icon-size_l) - var(--icon-size_2xs))
+}
+
+.ws-is-hover .hint-helpButton__icon-cursor:hover {
+	background-image: url("./images/cursor-hover.svg?x_module=589e6f1a80e20b3ecef0fa757cdce6b2")
+}
+
+.hint-helpButton__addBanner {
+	background-image: url("./images/addBanner.svg?x_module=589e6f1a80e20b3ecef0fa757cdce6b2")
+}
+
+.ws-is-hover .hint-helpButton__addBanner:hover {
+	background-image: url("./images/addBanner-hover.svg?x_module=589e6f1a80e20b3ecef0fa757cdce6b2")
+}
+
+.hint-helpButton__routesList {
+	background-image: url("./images/routesList.svg?x_module=589e6f1a80e20b3ecef0fa757cdce6b2")
+}
+
+.ws-is-hover .hint-helpButton__routesList:hover {
+	background-image: url("./images/routesList-hover.svg?x_module=589e6f1a80e20b3ecef0fa757cdce6b2")
+}
+
+.hint-helpButton__finish {
+	background-image: url("./images/finish.svg?x_module=589e6f1a80e20b3ecef0fa757cdce6b2")
+}
+
+.ws-is-hover .hint-helpButton__finish:hover {
+	background-image: url("./images/finish-hover.svg?x_module=589e6f1a80e20b3ecef0fa757cdce6b2")
+}
+
+.hint-helpButton__close {
+	background-image: url("./images/close.svg?x_module=589e6f1a80e20b3ecef0fa757cdce6b2")
+}
+
+.ws-is-hover .hint-helpButton__close:hover {
+	background-image: url("./images/close-hover.svg?x_module=589e6f1a80e20b3ecef0fa757cdce6b2")
+}
+
+.hint-helpButton__iconSeparator {
+	background-color: var(--info_active_same_background-color);
+	height: var(--border-thickness)
+}
+
+.ws-is-hover .hint-helpButton__iconWrapper-extended:hover {
+	background-color: var(--info_active_same_background-color)
+}
+
+.ws-is-hover .hint-helpButton__iconWrapper-extended:hover .hint-helpButton__icon-selection {
+	background-image: url("./images/selection-hover.svg?x_module=589e6f1a80e20b3ecef0fa757cdce6b2")
+}
+
+.ws-is-hover .hint-helpButton__iconWrapper-extended:hover .hint-helpButton__icon-cursor {
+	background-image: url("./images/cursor-hover.svg?x_module=589e6f1a80e20b3ecef0fa757cdce6b2")
+}
+
+.ws-is-hover .hint-helpButton__iconWrapper-extended:hover .hint-helpButton__addBanner {
+	background-image: url("./images/addBanner-hover.svg?x_module=589e6f1a80e20b3ecef0fa757cdce6b2")
+}
+
+.ws-is-hover .hint-helpButton__iconWrapper-extended:hover .hint-helpButton__finish {
+	background-image: url("./images/finish-hover.svg?x_module=589e6f1a80e20b3ecef0fa757cdce6b2")
+}
+
+.ws-is-hover .hint-helpButton__iconWrapper-extended:hover .hint-helpButton__close {
+	background-image: url("./images/close-hover.svg?x_module=589e6f1a80e20b3ecef0fa757cdce6b2")
+}

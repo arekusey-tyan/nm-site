@@ -1,0 +1,62 @@
+.textEditor_base_Placeholder {
+	position: absolute;
+	pointer-events: none;
+	color: var(--readonly_color);
+	top: 0;
+	z-index: 1;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 100%;
+}
+
+.textEditor_base_Placeholder_lineHeight-s {
+	--line-height_Editor-Base: 129%;
+	line-height: var(--line-height_Editor-Base);
+}
+
+.textEditor_base_Placeholder_lineHeight-m {
+	--line-height_Editor-Base: 150%;
+	line-height: var(--line-height_Editor-Base);
+}
+
+.textEditor_base_editor {
+	position: relative;
+	flex-grow: 1;
+	word-break: break-word;
+	height: 100%;
+	display: flex;
+	min-height: var(--inline_height_xs);
+}
+
+.ws-is-hover .textEditor_base_editor a.asLink:hover {
+	text-decoration: none;
+}
+
+.textEditor_base_wrapper {
+	width: 100%;
+	height: 100%;
+}
+
+.textEditor_base_plainEditor {
+	width: 100%;
+	height: 100%;
+}
+
+.textEditor_base_toolbarContainer {
+	position: relative;
+	flex-grow: 1;
+	word-break: break-word;
+	width: 100%;
+}
+
+.textEditor_base_toolbarTarget {
+	position: absolute;
+	visibility: hidden;
+	width: 1px;
+	height: 1px;
+}
+
+.textEditor_base_toolbar_hide {
+	visibility: hidden;
+}

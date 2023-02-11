@@ -1,0 +1,160 @@
+.docview3-Card {
+	box-sizing: border-box;
+	cursor: pointer;
+	position: relative;
+	line-height: 1.25;
+}
+
+.docview3-Card .crm_Leads__tile {
+	margin-top: -5px;
+}
+
+.docview3-Card_decoratedLink {
+	text-decoration: none;
+	min-height: 0;
+}
+
+.docview3-Card_decoratedLink-image {
+	margin: 0;
+}
+
+.docview3-Card__full-height {
+	height: 100%;
+}
+
+.docview3-Card_milestone {
+	text-align: right;
+}
+
+.docview3-Card_full-width {
+	width: 100%;
+}
+
+.docview3-Card_min-width {
+	min-width: 0;
+}
+
+.docview3-Card__work-item {
+	max-width: 30%;
+}
+
+.docview3-Card__block {
+	min-width: 100px;
+}
+
+.docview3-Card__block-contact {
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+	max-width: 100%;
+}
+
+.docview3-Card_contractor__logo-container {
+	width: var(--size_3xl_image);
+	height: var(--size_3xl_image);
+}
+
+.docview3-Card_contractor__director-container {
+	width: var(--size_l_image);
+	height: var(--size_l_image);
+}
+
+.docview3-Card_contractor__logo-image {
+	object-fit: contain;
+	width: 100%;
+	height: 100%;
+	border-radius: var(--border-radius_m_image);
+}
+
+.docview3-Card_files {
+	margin-right: calc(-1 * var(--offset_2xs));
+	padding-right: var(--offset_2xs);
+}
+
+.docview3-Card_files .controls-TileView {
+	justify-content: flex-end;
+}
+
+.docview3-Card__toolbar {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 100;
+	border-radius: var(--border-radius_default_block) 0;
+	border-style: solid;
+	border-width: 1px 0 0 1px;
+	border-color: var(--separator_color);
+}
+
+.docview3-Card__toolbar_visibility-onhover {
+	opacity: 0;
+	pointer-events: none;
+}
+
+.ws-is-hover .docview3-Card:hover .docview3-Card__toolbar_visibility-onhover {
+	opacity: unset;
+	pointer-events: auto;
+}
+
+.docview3-Card__top-first-line {
+	max-width: 100%;
+}
+
+.docview3-Card_line-height-s {
+	line-height: 1.1;
+}
+
+.docview3-Card_workList-width {
+	width: calc(100% - 25px);
+}
+
+.docview3-Card-topTemplate {
+	z-index: 10;
+	position: absolute;
+	top: var(--offset_xs);
+	left: var(--offset_xs);
+	width: 100%;
+}
+
+.docview3-Card__tileToolbar {
+	background: var(--secondary_background-color);
+	border-top-left-radius: 8px;
+	padding-right: 6px;
+}
+
+.docview3-Card__tileToolbar.controls-TileView__itemActions::before {
+	display: none;
+}
+
+.docview3-Card__tileToolbar .controls-itemActionsV__action {
+	padding: 10px 0 7px 7px;
+}
+
+.docview3-Card-fullWidth {
+	width: 100%;
+}
+
+.docview3-Card__leads>:first-child {
+	font-size: var(--font-size_xs);
+}
+
+.docview3-Card__leads>:last-child {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.docview3-Card__leads>:last-child>:last-child {
+	justify-content: flex-end;
+	align-items: flex-end;
+	flex-grow: 1;
+	padding-bottom: 34px;
+}
+
+.docview3-Card__leads>:last-child>:last-child .crm_icon_14 {
+	padding-bottom: 4px;
+}
+
+.docview3-Card__leads .CRMRender_progressbar {
+	align-items: center;
+}

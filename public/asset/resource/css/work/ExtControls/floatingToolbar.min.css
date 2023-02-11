@@ -1,0 +1,80 @@
+.extControls_floatingToolbar__View {
+	border: var(--border-thickness) solid var(--border-color);
+	width: auto;
+	padding: 0 var(--offset_s)
+}
+
+.extControls_floatingToolbar__View.extControls_floatingToolbar__View_backgroundColor {
+	background-color: var(--background_color_extControls-floatingToolbar, var(--background-color))
+}
+
+.extControls_floatingToolbar__View_item-offset {
+	margin-right: var(--offset_2xs)
+}
+
+.extControls_floatingToolbar__Separator {
+	width: var(--border-thickness);
+	height: var(--icon-size_m);
+	margin-left: var(--offset_3xs);
+	margin-right: var(--offset_xs);
+	background-color: var(--separator_color_extControls-floatingToolbar, var(--border-color));
+	-ms-grid-row-align: center;
+	align-self: center
+}
+
+.textEditor_Toolbar__Button {
+	padding: var(--offset_2xs) 0;
+	display: inline-flex
+}
+
+.ws-is-hover .textEditor_Toolbar__Button:hover {
+	cursor: pointer
+}
+
+.textEditor_Toolbar__Button_iconContainer {
+	border-radius: var(--border-radius_2xs)
+}
+
+.ws-is-hover .textEditor_Toolbar__Button_iconContainer:hover {
+	background-color: var(--toolbar-button_color)
+}
+
+.textEditor_Toolbar_Button_active {
+	background-color: var(--toolbar-button_color)
+}
+
+.textEditor_Toolbar__Button_color-primary {
+	color: var(--primary_icon-color)
+}
+
+.textEditor_Toolbar__Button_color-secondary {
+	color: var(--secondary_icon-color)
+}
+
+.textEditor_Toolbar__Button_color-success {
+	color: var(--success_icon-color)
+}
+
+.textEditor_Toolbar__Button_color-warning {
+	color: var(--warning_icon-color)
+}
+
+.textEditor_Toolbar__Button_color-danger {
+	color: var(--danger_icon-color)
+}
+
+.textEditor_Toolbar__Button_color-unaccented {
+	color: var(--unaccented_icon-color)
+}
+
+.textEditor_Toolbar__Button_color-link {
+	color: var(--link_icon-color)
+}
+
+.textEditor_Toolbar__Button_color-label {
+	color: var(--label_icon-color)
+}
+
+.textEditor_Toolbar__Button_color-info {
+	color: var(--info_icon-color)
+}

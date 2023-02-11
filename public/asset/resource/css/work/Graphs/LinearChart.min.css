@@ -1,0 +1,187 @@
+.graphs-LinearChart {
+	height: 100%
+}
+
+.graphs-LinearChart__label {
+	display: flex;
+	justify-content: center
+}
+
+.graphs-LinearChart .highcharts-series {
+	stroke-width: 1
+}
+
+.graphs-LinearChart .highcharts-series.highcharts-color-data-0 .highcharts-graph {
+	stroke: var(--graphs__baseColors_color-0)
+}
+
+.graphs-LinearChart .highcharts-series.highcharts-color-data-1 .highcharts-graph {
+	stroke: var(--graphs__baseColors_color-1)
+}
+
+.graphs-LinearChart .highcharts-series.highcharts-color-data-2 .highcharts-graph {
+	stroke: var(--graphs__baseColors_color-3)
+}
+
+.graphs-LinearChart .highcharts-series.highcharts-color-data-3 .highcharts-graph {
+	stroke: var(--graphs__baseColors_color-6)
+}
+
+.graphs-LinearChart .highcharts-series.highcharts-color-data-4 .highcharts-graph {
+	stroke: var(--graphs__baseColors_color-2)
+}
+
+.graphs-LinearChart .highcharts-series.highcharts-color-data-5 {
+	stroke: var(--graphs__baseColors_color-5)
+}
+
+.graphs-LinearChart .highcharts-series.highcharts-areaspline-series.highcharts-color-data-0 .highcharts-area {
+	fill: var(--graphs__baseColors_color-0)
+}
+
+.graphs-LinearChart .highcharts-series.highcharts-areaspline-series.highcharts-color-data-1 .highcharts-area {
+	fill: var(--graphs__baseColors_color-1)
+}
+
+.graphs-LinearChart .highcharts-series.highcharts-areaspline-series.highcharts-color-data-2 .highcharts-area {
+	fill: var(--graphs__baseColors_color-3)
+}
+
+.graphs-LinearChart .highcharts-series.highcharts-areaspline-series.highcharts-color-data-3 .highcharts-area {
+	fill: var(--graphs__baseColors_color-6)
+}
+
+.graphs-LinearChart .highcharts-series.highcharts-areaspline-series.highcharts-color-data-4 .highcharts-area {
+	fill: var(--graphs__baseColors_color-2)
+}
+
+.graphs-LinearChart .highcharts-series.highcharts-areaspline-series.highcharts-color-data-5 .highcharts-area {
+	fill: var(--graphs__baseColors_color-5)
+}
+
+.graphs-LinearChart .highcharts-markers.highcharts-color-data-0 path {
+	fill: var(--graphs__baseColors_color-0)
+}
+
+.graphs-LinearChart .highcharts-markers.highcharts-color-data-1 path {
+	fill: var(--graphs__baseColors_color-1)
+}
+
+.graphs-LinearChart .highcharts-markers.highcharts-color-data-2 path {
+	fill: var(--graphs__baseColors_color-3)
+}
+
+.graphs-LinearChart .highcharts-markers.highcharts-color-data-3 path {
+	fill: var(--graphs__baseColors_color-6)
+}
+
+.graphs-LinearChart .highcharts-markers.highcharts-color-data-4 path {
+	fill: var(--graphs__baseColors_color-2)
+}
+
+.graphs-LinearChart .highcharts-markers.highcharts-color-data-5 path {
+	fill: var(--graphs__baseColors_color-5)
+}
+
+.graphs-LinearChart .dashed .highcharts-graph,
+.graphs-LinearChart .dashed.highcharts-series-1 .highcharts-graph {
+	stroke-width: 1;
+	stroke-dasharray: 8, 3
+}
+
+.graphs-LinearChart .highcharts-graph {
+	transition: stroke-width .2s ease
+}
+
+.graphs-LinearChart .dashed.highcharts-series-hover .highcharts-graph {
+	stroke-width: 2
+}
+
+.graphs-LinearChart .highcharts-series-hover.highcharts-areaspline-series .highcharts-graph {
+	stroke-width: 3
+}
+
+.graphs-LinearChart .graphs-comparisonLinearChart .highcharts-areaspline-series.highcharts-color-data-0 .highcharts-area {
+	fill: url(#gradient-0);
+	fill-opacity: 1
+}
+
+.graphs-LinearChart .graphs-comparisonLinearChart .highcharts-areaspline-series.highcharts-color-data-1 .highcharts-area {
+	fill: url(#gradient-1);
+	fill-opacity: 1
+}
+
+.graphs-LinearChart .linearChart__gradient_first stop[offset="0"] {
+	stop-color: var(--graphs__baseColors_color-0);
+	stop-opacity: 0.2
+}
+
+.graphs-LinearChart .linearChart__gradient_first stop[offset="1"] {
+	stop-color: var(--graphs__baseColors_color-0);
+	stop-opacity: 0.5
+}
+
+.graphs-LinearChart .linearChart__gradient_second stop[offset="0"] {
+	stop-color: var(--graphs__baseColors_color-1);
+	stop-opacity: 0.2
+}
+
+.graphs-LinearChart .linearChart__gradient_second stop[offset="1"] {
+	stop-color: var(--graphs__baseColors_color-1);
+	stop-opacity: 0.5
+}
+
+.graphs-LinearChart__tooltip {
+	display: flex;
+	flex-direction: column
+}
+
+.graphs-LinearChart__tooltipTitle {
+	width: 100%;
+	font-weight: 700;
+	margin-bottom: 5px
+}
+
+.graphs-LinearChart__tooltipLegend {
+	margin-right: 8px;
+	width: 8px;
+	height: 8px
+}
+
+.graphs-LinearChart__tooltipLegend-data-0 {
+	background-color: var(--graphs__extraColors_color-0)
+}
+
+.graphs-LinearChart__tooltipLegend-data-1 {
+	background-color: var(--graphs__baseColors_color-1)
+}
+
+.graphs-LinearChart__tooltipLegend-data-2 {
+	background-color: var(--graphs__baseColors_color-3)
+}
+
+.graphs-LinearChart__tooltipLegend-data-3 {
+	background-color: var(--graphs__baseColors_color-6)
+}
+
+.graphs-LinearChart__tooltipLegend-data-4 {
+	background-color: var(--graphs__baseColors_color-2)
+}
+
+.graphs-LinearChart__tooltipLegend-data-5 {
+	background-color: var(--graphs__baseColors_color-5)
+}
+
+.graphs-LinearChart__tooltipData {
+	display: flex;
+	align-items: center;
+	justify-content: space-between
+}
+
+.graphs-LinearChart__tooltipName {
+	margin-right: 16px
+}
+
+.graphs-LinearChart__tooltipValue-extra {
+	color: var(--label_text-color)
+}

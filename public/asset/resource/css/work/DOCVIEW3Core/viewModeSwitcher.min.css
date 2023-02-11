@@ -1,0 +1,7 @@
+.docview3-ViewModeSwitcher__container {
+	height: 100%;
+}
+
+.docview3-ViewModeSwitcher__container_hide_table .controls-GridViewV__itemsContainer {
+	visibility: hidden;
+}

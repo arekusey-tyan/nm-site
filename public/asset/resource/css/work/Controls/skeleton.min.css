@@ -1,0 +1,142 @@
+.controls-skeleton {
+	background-color: var(--unaccented_same_background-color);
+	overflow: hidden;
+	position: relative
+}
+
+@keyframes ant-skeleton-loading {
+	0% {
+		transform: translate(-37.5%)
+	}
+
+	to {
+		transform: translate(37.5%)
+	}
+}
+
+.controls-skeleton_active::after {
+	position: absolute;
+	inset: 0 -150%;
+	background: linear-gradient(90deg, rgba(190, 190, 190, .2) 25%, rgba(129, 129, 129, .24) 37%, rgba(190, 190, 190, .2) 63%);
+	-webkit-animation: 1.4s infinite ant-skeleton-loading;
+	animation: 1.4s infinite ant-skeleton-loading;
+	content: ""
+}
+
+.controls-skeleton-image_radius-3xs {
+	border-radius: var(--border-radius_3xs)
+}
+
+.controls-skeleton-image_radius-2xs {
+	border-radius: var(--border-radius_2xs)
+}
+
+.controls-skeleton-image_radius-xs {
+	border-radius: var(--border-radius_xs)
+}
+
+.controls-skeleton-image_radius-s {
+	border-radius: var(--border-radius_s)
+}
+
+.controls-skeleton-image_radius-m {
+	border-radius: var(--border-radius_m)
+}
+
+.controls-skeleton-image_radius-l {
+	border-radius: var(--border-radius_l)
+}
+
+.controls-skeleton-image_radius-xl {
+	border-radius: var(--border-radius_xl)
+}
+
+.controls-skeleton-image_radius-2xl {
+	border-radius: var(--border-radius_2xl)
+}
+
+.controls-skeleton-image_radius-3xl {
+	border-radius: var(--border-radius_3xl)
+}
+
+.controls-skeleton-image_radius-full {
+	border-radius: 50%
+}
+
+.controls-skeleton-image_size-xs {
+	width: var(--size_xs_image);
+	height: var(--size_xs_image)
+}
+
+.controls-skeleton-image_size-s {
+	width: var(--size_s_image);
+	height: var(--size_s_image)
+}
+
+.controls-skeleton-image_size-m {
+	width: var(--size_m_image);
+	height: var(--size_m_image)
+}
+
+.controls-skeleton-image_size-mt {
+	width: var(--size_mt_image);
+	height: var(--size_mt_image)
+}
+
+.controls-skeleton-image_size-l {
+	width: var(--size_l_image);
+	height: var(--size_l_image)
+}
+
+.controls-skeleton-image_size-xl {
+	width: var(--size_xl_image);
+	height: var(--size_xl_image)
+}
+
+.controls-skeleton-image_size-xlt {
+	width: var(--size_xlt_image);
+	height: var(--size_xlt_image)
+}
+
+.controls-skeleton-image_size-2xl {
+	width: var(--size_2xl_image);
+	height: var(--size_2xl_image)
+}
+
+.controls-skeleton-image_size-3xl {
+	width: var(--size_3xl_image);
+	height: var(--size_3xl_image)
+}
+
+.controls-skeleton-image_size-4xl {
+	width: var(--size_4xl_image);
+	height: var(--size_4xl_image)
+}
+
+.controls-skeleton-image_size-5xl {
+	width: var(--size_5xl_image);
+	height: var(--size_5xl_image)
+}
+
+.controls-skeleton-text {
+	width: 100%;
+	border-radius: var(--border-radius_2xs);
+	margin-bottom: 4px
+}
+
+.controls-skeleton-text.controls-skeleton-text_last {
+	width: 70%
+}
+
+.controls-skeleton-text-m,
+.controls-skeleton-text-s {
+	height: var(--font-size_m)
+}
+
+.controls-skeleton-text-l {
+	height: var(--font-size_l)
+}
+
+.controls-skeleton-text-xl {
+	height: var(--font-size_xl)
+}

@@ -1,0 +1,10 @@
+.edo3-ActionContainer {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	flex-grow: 1;
+	flex-shrink: 1;
+	display: flex;
+	flex-direction: column;
+	min-height: 0
+}

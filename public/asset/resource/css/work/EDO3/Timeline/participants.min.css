@@ -1,0 +1,122 @@
+.edo3-Timeline__participants {
+	height: 100%;
+	min-height: 100%;
+	width: 300px;
+	position: absolute;
+	transition: right .5s;
+	background-color: transparent;
+	top: 0;
+}
+
+.edo3-Timeline__participants_sticky-header {
+	border-left: 3px solid #eaeaea;
+}
+
+.edo3-Timeline__participants-organisation {
+	color: var(--secondary_text-color);
+	font-weight: 700;
+	padding: 12px 12px 8px 12px;
+}
+
+.edo3-Timeline__participants-state-closed {
+	right: -303px;
+}
+
+.edo3-Timeline__participants-state-opened {
+	right: 0;
+}
+
+.edo3-Timeline__participants-closeLink {
+	cursor: pointer;
+}
+
+.ws-is-hover .edo3-Timeline__participants-closeLink:hover {
+	text-decoration: underline;
+}
+
+.edo3-Timeline__participants-header {
+	font-weight: 700;
+}
+
+.edo3-Timeline__participants-item {
+	padding: 4px 12px;
+	position: relative;
+	flex-shrink: 0;
+}
+
+.ws-is-hover .edo3-Timeline__participants-item:hover {
+	background-color: var(--hover_background-color);
+}
+
+.edo3-Timeline__participants-photo {
+	margin-right: 6px;
+}
+
+.edo3-Timeline__participants-name {
+	height: 18px;
+	line-height: 18px;
+	margin-right: 4px;
+	cursor: pointer;
+}
+
+.ws-is-hover .edo3-Timeline__participants-name:hover {
+	text-decoration: underline;
+}
+
+.edo3-Timeline__participants-name-default {
+	color: var(--text-color);
+}
+
+.edo3-Timeline__participants-name-external {
+	color: #4e7c8b;
+}
+
+.edo3-Timeline__participants-actionsContainer {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	display: none;
+	background-color: var(--hover_background-color);
+}
+
+.ws-is-hover .edo3-Timeline__participants-item:hover .edo3-Timeline__participants-actionsContainer {
+	display: flex;
+}
+
+.edo3-Timeline__participants-action {
+	margin-right: 12px;
+	cursor: pointer;
+}
+
+.ws-is-hover .edo3-Timeline__participants-action:hover {
+	color: var(--link_hover_text-color);
+}
+
+.edo3-Timeline__participants-separator {
+	margin: 2px 4px;
+	border-bottom: 1px solid var(--separator_color);
+}
+
+.edo3-Timeline__participants-time {
+	margin-left: 4px;
+}
+
+.edo3-Timeline__participants-totalTime {
+	padding: 4px 12px 5px 0;
+}
+
+.edo3-Timeline__participants-totalTime-caption {
+	margin-right: 4px;
+}
+
+.edo3-Timeline__participants-totalTime-time {
+	font-weight: 700;
+}
+
+.edo3-Timeline__participants-scroll {
+	flex: 1;
+}
+
+.ws-is-ie11 .edo3-Timeline__participants_sticky-header {
+	height: 100%;
+}

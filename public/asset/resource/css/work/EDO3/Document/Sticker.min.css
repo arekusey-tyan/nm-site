@@ -1,0 +1,68 @@
+.edo3-Sticker {
+    max-height: 36px;
+}
+
+.edo3-Sticker .edo3-Sticker__resetButton {
+    visibility: hidden;
+}
+
+.edo3-Sticker__border {
+    border-left: 1px solid #eaeaea;
+}
+
+.edo3-Sticker__mainRow-container {
+    max-width: 162px;
+}
+
+.edo3-Sticker__mainRow {
+    line-height: 19px;
+}
+
+.edo3-Sticker__active:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.edo3-Sticker__additionalRow {
+    min-height: 18px;
+    max-width: 112px;
+    text-align: right;
+}
+
+.edo3-Sticker--withPhoto .edo3-Sticker__main-flexContainer .edo3-Sticker__mainRow {
+    font-size: 14px;
+    height: 18px;
+    margin-bottom: 2px;
+    width: 100%;
+    text-align: right;
+}
+
+.edo3-Sticker--photo-right .edo3-Sticker__main-flexContainer {
+    padding-left: 8px;
+}
+
+.edo3-Sticker--photo-right .edo3-Sticker__photo {
+    margin: 2px 0 2px 6px;
+}
+
+.edo3-Sticker--photo-left {
+    flex-direction: row-reverse;
+}
+
+.edo3-Sticker--photo-left .edo3-Sticker__main-flexContainer {
+    margin-right: 0;
+    padding-left: 0;
+}
+
+.edo3-Sticker--photo-left .edo3-Sticker__photo {
+    margin: 2px 6px 2px 12px;
+}
+
+.edo3-Sticker--photo-left .edo3-Sticker__mainRow {
+    padding-left: 0;
+}
+
+.ws-is-hover .edo3-Sticker__mainRow-container:hover .edo3-Sticker__resetButton {
+    visibility: visible;
+    cursor: pointer;
+}

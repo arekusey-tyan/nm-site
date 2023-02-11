@@ -1,0 +1,25 @@
+.msg-invitation-status .icon-Profile,.msg-invitation-status.icon-Profile {
+	border: 1px solid var(--readonly_color);
+	padding: 1px;
+	font-size: 12px!important;
+	border-radius: 12px;
+	text-align: center;
+	line-height: 16px;
+}
+
+.msg-invitation-status .icon-Profile.icon-primary,.msg-invitation-status.icon-Profile.icon-primary {
+	border-color: var(--secondary_color);
+}
+
+.msg-invitation-status .icon-Profile:before,.msg-invitation-status.icon-Profile:before {
+	color: var(--secondary_color);
+}
+
+.msg-invitation-status.icon-Email {
+	margin: 2px;
+}
+
+.msg-invitation-status:hover .icon-Profile.icon-disabled {
+	color: var(--secondary_color);
+	border-color: var(--secondary_color);
+}

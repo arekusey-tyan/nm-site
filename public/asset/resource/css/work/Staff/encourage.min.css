@@ -1,0 +1,21 @@
+.staff-Encourage {
+	max-width: 300px;
+}
+
+.staff-Encourage__item {
+	width: 100%;
+	max-width: 100%;
+}
+
+.staff-Encourage__image {
+	width: var(--icon-size_m);
+	height: var(--icon-size_m);
+}
+
+.staff-Encourage__title_padding-small {
+	padding-left: var(--offset_xs);
+}
+
+.staff-Encourage__title_padding-large {
+	padding-left: calc(var(--icon-size_m) + var(--offset_xs));
+}

@@ -1,0 +1,154 @@
+.person-BaseInfo {
+	max-width: 100%;
+	min-width: 0;
+	max-height: 100%;
+	position: relative
+}
+
+.person-BaseInfo__topPhotoPositionContainer {
+	max-width: 100%;
+	align-items: center
+}
+
+.person-BaseInfo__content {
+	overflow: hidden
+}
+
+.person-BaseInfo__line {
+	max-width: 100%
+}
+
+.person-BaseInfo__firedView {
+	opacity: 40%
+}
+
+.person-BaseInfo::before {
+	line-height: 1
+}
+
+.person-BaseInfo__lineHeight {
+	line-height: 1.15
+}
+
+.person-BaseInfo__textAlignment_fontsize-2xl::before {
+	content: '\200b';
+	font-size: var(--font-size_2xl);
+	max-height: calc(var(--font-size_2xl) * 1.25)
+}
+
+.person-BaseInfo__textAlignment_fontsize-xl::before {
+	content: '\200b';
+	font-size: var(--font-size_xl)
+}
+
+.person-BaseInfo__textAlignment_fontsize-l::before {
+	content: '\200b';
+	font-size: var(--font-size_l)
+}
+
+.person-BaseInfo__textAlignment_fontsize-m::before {
+	content: '\200b';
+	font-size: var(--font-size_m)
+}
+
+.person-BaseInfo__textAlignment_fontsize-s::before {
+	content: '\200b';
+	font-size: var(--font-size_s)
+}
+
+.person-BaseInfo__textAlignment_fontsize-xs::before {
+	content: '\200b';
+	font-size: var(--font-size_xs)
+}
+
+.person-BaseInfo__textAlignment_fontsize-2xs::before {
+	content: '\200b';
+	font-size: var(--font-size_2xs)
+}
+
+.person-BaseInfo__textAlignment_fontsize-3xs::before {
+	content: '\200b';
+	font-size: var(--font-size_3xs)
+}
+
+.person-BaseInfo__additionalContent_minWidth {
+	min-width: 24px
+}
+
+.person-BaseInfo__additionalContent {
+	flex-shrink: 2;
+	flex-basis: 0;
+	flex-grow: 1
+}
+
+.person-BaseInfo__additionalInfo {
+	flex-basis: 20%;
+	flex-grow: 1
+}
+
+.ws-is-ie11 .person-BaseInfo__titleContainer,
+.ws-is-ie12 .person-BaseInfo__titleContainer {
+	flex-shrink: 0;
+	max-width: 100%
+}
+
+.ws-is-ie11 .person-BaseInfo__additionalContent,
+.ws-is-ie12 .person-BaseInfo__additionalContent {
+	flex-basis: auto;
+	flex-grow: 1;
+	max-width: none
+}
+
+.person-Info__activityIndicator {
+	margin-right: calc(-1 * var(--offset_2xs));
+	margin-left: var(--offset_2xs)
+}
+
+.person-Info__withActivity {
+	position: relative
+}
+
+.person-Info__breadcrumbs_fix {
+	display: flex;
+	align-items: center;
+	line-height: 16px;
+	z-index: 0
+}
+
+.person-Info__breadcrumbs_fix .controls-BreadCrumbsView__wrapper {
+	max-width: 100%;
+	flex-grow: 1
+}
+
+.person-Info__breadcrumbs_fix .controls-BreadCrumbsView__crumb-text-ellipsis {
+	height: 100%
+}
+
+.person-Employee_title_boss {
+	font-weight: 700
+}
+
+.person-Department__additionalContent {
+	min-width: -webkit-fit-content;
+	min-width: -moz-fit-content;
+	min-width: fit-content;
+	display: contents
+}
+
+.person-DepartmentReact_previewerTargetContainer {
+	position: relative;
+	display: contents;
+	width: 100%;
+	height: 100%
+}
+
+.person-DepartmentReact_previewerTargetContainer>div {
+	position: absolute;
+	width: 100%;
+	height: 100%
+}
+
+.ws-is-ie10 .person-DepartmentReact_previewerTargetContainer,
+.ws-is-ie11 .person-DepartmentReact_previewerTargetContainer {
+	width: auto
+}

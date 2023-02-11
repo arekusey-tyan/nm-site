@@ -1,0 +1,7 @@
+.highcharts-background {
+	fill: transparent
+}
+
+.ws-is-mac .Graphs-HighChartsLight-smoothing {
+	will-change: transform
+}

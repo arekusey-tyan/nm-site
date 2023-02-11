@@ -1,0 +1,25 @@
+.business-baseline_2xl:before {
+	content: "\200b";
+	font-size: var(--font-size_2xl) !important;
+	width: 0
+}
+
+.business-page__muColumn-width {
+	max-width: 100px
+}
+
+.business-reports-underline:hover {
+	text-decoration: underline
+}
+
+.businessWidgets-height-4 {
+	height: 240px
+}
+
+.businessWidget-sales-header {
+	overflow: visible
+}
+
+.businessWidget-minWidth__210px {
+	min-width: 210px
+}

@@ -1,0 +1,20 @@
+.msg-channel-thread__paging-button {
+	text-align: center;
+}
+
+.msg-channel-thread__paging-button_to-item {
+	pointer-events: auto;
+	cursor: pointer;
+	margin-right: 4px;
+	padding: 0 10px;
+	border: none;
+	height: 28px;
+	border-radius: 13px;
+	background-color: var(--unaccented_background-color);
+	box-shadow: 0 1px 4px rgba(0,0,0,.15);
+	line-height: 28px;
+}
+
+.ws-is-hover.ws-is-no-touch:not(.ws-is-mobile-platform) .msg-channel-thread .msg-theme-view__item {
+	cursor: pointer;
+}

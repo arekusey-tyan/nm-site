@@ -1,0 +1,990 @@
+.extControls-doubleButton {
+	display: inline-flex;
+	overflow: hidden;
+	border-radius: var(--border-radius_button)
+}
+
+.extControls-doubleButton__mainButton {
+	width: 100%;
+	height: 100%;
+	border-radius: var(--border-radius_button_functionalButton)
+}
+
+.extControls-doubleButton__mainButton_coloredContainer {
+	padding: var(--border-thickness);
+	box-sizing: border-box
+}
+
+.extControls-doubleButton__mainButton_colored {
+	background: var(--default_contrast_background-color_button)
+}
+
+.extControls-doubleButton__mainButton_readOnly-border {
+	border-width: var(--border-thickness);
+	border-style: solid;
+	box-sizing: border-box
+}
+
+.extControls-doubleButton_text-default {
+	color: var(--text-color_button)
+}
+
+.extControls-doubleButton-outside {
+	height: var(--inline_height_mt);
+	align-items: center
+}
+
+.extControls-doubleButton__wrapper {
+	position: relative;
+	box-sizing: border-box;
+	max-width: 100%;
+	border-radius: var(--border-radius_button)
+}
+
+.extControls-doubleButton__icon_size-mt {
+	top: calc(((var(--inline_height_mt) - var(--inline_height_m))/ 2) * -1)
+}
+
+.extControls-doubleButton__wrapper_style-primary {
+	background: var(--primary_same_background-color)
+}
+
+.extControls-doubleButton__wrapper_style-secondary {
+	background: var(--secondary_same_background-color)
+}
+
+.extControls-doubleButton__wrapper_style-success {
+	background: var(--success_same_background-color)
+}
+
+.extControls-doubleButton__wrapper_style-danger {
+	background: var(--danger_same_background-color)
+}
+
+.extControls-doubleButton__wrapper_style-warning {
+	background: var(--warning_same_background-color)
+}
+
+.extControls-doubleButton__wrapper_style-info {
+	background: var(--info_same_background-color)
+}
+
+.extControls-doubleButton__wrapper_style-unaccented {
+	background: var(--unaccented_same_background-color)
+}
+
+.extControls-doubleButton__wrapper_style-pale {
+	background: var(--unaccented_same_background-color)
+}
+
+.extControls-doubleButton__wrapper_style-default {
+	background: var(--default_contrast_background-color_button)
+}
+
+.extControls-doubleButton__wrapper_style-readOnly {
+	background: var(--readonly_background-color_button)
+}
+
+.extControls-doubleButton_same {
+	border-color: var(--default_border-color_button)
+}
+
+.ws-is-hover .extControls-doubleButton_same_default-hovered {
+	border-color: var(--default_hover_border-color_button)
+}
+
+.extControls-doubleButton_contrast {
+	border-color: transparent
+}
+
+.extControls-doubleButton__caption {
+	display: flex;
+	align-items: baseline
+}
+
+.extControls-doubleButton__caption::before {
+	content: '\200b'
+}
+
+.extControls-doubleButton__captionContent-start-xs {
+	padding-right: var(--offset_3xs);
+	padding-left: var(--offset_s)
+}
+
+.extControls-doubleButton__captionContent-start-s {
+	padding-right: var(--offset_2xs);
+	padding-left: var(--offset_s)
+}
+
+.extControls-doubleButton__captionContent-start-l,
+.extControls-doubleButton__captionContent-start-m {
+	padding-right: var(--offset_2xs);
+	padding-left: var(--offset_m)
+}
+
+.extControls-doubleButton__captionContent-start-2xl,
+.extControls-doubleButton__captionContent-start-3xl,
+.extControls-doubleButton__captionContent-start-xl {
+	padding-right: var(--offset_s);
+	padding-left: var(--offset_l)
+}
+
+.extControls-doubleButton__captionContent-start-4xl {
+	padding-right: var(--offset_m);
+	padding-left: var(--offset_xl)
+}
+
+.extControls-doubleButton__captionContent-start-5xl {
+	padding-right: var(--offset_m);
+	padding-left: var(--offset_2xl)
+}
+
+.extControls-doubleButton__captionContent-end-xs {
+	padding-left: var(--offset_3xs);
+	padding-right: var(--offset_s)
+}
+
+.extControls-doubleButton__captionContent-end-s {
+	padding-left: var(--offset_2xs);
+	padding-right: var(--offset_s)
+}
+
+.extControls-doubleButton__captionContent-end-l,
+.extControls-doubleButton__captionContent-end-m {
+	padding-left: var(--offset_2xs);
+	padding-right: var(--offset_m)
+}
+
+.extControls-doubleButton__captionContent-end-2xl,
+.extControls-doubleButton__captionContent-end-3xl,
+.extControls-doubleButton__captionContent-end-xl {
+	padding-left: var(--offset_s);
+	padding-right: var(--offset_l)
+}
+
+.extControls-doubleButton__captionContent-end-4xl {
+	padding-left: var(--offset_m);
+	padding-right: var(--offset_xl)
+}
+
+.extControls-doubleButton__captionContent-end-5xl {
+	padding-left: var(--offset_m);
+	padding-right: var(--offset_2xl)
+}
+
+.extControls-doubleButton__caption_style-pale {
+	background: var(--unaccented_same_background-color);
+	border-color: var(--unaccented_same_background-color)
+}
+
+.extControls-doubleButton__caption_style-default {
+	background: var(--background-color_button)
+}
+
+.extControls-doubleButton__caption_style-danger {
+	background: var(--danger_contrast_background-color);
+	border-color: var(--danger_contrast_background-color)
+}
+
+.extControls-doubleButton__caption_style-primary {
+	background: var(--primary_contrast_background-color);
+	border-color: var(--primary_contrast_background-color)
+}
+
+.extControls-doubleButton__caption_style-secondary {
+	background: var(--secondary_contrast_background-color);
+	border-color: var(--secondary_contrast_background-color)
+}
+
+.extControls-doubleButton__caption_style-success {
+	background: var(--success_contrast_background-color);
+	border-color: var(--success_contrast_background-color)
+}
+
+.extControls-doubleButton__caption_style-warning {
+	background: var(--warning_contrast_background-color);
+	border-color: var(--warning_contrast_background-color)
+}
+
+.extControls-doubleButton__caption_style-info {
+	background: var(--info_contrast_background-color);
+	border-color: var(--info_contrast_background-color)
+}
+
+.extControls-doubleButton__caption_style-unaccented {
+	background: var(--unaccented_contrast_background-color);
+	border-color: var(--unaccented_contrast_background-color)
+}
+
+.extControls-doubleButton_cursor {
+	cursor: pointer
+}
+
+.extControls-doubleButton_bordered {
+	box-sizing: border-box;
+	border-width: var(--border-thickness);
+	border-style: solid;
+	width: 100%;
+	justify-content: center;
+	border-radius: var(--border-radius_button)
+}
+
+.extControls-doubleButton__icon-absolute {
+	position: absolute;
+	z-index: 1
+}
+
+.extControls-doubleButton__icon_captionPosition-start {
+	right: 0
+}
+
+.extControls-doubleButton__icon_captionPosition-end {
+	left: 0
+}
+
+.extControls-doubleButton_border-default {
+	border-radius: var(--border-radius_default_button_functionalButton)
+}
+
+.extControls-doubleButton_bordered-xs_captionPosition-start {
+	padding-right: var(--inline_height_xs)
+}
+
+.extControls-doubleButton_bordered-s_captionPosition-start {
+	padding-right: var(--inline_height_s)
+}
+
+.extControls-doubleButton_bordered-m_captionPosition-start {
+	padding-right: var(--inline_height_m)
+}
+
+.extControls-doubleButton_bordered-l_captionPosition-start {
+	padding-right: var(--inline_height_l)
+}
+
+.extControls-doubleButton_bordered-xl_captionPosition-start {
+	padding-right: var(--inline_height_xl)
+}
+
+.extControls-doubleButton_bordered-2xl_captionPosition-start {
+	padding-right: var(--inline_height_2xl)
+}
+
+.extControls-doubleButton_bordered-3xl_captionPosition-start {
+	padding-right: var(--inline_height_3xl)
+}
+
+.extControls-doubleButton_bordered-4xl_captionPosition-start {
+	padding-right: var(--inline_height_4xl)
+}
+
+.extControls-doubleButton_bordered-5xl_captionPosition-start {
+	padding-right: var(--inline_height_5xl)
+}
+
+.extControls-doubleButton_border-default_captionPosition-start {
+	padding-right: var(--inline_height_m_button)
+}
+
+.extControls-doubleButton_bordered-xs_captionPosition-end {
+	padding-left: var(--inline_height_xs)
+}
+
+.extControls-doubleButton_bordered-s_captionPosition-end {
+	padding-left: var(--inline_height_s)
+}
+
+.extControls-doubleButton_bordered-m_captionPosition-end {
+	padding-left: var(--inline_height_m)
+}
+
+.extControls-doubleButton_bordered-l_captionPosition-end {
+	padding-left: var(--inline_height_l)
+}
+
+.extControls-doubleButton_bordered-xl_captionPosition-end {
+	padding-left: var(--inline_height_xl)
+}
+
+.extControls-doubleButton_bordered-2xl_captionPosition-end {
+	padding-left: var(--inline_height_2xl)
+}
+
+.extControls-doubleButton_bordered-3xl_captionPosition-end {
+	padding-left: var(--inline_height_3xl)
+}
+
+.extControls-doubleButton_bordered-4xl_captionPosition-end {
+	padding-left: var(--inline_height_4xl)
+}
+
+.extControls-doubleButton_bordered-5xl_captionPosition-end {
+	padding-left: var(--inline_height_5xl)
+}
+
+.extControls-doubleButton_border-default_captionPosition-end {
+	padding-left: var(--inline_height_m_button)
+}
+
+.extControls-doubleButton_caption-xs::before {
+	line-height: calc(var(--inline_height_xs) - 2 * var(--border-thickness_button))
+}
+
+.extControls-doubleButton_caption-s::before {
+	line-height: calc(var(--inline_height_s) - 2 * var(--border-thickness_button))
+}
+
+.extControls-doubleButton_caption-m::before {
+	line-height: calc(var(--inline_height_m) - 2 * var(--border-thickness_button))
+}
+
+.extControls-doubleButton_caption-l::before {
+	line-height: calc(var(--inline_height_l) - 2 * var(--border-thickness_button))
+}
+
+.extControls-doubleButton_caption-xl::before {
+	line-height: calc(var(--inline_height_xl) - 2 * var(--border-thickness_button))
+}
+
+.extControls-doubleButton_caption-2xl::before {
+	line-height: calc(var(--inline_height_2xl) - 2 * var(--border-thickness_button))
+}
+
+.extControls-doubleButton_caption-3xl::before {
+	line-height: calc(var(--inline_height_3xl) - 2 * var(--border-thickness_button))
+}
+
+.extControls-doubleButton_caption-4xl::before {
+	line-height: calc(var(--inline_height_4xl) - 2 * var(--border-thickness_button))
+}
+
+.extControls-doubleButton_caption-5xl::before {
+	line-height: calc(var(--inline_height_5xl) - 2 * var(--border-thickness_button))
+}
+
+.extControls-doubleButton_caption-default::before {
+	line-height: calc(var(--inline_height_m) - 2 * var(--border-thickness_button))
+}
+
+.extControls-doubleButton__wave {
+	justify-content: center;
+	height: 100%;
+	box-sizing: border-box;
+	display: inline-flex;
+	align-items: baseline;
+	position: absolute;
+	width: 100%
+}
+
+.extControls-doubleButton__wave::before {
+	content: '\200b'
+}
+
+.extControls-doubleButton__wave .extControls-doubleButton__icon_captionPosition-start {
+	left: calc(var(--border-thickness) * -1);
+	top: calc(var(--border-thickness) * -1);
+	right: auto
+}
+
+.extControls-doubleButton__wave .extControls-doubleButton__icon_captionPosition-end {
+	right: calc(var(--border-thickness) * -1);
+	top: calc(var(--border-thickness) * -1);
+	left: auto
+}
+
+.extControls-doubleButton__wave_captionPosition-start {
+	transition: left .3s;
+	left: 100%
+}
+
+.extControls-doubleButton__wave_captionPosition-end {
+	transition: right .3s;
+	right: 100%
+}
+
+.extControls-doubleButton__wave-shown.extControls-doubleButton__wave_captionPosition-start {
+	left: 0
+}
+
+.extControls-doubleButton__wave-shown.extControls-doubleButton__wave_captionPosition-end {
+	right: 0
+}
+
+.extControls-doubleButton__wave_style-default {
+	background: var(--default_contrast_background-color_button);
+	border-color: var(--default_hover_border-color_button)
+}
+
+.extControls-doubleButton__wave_style-primary {
+	background: var(--primary_hover_same_background-color);
+	border-color: var(--primary_border-color)
+}
+
+.extControls-doubleButton__wave_style-secondary {
+	background: var(--secondary_hover_same_background-color);
+	border-color: var(--secondary_border-color)
+}
+
+.extControls-doubleButton__wave_style-success {
+	background: var(--success_hover_same_background-color);
+	border-color: var(--success_border-color)
+}
+
+.extControls-doubleButton__wave_style-danger {
+	background: var(--danger_hover_same_background-color);
+	border-color: var(--danger_border-color)
+}
+
+.extControls-doubleButton__wave_style-warning {
+	background: var(--warning_hover_same_background-color);
+	border-color: var(--warning_border-color)
+}
+
+.extControls-doubleButton__wave_style-info {
+	background: var(--info_hover_same_background-color);
+	border-color: var(--info_border-color)
+}
+
+.extControls-doubleButton__wave_style-unaccented {
+	background: var(--pale_hover_contrast_background-color);
+	border-color: var(--unaccented_border-color)
+}
+
+.extControls-doubleButton__wave_style-pale {
+	background: var(--pale_hover_contrast_background-color);
+	border-color: var(--pale_border-color)
+}
+
+.controls-fontsize-3xs.extControls-doubleButton_fontsize-3xs {
+	font-size: var(--font-size_3xs_button)
+}
+
+.controls-fontsize-2xs.extControls-doubleButton_fontsize-2xs {
+	font-size: var(--font-size_2xs_button)
+}
+
+.controls-fontsize-xs.extControls-doubleButton_fontsize-xs {
+	font-size: var(--font-size_xs_button)
+}
+
+.controls-fontsize-s.extControls-doubleButton_fontsize-s {
+	font-size: var(--font-size_s_button)
+}
+
+.controls-fontsize-m.extControls-doubleButton_fontsize-m {
+	font-size: var(--font-size_m_button)
+}
+
+.controls-fontsize-l.extControls-doubleButton_fontsize-l {
+	font-size: var(--font-size_l_button)
+}
+
+.controls-fontsize-xl.extControls-doubleButton_fontsize-xl {
+	font-size: var(--font-size_xl)
+}
+
+.controls-fontsize-2xl.extControls-doubleButton_fontsize-2xl {
+	font-size: var(--font-size_2xl)
+}
+
+.controls-fontsize-3xl.extControls-doubleButton_fontsize-3xl {
+	font-size: var(--font-size_3xl)
+}
+
+.controls-fontsize-4xl.extControls-doubleButton_fontsize-4xl {
+	font-size: var(--font-size_4xl)
+}
+
+.controls-fontsize-5xl.extControls-doubleButton_fontsize-5xl {
+	font-size: var(--font-size_5xl)
+}
+
+.ws-is-hover .extControls-doubleButton__caption_style-default.extControls-doubleButton_contrast:hover {
+	border-color: var(--unaccented_hover_border-color)
+}
+
+.ws-is-hover .extControls-doubleButton__wrapper_style-primary:hover {
+	background: var(--primary_hover_same_background-color)
+}
+
+.ws-is-hover .extControls-doubleButton__wrapper_style-secondary:hover {
+	background: var(--secondary_hover_same_background-color)
+}
+
+.ws-is-hover .extControls-doubleButton__wrapper_style-success:hover {
+	background: var(--success_hover_same_background-color)
+}
+
+.ws-is-hover .extControls-doubleButton__wrapper_style-danger:hover {
+	background: var(--danger_hover_same_background-color)
+}
+
+.ws-is-hover .extControls-doubleButton__wrapper_style-warning:hover {
+	background: var(--warning_hover_same_background-color)
+}
+
+.ws-is-hover .extControls-doubleButton__wrapper_style-info:hover {
+	background: var(--info_hover_same_background-color)
+}
+
+.ws-is-hover .extControls-doubleButton__wrapper_style-unaccented:hover {
+	background: var(--unaccented_hover_same_background-color)
+}
+
+.ws-is-hover .extControls-doubleButton__wrapper_style-pale:hover {
+	background: var(--pale_hover_contrast_background-color)
+}
+
+.ws-is-hover .extControls-doubleButton__caption_style-pale:hover {
+	background: var(--pale_hover_contrast_background-color);
+	border-color: var(--pale_hover_contrast_background-color)
+}
+
+.ws-is-hover .extControls-doubleButton__caption_style-danger:hover {
+	background: var(--danger_hover_contrast_background-color);
+	border-color: var(--danger_hover_contrast_background-color)
+}
+
+.ws-is-hover .extControls-doubleButton__caption_style-primary:hover {
+	background: var(--primary_hover_contrast_background-color);
+	border-color: var(--primary_hover_contrast_background-color)
+}
+
+.ws-is-hover .extControls-doubleButton__caption_style-secondary:hover {
+	background: var(--secondary_hover_contrast_background-color);
+	border-color: var(--secondary_hover_contrast_background-color)
+}
+
+.ws-is-hover .extControls-doubleButton__caption_style-success:hover {
+	background: var(--success_hover_contrast_background-color);
+	border-color: var(--success_hover_contrast_background-color)
+}
+
+.ws-is-hover .extControls-doubleButton__caption_style-warning:hover {
+	background: var(--warning_hover_contrast_background-color);
+	border-color: var(--warning_hover_contrast_background-color)
+}
+
+.ws-is-hover .extControls-doubleButton__caption_style-info:hover {
+	background: var(--info_hover_contrast_background-color);
+	border-color: var(--info_hover_contrast_background-color)
+}
+
+.ws-is-hover .extControls-doubleButton__caption_style-unaccented:hover {
+	background: var(--unaccented_hover_contrast_background-color);
+	border-color: var(--unaccented_hover_contrast_background-color)
+}
+
+.ws-is-no-touch .extControls-doubleButton_cursor .extControls-doubleButton__caption_style-default:active,
+.ws-is-touch .extControls-doubleButton_cursor .extControls-doubleButton__caption_style-default:active {
+	background: var(--default_active_background-color_button)
+}
+
+.ws-is-no-touch .extControls-doubleButton_cursor .extControls-doubleButton__caption_style-pale:active,
+.ws-is-touch .extControls-doubleButton_cursor .extControls-doubleButton__caption_style-pale:active {
+	background: var(--pale_active_contrast_background-color);
+	border-color: var(--pale_active_contrast_background-color)
+}
+
+.ws-is-no-touch .extControls-doubleButton_cursor .extControls-doubleButton__caption_style-danger:active,
+.ws-is-touch .extControls-doubleButton_cursor .extControls-doubleButton__caption_style-danger:active {
+	background: var(--danger_active_contrast_background-color);
+	border-color: var(--danger_active_contrast_background-color)
+}
+
+.ws-is-no-touch .extControls-doubleButton_cursor .extControls-doubleButton__caption_style-primary:active,
+.ws-is-touch .extControls-doubleButton_cursor .extControls-doubleButton__caption_style-primary:active {
+	background: var(--primary_active_contrast_background-color);
+	border-color: var(--primary_active_contrast_background-color)
+}
+
+.ws-is-no-touch .extControls-doubleButton_cursor .extControls-doubleButton__caption_style-secondary:active,
+.ws-is-touch .extControls-doubleButton_cursor .extControls-doubleButton__caption_style-secondary:active {
+	background: var(--secondary_active_contrast_background-color);
+	border-color: var(--secondary_active_contrast_background-color)
+}
+
+.ws-is-no-touch .extControls-doubleButton_cursor .extControls-doubleButton__caption_style-success:active,
+.ws-is-touch .extControls-doubleButton_cursor .extControls-doubleButton__caption_style-success:active {
+	background: var(--success_active_contrast_background-color);
+	border-color: var(--success_active_contrast_background-color)
+}
+
+.ws-is-no-touch .extControls-doubleButton_cursor .extControls-doubleButton__caption_style-warning:active,
+.ws-is-touch .extControls-doubleButton_cursor .extControls-doubleButton__caption_style-warning:active {
+	background: var(--warning_active_contrast_background-color);
+	border-color: var(--warning_active_contrast_background-color)
+}
+
+.ws-is-no-touch .extControls-doubleButton_cursor .extControls-doubleButton__caption_style-info:active,
+.ws-is-touch .extControls-doubleButton_cursor .extControls-doubleButton__caption_style-info:active {
+	background: var(--info_active_contrast_background-color);
+	border-color: var(--info_active_contrast_background-color)
+}
+
+.ws-is-no-touch .extControls-doubleButton_cursor .extControls-doubleButton__caption_style-unaccented:active,
+.ws-is-touch .extControls-doubleButton_cursor .extControls-doubleButton__caption_style-unaccented:active {
+	background: var(--unaccented_active_contrast_background-color);
+	border-color: var(--unaccented_active_contrast_background-color)
+}
+
+.ws-is-no-touch .extControls-doubleButton_cursor .extControls-doubleButton__mainButton_colored:active,
+.ws-is-touch .extControls-doubleButton_cursor .extControls-doubleButton__mainButton_colored:active {
+	background: var(--default_active_background-color_button)
+}
+
+.ws-is-no-touch .extControls-doubleButton__caption_style-default.extControls-doubleButton_contrast:active,
+.ws-is-touch .extControls-doubleButton__caption_style-default.extControls-doubleButton_contrast:active {
+	border-color: var(--unaccented_hover_border-color)
+}
+
+.ws-is-no-touch .extControls-doubleButton__wrapper_style-primary:active,
+.ws-is-touch .extControls-doubleButton__wrapper_style-primary:active {
+	background: var(--primary_active_same_background-color)
+}
+
+.ws-is-no-touch .extControls-doubleButton__wrapper_style-secondary:active,
+.ws-is-touch .extControls-doubleButton__wrapper_style-secondary:active {
+	background: var(--secondary_active_same_background-color)
+}
+
+.ws-is-no-touch .extControls-doubleButton__wrapper_style-success:active,
+.ws-is-touch .extControls-doubleButton__wrapper_style-success:active {
+	background: var(--success_active_same_background-color)
+}
+
+.ws-is-no-touch .extControls-doubleButton__wrapper_style-danger:active,
+.ws-is-touch .extControls-doubleButton__wrapper_style-danger:active {
+	background: var(--danger_active_same_background-color)
+}
+
+.ws-is-no-touch .extControls-doubleButton__wrapper_style-warning:active,
+.ws-is-touch .extControls-doubleButton__wrapper_style-warning:active {
+	background: var(--warning_active_same_background-color)
+}
+
+.ws-is-no-touch .extControls-doubleButton__wrapper_style-info:active,
+.ws-is-touch .extControls-doubleButton__wrapper_style-info:active {
+	background: var(--info_active_same_background-color)
+}
+
+.ws-is-no-touch .extControls-doubleButton__wrapper_style-unaccented:active,
+.ws-is-touch .extControls-doubleButton__wrapper_style-unaccented:active {
+	background: var(--unaccented_active_same_background-color)
+}
+
+.ws-is-no-touch .extControls-doubleButton__caption_style-pale:active,
+.ws-is-touch .extControls-doubleButton__caption_style-pale:active {
+	background: var(--pale_active_contrast_background-color);
+	border-color: var(--pale_active_contrast_background-color)
+}
+
+.ws-is-no-touch .extControls-doubleButton__wrapper_style-pale:active,
+.ws-is-touch .extControls-doubleButton__wrapper_style-pale:active {
+	background: var(--pale_active_contrast_background-color)
+}
+
+.ws-is-no-touch .extControls-doubleButton__wave_style-default:active,
+.ws-is-touch .extControls-doubleButton__wave_style-default:active {
+	background: var(--default_active_contrast_background-color_button)
+}
+
+.ws-is-no-touch .extControls-doubleButton__wave_style-primary:active,
+.ws-is-touch .extControls-doubleButton__wave_style-primary:active {
+	background: var(--primary_active_same_background-color)
+}
+
+.ws-is-no-touch .extControls-doubleButton__wave_style-secondary:active,
+.ws-is-touch .extControls-doubleButton__wave_style-secondary:active {
+	background: var(--secondary_active_same_background-color)
+}
+
+.ws-is-no-touch .extControls-doubleButton__wave_style-success:active,
+.ws-is-touch .extControls-doubleButton__wave_style-success:active {
+	background: var(--success_active_same_background-color)
+}
+
+.ws-is-no-touch .extControls-doubleButton__wave_style-danger:active,
+.ws-is-touch .extControls-doubleButton__wave_style-danger:active {
+	background: var(--danger_active_same_background-color)
+}
+
+.ws-is-no-touch .extControls-doubleButton__wave_style-warning:active,
+.ws-is-touch .extControls-doubleButton__wave_style-warning:active {
+	background: var(--warning_active_same_background-color)
+}
+
+.ws-is-no-touch .extControls-doubleButton__wave_style-info:active,
+.ws-is-touch .extControls-doubleButton__wave_style-info:active {
+	background: var(--info_active_same_background-color)
+}
+
+.ws-is-no-touch .extControls-doubleButton__wave_style-unaccented:active,
+.ws-is-touch .extControls-doubleButton__wave_style-unaccented:active {
+	background: var(--pale_active_contrast_background-color)
+}
+
+.ws-is-no-touch .extControls-doubleButton__wave_style-pale:active,
+.ws-is-touch .extControls-doubleButton__wave_style-pale:active {
+	background: var(--pale_active_contrast_background-color)
+}
+
+.ws-is-no-touch .extControls-doubleButton_same_default-hovered:active,
+.ws-is-touch .extControls-doubleButton_same_default-hovered:active {
+	border-color: var(--default_active_border-color_button);
+	background: var(--default_active_background-color_button)
+}
+
+.controls-doubleButton_shadowed-small {
+	box-shadow: var(--box-shadow_contrast-button)
+}
+
+.controls-doubleButton_shadowed-big {
+	box-shadow: var(--box-shadow_contrast_big_button)
+}
+
+.extControls-doubleButton__separator {
+	height: 100%;
+	position: absolute;
+	top: 0;
+	margin-right: var(--border-thickness)
+}
+
+.extControls-doubleButton__separator::before {
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: var(--border-thickness);
+	background-color: var(--separator_color)
+}
+
+.ws-is-ie .extControls-doubleButton__icon_captionPosition-end,
+.ws-is-ie .extControls-doubleButton__icon_captionPosition-start,
+.ws-is-ie .extControls-doubleButton__wave_captionPosition-end,
+.ws-is-ie .extControls-doubleButton__wave_captionPosition-start {
+	top: 0
+}
+
+.extControls_Buttons__ArrowButton {
+	background-color: var(--unaccented_same_background-color);
+	height: var(--inline_height_m);
+	min-width: var(--inline_height_m)
+}
+
+.extControls_Buttons__ArrowButton_direction_left {
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%
+}
+
+.extControls_Buttons__ArrowButton_direction_right {
+	border-top-left-radius: 50%;
+	border-bottom-left-radius: 50%
+}
+
+.ws-is-hover .extControls_Buttons__ArrowButton:hover {
+	background-color: var(--pale_hover_contrast_background-color);
+	cursor: pointer
+}
+
+.extControls_Buttons__ArrowButton_iconWrapper {
+	width: 100%;
+	height: 100%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center
+}
+
+.extControls-singleButton__container {
+	display: inline-flex;
+	align-items: center;
+	border-radius: var(--border-radius_button);
+	cursor: pointer;
+	position: relative
+}
+
+.extControls-singleButton__icon {
+	border-radius: var(--border-radius_button_functionalButton);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box
+}
+
+.ws-is-hover .extControls-singleButton__container:hover {
+	background-color: var(--unaccented_hover_background-color)
+}
+
+.ws-is-hover .extControls-singleButton__container:hover .extControls-singleButton__icon-pale {
+	background: var(--pale_hover_contrast_background-color);
+	border-color: var(--pale_hover_contrast_background-color)
+}
+
+.ws-is-hover .extControls-singleButton__container:hover .extControls-singleButton__icon-danger {
+	background: var(--danger_hover_contrast_background-color);
+	border-color: var(--danger_hover_contrast_background-color)
+}
+
+.ws-is-hover .extControls-singleButton__container:hover .extControls-singleButton__icon-primary {
+	background: var(--primary_hover_contrast_background-color);
+	border-color: var(--primary_hover_contrast_background-color)
+}
+
+.ws-is-hover .extControls-singleButton__container:hover .extControls-singleButton__icon-secondary {
+	background: var(--secondary_hover_contrast_background-color);
+	border-color: var(--secondary_hover_contrast_background-color)
+}
+
+.ws-is-hover .extControls-singleButton__container:hover .extControls-singleButton__icon-success {
+	background: var(--success_hover_contrast_background-color);
+	border-color: var(--success_hover_contrast_background-color)
+}
+
+.ws-is-hover .extControls-singleButton__container:hover .extControls-singleButton__icon-warning {
+	background: var(--warning_hover_contrast_background-color);
+	border-color: var(--warning_hover_contrast_background-color)
+}
+
+.ws-is-hover .extControls-singleButton__container:hover .extControls-singleButton__icon-info {
+	background: var(--info_hover_contrast_background-color);
+	border-color: var(--info_hover_contrast_background-color)
+}
+
+.ws-is-hover .extControls-singleButton__container:hover .extControls-singleButton__icon-unaccented {
+	background: var(--unaccented_hover_contrast_background-color);
+	border-color: var(--unaccented_hover_contrast_background-color)
+}
+
+.ws-is-hover .extControls-singleButton__container.extControls-singleButton__coloredContainer-style-danger:hover {
+	background: var(--danger_hover_same_background-color);
+	border-color: var(--danger_hover_same_background-color)
+}
+
+.ws-is-hover .extControls-singleButton__container.extControls-singleButton__coloredContainer-style-primary:hover {
+	background: var(--primary_hover_same_background-color);
+	border-color: var(--primary_hover_same_background-color)
+}
+
+.ws-is-hover .extControls-singleButton__container.extControls-singleButton__coloredContainer-style-secondary:hover {
+	background: var(--secondary_hover_same_background-color);
+	border-color: var(--secondary_hover_same_background-color)
+}
+
+.ws-is-hover .extControls-singleButton__container.extControls-singleButton__coloredContainer-style-success:hover {
+	background: var(--success_hover_same_background-color);
+	border-color: var(--success_hover_same_background-color)
+}
+
+.ws-is-hover .extControls-singleButton__container.extControls-singleButton__coloredContainer-style-warning:hover {
+	background: var(--warning_hover_same_background-color);
+	border-color: var(--warning_hover_same_background-color)
+}
+
+.ws-is-hover .extControls-singleButton__container.extControls-singleButton__coloredContainer-style-info:hover {
+	background: var(--info_hover_same_background-color);
+	border-color: var(--info_hover_same_background-color)
+}
+
+.ws-is-hover .extControls-singleButton__container.extControls-singleButton__coloredContainer-style-unaccented:hover {
+	background: var(--unaccented_hover_same_background-color);
+	border-color: var(--unaccented_hover_same_background-color)
+}
+
+.ws-is-no-touch .extControls-singleButton__container:active,
+.ws-is-touch .extControls-singleButton__container:active {
+	background-color: var(--unaccented_active_background-color)
+}
+
+.ws-is-no-touch .extControls-singleButton__container:active .extControls-singleButton__icon-default,
+.ws-is-touch .extControls-singleButton__container:active .extControls-singleButton__icon-default {
+	background: var(--default_active_background-color_button)
+}
+
+.ws-is-no-touch .extControls-singleButton__container:active .extControls-singleButton__icon-pale,
+.ws-is-touch .extControls-singleButton__container:active .extControls-singleButton__icon-pale {
+	background: var(--pale_active_contrast_background-color);
+	border-color: var(--pale_active_contrast_background-color)
+}
+
+.ws-is-no-touch .extControls-singleButton__container:active .extControls-singleButton__icon-danger,
+.ws-is-touch .extControls-singleButton__container:active .extControls-singleButton__icon-danger {
+	background: var(--danger_active_contrast_background-color);
+	border-color: var(--danger_active_contrast_background-color)
+}
+
+.ws-is-no-touch .extControls-singleButton__container:active .extControls-singleButton__icon-primary,
+.ws-is-touch .extControls-singleButton__container:active .extControls-singleButton__icon-primary {
+	background: var(--primary_active_contrast_background-color);
+	border-color: var(--primary_active_contrast_background-color)
+}
+
+.ws-is-no-touch .extControls-singleButton__container:active .extControls-singleButton__icon-secondary,
+.ws-is-touch .extControls-singleButton__container:active .extControls-singleButton__icon-secondary {
+	background: var(--secondary_active_contrast_background-color);
+	border-color: var(--secondary_active_contrast_background-color)
+}
+
+.ws-is-no-touch .extControls-singleButton__container:active .extControls-singleButton__icon-success,
+.ws-is-touch .extControls-singleButton__container:active .extControls-singleButton__icon-success {
+	background: var(--success_active_contrast_background-color);
+	border-color: var(--success_active_contrast_background-color)
+}
+
+.ws-is-no-touch .extControls-singleButton__container:active .extControls-singleButton__icon-warning,
+.ws-is-touch .extControls-singleButton__container:active .extControls-singleButton__icon-warning {
+	background: var(--warning_active_contrast_background-color);
+	border-color: var(--warning_active_contrast_background-color)
+}
+
+.ws-is-no-touch .extControls-singleButton__container:active .extControls-singleButton__icon-info,
+.ws-is-touch .extControls-singleButton__container:active .extControls-singleButton__icon-info {
+	background: var(--info_active_contrast_background-color);
+	border-color: var(--info_active_contrast_background-color)
+}
+
+.ws-is-no-touch .extControls-singleButton__container:active .extControls-singleButton__icon-unaccented,
+.ws-is-touch .extControls-singleButton__container:active .extControls-singleButton__icon-unaccented {
+	background: var(--unaccented_active_contrast_background-color);
+	border-color: var(--unaccented_active_contrast_background-color)
+}
+
+.ws-is-no-touch .extControls-singleButton__container.extControls-singleButton__coloredContainer-style-danger:active,
+.ws-is-touch .extControls-singleButton__container.extControls-singleButton__coloredContainer-style-danger:active {
+	background: var(--danger_active_same_background-color);
+	border-color: var(--danger_active_same_background-color)
+}
+
+.ws-is-no-touch .extControls-singleButton__container.extControls-singleButton__coloredContainer-style-primary:active,
+.ws-is-touch .extControls-singleButton__container.extControls-singleButton__coloredContainer-style-primary:active {
+	background: var(--primary_active_same_background-color);
+	border-color: var(--primary_active_same_background-color)
+}
+
+.ws-is-no-touch .extControls-singleButton__container.extControls-singleButton__coloredContainer-style-secondary:active,
+.ws-is-touch .extControls-singleButton__container.extControls-singleButton__coloredContainer-style-secondary:active {
+	background: var(--secondary_active_same_background-color);
+	border-color: var(--secondary_active_same_background-color)
+}
+
+.ws-is-no-touch .extControls-singleButton__container.extControls-singleButton__coloredContainer-style-success:active,
+.ws-is-touch .extControls-singleButton__container.extControls-singleButton__coloredContainer-style-success:active {
+	background: var(--success_active_same_background-color);
+	border-color: var(--success_active_same_background-color)
+}
+
+.ws-is-no-touch .extControls-singleButton__container.extControls-singleButton__coloredContainer-style-warning:active,
+.ws-is-touch .extControls-singleButton__container.extControls-singleButton__coloredContainer-style-warning:active {
+	background: var(--warning_active_same_background-color);
+	border-color: var(--warning_active_same_background-color)
+}
+
+.ws-is-no-touch .extControls-singleButton__container.extControls-singleButton__coloredContainer-style-info:active,
+.ws-is-touch .extControls-singleButton__container.extControls-singleButton__coloredContainer-style-info:active {
+	background: var(--info_active_same_background-color);
+	border-color: var(--info_active_same_background-color)
+}
+
+.ws-is-no-touch .extControls-singleButton__container.extControls-singleButton__coloredContainer-style-unaccented:active,
+.ws-is-touch .extControls-singleButton__container.extControls-singleButton__coloredContainer-style-unaccented:active {
+	background: var(--unaccented_active_same_background-color);
+	border-color: var(--unaccented_active_same_background-color)
+}

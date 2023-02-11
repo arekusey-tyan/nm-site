@@ -1,0 +1,31 @@
+.edo3-TimelineRollbackConfirmation__adaptiveView {
+	width: 100%;
+}
+
+.edo3-TimelineRollbackConfirmation__text {
+	text-align: center;
+}
+
+.edo3-TimelineRollbackConfirmation__footer-yesButton {
+	margin-right: 8px;
+}
+
+.edo3-TimelineRollbackConfirmation__footer-button {
+	min-width: 86px;
+}
+
+.edo3-TimelineRollbackDialog {
+	width: 100%;
+}
+
+.edo3-TimelineRollbackDialog_scrollContainer {
+	max-height: 30vh;
+}
+
+.edo3-TimelineRollbackDialog__executorName-minWidth {
+	min-width: 15%;
+}
+
+.edo3-TimelineRollbackDialog__acceptButton-minWidth {
+	min-width: 80px;
+}

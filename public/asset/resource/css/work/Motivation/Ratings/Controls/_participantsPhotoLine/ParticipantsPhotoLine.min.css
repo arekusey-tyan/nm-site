@@ -1,0 +1,184 @@
+.mot-ParticipantsPhotoLine__items_center {
+	width: 100%
+}
+
+.mot-ParticipantsPhotoLine__item {
+	position: relative
+}
+
+.mot-ParticipantsPhotoLine__item_name {
+	color: var(--text-color);
+	text-align: center
+}
+
+.mot-ParticipantsPhotoLine__item_name_unaccent {
+	color: var(--label_text-color);
+	font-size: var(--font-size_xs)
+}
+
+.mot-ParticipantsPhotoLine__item_name_secondary {
+	color: var(--secondary_text-color);
+	font-size: var(--font-size_xs)
+}
+
+.mot-ParticipantsPhotoLine__item_surname {
+	margin: 0 auto
+}
+
+.mot-ParticipantsPhotoLine__item_surname_unaccent {
+	color: var(--label_text-color);
+	font-size: var(--font-size_xs)
+}
+
+.mot-ParticipantsPhotoLine__item_surname_secondary {
+	color: var(--secondary_text-color);
+	font-size: var(--font-size_xs)
+}
+
+.mot-ParticipantsPhotoLine__item_icon-fon {
+	position: absolute;
+	top: 55px;
+	width: 24px;
+	height: 24px;
+	box-sizing: border-box;
+	border: var(--border-thickness) solid var(--background-color);
+	border-radius: 50%;
+	background: var(--background-color)
+}
+
+.mot-ParticipantsPhotoLine__item_icon-fon_top-2xl {
+	top: 46px
+}
+
+.mot-ParticipantsPhotoLine__item_icon-fon_shadow {
+	box-shadow: 0 0 5px rgba(0, 0, 0, .35)
+}
+
+.mot-ParticipantsPhotoLine__item_icon-place_number {
+	position: absolute;
+	top: 57px;
+	font-size: var(--font-size_xl);
+	color: var(--text-color)
+}
+
+.mot-ParticipantsPhotoLine__item_icon-place_number_top-2xl {
+	top: 48px
+}
+
+.mot-ParticipantsPhotoLine__item_icon-place_number_isUser {
+	box-sizing: border-box;
+	max-width: 40px;
+	top: 56px;
+	padding: 0 7px 1px;
+	color: var(--contrast_text-color);
+	background: var(--primary_contrast_background-color);
+	border: var(--border-thickness) solid var(--background-color);
+	border-radius: 12px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, .35)
+}
+
+.mot-ParticipantsPhotoLine__item_icon-place_number_isUser_top-2xl {
+	top: 46px
+}
+
+.mot-ParticipantsPhotoLine__item_icon-medal {
+	position: absolute;
+	top: 57px;
+	width: var(--icon-size_m);
+	height: var(--icon-size_m);
+	background-size: contain
+}
+
+.mot-ParticipantsPhotoLine__item_icon-medal_top-2xl {
+	top: 49px
+}
+
+.mot-ParticipantsPhotoLine__item_icon-medal_1 {
+	background-image: url('/cdn/StaffCDN/StaffGame/assets/static/medals/1.1.0/1.png')
+}
+
+.mot-ParticipantsPhotoLine__item_icon-medal_2 {
+	background-image: url('/cdn/StaffCDN/StaffGame/assets/static/medals/1.1.0/2.png')
+}
+
+.mot-ParticipantsPhotoLine__item_icon-medal_3 {
+	background-image: url('/cdn/StaffCDN/StaffGame/assets/static/medals/1.1.0/3.png')
+}
+
+.mot-ParticipantsPhotoLine__photo {
+	border: var(--border-thickness) solid var(--background-color)
+}
+
+.mot-ParticipantsPhotoLine__photo_transparent {
+	border: var(--border-thickness) solid rgba(255, 255, 255, 0)
+}
+
+.mot-ParticipantsPhotoLine__photo .person-DefaultPhoto__stub_background-default {
+	fill: var(--background-color)
+}
+
+.mot-ParticipantsPhotoLine__photoLine {
+	margin-top: 34px;
+	z-index: 0
+}
+
+.mot-ParticipantsPhotoLine__photoLine_department {
+	margin-top: 32px
+}
+
+.mot-ParticipantsPhotoLine__ellipsis {
+	width: var(--icon-size_2xs);
+	font-size: var(--font-size_l);
+	margin: 47px 1px 0 1px
+}
+
+.mot-ParticipantsPhotoLine__department_line_container {
+	position: relative;
+	margin-left: -14px
+}
+
+.mot-ParticipantsPhotoLine__department_line_container:first-child {
+	margin-left: 0
+}
+
+.mot-ParticipantsPhotoLine__department_line_collage {
+	border-radius: var(--border-radius_default_block)
+}
+
+.mot-ParticipantsPhotoLine__department_line_count {
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	background: rgba(0, 0, 0, .4);
+	color: var(--background-color);
+	height: var(--size_l_image);
+	width: var(--size_l_image);
+	border-radius: var(--border-radius_default_block);
+	font-size: var(--font-size_xl)
+}
+
+.mot-ParticipantsPhotoLine__department_line_countResponsive {
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	background: rgba(0, 0, 0, .4);
+	color: var(--background-color);
+	height: calc(var(--size_3xl_image));
+	width: calc(var(--size_3xl_image));
+	border-radius: var(--border-radius_default_block);
+	font-size: var(--font-size_xl)
+}
+
+.mot-ParticipantsPhotoLine__department_line_countResponsiveCounter {
+	font-size: 28px
+}
+
+.ws-is-desktop-safari .mot-ParticipantsPhotoLine__item_icon-place_number,
+.ws-is-firefox .mot-ParticipantsPhotoLine__item_icon-place_number {
+	top: 56px
+}
+
+.ws-is-desktop-safari .mot-ParticipantsPhotoLine__item_icon-place_number_isUser,
+.ws-is-firefox .mot-ParticipantsPhotoLine__item_icon-place_number_isUser {
+	top: 55px
+}

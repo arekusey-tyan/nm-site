@@ -1,0 +1,18 @@
+.edo3-Spoiler--collapsed {
+	overflow: hidden;
+}
+
+.edo3-Spoiler__content {
+	position: relative;
+}
+
+.edo3-Spoiler__shadow-block {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	box-shadow: 0 5px 5px 10px var(--background-color);
+	height: 1px;
+	background: var(--background-color);
+	z-index: 1;
+}

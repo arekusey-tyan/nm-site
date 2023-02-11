@@ -1,0 +1,11 @@
+.textEditor_Toolbar_backgroundItem {
+	border-radius: 4px;
+}
+
+.ws-is-hover .textEditor_Toolbar_BackgroundItem_selectable:hover {
+	outline: var(--border-thickness) solid var(--info_border-color);
+}
+
+.textEditor_Toolbar_BackgroundItem_selectable.textEditor_Viewer__background-transparent {
+	background-color: var(--background-color);
+}

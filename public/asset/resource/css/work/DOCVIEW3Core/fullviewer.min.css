@@ -1,0 +1,39 @@
+.docview3-Fullviewer__list_tile {
+    height: 100%;
+}
+
+.docview3-Fullviewer__list_has-items .docview3-Fullviewer__scroll-container_tile {
+    height: 100%;
+}
+
+.docview3-Fullviewer__list_has-items .docview3-Fullviewer__scroll-container_table {
+    max-height: 155px;
+}
+
+.docview3-Fullviewer__list_has-items .docview3-Fullviewer__scroll-container_table-one-column {
+    max-height: 168px;
+}
+
+.docview3-Fullviewer__view {
+    position: relative;
+    z-index: 1;
+}
+
+.docview3-Fullviewer__resizing-line {
+    height: 6px;
+    position: relative;
+    margin-top: -6px;
+}
+
+.docview3-Fullviewer__resizing-line_resize {
+    z-index: 2;
+}
+
+.docview3-Fullviewer__list__before-filter-template {
+    margin-left: auto;
+    margin-right: var(--offset_m);
+}
+
+.docview3-Fullviewer__list__container {
+    max-height: 100%;
+}

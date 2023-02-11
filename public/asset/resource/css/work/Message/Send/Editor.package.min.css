@@ -1,0 +1,312 @@
+.msg-send-editor {
+	position: relative;
+	padding: 5px 12px 6px 8px;
+	z-index: 29;
+	width: calc(100% - 20px);
+	max-width: 100%;
+}
+
+.msg-send-editor.msg-send-editor {
+	border-top: none;
+}
+
+.msg-send-editor.msg-send-editor__wide {
+	padding-bottom: 12px;
+	padding-top: 9px;
+}
+
+.msg-send-editor .contacts-Blockquote {
+	margin-right: 16px;
+}
+
+.msg-send-editor .contacts-Blockquote p:not(:first-child) {
+	margin-top: 6px;
+}
+
+.msg-send-editor .richEditor_Base {
+	min-height: 25px;
+}
+
+.msg-send-editor .censureFilter-highlight {
+	background-color: var(--text_background-color_decoratorHighlight);
+}
+
+.msg-send-editor .msg-AddresseeLink__icon {
+	padding-right: 2px;
+	padding-left: 7px;
+}
+
+.msg-send-editor .textEditor_slate_Container {
+	padding-right: 26px;
+}
+
+.msg-send-editor .richEditor_Base_textContainer {
+	padding-right: 32px;
+}
+
+.msg-send-editor .controls-Render_border-bottom {
+	border-bottom-width: 0;
+}
+
+.msg-send-editor .textEditor_extended_ScrollContainer {
+	border-radius: var(--border-radius_s);
+}
+
+.ws-is-desktop-safari .msg-send-editor__controller_rich .controls-Scroll-Container,.ws-is-mobile-safari .msg-send-editor__controller_rich .controls-Scroll-Container {
+	border-radius: var(--border-radius_s);
+}
+
+.msg-send-editor__controller_rich {
+	display: flex;
+	min-width: 0;
+	width: 100%;
+	margin: 2px 1px 2px 0;
+	border-radius: var(--border-radius_s);
+}
+
+.msg-send-editor__controller_rich.msg-send-editor__controller_rich-border {
+	border-radius: var(--border-radius_s);
+}
+
+.msg-send-editor__middle .msg-send-editor__controller_rich,.msg-send-editor__middle .richEditor_Base {
+	min-height: 50px;
+}
+
+.msg-send-editor__emailLetterSubject {
+	padding-right: 97px;
+}
+
+.msg-send-editor__theme {
+	width: calc(100% - 97px);
+	margin: 0 0 8px 30px;
+}
+
+.msg-send-editor__container-down {
+	position: relative;
+	min-height: 28px;
+	padding-top: 1px;
+	z-index: 2;
+}
+
+.msg-send-editor__container-down-buttons {
+	padding-top: 1px;
+}
+
+.msg-send-editor__container-down-buttons_left-buttons {
+	min-width: 27px;
+}
+
+.msg-send-editor__toolbar {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+}
+
+.msg-send-editor__toolbar-button {
+	margin: 0 2px;
+	cursor: pointer;
+}
+
+.msg-send-editor__toolbar-button_16 {
+	margin: 0 7px;
+	height: 24px;
+}
+
+.msg-send-editor__toolbar-smile {
+	position: absolute;
+	left: -31px;
+	width: 24px;
+	height: 24px;
+}
+
+.msg-send-editor__toolbar-whomField {
+	margin: 1px 3px 0 0;
+}
+
+.msg-send-editor__toolbar-whomField.msg-send-editor__toolbar-whomField_audio {
+	margin-right: 11px;
+}
+
+.msg-send-editor .msg-send-editor__toolbar-whomField.theme-default,.msg-send-editor .msg-send-editor__toolbar-whomField.theme_default {
+	display: none;
+}
+
+.msg-send-editor__toolbar-attach {
+	margin-right: 6px;
+}
+
+.msg-send-editor__toolbar-audio {
+	position: absolute;
+	left: -100px;
+}
+
+.msg-send-editor__toolbar-video {
+	position: absolute;
+	left: -66px;
+}
+
+.msg-send-editor__toolbar-menu {
+	height: var(--inline_height_m);
+}
+
+.msg-send-editor__receivers {
+	margin: 0 2px 3px 0;
+}
+
+.msg-send-editor__wide .msg-send-editor__receivers {
+	padding-right: 0;
+	margin-left: 0;
+}
+
+.msg-send-editor__receivers .msg-Addressee__link {
+	width: 100%;
+}
+
+.msg-send-editor__container-up {
+	display: block;
+	width: 100%;
+	z-index: 1;
+}
+
+.msg-send-editor__left-button {
+	margin-right: 3px;
+	margin-top: 1px;
+}
+
+.msg-send-editor__left-button_theme {
+	margin-right: 10px;
+	margin-top: 0;
+	position: absolute;
+	bottom: 3px;
+	z-index: 1;
+}
+
+.msg-send-editor__rich-editor {
+	box-sizing: border-box;
+	margin: 0 3px 0 5px;
+	overflow: hidden;
+}
+
+.msg-send-editor__wide .msg-send-editor__rich-editor {
+	margin-right: 0;
+	margin-left: 4px;
+}
+
+.msg-send-editor__rich-editor.msg-send-editor__rich-editor_toolbar-under {
+	margin-right: 0;
+}
+
+.msg-send-editor__do-send {
+	float: right;
+	margin-top: -1px;
+}
+
+.msg-send-editor__wide .msg-send-editor__do-send {
+	margin-top: 7px;
+}
+
+.msg-send-editor__sendButton {
+	margin-top: 1px;
+}
+
+.msg-send-editor__sendButton_wide {
+	min-width: 59px;
+}
+
+.msg-send-editor__sendNewButton {
+	margin-top: 3px;
+	margin-right: 4px;
+}
+
+.msg-send-editor__send-fields {
+	position: relative;
+	padding-top: 3px;
+}
+
+.msg-send-editor__toolbar-inline {
+	z-index: 1;
+	width: auto;
+	min-width: var(--offset_3xs);
+	padding: 2px 1px;
+	background: 0 0;
+}
+
+.msg-send-editor__btn-tmpl {
+	overflow: hidden;
+	width: 32px;
+	height: 100%;
+	min-width: 0;
+	position: absolute;
+	top: 0;
+	right: 27px;
+}
+
+.msg-send-editor__lock-tooltip {
+	background-color: var(--background-color);
+	overflow: hidden;
+	width: 100%;
+	color: var(--border-color_inputText);
+	height: 28px;
+	padding: 0 var(--offset_2xs);
+	margin-right: var(--offset_s);
+}
+
+.msg-send-editor__files {
+	max-width: 100%;
+}
+
+.msg-send-editor-light .msg-send-editor__files {
+	margin-left: 0;
+	margin-right: 24px;
+}
+
+.msg-send-editor__toolbar-under {
+	position: absolute;
+	bottom: 0;
+}
+
+.msg-send-editor__toolbar-under .msg-send-editor__toolbar-whomField {
+	margin-top: 0;
+	margin-left: 0;
+}
+
+.msg-send-editor__toolbar-under .msg-send-editor__toolbar-attach {
+	margin-left: 1px;
+}
+
+.msg-send-editor__toolbar-under .msg-send-editor__toolbar-smile {
+	position: relative;
+	left: 0;
+}
+
+.msg-send-editor__footer-template {
+	max-width: 100%;
+	overflow: hidden;
+	padding-right: 24px;
+}
+
+.msg-send-editor-light .msg-send-editor__footer-template {
+	margin: 0 -4px;
+}
+
+.msg-send-editor__drop {
+	max-height: calc(100% - 12px);
+}
+
+.msg-send-editor__with-background {
+	background: var(--unaccented_background-color);
+}
+
+.msg-send-editor__tmpl .msg-send-editor-light .textEditor_base_editor,.msg-send-editor__tmpl .richEditor_TinyMCE {
+	padding-right: 32px;
+	width: auto;
+}
+
+.msg-send-editor__footer-counter {
+	text-align: end;
+	z-index: 1;
+	position: absolute;
+	bottom: 5px;
+	right: 65px;
+	background-color: var(--background-color);
+}

@@ -1,0 +1,64 @@
+.EDO3-icon_style-primary {
+	fill: var(--primary_border-color_button);
+	color: var(--primary_border-color_button);
+}
+
+.EDO3-icon_style-secondary {
+	fill: var(--secondary_border-color_button);
+	color: var(--secondary_border-color_button);
+}
+
+.EDO3-icon_style-readonly {
+	fill: var(--readonly_border-color_button);
+	color: var(--readonly_border-color_button);
+}
+
+.EDO3-icon_style-danger {
+	fill: var(--danger_border-color);
+	color: var(--danger_border-color);
+}
+
+.EDO3-icon_style-success {
+	fill: var(--success_border-color);
+	color: var(--success_border-color);
+}
+
+.EDO3-icon_style-warning {
+	fill: var(--warning_border-color);
+	color: var(--warning_border-color);
+}
+
+.EDO3-icon_style-info {
+	fill: var(--info_border-color);
+	color: var(--info_border-color);
+}
+
+.EDO3-icon_style-unaccented {
+	fill: var(--unaccented_border-color);
+	color: var(--unaccented_border-color);
+}
+
+.EDO3-icon_style--pale {
+	fill: var(--pale_border-color);
+	color: var(--pale_border-color);
+}
+
+.EDO3-icon_style-label {
+	fill: var(--label_text-color);
+	color: var(--label_text-color);
+}
+
+.EDO3-icon_style-default {
+	fill: var(--default_border-color_button);
+	color: var(--default_border-color_button);
+}
+
+.EDO3-icon_style-contrast {
+	fill: var(--contrast_icon-color);
+	color: var(--contrast_icon-color);
+}
+
+.EDO3-icon_style-forTranslucent {
+	fill: #fff;
+	color: var(--contrast_text-color);
+}

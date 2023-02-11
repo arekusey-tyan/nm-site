@@ -1,0 +1,16 @@
+.mot-WidgetEmptyView {
+	height: 200px
+}
+
+.mot-WidgetEmptyView__wrap {
+	margin-top: 40px
+}
+
+.mot-WidgetEmptyView__message {
+	text-align: center
+}
+
+.mot-WidgetEmptyView__img {
+	width: 120px;
+	height: 120px
+}

@@ -1,0 +1,100 @@
+.edo3-Toolbar__groupTemplate-text {
+	display: inline-block;
+	color: var(--label_text-color);
+	font-size: 12px;
+	white-space: nowrap;
+	text-align: center;
+	flex-shrink: 0
+}
+
+.edo3-Toolbar__groupTemplate-separator {
+	border-bottom: 1px solid #eaeaea;
+	margin: 8px 12px;
+	flex-shrink: 1;
+	height: 1px;
+	width: 100%
+}
+
+.edo3-Toolbar__Marks-item:hover {
+	cursor: pointer
+}
+
+.edo3-Dialog__toolbar-decorateLink {
+	max-width: 100%
+}
+
+.edo3-Dialog__toolbar-decorateLink:hover {
+	cursor: pointer;
+	background-color: var(--hover_background-color)
+}
+
+.edo3-Dialog__toolbar-decorateLink .edo3-Dialog__toolbar-decorateLink-wrapper {
+	max-width: 698px;
+	margin: 6px 12px;
+	padding-top: 4px;
+	pointer-events: none
+}
+
+.edo3-Dialog__toolbar-decorateLink.edo3-Dialog__toolbar-decorateLink-padding {
+	padding-left: 30px
+}
+
+.edo3-Dialog__toolbar-decorateLink.edo3-Dialog__toolbar-decorateLink-padding .edo3-Dialog__toolbar-decorateLink-wrapper {
+	max-width: 668px
+}
+
+.edo3-SendDocItemTemplate__unselected {
+	color: var(--unaccented_color)
+}
+
+.edo3-SendDocItemTemplate__selected {
+	color: var(--text-color)
+}
+
+.edo3-SendDocItemTemplate__separator {
+	margin: 0 4px
+}
+
+.edo3-SendDocItemTemplate__email-checkbox:not(.edo3-SendDocItemTemplate__selected) {
+	opacity: 0
+}
+
+.ws-is-hover .edo3-SendDocItemTemplate__email-caption:hover {
+	color: var(--text-color)
+}
+
+.ws-is-hover .edo3-SendDocItemTemplate__selected:hover:not(.edo3-SendDocItemTemplate__separator):not(.edo3-SendDocItemTemplate__email-checkbox) {
+	text-decoration: underline
+}
+
+.ws-is-hover .edo3-SendDocItemTemplate:hover .edo3-SendDocItemTemplate__email-checkbox:not(.edo3-SendDocItemTemplate__selected) {
+	opacity: 1
+}
+
+.edo3-SendDocItemTemplate-Menu__content-wrapper {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 100%
+}
+
+.edo3-SendDocItemTemplate-Menu__icon-left {
+	margin-right: 6px
+}
+
+.edo3-SendDocItemTemplate-Menu__icon-right {
+	margin-left: 6px
+}
+
+.edo3-SendDocItemTemplate-Menu__icon-invisible {
+	height: 0
+}
+
+.edo3-downloadZipItemTemplate__signType {
+	font-size: var(--font-size_m);
+	color: var(--label_text-color)
+}
+
+.edo3-downloadZipItemTemplate__signType:hover {
+	text-decoration: underline
+}

@@ -1,0 +1,29 @@
+.textEditor_slate_Field {
+	height: 100%;
+	caret-color: var(--text-color);
+}
+
+.textEditor_slate_Viewer {
+	width: 100%;
+	height: 100%;
+}
+
+.textEditor_slate_NonEditable_selected {
+	background: #b4d5fe;
+}
+
+.textEditor_slate_NonEditable_editor {
+	pointer-events: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.ws-is-firefox .textEditor_slate_NonEditable_emptyNode {
+	font-size: 0;
+}
+
+.textEditor_slate__Link_extended {
+	display: block;
+}

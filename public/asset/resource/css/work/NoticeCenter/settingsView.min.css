@@ -1,0 +1,28 @@
+.noticeCenter-SettingsList__titleBar {
+	padding-left: var(--offset_l)
+}
+
+.noticeCenter-SettingsList__title {
+	color: var(--secondary_text-color);
+	cursor: default;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 38px
+}
+
+.noticeCenter-SettingsList__buttonsBlock {
+	margin-left: 6px
+}
+
+.noticeCenter-SettingsList__saveButton {
+	margin-left: var(--offset_l)
+}
+
+.noticeCenter-SettingsList__scroll {
+	height: 100%;
+	padding: 5px 0
+}
+
+.noticeCenter-SettingsList__item {
+	padding: 6px 0
+}

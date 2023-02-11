@@ -1,0 +1,119 @@
+.controls-DecoratorMoney {
+	white-space: nowrap;
+	align-items: baseline
+}
+
+.controls-DecoratorMoney__fraction__colorStyle-default {
+	color: var(--default_text-color_decorator_fraction)
+}
+
+.controls-DecoratorMoney__fraction__colorStyle-readonly {
+	color: var(--readOnly_text-color_decorator_fraction)
+}
+
+.controls-DecoratorMoney__fraction__colorStyle-contrast {
+	color: var(--contrast_text-color)
+}
+
+.controls-DecoratorMoney__fraction__colorStyle-semi_contrast {
+	color: var(--contrast_text-color);
+	opacity: .6
+}
+
+.controls-DecoratorMoney__stroked {
+	position: relative
+}
+
+.controls-DecoratorMoney__stroked::before {
+	content: '';
+	height: 1px;
+	background-color: var(--stroked_line-color_decorator);
+	left: 0;
+	top: 50%;
+	width: 100%;
+	position: absolute
+}
+
+.ws-is-hover .controls-DecoratorMoney__underline:hover {
+	text-decoration: underline;
+	text-decoration-thickness: from-font
+}
+
+.controls-DecoratorNumber {
+	white-space: nowrap
+}
+
+.controls-DecoratorNumber__stroked {
+	position: relative
+}
+
+.controls-DecoratorNumber__stroked::before {
+	content: '';
+	height: 1px;
+	background-color: var(--stroked_line-color_decorator);
+	left: 0;
+	top: 50%;
+	width: 100%;
+	position: absolute
+}
+
+.ws-is-hover .controls-DecoratorNumber__underline:hover {
+	text-decoration: underline
+}
+
+.controls-Highlight_highlight {
+	color: var(--text-color_decoratorHighlight);
+	background-color: var(--text_background-color_decoratorHighlight)
+}
+
+.LinkDecorator__wrap {
+	display: flex;
+	overflow: hidden;
+	max-width: 100%;
+	padding-right: 2px;
+	padding-bottom: 4px
+}
+
+.LinkDecorator__linkWrap {
+	border: 1px solid #eaeaea;
+	border-left: 0;
+	display: inline-block;
+	line-height: 0;
+	position: relative;
+	min-height: 50px;
+	max-width: 100%;
+	min-width: 350px;
+	overflow: hidden
+}
+
+.LinkDecorator__linkWrap::after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 30px;
+	background: linear-gradient(to right, rgba(246, 246, 246, 0) 0, #f6f6f6 100%)
+}
+
+.LinkDecorator__linkWrap .LinkDecorator__image {
+	max-width: 538px;
+	pointer-events: none;
+	margin: 0
+}
+
+.controls-MarkupDecorator_highlight {
+	background-color: var(--text_background-color_decoratorHighlight)
+}
+
+.controls-DecoratorDate {
+	white-space: nowrap
+}
+
+.controls-MultilineText-display_wrapper {
+	display: inline
+}
+
+.controls-MultilineText-container {
+	overflow-wrap: break-word
+}

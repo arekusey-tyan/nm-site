@@ -1,0 +1,153 @@
+.addressee-Lookup__flex-11a {
+	flex: 1 1 auto;
+}
+
+.addressee-Lookup__flex-01a {
+	flex: 0 1 auto;
+	min-width: 60px;
+}
+
+.addressee-Lookup__flex-01a.addressee-Lookup__flex-01a__readonly {
+	min-width: 45px;
+}
+
+.addressee-Lookup__firstInOrder {
+	order: 1;
+}
+
+.addressee-Lookup__lastInOrder {
+	order: 2;
+}
+
+.addressee-Lookup__min-width-55 {
+	min-width: 55px;
+}
+
+.addressee-Lookup__text-underlined {
+	text-decoration: underline;
+}
+
+.ws-is-hover .addressee-Lookup__text-underlined:hover {
+	color: var(--secondary_text-color_heading);
+}
+
+.addressee-Lookup__block {
+	width: 100%;
+	text-align: left;
+}
+
+.addressee-Lookup__Lookup {
+	width: 100%;
+}
+
+.addressee-Lookup__Lookup-link {
+	pointer-events: auto;
+}
+
+.addressee-Lookup .addressee-Lookup__Lookup-link.addressee-Lookup__inherit {
+	line-height: inherit;
+}
+
+.addressee-Lookup__labelBeside {
+	margin-right: var(--offset_s);
+	text-align: left;
+}
+
+.addressee-Lookup__labelAbove {
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+}
+
+.addressee-Lookup__placeholder {
+	white-space: nowrap;
+}
+
+.addressee-RiskMeter {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.addressee-default_cursor {
+	cursor: default;
+}
+
+.addressee-Item {
+	padding-right: 0;
+}
+
+.addressee-Item__selectedSingle {
+	width: 100%;
+}
+
+.addressee-Item__headText {
+	max-width: 100%;
+}
+
+.addressee-Item__flex-start {
+	justify-content: flex-start;
+}
+
+.ws-is-desktop-safari .addressee-Item .addressee-Item-max-width,.ws-is-mobile-safari .addressee-Item .addressee-Item-max-width {
+	max-width: 100%;
+}
+
+.ws-is-ie .addressee-Item .addressee-Item-max-width {
+	flex-shrink: 0;
+}
+
+.addressee-Item .addressee-Item-max-width-55 {
+	max-width: calc(100% - 55px);
+}
+
+.addressee-Item .addressee-Item-max-width-95 {
+	max-width: calc(100% - 95px);
+}
+
+.addressee-Item .addressee-Item-max-width-40 {
+	max-width: calc(100% - 40px);
+}
+
+.addressee-Item .addressee-Item-max-width-100 {
+	max-width: calc(100% - 100px);
+}
+
+.addressee-Item .addressee-Item-max-width-120 {
+	max-width: calc(100% - 120px);
+}
+
+.addressee-Item .addressee-Item-max-width-170 {
+	max-width: calc(100% - 170px);
+}
+
+.addressee-Item .addressee-Item-max-width-160 {
+	max-width: calc(100% - 160px);
+}
+
+.addressee-Item .addressee-Item-max-width-230 {
+	max-width: calc(100% - 220px);
+}
+
+.addressee-Item .addressee-Item__block {
+	display: block;
+}
+
+.addressee-Item .addressee-Item__min-width-40 {
+	min-width: 40px;
+}
+
+.addressee-Item .addressee-Item__font-weight-bold {
+	font-weight: 700;
+}
+
+.addressee-Item .addressee-Item-min-width-120 {
+	min-width: 120px;
+}
+
+.addressee-Item .addressee-Item-min-width-55 {
+	min-width: 55px;
+}
+
+.addressee-default_cursor {
+	cursor: default;
+}

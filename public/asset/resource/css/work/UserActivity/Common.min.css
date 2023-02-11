@@ -1,0 +1,158 @@
+.Activity-Icon {
+	font-family: cbuc-icons;
+	font-size: 16px;
+	line-height: 16px
+}
+
+.Activity-Icon--24 {
+	font-family: cbuc-icons24;
+	font-size: 24px;
+	line-height: 24px;
+	width: 24px;
+	height: 24px
+}
+
+.Activity-Icon--primary {
+	color: var(--label_text-color)
+}
+
+.Activity-Icon--disabled {
+	color: var(--readonly_text-color)
+}
+
+.Activity-VDOM-Status__GeneralContainer {
+	line-height: 17px;
+	position: relative;
+	max-width: 100%;
+	color: var(--label_text-color)
+}
+
+.Activity-VDOM-Status__GeneralContainer .Activity-VDOM-Status__Text {
+	vertical-align: top;
+	font-size: 12px;
+	height: 16px;
+	line-height: 16px;
+	margin-left: 4px
+}
+
+.ws-is-hover .Activity-VDOM-Status__GeneralContainer .Activity-VDOM-Status__Text.Activity-VDOM-Status__TextAsLink:hover {
+	cursor: pointer;
+	text-decoration: underline
+}
+
+.Activity-VDOM-Status__GeneralContainer .Activity-VDOM-Status__TextTZOffset {
+	font-size: 12px;
+	line-height: 16px;
+	margin-left: 6px
+}
+
+.Activity-VDOM-Status__GeneralContainer .Activity-VDOM-Status__EmployeeStatus {
+	margin-left: 6px
+}
+
+.Activity-VDOM-Status__GeneralContainer .Activity-VDOM-Status__TextSize--s {
+	font-size: 12px
+}
+
+.Activity-VDOM-Status__GeneralContainer .Activity-VDOM-Status__TextSize--m {
+	font-size: 14px
+}
+
+.Activity-VDOM-Status__GeneralContainer .Activity-VDOM-Status__TextSize--l {
+	font-size: 16px
+}
+
+.Activity-VDOM-Status__GeneralContainer .Activity-VDOM-Status__Icon {
+	width: 20px;
+	margin-left: 6px
+}
+
+.Activity-VDOM-Status__GeneralContainer .Activity-VDOM-Status__Icon .force_work_icon_color {
+	color: var(--label_text-color)
+}
+
+.Activity-VDOM-Status__GeneralContainer .Activity-VDOM-Status__Icon .force_not_work_icon_color {
+	color: var(--readonly_text-color)
+}
+
+.Activity-VDOM-Status__GeneralContainer .with_icon-24 .Activity-VDOM-Status__Icon {
+	width: 28px
+}
+
+.Activity-VDOM-Status__GeneralContainer .force_work_text_color {
+	color: var(--label_text-color)
+}
+
+.Activity-VDOM-Status__Text.text_blue {
+	color: var(--secondary_text-color)
+}
+
+.ws-is-ie .Activity-VDOM-Status__Text.text_with_icon {
+	max-width: 110px
+}
+
+.ws-is-firefox .Activity-VDOM-Status__Indicator {
+	margin-top: .5px
+}
+
+.Indicator_statuses {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: relative;
+	display: inline-block
+}
+
+.with_icon-24 {
+	height: 24px;
+	padding-top: 4px;
+	box-sizing: border-box
+}
+
+.activity__ActivityMarker-withBorder:before {
+	display: none
+}
+
+.activity__ActivityMarker-withBorder.icon-16.icon-disabled.icon-PhoneGetManually,
+.activity__ActivityMarker-withBorder.icon-16.icon-disabled.icon-PhoneGetManually .activity__ActivityMarker__image {
+	display: none
+}
+
+.activity__ActivityMarker-withBorder,
+.activity__ActivityMarker-withBorder .activity__ActivityMarker__image {
+	width: 12px !important;
+	height: 12px !important;
+	background-size: cover
+}
+
+.activity__ActivityMarker__image.on-line-marker {
+	background-image: url('_Common/ActivityHelper/images/on-line-marker.png?x_module=57ded150dfd28e802aeb7fcffb7560af')
+}
+
+.activity__ActivityMarker__image.off-line-marker {
+	background-image: url('_Common/ActivityHelper/images/off-line-marker.png?x_module=57ded150dfd28e802aeb7fcffb7560af')
+}
+
+.activity__ActivityMarker__image.on-line-marker-at-work {
+	background-image: url('_Common/ActivityHelper/images/on-line-marker-at-work.png?x_module=57ded150dfd28e802aeb7fcffb7560af')
+}
+
+.Activity-VDOM-Status__Indicator:not(.icon-16) {
+	background: url("_Common/images/online_without_border.png?x_module=57ded150dfd28e802aeb7fcffb7560af") no-repeat center bottom;
+	width: 16px;
+	height: 16px;
+	display: inline-block
+}
+
+.Activity-VDOM-Status__Indicator.icon-16 {
+	float: left
+}
+
+.Activity-VDOM-Status__Indicator.no_active {
+	background: url("_Common/images/offline.png?x_module=57ded150dfd28e802aeb7fcffb7560af") no-repeat center bottom !important
+}
+
+.Activity-VDOM-Status__Indicator.icon-hover {
+	color: var(--primary_color);
+	fill: var(--primary_color)
+}

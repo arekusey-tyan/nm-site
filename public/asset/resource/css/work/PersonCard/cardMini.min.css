@@ -1,0 +1,816 @@
+.MiniCard-BaseContainer {
+	font-family: var(--font-family);
+	min-width: 550px;
+	max-width: 550px;
+}
+
+.MiniCard-BaseContainer,.MiniCard-Content__base {
+	height: 100%;
+}
+
+.MiniCard-BaseContainer__withPiv {
+	min-height: 293px;
+}
+
+.MiniCard-BaseContainer__withoutPiv {
+	min-height: 262px;
+}
+
+.person-MiniCard {
+	height: 100%;
+}
+
+.personMiniCard-Mini__baseContainer {
+	width: 550px;
+	max-height: 100%;
+	min-height: 0;
+}
+
+.personMiniCard-Mini__baseContainer .controls-StackTemplate__close_button_theme_default {
+	margin-top: var(--offset_s);
+}
+
+.personMiniCard-Mini__baseContainer--accessContainer {
+	width: 442px;
+	min-height: 0;
+}
+
+.personMiniCard-Mini__baseContainer .controls-Button__close_toolButton {
+	width: var(--size_m_image);
+	height: var(--size_m_image);
+}
+
+.personMiniCard-Mini__baseContainer .controls-DialogTemplate__close_button {
+	margin-top: var(--offset_xs);
+}
+
+.personMiniCard-Mini__dialogContainer {
+	width: 550px;
+	min-height: 0;
+}
+
+.personMiniCard-Mini__dialogContainer .controls-Button__close_toolButton {
+	width: var(--size_m_image);
+	height: var(--size_m_image);
+}
+
+.personMiniCard-Mini__dialogContainer .controls-DialogTemplate__close_button {
+	margin-top: var(--offset_xs);
+}
+
+.personMiniCard-Mini__scrollContainer {
+	max-height: 100%;
+	width: 100%;
+}
+
+.personMiniCard-Mini__scrollWrapper {
+	display: flex;
+	height: 100%;
+}
+
+.personMiniCard-Mini__scrollEdit {
+	width: 100%;
+}
+
+.personMiniCard-Mini__dialog {
+	height: 100%;
+	min-height: 0;
+	display: flex;
+	background-color: var(--background-color);
+	overflow: hidden;
+}
+
+.personMiniCard-Mini__dialog--stack {
+	height: auto;
+}
+
+.personMiniCard-Mini__dialog_withFooter {
+	height: auto;
+}
+
+.personMiniCard-Mini__templateError {
+	text-align: center;
+}
+
+.personDefault-Mini__name {
+	margin-top: -1px;
+	max-width: 100%;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+}
+
+.personDefault-Mini__name_robot {
+	text-transform: uppercase;
+}
+
+.personDefault-Mini__department,.personDefault-Mini__note {
+	overflow: hidden;
+	line-height: 18px;
+	font-size: var(--icon-size_xs);
+	text-overflow: ellipsis;
+	max-width: 100%;
+	color: var(--label_text-color);
+	margin-right: auto;
+	margin-top: var(--offset_s);
+	flex-shrink: 0;
+	max-height: var(--inline_height_4xl);
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+.PersonDefault-Mini-Content__base {
+	min-height: 0;
+	display: flex;
+	flex: 0 0 auto;
+}
+
+.PersonDefault-Mini-Content__base_withFooter {
+	height: auto;
+}
+
+.PersonDefault-Mini-Content-Bottom-PIV {
+	width: 190px;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.PersonDefault-Mini-Content-Photo {
+	border-radius: var(--border-radius_m_image);
+	width: 190px;
+	height: 190px;
+}
+
+.PersonDefault-Mini-Content-Photo--asLink {
+	cursor: pointer;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.PersonDefault-Mini-Top {
+	flex-grow: 1;
+	height: 100%;
+	width: 100%;
+}
+
+.PersonDefault-Mini-Top-Workstate {
+	margin-top: 10px;
+	flex-shrink: 1;
+	flex-grow: 1;
+	min-width: 0;
+}
+
+.PersonDefault-Mini-Content {
+	padding: var(--offset_2xl) 0 0 0;
+	min-height: 0;
+	display: flex;
+	flex-direction: row;
+}
+
+.PersonDefault-Mini-Content-WithPiV {
+	margin: var(--offset_l) 0 0 0;
+	min-height: 226px;
+}
+
+.PersonDefault-Mini-Content-Info {
+	height: 100%;
+	padding-right: var(--offset_xs);
+	vertical-align: unset;
+	margin-top: var(--offset_3xs);
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 auto;
+	min-height: 0;
+}
+
+.PersonDefault-Mini-Content-InfoWrapper {
+	display: flex;
+	flex-direction: column;
+	flex-shrink: 1;
+	flex-grow: 1;
+	min-width: 0;
+	width: 100%;
+	height: 100%;
+	min-height: 0;
+	margin-left: 32px;
+}
+
+.PersonDefault-Mini-Content-Info-Position {
+	line-height: 17px;
+	font-size: var(--font-size_m);
+	color: var(--label_text-color);
+	margin-top: var(--offset_xs);
+	max-width: 100%;
+	margin-right: auto;
+	cursor: default;
+}
+
+.PersonDefault-Mini-Content-Info-Position+.personDefault-Mini__department {
+	margin-top: var(--offset_xs);
+}
+
+.PersonDefault-Mini-Content__text {
+	overflow: hidden;
+	max-height: 36px;
+	text-overflow: ellipsis;
+}
+
+.MiniCard__text_webkit-box {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow-wrap: anywhere;
+}
+
+.PersonDefault-Mini-Content-Info-Contacts {
+	margin-top: var(--offset_3xs);
+	min-height: 0;
+}
+
+.PersonDefault-Mini-Content-Info-Contacts .personCard-ContactListView__moreBtn {
+	max-width: -webkit-max-content;
+	max-width: -moz-max-content;
+	max-width: max-content;
+	margin-top: var(--offset_2xs);
+	line-height: 17px;
+	color: var(--secondary_hover_text-color);
+}
+
+.PersonDefault-Mini-Content-Info-Socnets {
+	width: 318px;
+	line-height: var(--inline_height_xs);
+	margin-top: var(--offset_2xs);
+	padding-bottom: var(--offset_2xs);
+}
+
+.PersonDefault-Mini-Content-Bottom {
+	padding-top: var(--offset_s);
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.PersonDefault-Mini__Toolbar {
+	padding: var(--offset_xs) 0 var(--offset_xs) 0;
+	margin-left: auto;
+}
+
+.PersonDefault-Mini__Toolbar_indicatorTalking {
+	border: var(--offset_3xs) solid var(--pale_border-color);
+	background-color: var(--danger_color);
+	bottom: 7px;
+	right: 21px;
+	width: var(--offset_2xs);
+	height: var(--offset_2xs);
+	position: absolute;
+	border-radius: 50%;
+	font-size: var(--font-size_xs);
+	animation: blink 1s infinite;
+}
+
+.PersonDefault-Mini__Toolbar_indicator {
+	position: relative;
+}
+
+@keyframes blink {
+	0% {
+		opacity: 1;
+	}
+
+	20% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	51% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+.PersonDefault-Mini-PIV {
+	cursor: pointer;
+	margin-top: var(--offset_m);
+	max-width: -webkit-max-content;
+	max-width: -moz-max-content;
+	max-width: max-content;
+	align-self: flex-end;
+}
+
+.PersonDefault-Mini-PIV__motivationItem {
+	margin-right: var(--offset_s);
+	white-space: nowrap;
+}
+
+.PersonDefault-Mini-PIV__motivationItemImage {
+	vertical-align: middle;
+}
+
+.PersonDefault-Mini-PIV__motivationItemCount {
+	vertical-align: middle;
+	margin-left: var(--offset_3xs);
+	font-size: var(--font-size_xs);
+	color: var(--unaccented_color);
+}
+
+.PersonDefault-Mini-PIV__motivationExtraItemCount {
+	vertical-align: middle;
+	padding-top: var(--offset_2xs);
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: var(--label_text-color);
+	font-size: var(--font-size_m);
+	cursor: pointer;
+	text-decoration: none;
+	background-color: transparent;
+	flex-shrink: 0;
+}
+
+.ws-is-hover .PersonDefault-Mini-PIV__motivationExtraItemCount:hover {
+	text-decoration: underline;
+}
+
+.PersonDefault-Mini-PIV__motivationItemImage--custom {
+	border-radius: var(--border-radius_s_image);
+}
+
+.PersonDefault-Mini-Content-Info-Outer {
+	margin-top: var(--offset_xs);
+	color: var(--label_text-color);
+	cursor: default;
+}
+
+.PersonDefault-Mini__photo {
+	position: relative;
+	margin-right: var(--offset_2xl);
+}
+
+.PersonDefault-Mini__userTime {
+	color: var(--contrast_text-color);
+	position: absolute;
+	z-index: 10;
+	background-color: rgba(204,204,204,.75);
+	border-radius: 0 0 var(--border-radius_s) var(--border-radius_s);
+	width: 100%;
+	text-align: center;
+	padding-top: var(--offset_2xs);
+	padding-bottom: var(--offset_2xs);
+	height: 18px;
+	top: 164px;
+}
+
+.PersonDefault-Mini__userTime--block .PersonDefault-Mini__userTime--time {
+	font-weight: 700;
+	margin-right: var(--offset_s);
+}
+
+.PersonDefault-Mini__userTime--block,.PersonDefault-Mini__userTime--icon,.PersonDefault-Mini__userTime--text {
+	margin-right: var(--offset_s);
+}
+
+.PersonDefault-Mini-Content__icon_rect {
+	display: inline-block;
+	vertical-align: bottom;
+	transform: rotate(-90deg);
+}
+
+.ws-is-hover .PersonDefault-Mini-ContentCursor:hover,.ws-is-hover .PersonDefault-Mini-TopCursor:hover {
+	cursor: pointer;
+}
+
+.personService-Mini__title {
+	display: flex;
+	align-items: baseline;
+	flex-wrap: wrap;
+}
+
+.personService-Mini__infoBox {
+	margin: var(--offset_l) var(--offset_m) var(--offset_m) var(--offset_3xl);
+	display: flex;
+	justify-content: space-between;
+	cursor: default;
+}
+
+.personService-Mini__baseInformation {
+	margin-left: var(--offset_xs);
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.personService-Mini__photo {
+	margin-left: var(--font-size_xl);
+}
+
+.personService-Mini__image {
+	box-shadow: 0 0 12px rgba(0,0,0,.15);
+	border-radius: var(--border-radius_m_image);
+}
+
+.personService-Mini__name,.personService-Mini__surname {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: var(--font-size_3xl);
+	color: var(--secondary_text-color);
+	margin-bottom: var(--offset_2xs);
+	cursor: default;
+}
+
+.personService-Mini__surname {
+	white-space: pre;
+	flex: 0 1 auto;
+}
+
+.personService-Mini__application {
+	color: var(--label_text-color);
+	cursor: default;
+}
+
+.personMiniCard-Contact__container {
+	display: flex;
+	flex-direction: column;
+}
+
+.personMiniCard-Contact__inputField {
+	padding: 2px 4px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	box-sizing: border-box;
+	-ms-grid-row-align: center;
+	align-self: center;
+	align-items: center;
+}
+
+.personMiniCard-Contact__separator {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	padding-left: 7px;
+	display: inline-flex;
+	flex-shrink: 0;
+	justify-content: center;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.personMiniCard-Contact__separator::after {
+	content: '';
+	display: block;
+	width: 1px;
+	height: 100%;
+	background-color: var(--readonly_color);
+}
+
+.personMiniCard-Contact__separator_active {
+	cursor: col-resize;
+}
+
+.personMiniCard-Contact__buffer {
+	position: absolute;
+	top: -10000px;
+	left: -10000px;
+	visibility: hidden;
+	white-space: pre;
+}
+
+.personMiniCard-Contact__contacts {
+	height: 100%;
+	flex-shrink: 1;
+	min-height: 0;
+}
+
+.personMiniCard-Contact__renderContainer {
+	width: calc(100% - 22px);
+}
+
+.personMiniCard-Contact__inputPlaceholder {
+	max-width: 100%;
+	background-color: transparent;
+	position: absolute;
+	left: 0;
+	top: 0;
+	cursor: text;
+	pointer-events: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.personMiniCard-Contact__input,.personMiniCard-Contact__inputPlaceholder {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.personMiniCard-Contact__inputWrapper {
+	position: relative;
+}
+
+.personMiniCard-Contact__inputWrapper_last {
+	flex-grow: 1;
+}
+
+.personMiniCard-Contact__inputWrapper_value {
+	max-width: 57%;
+}
+
+.personMiniCard-Contact__text {
+	padding-right: 3px;
+}
+
+.personMiniCard-Contact__text_placeholder {
+	color: var(--readonly_color);
+	opacity: 1;
+	width: 100%;
+}
+
+.personMiniCard-Contact__inputData {
+	width: calc(100% - 22px);
+	margin-top: var(--offset_3xs);
+	margin-left: 0;
+	min-width: 0;
+	height: 22px;
+}
+
+.personMiniCard-Contact__enableType {
+	margin-top: var(--offset_2xs);
+	width: 16px;
+}
+
+.personMiniCard-Contact__iconButton {
+	width: 22px;
+}
+
+.personMiniCard-Contact__enableType,.personMiniCard-Contact__iconButton {
+	text-align: center;
+	padding-left: var(--offset_2xs);
+	height: 20px;
+}
+
+.personMiniCard-Contact__removeButton {
+	height: 22px;
+	margin-left: auto;
+}
+
+.personMiniCard-Contact__removeButton_hidden {
+	display: none;
+}
+
+.personMiniCard-Contact__removeIcon {
+	padding-bottom: var(--offset_2xs);
+}
+
+.personMiniCard-Contact__contact {
+	height: var(--inline_height_xl);
+	display: flex;
+}
+
+.personMiniCard-Contact__enableContact {
+	line-height: 25px;
+	display: flex;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.personMiniCard-Contact__value {
+	margin-left: var(--offset_xs);
+	cursor: default;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	flex-shrink: 0;
+}
+
+.personMiniCard-Contact__enableComment {
+	font-size: var(--font-size_xs);
+	margin-left: var(--offset_s);
+	cursor: default;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.personMiniCard-Contact__enableRemoveBtn {
+	margin-left: auto;
+	margin-right: 4px;
+}
+
+.personMiniCard-Contact__header {
+	margin-left: var(--offset_2xs);
+	margin-bottom: var(--offset_2xs);
+	margin-top: calc(-1 * var(--offset_3xs));
+}
+
+.personMiniCard-Contact__headerAddBtn {
+	margin-left: var(--offset_m);
+}
+
+.ws-is-hover .personMiniCard-Contact__removeIcon:hover {
+	color: var(--secondary_hover_icon-color);
+}
+
+.person-ComparatorName__replaceBtn {
+	color: var(--secondary_hover_text-color);
+	cursor: pointer;
+}
+
+.person-ComparatorName__difference {
+	background-color: var(--invalid_focus_background-color);
+}
+
+.ws-is-desktop-platform .person-ComparatorName__replaceBtn:active {
+	text-decoration: underline;
+	color: var(--secondary_text-color);
+}
+
+.personMiniCard-Name--enabled {
+	cursor: pointer;
+}
+
+.personMiniCard-Name__fioAttentionIcon {
+	margin-left: calc(-1 * var(--offset_s));
+}
+
+.personMiniCard-Name__birthdayIconWrapper {
+	height: 21px;
+	position: relative;
+	flex: 0 0 var(--offset_l);
+	margin-left: var(--offset_m);
+	margin-top: calc(-1 * var(--offset_2xs));
+	-ms-grid-row-align: center;
+	align-self: center;
+}
+
+.personMiniCard-Name__birthdayIcon {
+	position: relative;
+}
+
+.personMiniCard-Name__surname {
+	font-weight: 700;
+	font-size: var(--font-size_3xl);
+	color: var(--secondary_text-color);
+	flex: 0 1 auto;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.personMiniCard-Name__name {
+	font-weight: 700;
+	font-size: var(--font-size_3xl);
+	color: var(--secondary_text-color);
+}
+
+.personMiniCard-Name__nameContainer {
+	min-width: 0;
+}
+
+.personMiniCard-Name__timezone {
+	margin-right: 18px;
+}
+
+.personMiniCard-Name__timezone::before {
+	content: "\200b";
+	height: var(--font-size_3xl);
+}
+
+.personMiniCard-Name__hoveredItem {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.personMiniCard-Status__body {
+	display: flex;
+	flex-wrap: wrap;
+	margin: var(--offset_xs) var(--offset_m);
+}
+
+.personMiniCard-Status__employee-status {
+	margin-left: var(--offset_m);
+	margin-right: var(--offset_s);
+}
+
+.personMiniCard-Status__marks {
+	display: flex;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.personMiniCard-Status__marks--fired {
+	width: 100%;
+	flex-wrap: nowrap;
+}
+
+.personMiniCard-Status__stateMark {
+	display: inline-block;
+	line-height: 15px;
+	font-size: var(--font-size_xs);
+	color: var(--label_text-color);
+	max-height: var(--inline_height_2xl);
+	margin-right: 10px;
+	margin-left: 21px;
+}
+
+.personMiniCard-Status__taskTransfer {
+	display: inline-flex;
+	cursor: pointer;
+	line-height: var(--inline_height_xs);
+	max-width: 100%;
+	vertical-align: top;
+}
+
+.personMiniCard-Status__transferName {
+	padding-left: var(--offset_2xs);
+	overflow: hidden;
+	flex-shrink: 1;
+	align-self: baseline;
+	display: flex;
+}
+
+.personMiniCard-Status__transferIcon {
+	align-self: flex-end;
+	height: var(--icon-size_s);
+	color: var(--label_text-color);
+}
+
+.personDefault-Outer__comment {
+	color: var(--unaccented_color);
+	margin-left: 32px;
+	margin-right: 28px;
+	margin-bottom: 17px;
+	overflow-wrap: break-word;
+}
+
+.personEditor-Outer__addContact {
+	display: flex;
+	margin-left: 132px;
+	margin-bottom: 13px;
+}
+
+.personEditor-Outer__addContact-icon {
+	position: relative;
+	top: 5px;
+	color: var(--label_text-color);
+}
+
+.personEditor-Outer__addContact-label {
+	font-size: var(--font-size_xs);
+}
+
+.personEditor-Outer__inputData {
+	margin: var(--offset_2xs) 0;
+	width: 100%;
+}
+
+.personEditor-Outer__inputData-name {
+	width: 388px;
+}
+
+.personEditor-Outer__patronymic-label {
+	top: var(--offset_2xs);
+	position: relative;
+	margin-left: 17px;
+}
+
+.personEditor-Outer__label {
+	margin: var(--offset_2xs) 0;
+}
+
+.personEditor-Outer__firstColumn {
+	display: flex;
+	flex-direction: column;
+	width: 104px;
+	flex-shrink: 0;
+}
+
+.personEditor-Outer__firstColumn-icon {
+	margin-right: var(--offset_xs);
+	position: relative;
+	top: var(--offset_s);
+}
+
+.personEditor-Outer__firstColumn-contact {
+	flex-direction: row;
+}
+
+.personEditor-Outer__secondColumn {
+	display: flex;
+	flex-direction: column;
+	width: 404px;
+}
+
+.personEditor-Outer__editor {
+	display: flex;
+	flex-direction: column;
+	margin: 10px var(--offset_m) var(--offset_2xs) 28px;
+}

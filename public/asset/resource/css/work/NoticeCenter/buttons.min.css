@@ -1,0 +1,63 @@
+.noticeCenter-Button {
+	cursor: pointer;
+	width: 52px
+}
+
+.noticeCenter-Button__buttonContainer {
+	background-color: var(--pale_contrast_background-color);
+	border: 1px solid var(--pale_border-color);
+	box-sizing: border-box;
+	cursor: pointer;
+	width: 14px;
+	height: 30px
+}
+
+.noticeCenter-Button__iconSvg {
+	fill: var(--label_text-color);
+	color: var(--label_text-color)
+}
+
+.noticeCenter-Button__icon,
+.noticeCenter-Button__iconSvg {
+	height: 20px;
+	width: 100%
+}
+
+.noticeCenter-Button:active .noticeCenter-Button__buttonContainer {
+	background-color: var(--pale_active_contrast_background-color)
+}
+
+.noticeCenter-Button:active .noticeCenter-Button__iconSvg {
+	fill: var(--link_hover_text-color);
+	color: var(--link_hover_text-color)
+}
+
+.ws-is-hint-edit .noticeCenter-Button,
+.ws-is-hint-view .noticeCenter-Button {
+	visibility: visible;
+	opacity: 1
+}
+
+.ws-is-hover .noticeCenter-Button:hover .noticeCenter-Button__buttonContainer {
+	background-color: var(--pale_hover_contrast_background-color)
+}
+
+.ws-is-hover .noticeCenter-Button:hover .noticeCenter-Button__iconSvg {
+	fill: var(--link_hover_text-color);
+	color: var(--link_hover_text-color)
+}
+
+.noticeCenter-EmbedButton {
+	position: relative;
+	width: 52px
+}
+
+.noticeCenter-EmbedButton__button {
+	height: 100%
+}
+
+.ws-is-hint-edit .noticeCenter-EmbedButton,
+.ws-is-hint-view .noticeCenter-EmbedButton {
+	visibility: visible;
+	opacity: 1
+}

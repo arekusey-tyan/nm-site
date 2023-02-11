@@ -1,0 +1,19 @@
+.controls-ColoredTabs-HeadCounter-header {
+	display: inline-block;
+	justify-content: space-between
+}
+
+.controls-ColoredTabs-HeadCounter-title {
+	display: inline-block
+}
+
+.controls-ColoredTabs-HeadCounter-counter {
+	font-weight: 400;
+	text-align: right;
+	display: inline-block;
+	float: right
+}
+
+.controls-ColoredTabs-HeadCounter__fixed-tab-counter {
+	width: unset
+}

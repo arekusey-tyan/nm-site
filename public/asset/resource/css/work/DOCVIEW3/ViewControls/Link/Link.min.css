@@ -1,0 +1,66 @@
+.docview3-View__link.docview3-View__link_tape-height {
+	height: auto;
+}
+
+.docview3-View__link_auto-height,.docview3-View__link_tape-height {
+	display: flex;
+	justify-content: center;
+}
+
+.docview3-View__link--margin,.docview3-View__personCard {
+	margin: 12px 0;
+}
+
+.docview3-View__contractorCard,.docview3-View__personCard {
+	box-shadow: 0 2px 2px rgba(0,0,0,.5);
+}
+
+.docview3-View__contractorCard,.docview3-View__edoCard.edo3-DialogCard,.docview3-View__personCard {
+	background-color: var(--background-color);
+}
+
+.docview3-View__edoCard.edo3-DialogCard.edo3-DialogCard--large {
+	width: 100%;
+	min-width: 1px;
+	flex-grow: 1;
+	margin: 12px;
+}
+
+.docview3-View__link .docview3-View__personCard {
+	height: auto;
+	flex-grow: 0;
+	max-width: calc(100% - 2 * var(--offset_m));
+}
+
+.docview3-View__contractorCard.contractor-MiniCard {
+	margin: 12px;
+	width: 550px;
+	max-width: calc(100% - 24px);
+	height: auto;
+	border: 1px solid var(--readonly_color);
+}
+
+.docview3-View__message {
+	max-height: 100vh;
+	max-width: 900px;
+	background: var(--background-color);
+}
+
+.docview3-View__link_auto-height>.docview3-View__message {
+	height: 1px;
+}
+
+.docview3-View__link-decoratedLink_full-height {
+	height: 50px;
+	width: 550px;
+}
+
+.docview3-View__link .docview3-View__link-contractor_full-height,.docview3-View__link .docview3-View__link-decoratedLink_full-height,.docview3-View__link .docview3-View__link-document_full-height,.docview3-View__link .docview3-View__link-leads_full-height,.docview3-View__link .docview3-View__link-message_full-height,.docview3-View__link .docview3-View__link-person_full-height,.docview3-View__link .docview3-View__link-tender_full-height,.docview3-View__link .docview3-View__link-videoCall_full-height,.docview3-View__link .docview3-View__link-videoConf_full-height,.docview3-View__link .docview3-View__link-webinar_full-height {
+	max-height: 300px;
+	height: auto;
+	max-width: 600px;
+}
+
+.docview3-View__link .docview3-View__link-contractor_full-height {
+	max-width: 750px;
+}

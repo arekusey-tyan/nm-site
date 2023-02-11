@@ -1,0 +1,343 @@
+.docview3-View,.docview3-View_computed-height {
+	height: 100%;
+	position: relative;
+}
+
+.docview3-View__iframe {
+	width: 100%;
+	height: 100%;
+}
+
+.docview3-View__control {
+	position: relative;
+	min-width: 0;
+}
+
+.docview3-View__control-container {
+	position: relative;
+	overflow: hidden;
+	min-height: inherit;
+	z-index: 0;
+}
+
+.docview3-View__control-container__z-index-1 {
+	z-index: 1;
+}
+
+.docview3-View__control-container .docview3-View__control {
+	position: relative;
+}
+
+.docview3-View__not-loaded {
+	opacity: 0;
+}
+
+.docview3-View_auto-height.docview3-View__not-loaded {
+	min-height: 150px;
+}
+
+.docview3-View_tape-height {
+	height: 100%;
+}
+
+.docview3-View_full-height {
+	height: 100%;
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+
+.docview3-View_full-height.docview3-View__control {
+	z-index: 0;
+}
+
+.docview3-View__sticky-command-panel {
+	height: 30px;
+	background: var(--unaccented_background-color);
+}
+
+.docview3-View__transparent {
+	position: absolute;
+	top: 30px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+	z-index: 1;
+}
+
+.docview3-View_100vh {
+	height: 100vh;
+	max-height: 100%;
+}
+
+.ws-is-desktop-platform .docview3-View_100vh {
+	height: min(100vh,949px);
+}
+
+.docview3-View__control-container__min-height {
+	min-height: 120px;
+}
+
+.docview3-View__loading-indicator_auto-height>.controls-loading-indicator {
+	top: 30px;
+}
+
+.docview3-View__loading-indicator_auto-height>.controls-loading-indicator>.controls-loading-indicator-in {
+	position: absolute;
+	top: 50px;
+}
+
+.docview3-View__loading-indicator_full-height>.controls-loading-indicator>.controls-loading-indicator-in {
+	margin-bottom: 38px;
+}
+
+.docview3-View_file-type_PDF,.docview3-View_file-type_Tiff,.docview3-View_file-type_Word {
+	background-color: var(--unaccented_background-color);
+}
+
+.docview3-View_file-type_PDF>.docview3-View_auto-height,.docview3-View_file-type_Tiff>.docview3-View_auto-height,.docview3-View_file-type_Word>.docview3-View_auto-height {
+	height: 100vh;
+}
+
+.ws-is-desktop-platform .docview3-View_file-type_PDF>.docview3-View_auto-height,.ws-is-desktop-platform .docview3-View_file-type_Tiff>.docview3-View_auto-height,.ws-is-desktop-platform .docview3-View_file-type_Word>.docview3-View_auto-height {
+	height: min(100vh,949px);
+}
+
+.docview3-View_file-type_DiskNoRights {
+	background-color: var(--background-color);
+}
+
+.docview3-DiskFolder__Hint {
+	padding-top: 48px;
+}
+
+.docview3-CommandPanel {
+	position: relative;
+}
+
+.docview3-CommandPanel__commands_large,.docview3-CommandPanel__commands_large-transparent,.docview3-CommandPanel__white-wrapper,.docview3-CommandPanel_default.docview3-CommandPanel_size-large {
+	height: var(--header_min-height);
+}
+
+.docview3-CommandPanel__background-wrapper {
+	z-index: 1;
+	background: var(--header_background-color);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: var(--header_min-height);
+}
+
+.docview3-CommandPanel_size-medium {
+	height: calc(var(--icon-size_m) + var(--offset_m));
+}
+
+.docview3-CommandPanel_size-default {
+	height: calc(var(--icon-size_m) + var(--offset_xs));
+}
+
+.docview3-CommandPanel--absolute,.docview3-CommandPanel__commands {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.docview3-CommandPanel__cursor-pointer,.docview3-CommandPanel__cursor-pointer .docview3-CommandPanel__rename__editor {
+	cursor: pointer;
+}
+
+.docview3-CommandPanel__commands {
+	z-index: 1;
+	height: 100%;
+}
+
+.docview3-CommandPanel__center {
+	background: inherit;
+}
+
+.docview3-CommandPanel__commands_style-default {
+	background-color: var(--header_background-color);
+}
+
+.docview3-CommandPanel__commands_style-defaultColor {
+	background-color: var(--background-color);
+}
+
+.docview3-CommandPanel_hover {
+	visibility: hidden;
+	z-index: 2;
+	background-color: var(--background-color);
+}
+
+.docview3-View:hover .docview3-CommandPanel_hover {
+	visibility: visible;
+}
+
+.docview3-CommandPanel_invisible {
+	opacity: 0;
+	transform: translate3d(0,0,0);
+}
+
+.docview3-CommandPanel__command {
+	margin: 0 var(--offset_2xs);
+}
+
+.docview3-Fullviewer__content_padding_right-l .docview3-CommandPanel__command,.docview3-Fullviewer__content_padding_right-l .docview3-CommandPanel__rename {
+	margin: 12px;
+}
+
+.docview3-CommandPanel__rename {
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.docview3-CommandPanel__white-wrapper {
+	z-index: -1;
+}
+
+.docview3-CommandPanel__separator {
+	height: var(--inline_height_m);
+	width: 1px;
+	min-width: 1px;
+	background-color: var(--unaccented_color);
+	margin: 0 var(--offset_2xs);
+	opacity: .5;
+}
+
+.docview3-CommandPanel__last-right-absoluteCommands {
+	position: absolute;
+	top: 76px;
+	right: 0;
+}
+
+.docview3-CommandPanel__last-right-absoluteCommands__sepTab {
+	right: 6px;
+}
+
+.docview3-CommandPanel__closeButtonMargin {
+	position: absolute;
+	top: 110px;
+	right: 6px;
+}
+
+.docview3-CommandPanel__left,.docview3-CommandPanel__right {
+	height: 100%;
+	overflow: hidden;
+	background: inherit;
+}
+
+.docview3-CommandPanel__command-original {
+	width: 2.8em;
+}
+
+.docview3-CommandPanel__icons {
+	background: inherit;
+	padding-right: 23px;
+}
+
+.docview3-CommandPanel__counter {
+	top: -2px;
+	left: -4px;
+	padding-left: 2px;
+}
+
+.docview3-CommandPanel__last-right-command {
+	margin-right: var(--offset_m);
+}
+
+.docview3-CommandPanel_onlyRightBlock {
+	display: flex;
+	position: absolute;
+	top: 5px;
+	right: 6px;
+	padding: 4px 0 4px 0;
+	z-index: 1;
+	border-radius: 5px;
+}
+
+.docview3-Fullscreen_scroll-y .docview3-CommandPanel_onlyRightBlock {
+	right: 16px;
+}
+
+.docview3-CommandPanel_onlyRightBlock .icon-Close {
+	font-weight: 600;
+}
+
+.docview3-CommandPanel_onlyRightBlockBlack {
+	background: rgba(0,0,0,.5);
+}
+
+.docview3-CommandPanel_onlyRightBlockBlack .controls-icon,.docview3-CommandPanel_onlyRightBlockBlack .icon-ExpandDown {
+	color: #e8e8e8!important;
+}
+
+.docview3-CommandPanel_onlyRightBlockBlack .controls-icon:hover,.docview3-CommandPanel_onlyRightBlockBlack .icon-ExpandDown:hover {
+	color: var(--contrast_text-color)!important;
+}
+
+.docview3-CommandPanel_onlyRightBlockWhite {
+	background: var(--background-color);
+}
+
+.docview3-CommandPanel_onlyRightBlockWhite .controls-icon,.docview3-CommandPanel_onlyRightBlockWhite .icon-ExpandDown {
+	color: #4c4b5c!important;
+}
+
+.docview3-CommandPanel_onlyRightBlockWhite .controls-icon:hover,.docview3-CommandPanel_onlyRightBlockWhite .icon-ExpandDown:hover {
+	color: var(--text-color)!important;
+}
+
+.docview3-CommandPanel_onlyRightBlock_without-close {
+	padding-left: 7px;
+}
+
+.docview3-CommandPanel__toolbar_without-margin {
+	margin-right: 0;
+}
+
+.docview3-CommandPanel__center,.docview3-CommandPanel__command_full-height,.docview3-CommandPanel__command_full-height .controls-BaseButton:not(.controls-Button_toolButton),.docview3-CommandPanel__command_full-height .controls-Toolbar__item,.docview3-CommandPanel__command_full-height .controls-Toolbar_content {
+	height: 100%;
+	align-items: center;
+}
+
+.docview3-CommandPanel__command.docview3-CommandPanel__command-redactions {
+	margin: 0 12px 0 18px;
+}
+
+.docview3-CommandPanel__rename_edit {
+	width: 100%;
+	max-width: 50vw;
+}
+
+.docview3-CommandPanel__rename {
+	align-items: center;
+	min-width: var(--icon-size_m);
+}
+
+.docview3-CommandPanel__rename>.docview3-CommandPanel__rename__editor {
+	width: 100%;
+	min-width: 0;
+	flex-shrink: 1;
+}
+
+.docview3-CommandPanel__rename_file .controls-Render {
+	font-size: var(--font-size_l)!important;
+}
+
+.docview3-CommandPanel__rename_enabled:hover .controls-EditableArea__Text:hover,.docview3-CommandPanel__rename_enabled:hover .controls-Render:hover {
+	text-decoration: underline;
+}
+
+.docview3-CommandPanel__rename__editor>.controls-EditableArea__wrapper {
+	width: 100%;
+}
+
+.docview3-CommandPanel__rename__editor .controls-Render {
+	width: 100%;
+}
+
+.docview3-CommandPanel__rename__editable-area {
+	width: 100%;
+}

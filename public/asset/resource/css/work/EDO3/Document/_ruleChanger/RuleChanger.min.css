@@ -1,0 +1,9 @@
+.edo3-RuleChanger__caption {
+	font-weight: 700;
+	cursor: default
+}
+
+.ws-is-hover .edo3-RuleChanger__caption-clickable:hover {
+	cursor: pointer;
+	text-decoration: underline
+}

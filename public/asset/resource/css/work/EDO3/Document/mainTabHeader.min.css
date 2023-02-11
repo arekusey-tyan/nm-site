@@ -1,0 +1,75 @@
+.edo3-DateNumber {
+	position: relative
+}
+
+.edo3-DateNumber .edo3-DateNumber__editor {
+	cursor: pointer
+}
+
+.edo3-DateNumber__textInput {
+	max-width: 143px;
+	margin-left: 5px
+}
+
+.edo3-DateNumber__textInput.edo3-DateNumber__textInput_editable {
+	min-width: 64px
+}
+
+.edo3-DateNumber__dateInput {
+	margin-right: 6px
+}
+
+.edo3-DateNumber__editor {
+	font-weight: 400
+}
+
+.edo3-DateNumber__inputMargin {
+	margin-left: 7px
+}
+
+.edo3-DateNumber__emptyNumber {
+	height: 22px;
+	width: 24px;
+	border-bottom: 1px solid #e4e4e4;
+	-ms-grid-row-align: center;
+	align-self: center
+}
+
+.edo3-DateNumber__overlay {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%
+}
+
+.edo3-DocumentName {
+	position: relative;
+	font-size: 20px;
+	color: var(--text-color)
+}
+
+.edo3-DocumentName__menu {
+	font-weight: 700;
+	cursor: default;
+	max-width: 350px
+}
+
+.ws-is-ie .edo3-DocumentName__menu {
+	display: inline-block
+}
+
+.edo3-DocumentName__overlay {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%
+}
+
+.ws-is-hover .edo3-DocumentName__menu-clickable:hover {
+	cursor: pointer;
+	text-decoration: underline
+}

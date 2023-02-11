@@ -1,0 +1,86 @@
+.edo3-AdaptivePassageList__width {
+	width: 100%;
+}
+
+.edo3-PassageList__button,.edo3-PassageList__button-area {
+	width: 100%;
+}
+
+.edo3-PassageList__button-border {
+	border-top: var(--border-thickness_button) solid transparent;
+}
+
+.edo3-PassageList__description-area {
+	margin-top: -2px;
+}
+
+.edo3-PassageList__opacity {
+	opacity: .5;
+}
+
+.edo3-PassageList__executors-names-list {
+	position: relative;
+	cursor: pointer;
+	word-wrap: break-word;
+	word-break: break-word;
+	white-space: pre-line;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+.ws-is-hover .edo3-PassageList__executor-remove:hover,.ws-is-hover .edo3-PassageList__executors-names-list:hover {
+	cursor: pointer;
+}
+
+.edo3-PassageList {
+	display: -ms-grid;
+	display: grid;
+	width: 100%;
+	-ms-grid-columns: -webkit-min-content 48px auto;
+	-ms-grid-columns: min-content 48px auto;
+	grid-template-columns: -webkit-min-content 48px auto;
+	grid-template-columns: min-content 48px auto;
+	align-items: start;
+}
+
+.edo3-PassageList__line-filling {
+	-ms-grid-column: 1;
+	grid-column-start: 1;
+	-ms-grid-column-span: 3;
+	grid-column-end: 4;
+}
+
+.edo3-PassageList__half-line-filling {
+	-ms-grid-column: 2;
+	grid-column-start: 2;
+	-ms-grid-column-span: 2;
+	grid-column-end: 4;
+}
+
+.edo3-PassageList__default-arrow,.edo3-PassageList__height-item {
+	min-height: 36px;
+}
+
+.edo3-PassageList__brace-arrow {
+	height: 80px;
+}
+
+.edo3-PassageList__brace-arrow .edo3-PassageList__arrow {
+	height: 52px;
+}
+
+.edo3-PassageList__padding_top-2xl {
+	padding-top: 20px;
+}
+
+.edo3-PassageList__icon-brace,.edo3-PassageList__icon-finalBrace {
+	font-size: var(--icon-size_s);
+	line-height: var(--icon-size_s);
+	width: var(--icon-size_s);
+	font-family: var(--icon_font-family_s);
+}
+
+.ws-is-ie .edo3-PassageList__default-arrow,.ws-is-ie .edo3-PassageList__height-item {
+	height: 36px;
+}

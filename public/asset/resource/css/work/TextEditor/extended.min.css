@@ -1,0 +1,143 @@
+.textEditor_extended_editor {
+	display: flex;
+	flex-direction: column;
+}
+
+.textEditor_extended_baseEditor {
+	display: flex;
+	flex-grow: 1;
+}
+
+.textEditor_extended_baseEditor_lineHeight-s.textEditor_extended_baseEditor_minLines-1 {
+	--lineHeight_TextEditor_Extended: calc(var(--font-size_m) * 1.29);
+	min-height: calc(((var(--lineHeight_TextEditor_Extended) + var(--offset_xs)) * 1) - var(--offset_xs));
+}
+
+.textEditor_extended_baseEditor_lineHeight-m.textEditor_extended_baseEditor_minLines-1 {
+	--lineHeight_TextEditor_Extended: calc(var(--font-size_m) * 1.5);
+	min-height: calc(((var(--lineHeight_TextEditor_Extended) + var(--offset_xs)) * 1) - var(--offset_xs));
+}
+
+.textEditor_extended_baseEditor_lineHeight-s.textEditor_extended_baseEditor_minLines-2 {
+	--lineHeight_TextEditor_Extended: calc(var(--font-size_m) * 1.29);
+	min-height: calc(((var(--lineHeight_TextEditor_Extended) + var(--offset_xs)) * 2) - var(--offset_xs));
+}
+
+.textEditor_extended_baseEditor_lineHeight-m.textEditor_extended_baseEditor_minLines-2 {
+	--lineHeight_TextEditor_Extended: calc(var(--font-size_m) * 1.5);
+	min-height: calc(((var(--lineHeight_TextEditor_Extended) + var(--offset_xs)) * 2) - var(--offset_xs));
+}
+
+.textEditor_extended_baseEditor_lineHeight-s.textEditor_extended_baseEditor_minLines-3 {
+	--lineHeight_TextEditor_Extended: calc(var(--font-size_m) * 1.29);
+	min-height: calc(((var(--lineHeight_TextEditor_Extended) + var(--offset_xs)) * 3) - var(--offset_xs));
+}
+
+.textEditor_extended_baseEditor_lineHeight-m.textEditor_extended_baseEditor_minLines-3 {
+	--lineHeight_TextEditor_Extended: calc(var(--font-size_m) * 1.5);
+	min-height: calc(((var(--lineHeight_TextEditor_Extended) + var(--offset_xs)) * 3) - var(--offset_xs));
+}
+
+.textEditor_extended_baseEditor_lineHeight-s.textEditor_extended_baseEditor_minLines-4 {
+	--lineHeight_TextEditor_Extended: calc(var(--font-size_m) * 1.29);
+	min-height: calc(((var(--lineHeight_TextEditor_Extended) + var(--offset_xs)) * 4) - var(--offset_xs));
+}
+
+.textEditor_extended_baseEditor_lineHeight-m.textEditor_extended_baseEditor_minLines-4 {
+	--lineHeight_TextEditor_Extended: calc(var(--font-size_m) * 1.5);
+	min-height: calc(((var(--lineHeight_TextEditor_Extended) + var(--offset_xs)) * 4) - var(--offset_xs));
+}
+
+.textEditor_extended_baseEditor_lineHeight-s.textEditor_extended_baseEditor_minLines-5 {
+	--lineHeight_TextEditor_Extended: calc(var(--font-size_m) * 1.29);
+	min-height: calc(((var(--lineHeight_TextEditor_Extended) + var(--offset_xs)) * 5) - var(--offset_xs));
+}
+
+.textEditor_extended_baseEditor_lineHeight-m.textEditor_extended_baseEditor_minLines-5 {
+	--lineHeight_TextEditor_Extended: calc(var(--font-size_m) * 1.5);
+	min-height: calc(((var(--lineHeight_TextEditor_Extended) + var(--offset_xs)) * 5) - var(--offset_xs));
+}
+
+.textEditor_extended_baseEditor_lineHeight-s.textEditor_extended_baseEditor_minLines-6 {
+	--lineHeight_TextEditor_Extended: calc(var(--font-size_m) * 1.29);
+	min-height: calc(((var(--lineHeight_TextEditor_Extended) + var(--offset_xs)) * 6) - var(--offset_xs));
+}
+
+.textEditor_extended_baseEditor_lineHeight-m.textEditor_extended_baseEditor_minLines-6 {
+	--lineHeight_TextEditor_Extended: calc(var(--font-size_m) * 1.5);
+	min-height: calc(((var(--lineHeight_TextEditor_Extended) + var(--offset_xs)) * 6) - var(--offset_xs));
+}
+
+.textEditor_extended_baseEditor_lineHeight-s.textEditor_extended_baseEditor_minLines-7 {
+	--lineHeight_TextEditor_Extended: calc(var(--font-size_m) * 1.29);
+	min-height: calc(((var(--lineHeight_TextEditor_Extended) + var(--offset_xs)) * 7) - var(--offset_xs));
+}
+
+.textEditor_extended_baseEditor_lineHeight-m.textEditor_extended_baseEditor_minLines-7 {
+	--lineHeight_TextEditor_Extended: calc(var(--font-size_m) * 1.5);
+	min-height: calc(((var(--lineHeight_TextEditor_Extended) + var(--offset_xs)) * 7) - var(--offset_xs));
+}
+
+.textEditor_extended_baseEditor_lineHeight-s.textEditor_extended_baseEditor_minLines-8 {
+	--lineHeight_TextEditor_Extended: calc(var(--font-size_m) * 1.29);
+	min-height: calc(((var(--lineHeight_TextEditor_Extended) + var(--offset_xs)) * 8) - var(--offset_xs));
+}
+
+.textEditor_extended_baseEditor_lineHeight-m.textEditor_extended_baseEditor_minLines-8 {
+	--lineHeight_TextEditor_Extended: calc(var(--font-size_m) * 1.5);
+	min-height: calc(((var(--lineHeight_TextEditor_Extended) + var(--offset_xs)) * 8) - var(--offset_xs));
+}
+
+.textEditor_extended_baseEditor_lineHeight-s.textEditor_extended_baseEditor_minLines-9 {
+	--lineHeight_TextEditor_Extended: calc(var(--font-size_m) * 1.29);
+	min-height: calc(((var(--lineHeight_TextEditor_Extended) + var(--offset_xs)) * 9) - var(--offset_xs));
+}
+
+.textEditor_extended_baseEditor_lineHeight-m.textEditor_extended_baseEditor_minLines-9 {
+	--lineHeight_TextEditor_Extended: calc(var(--font-size_m) * 1.5);
+	min-height: calc(((var(--lineHeight_TextEditor_Extended) + var(--offset_xs)) * 9) - var(--offset_xs));
+}
+
+.textEditor_extended_baseEditor_lineHeight-s.textEditor_extended_baseEditor_minLines-10 {
+	--lineHeight_TextEditor_Extended: calc(var(--font-size_m) * 1.29);
+	min-height: calc(((var(--lineHeight_TextEditor_Extended) + var(--offset_xs)) * 10) - var(--offset_xs));
+}
+
+.textEditor_extended_baseEditor_lineHeight-m.textEditor_extended_baseEditor_minLines-10 {
+	--lineHeight_TextEditor_Extended: calc(var(--font-size_m) * 1.5);
+	min-height: calc(((var(--lineHeight_TextEditor_Extended) + var(--offset_xs)) * 10) - var(--offset_xs));
+}
+
+.textEditor_extended_Render {
+	height: 100%!important;
+}
+
+.textEditor_extended_editor .textEditor_extended_Render {
+	padding-top: var(--offset_3xs);
+	padding-bottom: var(--offset_3xs);
+}
+
+.textEditor_extended_Render .controls-Render__wrapper {
+	display: flex;
+}
+
+.textEditor_extended_Render .controls-Render__field {
+	height: 100%;
+	width: 100%;
+}
+
+.textEditor_extended_Render_withHorizontalPadding {
+	padding-left: var(--offset_2xs);
+	padding-right: var(--offset_2xs);
+	border-top: 0;
+}
+
+.textEditor_extended_ScrollContainer {
+	width: 100%;
+	flex-grow: 1;
+}
+
+.ws-is-ie .textEditor_extended_ScrollContainer {
+	max-height: inherit;
+	height: auto;
+}

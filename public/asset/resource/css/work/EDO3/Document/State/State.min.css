@@ -1,0 +1,75 @@
+.edo3-DialogState {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex: 0 6 auto;
+	min-width: 24px;
+}
+
+.edo3-DialogState__innerState.icon-24~.edo3-DialogState__caption,.edo3-DialogState__outerState.icon-24~.edo3-DialogState__caption {
+	padding-left: 8px;
+}
+
+.edo3-DialogState__innerState.icon-24+.edo3-DialogState__outerState.icon-24 {
+	padding-left: 8px;
+}
+
+.edo3-DialogState__clickable {
+	cursor: pointer;
+}
+
+.edo3-DialogState__caption {
+	color: var(--danger_text-color);
+	display: inline-block;
+	font-weight: 700;
+	font-size: 15px;
+	height: 20px;
+	line-height: 20px;
+	flex: 0 1 auto;
+}
+
+.edo3-DialogState--light-gray-caption .edo3-DialogState__caption {
+	color: #999;
+	font-weight: initial;
+}
+
+.edo3-DialogState__removed .edo3-DialogState__caption {
+	color: var(--danger_text-color);
+	font-weight: 400;
+}
+
+.edo3-DialogState__two-icons {
+	min-width: 56px;
+}
+
+.edo3-DialogState_approvedIcon_decryption {
+	margin-left: -12px;
+	padding: 0 2px;
+	font-size: 10px;
+	background: #f8f8f8;
+	border-radius: 12px;
+	height: 12px;
+	color: var(--unaccented_color);
+}
+
+.edo3-DialogStatePicker__adaptiveView {
+	margin-top: -2px;
+}
+
+.edo3-DialogStatePicker__notAdaptiveView {
+	margin-top: -6px;
+}
+
+.edo3-DialogStatePicker .edo3-StatePanel__content {
+	margin-top: 0;
+}
+
+.edo3-DialogStatePicker .edo3-BaseContainer__head {
+	padding-right: var(--offset_3xl);
+}
+
+.ws-float-area-has-maximized-button:not(.ws-float-area-maximized-mode) .edo3-DialogState {
+	min-width: initial;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+}

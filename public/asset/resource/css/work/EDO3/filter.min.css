@@ -1,0 +1,283 @@
+.edo3-Additional-date {
+	height: 24px;
+}
+
+.edo3-Additional-date__slash {
+	-ms-grid-row-align: center;
+	align-self: center;
+	white-space: pre;
+}
+
+.edo3-Additional-date__button {
+	color: #313e78;
+}
+
+.edo3-Additional-locked {
+	height: 24px;
+}
+
+.edo3-Additional-locked__slash {
+	-ms-flex-item-align: center;
+	-ms-grid-row-align: center;
+	align-self: center;
+	white-space: pre;
+}
+
+.edo3-Additional-locked__button {
+	color: #313e78;
+}
+
+.edo3-AmountFilter {
+	width: 100%;
+}
+
+.edo3-AmountFilter__amountFrom {
+	margin: 0 6px;
+	width: 100%;
+}
+
+.edo3-AmountFilter__amountTo {
+	width: 100%;
+}
+
+.edo3-AmountFilter__resetButton {
+	cursor: pointer;
+}
+
+.edo3-AmountFilter__label {
+	white-space: nowrap;
+}
+
+.edo3-FilterContractor {
+	width: 100%;
+}
+
+.edo3-FilterContractor__link {
+	margin-right: 10px;
+}
+
+.edo3-FilterContractor__lookup {
+	width: 100%;
+	min-width: 0;
+}
+
+.edo3-Filter-Date {
+	height: 24px;
+}
+
+.edo3-Filter-Date__dropdown-box {
+	line-height: 24px;
+}
+
+.edo3-Filter-Date__date-box {
+	margin: 0 4px 0 12px;
+	-ms-grid-row-align: center;
+	align-self: center;
+}
+
+.edo3-Filter-Date__delete-button {
+	color: #999;
+}
+
+.edo3-DocumentTypesFilter {
+	width: 100%;
+}
+
+.edo3-DocumentTypesChooser__link {
+	margin-right: 10px;
+}
+
+.edo3-DocumentTypesChooser__lookup {
+	width: 100%;
+	min-width: 0;
+}
+
+.edo3-DocumentTypesList__content .edo3-DocumentTypesList__browser {
+	width: 500px;
+}
+
+.edo3-EmployeeFilter {
+	width: 100%;
+}
+
+.edo3-EmployeeFilter__link {
+	margin-right: 10px;
+}
+
+.edo3-EmployeeFilter__lookup {
+	width: 100%;
+	min-width: 0;
+}
+
+.edo3-ResponsibleFilter {
+	width: 100%;
+}
+
+.edo3-ResponsibleFilter__link {
+	margin-right: 10px;
+}
+
+.edo3-ResponsibleFilter__lookup {
+	width: 100%;
+	min-width: 0;
+}
+
+.edo3-ResponsibleFilter__dropdown_footer {
+	padding-left: 22px;
+}
+
+.edo3-Filter-Locked {
+	height: 24px;
+}
+
+.edo3-Filter-Locked__dropdown-box {
+	line-height: 24px;
+}
+
+.edo3-Filter-Locked__delete-button {
+	cursor: pointer;
+}
+
+.edo3-filterLookup__link {
+	margin-right: 10px;
+}
+
+.edo3-filterLookup__lookup {
+	width: 100%;
+	min-width: 0;
+}
+
+.edo3-excludedLookup {
+	width: 100%;
+	min-width: 0;
+	box-sizing: border-box;
+}
+
+.edo3-MarksFilter__dialog {
+	width: 360px;
+}
+
+.edo3-MarksFilter__dialog-head {
+	width: 100%;
+	height: 100%;
+	padding-left: 12px;
+}
+
+.edo3-MarksFilter__dialog-head-caption {
+	color: var(--secondary_text-color);
+	font-size: 15px;
+	margin-right: auto;
+	line-height: 24px;
+	height: 24px;
+}
+
+.edo3-MarksFilter__dialog-head-icon {
+	margin-left: 12px;
+}
+
+.edo3-MarksFilter__dialog-item {
+	height: 30px;
+	padding: 4px 0 4px 8px;
+	cursor: pointer;
+}
+
+.edo3-MarksFilter__dialog-item-icon {
+	margin-right: 4px;
+}
+
+.edo3-MarksFilter__dialog-item-caption {
+	font-size: 15px;
+}
+
+.edo3-MarksFilter__dialog-item:hover {
+	background-color: var(--hover_background-color);
+}
+
+.edo3-MarksFilter__dialog-item:last-child {
+	border-radius: 0 0 var(--border-radius_s) var(--border-radius_s);
+}
+
+.edo3-MarksFilter__dialog-item-selectors {
+	width: 190px;
+}
+
+.edo3-MarksFilter__dialog-item-mark {
+	color: #8991a9;
+	padding-right: 8px;
+}
+
+.edo3-MarksFilter__dialog-item-mark-checked {
+	color: #05b;
+}
+
+.edo3-MarksFilter__dialog-item-mark.edo3-MarksFilter__dialog-item-mark-checked:hover {
+	color: var(--readonly_marker-color);
+}
+
+.edo3-MarksFilter__dialog-item-mark:hover .edo3-MarksFilter__dialog-item-mark-caption {
+	text-decoration: underline;
+}
+
+.edo3-MarksFilter__view-body {
+	padding-left: 16px;
+}
+
+.edo3-MarksFilter__view-body-block-caption {
+	color: #8991a9;
+}
+
+.edo3-MarksFilter__view-cross {
+	cursor: pointer;
+}
+
+.edo3-MarksFilter__view-head {
+	height: 24px;
+}
+
+.edo3-MarksFilter__view-head-caption:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.edo3-MarksFilter__view-head .edo3-MarksFilter__view-cross {
+	display: none;
+}
+
+.edo3-MarksFilter__view-head:hover .edo3-MarksFilter__view-cross {
+	display: block;
+}
+
+.edo3-ourOrganisationFilter {
+	width: 100%;
+}
+
+.edo3-ourOrganisationFilter__link {
+	margin-right: 10px;
+}
+
+.edo3-ourOrganisationFilter__lookup {
+	width: 100%;
+	min-width: 0;
+}
+
+.edo3-RegulationFilter {
+	width: 100%;
+}
+
+.edo3-RegulationFilter__item {
+	height: 24px;
+	width: 100%;
+	align-items: baseline;
+}
+
+.edo3-RegulationFilter--hasNextItem {
+	margin-bottom: 4px;
+}
+
+.edo3-RegulationFilter__complementaryFields {
+	margin-top: 4px;
+}
+
+.edo3-FilterDropdown {
+	max-width: 100%;
+}

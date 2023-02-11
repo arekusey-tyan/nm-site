@@ -1,0 +1,11 @@
+.edo3-TimelineContainer__loader {
+	font-style: italic;
+	margin: auto;
+}
+
+.edo3-TimelineContainer__fixedHeight {
+	height: 100%;
+	min-height: 0;
+	width: 100%;
+	min-width: 0;
+}

@@ -1,0 +1,504 @@
+.docview3-List__view-without-scroll {
+    height: 100%;
+}
+
+.docview3-List_withoutExpandButton .layout-Browser__header {
+    display: none!important;
+}
+
+.docview3-List_list-item__title {
+    text-decoration: none!important;
+}
+
+.docview3-List__header_height:not(:empty) {
+    height: 38px;
+}
+
+.ws-is-drag .docview3-List__file-link {
+    pointer-events: none;
+}
+
+.docview3-List_list-item__title,.docview3-List_list-item__title__name {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre;
+}
+
+.docview3-List_list-item__title-column {
+    position: relative;
+}
+
+.docview3-List_list-item__icon_loading-folder {
+    -ms-grid-row-align: center;
+    align-self: center;
+}
+
+.docview3List_list-item__icon_loading-folder_m-margin {
+    margin-left: 4px;
+    margin-right: 6px;
+}
+
+.docview3-List__table-icons-counter {
+    top: -3px;
+    left: -3px;
+    padding: 1px;
+}
+
+.docview3-List_list-item__title-with-flags .docview3-List_list-item__flags {
+    margin-left: var(--offset_s);
+}
+
+.docview3-List_list-item__title_link:hover {
+    text-decoration: underline;
+}
+
+.docview3-List_list-item__progress-bar_bar {
+    width: 100%;
+    margin-left: var(--offset_m);
+}
+
+.docview3-List_list-item__responsible-preview {
+    max-width: 100%;
+}
+
+.docview3-List_list-item__size {
+    width: 4.167em;
+}
+
+.docview3-List_list-item__progress-bar {
+    width: 150px;
+}
+
+.docview3-List_list-item__icon-size-s {
+    max-width: var(--icon-size_s);
+    min-width: var(--icon-size_s);
+    height: calc(var(--icon-size_s) + 2px);
+}
+
+.docview3-List_list-item__icon-size-s>.docview3-Preview__image {
+    height: var(--icon-size_s);
+}
+
+.docview3-List_list-item__icon-size-m {
+    max-width: var(--icon-size_m);
+    min-width: var(--icon-size_m);
+    height: calc(var(--icon-size_m) + 2px);
+}
+
+.docview3-List_list-item__icon-size-m>.docview3-Preview__image {
+    height: var(--icon-size_m);
+}
+
+.docview3-List_list-item__progressBar__title {
+    width: 150px;
+    margin-left: auto;
+}
+
+.docview3-List_list-item__date-list-view {
+    min-width: 45px;
+    max-width: 45px;
+}
+
+.docview3-List__height-changer {
+    height: 8px;
+    width: 100%;
+    position: absolute;
+    cursor: ns-resize;
+    z-index: 2;
+    opacity: 0;
+    bottom: -4px;
+}
+
+.docview3-List__table-item-actions-position {
+    right: 0;
+    bottom: 50%;
+    transform: translateY(50%);
+    margin-right: calc(var(--offset_s) + var(--offset_2xs));
+}
+
+.ws-is-ie11 .docview3-List__table-item-actions-position {
+    bottom: 50%!important;
+}
+
+.docview3-Fullviewer__content_padding_left-l .docview3-List__table-item-actions-position {
+    margin-right: 20px;
+}
+
+.docview3-List__scroll-container {
+    height: 100%;
+    max-height: inherit;
+}
+
+.docview3-List__container {
+    height: 100%;
+    min-height: 0;
+    max-height: inherit;
+}
+
+.ws-is-ie .docview3-List_list-item__progressBar__title {
+    margin-right: -48px;
+}
+
+.docview3-List__hovered_withPadding .docview3-icons__icon,.docview3-List__hovered_withPadding .edo3-Icons-Template {
+    position: absolute;
+    background: var(--item_hover_background-color_list);
+    box-shadow: 0 2px 8px 2px var(--item_hover_background-color_list);
+}
+
+.docview3-List__title-container {
+    position: relative;
+}
+
+.docview3-List__title-without-description {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    max-height: 100px;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-line-clamp: 2;
+}
+
+.docview3-List__list-content-template {
+    height: 100%;
+    margin: 6px 12px 6px 0;
+}
+
+.docview3-List__list-row-file-container {
+    width: 33%;
+}
+
+.docview3-List__list-column-file-container {
+    width: 100%;
+}
+
+.docview3-List__list__itemActions-style {
+    border-radius: 0 var(--border-radius_default_block) 0 var(--border-radius_default_block);
+    background-color: rgba(255,255,255);
+    box-shadow: var(--item_actions_shadow_size_rich_tile) var(--item_actions_shadow_color_rich_tile);
+    height: var(--inline_height_l);
+    min-width: var(--inline_height_l);
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.docview3-DiskList__tile-footer-template-item:hover {
+    text-decoration: underline;
+}
+
+.controls-text-contrast {
+    color: var(--background-color);
+}
+
+.docview3-List__list-template {
+    background-color: var(--background-color);
+}
+
+.docview3-List__listTemplates__listItemTemplate {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.docview3-List__listTemplates__image_effect-gradient {
+    position: absolute;
+    pointer-events: none;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.docview3-List__listTemplates__image-container {
+    width: 72px;
+    height: 72px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 6px rgba(0,0,0,.15);
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    flex-shrink: 0;
+    max-width: 100%;
+    margin-right: var(--offset_m);
+}
+
+.docview3-List__listTemplates__image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.docview3-List__listTemplates__image.docview3-List__listTemplates__icon-image {
+    width: 40px;
+    height: 40px;
+}
+
+.docview3-List__listItemTemplate__itemContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 0;
+    height: 72px;
+}
+
+.docview3-List__listItemTemplate__itemContent-without-image {
+    margin-left: var(--offset_m);
+}
+
+.docview3-List__list-template-checkbox {
+    position: absolute;
+    z-index: 1;
+    margin: 0;
+}
+
+.docview3-List__list-template-checkbox:before {
+    background-color: var(--background-color);
+}
+
+.docview3-icons__icon_disk-tile {
+    padding: 5px;
+    border-radius: 13px;
+}
+
+.ws-is-hover .docview3-List__responsible-column:hover {
+    text-decoration: underline;
+}
+
+.docview3-List__listTemplates__image_effect-gradient {
+    position: absolute;
+    pointer-events: none;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.docview3-List__listTemplates__left-image-icon-template {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.docview3-List_tile-item-icons {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+
+.docview3-icons__icon_tile {
+    padding: 5px;
+    border-radius: 13px;
+    background-color: var(--background-color);
+}
+
+.docview3-icons__icon_tile.docview3-icons__fileIcon_tile {
+    display: block;
+}
+
+.docview3-List_tile_visible-type-icon .docview3-icons__fileIcon_tile {
+    display: block;
+}
+
+.docview3-icons__signs-both_tile {
+    border-radius: 10px;
+}
+
+.docview3-icons__signs-both_my_tile {
+    margin-left: var(--offset_3xs);
+}
+
+.docview3-icons__signs-both_other_tile {
+    margin-left: 0;
+    margin-right: var(--offset_3xs);
+}
+
+.docview3-List__tile-icons-counter {
+    margin-left: -1px;
+    background-color: var(--background-color);
+}
+
+.docview3-List_tile_without-scaling .controls-TreeTileView__separator+.controls-TileView__footer {
+    padding-bottom: 42px;
+}
+
+.docview3-List_tile-item-position {
+    overflow: hidden;
+}
+
+.docview3-List__tile__folder-content-file {
+    max-width: 100%;
+}
+
+.docview3-List_tile-node {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.docview3-List_tile-node_icon {
+    margin-left: var(--offset_2xs);
+    margin-right: var(--offset_2xs);
+}
+
+.docview3-List_tile__last-item:before {
+    border-radius: 10px;
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.5);
+    z-index: 1;
+}
+
+.docview3-List_tile__last-item:after {
+    content: attr(data-more-count);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: var(--contrast_text-color);
+    font-weight: 700;
+    z-index: 1;
+}
+
+.docview3-List_tile__last-item_fontsize_moreCount:after {
+    font-size: 1.25rem;
+}
+
+.docview3-List__tile__required-title {
+    position: absolute;
+    top: var(--offset_xs);
+    left: var(--offset_xs);
+    right: var(--offset_xs);
+    max-width: 100%;
+    text-align: center;
+}
+
+.docview3-List__tile__required-title_with-checkbox {
+    left: var(--offset_xl);
+}
+
+.docview3-List_tile-item__progress-bar_bar {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.docview3-List__view_hide-excess-tiles {
+    padding: 0 var(--offset_2xs);
+    margin: 0 calc(-1 * var(--offset_2xs));
+    overflow: hidden;
+}
+
+.docview3-List .docview3-List_tile__last-item~.docview3-List_tile:not(.controls-TileView__item_invisible) {
+    display: none;
+}
+
+.docview3-List_tile-item__progress-bar_bar_bottom {
+    bottom: 0;
+}
+
+.ws-is-hover .controls-ListView__itemV:hover .docview3-List_tile-node {
+    background: var(--hover_background-color);
+}
+
+.docview3-List_tile-card .controls-itemActionsV__action:not(:last-child) {
+    display: none;
+}
+
+.docview3-List_tile_item__transparentTile {
+    opacity: .5;
+}
+
+.ws-is-no-touch .docview3-List_tile_item__transparentTile:hover,.ws-is-touch .docview3-List_tile_item__transparentTile:active {
+    opacity: 1;
+}
+
+.docview3-Card.controls-TileView__imageWrapper {
+    justify-content: normal;
+    align-items: normal;
+}
+
+.docview3-Card.controls-TileView__imageWrapper:not(.docview3-Card__videoCall):not(.docview3-Card__decoratedLink):not(.docview3-Card__person) {
+    display: block;
+}
+
+.docview3-List_tile_addButtonTile {
+    background: var(--unaccented_background-color);
+    height: 100%;
+}
+
+.ws-is-no-touch .docview3-List_tile_addButtonTile:hover,.ws-is-touch .docview3-List_tile_addButtonTile:active {
+    background: var(--background-color);
+}
+
+.docview3-List_tile_addButtonTile_itemContent .controls-TileView__itemContent {
+    height: 100%;
+}
+
+.docview3-List_tile_addButtonTile_itemContent.js-controls-List_invisible-for-VirtualScroll {
+    height: 0;
+}
+
+.docview3-Card__tile-height .controls-TileView__item_unscaleable {
+    height: 100%;
+}
+
+.docview3-List__tile-encrypted-stubText {
+    margin-top: 70px;
+    top: 50%!important;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 100%;
+}
+
+.controls-TileView_orientation-vertical .docview3-List_tile_addButtonTile_itemContent>div:first-child {
+    display: none;
+}
+
+.controls-ColumnsView__itemV.docview3-List_column__item {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding-left: var(--offset_m);
+}
+
+.controls-ColumnsView__itemV.docview3-List_column__item .controls-ColumnsView__itemContent {
+    padding: var(--offset_2xs) 0;
+    display: flex;
+    width: calc(100% - var(--offset_m));
+    overflow: visible;
+}
+
+.docview3-Fullviewer__content_padding_left-l .controls-ColumnsView__itemV.docview3-List_column__item {
+    padding-left: 20px;
+}
+
+.controls-ColumnsView__itemV.docview3-List_column__item:not(.controls-ListView__item_active) {
+    background-color: transparent;
+}
+
+.docview3-List_column__item:not(.controls-ColumnsView__item_dragging) {
+    box-shadow: none;
+}
+
+.docview3-List_column__item .docview3-List_list-item__title {
+    position: relative;
+}
+
+.docview3-List__two-column-list-checkbox {
+    margin-left: calc(-1 * var(--offset_m));
+}
+
+.docview3-List_column__item .docview3-List_list-item__title {
+    line-height: var(--inline_height_m);
+}

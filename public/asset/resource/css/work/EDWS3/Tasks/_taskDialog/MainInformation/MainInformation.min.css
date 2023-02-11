@@ -1,0 +1,67 @@
+.ws-is-ie11 .edws-TaskDialog__mainTab-mainInfo {
+    position: relative;
+}
+
+.ws-is-ie11 .edws-TaskDialog__mainTab-mainInfo:after {
+    content: '';
+    position: fixed;
+    width: 0;
+    height: 0;
+}
+
+.ws-is-ie11 .edws-TaskDialog__mainTab-head {
+    height: 100%;
+}
+
+.edws-TaskDialog__mainTab-mainInfo-theme {
+    display: block;
+}
+
+.edws-TaskDialog__mainTab-mainInfo-executor-container {
+    padding-right: 12px;
+    height: 100%;
+}
+
+.edws-TaskDialog__mainTab-mainInfo-description {
+    margin-top: -8px;
+    margin-left: 46px;
+    white-space: normal;
+    max-height: 100%;
+}
+
+.edws-TaskDialog__mainTab-mainInfo-description.edws-nonePhoto {
+    margin-top: 12px;
+    margin-left: 0;
+}
+
+.edws-TaskDialog__mainTab-mainInfo-description__only {
+    margin-left: 0;
+    margin-top: 6px;
+}
+
+.edws-TaskDialog__mainTab-mainInfo-contragent {
+    margin-left: 0;
+    margin-top: 8px;
+}
+
+.edws-TaskDialog__mainTab-mainInfo-milestone {
+    min-height: 18px;
+}
+
+.edws-TaskDialog__mainTab-mainInfo-staff-chooser-link {
+    font-size: 12px!important;
+    color: var(--unaccented_color);
+    padding-bottom: 6px;
+}
+
+.ws-is-chrome-xp .edws-TaskDialog__mainTab-mainInfo-description,.ws-is-desktop-safari .edws-TaskDialog__mainTab-mainInfo-description,.ws-is-mobile-safari .edws-TaskDialog__mainTab-mainInfo-description {
+    height: -webkit-max-content;
+}
+
+.edws-TaskDialog__mainTab-contrLabel.controls-Lookup__link {
+    display: block;
+}
+
+.edws-TaskDialog__mainTab-head {
+    height: 42px;
+}

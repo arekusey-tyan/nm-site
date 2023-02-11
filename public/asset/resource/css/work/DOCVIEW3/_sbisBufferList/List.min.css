@@ -1,0 +1,305 @@
+.docview3-buffer__menuItem {
+	min-width: 240px;
+}
+
+.docview3-buffer__previews-container {
+	overflow: hidden;
+	min-width: 240px;
+}
+
+.docview3-buffer__previews-container_multiselect {
+	cursor: pointer;
+}
+
+.docview3-buffer__link-container {
+	position: absolute;
+	min-width: 254px;
+	max-width: 100%;
+}
+
+.docview3-buffer__loading {
+	height: 60px;
+}
+
+.docview3-buffermenuItem-wrapper_empty .docview3-buffer__previews-container {
+	cursor: default;
+}
+
+.docview3-buffer__previews-container_hover {
+	background: var(--item_hover_background-color_menu);
+	border-radius: calc(var(--item_height_menu)/2);
+}
+
+.docview3-buffer__indicator {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	color: var(--unaccented_color);
+	line-height: 60px;
+}
+
+.docview3-buffer__indicator img {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 4px;
+}
+
+.docview3-buffer__image-wrapper_m,.docview3-buffer__image-wrapper_s,.docview3-buffer__image-wrapper_xs {
+	width: 72px;
+	height: 72px;
+	margin: 8px 8px 8px 0;
+	display: inline-block;
+	line-height: 70px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.docview3-buffer__image-wrapper_m:first-child,.docview3-buffer__image-wrapper_s:first-child,.docview3-buffer__image-wrapper_xs:first-child {
+	margin-left: 8px;
+}
+
+.docview3-buffer-with-idents .docview3-buffer__image-wrapper_xs:first-child {
+	margin-left: 28px;
+}
+
+.docview3-buffer-with-idents .docview3-buffer__image-wrapper_s:first-child {
+	margin-left: 28px;
+}
+
+.docview3-buffer-with-idents .docview3-buffer__image-wrapper_m:first-child {
+	margin-left: 38px;
+}
+
+.docview3-buffer__image {
+	max-width: 100%;
+	max-height: 100%;
+	vertical-align: middle;
+}
+
+.docview3-FlatAttach__style-raven .docview3-buffer__image:not(.docview3-buffer__image:hover),.docview3-FlatAttach__style-raven .docview3-buffer__link-svg:not(.docview3-buffer__link-svg:hover) {
+	opacity: .33;
+}
+
+.docview3-buffer__video-icon {
+	position: relative;
+	pointer-events: none;
+	top: -72px;
+}
+
+.docview3-buffer__image-encrypted {
+	font-family: cbuc-icons;
+	width: 40px;
+	height: 40px;
+	font-size: 40px;
+	line-height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	transform: translate(0,40%);
+}
+
+.docview3-buffer__preview:hover,.docview3-buffer__previews-container_hover .docview3-buffer__preview {
+	box-shadow: var(--item_shadow-size_tile) var(--item_hover_shadow-color_tile);
+	cursor: pointer;
+}
+
+.docview3-buffer__content_hover,.docview3-buffer__file:hover,.docview3-buffer__text:hover {
+	background-color: var(--item_hover_background-color_menu);
+}
+
+.docview3-buffer__empty {
+	line-height: 32px;
+	font-size: 15px;
+	margin-right: 12px;
+	margin-left: 56px;
+}
+
+.docview3-buffer__link-wrapper {
+	overflow: hidden;
+	cursor: pointer;
+	border: var(--border-thickness) solid var(--translucent_background-color);
+	border-radius: var(--border-radius_xs);
+}
+
+.docview3-buffer__link-wrapper_size_s {
+	margin: 4px 8px 6px 36px;
+}
+
+.docview3-buffer__link-wrapper_size_m {
+	margin: 4px 12px 6px 44px;
+}
+
+.docview3-buffer__link-svg {
+	display: block;
+}
+
+.docview3-buffer__link-wrapper:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 50px;
+	width: 30px;
+	background: linear-gradient(to right,rgba(255,255,255,0) 0,var(--background-color) 100%);
+}
+
+.docview3-buffer__link-wrapper_size_s:after {
+	margin: 4px 8px 6px 36px;
+}
+
+.docview3-buffer__link-wrapper_size_m:after {
+	margin: 4px 12px 6px 44px;
+}
+
+.docview3-buffer__file {
+	color: var(--item_text-color_menu);
+	font-size: 15px;
+	line-height: 32px;
+	padding-right: 12px;
+	max-width: 280px;
+	position: relative;
+	cursor: pointer;
+}
+
+.docview3-buffer__file-padding_xs {
+	padding-left: 28px;
+}
+
+.docview3-buffer__file-padding_s {
+	padding-left: 28px;
+}
+
+.docview3-buffer__file-padding_m {
+	padding-left: 38px;
+}
+
+.docview3-buffer__left-space {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 34px;
+}
+
+.docview3-buffer__file-icon,.docview3-buffer__file-name {
+	pointer-events: none;
+}
+
+.docview3-FlatAttach__style-raven .docview3-buffer__file-icon,.docview3-FlatAttach__style-raven .docview3-buffer__file-name {
+	opacity: .33;
+}
+
+.docview3-buffer__file .icon-16 {
+	margin-right: var(--offset_2xs);
+}
+
+.docview3-buffer__file .icon-DocumentUnknownType,.docview3-buffer__file .icon-Lock,.docview3-buffer__file .icon-TFDocumentXml,.docview3-buffer__file .icon-TFFolder,.docview3-buffer__file .icon-TFZip {
+	color: var(--readonly_text-color);
+}
+
+.docview3-buffer__file .icon-TFDocument {
+	color: var(--unaccented_hover_text-color);
+}
+
+.docview3-buffer__file .icon-CheckDoc,.docview3-buffer__file .icon-TFDocumentW,.docview3-buffer__file .icon-TFFolder2,.docview3-buffer__fileType_Ssbx .icon-Statement {
+	color: var(--secondary_color);
+}
+
+.docview3-buffer__file .icon-TFDocumentP {
+	color: var(--danger_color);
+}
+
+.docview3-buffer__file .icon-TFDocumentPDF {
+	color: var(--danger_color);
+}
+
+.docview3-buffer__file .icon-TFDocumentX {
+	color: var(--success_color);
+}
+
+.docview3-buffer__file .icon-Eml {
+	color: #ffc90e;
+}
+
+.docview3-buffer .icon-TFImage {
+	color: var(--warning_color);
+}
+
+.docview3-buffer__file .icon-TFFileAudio {
+	color: #336e7b;
+}
+
+.docview3-buffer__file .icon-TFFileVideo {
+	color: var(--success_color);
+}
+
+.docview3-buffer__image-wrapper .icon-TFImage {
+	color: var(--warning_color);
+	font-size: 72px;
+	font-family: cbuc-icons;
+	line-height: 72px;
+}
+
+.docview32-buffer__more_xs {
+	margin-left: 28px;
+}
+
+.docview3-buffer__more_m,.docview3-buffer__more_s,.docview32-buffer__more_xs {
+	line-height: var(--inline_height_m);
+}
+
+.docview3-buffer__more_s {
+	margin-left: 28px;
+}
+
+.docview3-buffer__more_m {
+	margin-left: 38px;
+}
+
+.docview3-buffer__menuItem-wrapper {
+	position: relative;
+}
+
+.docview3-buffer__menuItem-wrapper-link {
+	height: 60px;
+	min-width: 254px;
+}
+
+.docview3-buffer__button {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+}
+
+.docview3-buffermenuItem-wrapper_empty {
+	color: var(--readonly_text-color);
+}
+
+.ws-is-no-touch .docview3-buffermenuItem-wrapper_empty .controls-DropdownList__row:hover {
+	background: 0 0;
+}
+
+.docview3-buffer__invisible {
+	visibility: hidden;
+	max-height: 0;
+}
+
+.docview3-buffer__visible {
+	max-height: inherit;
+}
+
+.docview3-buffer__separator {
+	display: flex;
+	justify-content: center;
+	margin-top: var(--offset_2xs);
+	margin-bottom: var(--offset_2xs);
+}
+
+.docview3-buffer__file:hover {
+	border-radius: var(--item_border-radius_menu);
+	border-radius: calc(var(--item_height_menu)/2);
+}

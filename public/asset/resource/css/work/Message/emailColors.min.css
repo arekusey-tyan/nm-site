@@ -1,0 +1,17 @@
+:root {
+	--email_text-color: #316778;
+	--email-addressee_text-color: var(--email_text-color, #316778);
+	--background-color_default_email-photo: #deedea;
+}
+
+.msg-text-color-email {
+	color: var(--email_text-color,#316778);
+}
+
+.msg-text-color-email-addressee {
+	color: var(--email-addressee_text-color,#316778);
+}
+
+.msg-background-default-email-photo {
+	background-color: var(--background-color_default_email-photo,#deedea);
+}

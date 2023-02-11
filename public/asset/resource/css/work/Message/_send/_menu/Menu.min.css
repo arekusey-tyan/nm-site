@@ -1,0 +1,42 @@
+.msg-send-menu {
+	width: 100%;
+}
+
+.msg-send-menu__styles {
+	padding: 5px 0;
+}
+
+.msg-send-menu__styles_name {
+	font-weight: 700;
+	padding-top: 3px;
+	padding-left: 12px;
+}
+
+.ws-is-mobile-safari .msg-send-menu__styles_name {
+	padding-top: 2px;
+}
+
+.msg-send-menu__styles_panel {
+	margin: 8px 8px 0 8px;
+}
+
+.msg-send-menu__popup .controls-Menu__popup-reverse .msg-send-menu__styles {
+	order: 1;
+}
+
+.msg-send-menu__item-border-top {
+	border-top: 1px solid var(--pale_border-color);
+}
+
+.msg-send-menu__item-without-sign-border {
+	padding: 6px 8px 8px;
+}
+
+.msg-send-menu__item-sign-text {
+	overflow: hidden;
+	max-width: 192px;
+}
+
+.msg-send-menu__footer {
+	padding: 8px 12px;
+}

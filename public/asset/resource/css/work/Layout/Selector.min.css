@@ -1,0 +1,96 @@
+.layout-SelectorBrowser {
+	position: relative;
+}
+
+.layout-SelectorBrowser,.layout-SelectorBrowser__contentWrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 0;
+}
+
+.layout-SelectorBrowser__content,.layout-SelectorBrowser__contentWrapper {
+	flex-shrink: 1;
+	height: 100%;
+	min-height: 0;
+}
+
+.layout-SelectorBrowser__content {
+	display: flex;
+	flex-direction: column;
+}
+
+.layout-SelectorBrowser__search_width {
+	width: var(--width_s_inputSearch);
+}
+
+.layout-SelectorBrowser__search_select-single {
+	margin-left: var(--search_offset_Layout-browser);
+}
+
+.layout-SelectorBrowser__multiSelector {
+	flex-shrink: 0;
+}
+
+.layout-Browser__header_withTabs {
+	padding-right: calc(var(--width_closeButton_toolButton) + var(--margin-right_closeButton_toolButton));
+}
+
+.layout-SelectorBrowser__listContainer {
+	height: 100%;
+}
+
+.layout-SelectorBrowser__multiSelector-offset {
+	margin-left: var(--search_offset_Layout-selectorBrowser);
+}
+
+.layout-Selector__dialog,.layout-Selector__stack {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	flex-shrink: 1;
+	height: 100%;
+	position: relative;
+}
+
+.layout-Selector__stack {
+	width: 100%;
+}
+
+.layout-Selector__dialog {
+	min-width: var(--content_width_b_dialog);
+	max-width: var(--content_width_k_dialog);
+}
+
+.layout-Selector__dialog_content {
+	overflow: hidden;
+	min-height: inherit;
+	max-height: calc(var(--height_MoveDialog) + var(--header-min-height_dialog));
+}
+
+.layout-Selector__dialog_selectButton_wrapper,.layout-Selector__stack_selectButton_wrapper {
+	margin-left: auto;
+	-ms-grid-row-align: center;
+	align-self: center;
+	flex-shrink: 0;
+}
+
+.layout-Selector__dialog-selectButton,.layout-Selector__stack-selectButton {
+	margin-left: var(--offset_l);
+}
+
+.layout-Selector__stack-selectButton-newDesign {
+	margin-right: var(--offset_m);
+}
+
+.layout-Selector__dialog-tabs,.layout-Selector__stack-tabs {
+	align-self: flex-end;
+	margin-bottom: calc(-1 * var(--header_bottom-border-thickness_stack));
+}
+
+.layout-Selector__dialog-header,.layout-Selector__stack-header {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	flex-shrink: 1;
+}

@@ -1,0 +1,12 @@
+.controls-icon_style-docview3-edit-padding {
+	margin-left: 89px;
+}
+
+.docview3-ErrorDialog {
+    word-break: break-word;
+}
+
+.docview3-icons__icon {
+    margin-left: var(--offset_2xs);
+    cursor: pointer;
+}

@@ -1,0 +1,192 @@
+.personCard-Contact__list {
+	width: 100%;
+}
+
+.personCard-Contact__contactValues {
+	flex-wrap: wrap;
+	display: flex;
+	width: calc(100% - var(--offset_3xl));
+}
+
+.personCard-Contact__contactItem {
+	display: flex;
+}
+
+.personCard-Contact__privacyBtn {
+	margin-left: auto;
+}
+
+.personCard-Contact__confirmIndicator {
+	margin-left: calc(-1 * var(--offset_m));
+	margin-top: var(--offset_xs);
+}
+
+.personCard-Contact__comment {
+	width: 100%;
+}
+
+.personCard-Contact__comment,.personCard-Contact__value {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.personCard-Contact__dataContact {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	max-width: 100%;
+}
+
+.personCard-Contact__header {
+	margin-bottom: var(--offset_3xs);
+	display: flex;
+	align-items: baseline;
+}
+
+.personCard-Contact__title {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.personCard-Contact__columnsContainer {
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	-webkit-column-gap: 0;
+	-moz-column-gap: 0;
+	column-gap: 0;
+}
+
+.personCard-Contact__viewColumns {
+	width: 100%;
+	max-width: 317px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.personCard-Contact__title_secondLine {
+	width: 100%;
+}
+
+.personCard-Contact__workplace_secondLine {
+	flex-wrap: wrap;
+}
+
+.personCard-Contact__icon {
+	margin-right: var(--offset_s);
+}
+
+.personCard-Contact__icon--adaptive {
+	margin-top: inherit;
+}
+
+.personCard-Contact__videocall,.personCard-Contact__workplace {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.personCard-Contact__workplace {
+	cursor: pointer;
+	line-height: var(--inline_height_m);
+	white-space: normal;
+}
+
+.personCard-Contact__city,.personCard-Contact__workplace {
+	margin-right: auto;
+}
+
+.personCard-Contact__city {
+	white-space: nowrap;
+	max-width: 86%;
+}
+
+.personCard-Contact__messengerIcon {
+	margin-right: var(--offset_xs);
+}
+
+.personCard-Contact__messengers,.personCard-Contact__sabyBird {
+	margin-left: var(--offset_m);
+}
+
+.personCard-Contact__tooltip {
+	margin-right: auto;
+}
+
+.personCard-Contact__workplaceArea {
+	width: inherit;
+}
+
+.ws-is-hover .personCard-Contact__tooltip:hover {
+	color: var(--readonly_marker-color);
+	text-decoration: underline;
+}
+
+a.personCore-PhoneCallLinkButton__button {
+	cursor: pointer;
+}
+
+a.personCore-PhoneCallLinkButton__button:hover {
+	text-decoration: underline;
+}
+
+.ws-is-touch a.personCore-PhoneCallLinkButton__button:hover {
+	text-decoration: none;
+}
+
+.personCore-PhoneCallLinkButton__button_empty {
+	cursor: default;
+}
+
+.personCore-PhoneCallLinkButton__button_empty:hover {
+	text-decoration: none;
+}
+
+.person-PhoneCallLinkButton_state-main,.ws-is-desktop-platform .person-PhoneCallLinkButton_state-main {
+	color: var(--link_hover_text-color);
+}
+
+.person-PhoneCallLinkButton_state-main:active,.ws-is-desktop-platform .person-PhoneCallLinkButton_state-main:active {
+	color: var(--label_hover_text-color);
+}
+
+.person-PhoneCallLinkButton_state-main:active .controls-Button__icon.icon-primary,.ws-is-desktop-platform .person-PhoneCallLinkButton_state-main:active .controls-Button__icon.icon-primary {
+	color: var(--label_hover_text-color);
+}
+
+.ws-is-desktop-platform .person-PhoneCallLinkButton_state-main:hover {
+	color: var(--label_hover_text-color);
+}
+
+.ws-is-desktop-platform .person-PhoneCallLinkButton_state-main:hover .icon-primary.controls-Button__icon {
+	color: var(--label_hover_text-color);
+}
+
+.ws-is-desktop-platform .person-PhoneCallLinkButton_state-main:hover .controls-Button__text {
+	text-decoration: underline;
+}
+
+.person-PhoneCallLinkButton_additional .person-PhoneCallLinkButton_state-main,.person-PhoneCallLinkButton_additional .ws-is-desktop-platform .person-PhoneCallLinkButton_state-main {
+	color: inherit;
+}
+
+.person-PhoneCallLinkButton_additional .person-PhoneCallLinkButton_state-main:active,.person-PhoneCallLinkButton_additional .ws-is-desktop-platform .person-PhoneCallLinkButton_state-main:active {
+	color: inherit;
+}
+
+.person-PhoneCallLinkButton_additional .person-PhoneCallLinkButton_state-main:hover,.person-PhoneCallLinkButton_additional .ws-is-desktop-platform .person-PhoneCallLinkButton_state-main:hover {
+	color: inherit;
+}
+
+.person-PhoneCallLinkButton {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	flex-shrink: 0;
+	max-width: 100%;
+	white-space: nowrap;
+}
+
+.ws-is-hover .person-PhoneCallLinkButton_state-main_deletedContact:hover {
+	text-decoration: underline;
+}

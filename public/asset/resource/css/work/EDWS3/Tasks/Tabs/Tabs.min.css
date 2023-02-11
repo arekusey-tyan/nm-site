@@ -1,0 +1,16 @@
+.tasks-PageLayout {
+	height: calc(100% - 38px) !important
+}
+
+.tasks-PageLayout>.controls-SwitchableArea {
+	height: calc(100% - 31px) !important
+}
+
+.edws-Main--red,
+.edws-Main--red .edo-Browser__icon-12 {
+	color: var(--danger_text-color) !important
+}
+
+.online-OnlinePageTemplate {
+	width: 100% !important
+}

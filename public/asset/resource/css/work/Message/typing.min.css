@@ -1,0 +1,25 @@
+.msg-editor-typing {
+	padding: 3px 12px 5px 44px;
+	margin-top: -24px;
+	max-width: 100%;
+	cursor: default;
+	font-size: 12px;
+	line-height: 15px;
+	color: #aab0c1;
+	min-height: 16px;
+	max-height: 16px;
+	z-index: 0;
+}
+
+.msg-editor-typing.msg-editor-typing_empty {
+	visibility: hidden;
+}
+
+.msg-editor-typing__icon {
+	margin-right: 4px;
+	fill: #AAB0C1;
+}
+
+.msg-editor-typing__counter {
+	margin-left: 3px;
+}

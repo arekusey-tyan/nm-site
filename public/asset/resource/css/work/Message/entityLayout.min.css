@@ -1,0 +1,70 @@
+.msg-entity-layout__body {
+	min-width: 0;
+	max-width: 100%;
+	min-height: 0;
+}
+
+.msg-entity-layout__body_overflow {
+	overflow: hidden;
+}
+
+.msg-entity-layout__message-content {
+	position: relative;
+	padding: 3px 8px;
+}
+
+.msg-entity-layout__header+.msg-entity-layout__message-content {
+	margin-top: 4px;
+}
+
+.msg-entity-layout__header+.msg-entity-audio-message,.msg-entity-layout__header+.msg-entity-video-message {
+	margin-top: 4px;
+}
+
+.msg-entity-layout__header {
+	margin-right: 8px;
+}
+
+.msg-entity-layout__addressee {
+	max-width: 100%;
+}
+
+.msg-entity-layout__addressee.msg-entity-layout__addressee_limited {
+	max-width: 65%;
+}
+
+.msg-entity-layout__addressee,.msg-entity-layout__addressee-employment,.msg-entity-layout__addressee-icon,.msg-entity-layout__receivers {
+	margin-right: 6px;
+	-ms-grid-row-align: center;
+	align-self: center;
+}
+
+.msg-entity-layout__receivers-counter,.msg-entity-layout__receivers-photo {
+	margin-right: 8px;
+}
+
+.msg-entity-layout__tags {
+	position: relative;
+	margin-left: auto;
+}
+
+.msg-entity-layout__tags:before {
+	content: '\200b';
+	display: inline-block;
+	width: 0;
+	font-size: inherit;
+	line-height: 133%;
+}
+
+.msg-entity-layout__tags+.msg-entity-layout__header-date {
+	margin-left: 8px;
+}
+
+.tag-simple.msg-entity-layout__tags {
+	width: auto;
+	overflow: unset;
+}
+
+.msg-entity-layout__header-date {
+	margin-left: auto;
+}

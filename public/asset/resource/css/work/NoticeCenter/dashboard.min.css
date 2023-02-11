@@ -1,0 +1,54 @@
+.noticeCenter-dashboard-Button_container {
+	height: 50px;
+	width: 100%
+}
+
+.noticeCenter-dashboard-Button_absolute {
+	position: absolute;
+	bottom: 0;
+	z-index: 2;
+	display: none
+}
+
+.ws-is-touch .noticeCenter-dashboard-Button_absolute {
+	display: block
+}
+
+.noticeCenter-dashboard-View {
+	margin: var(--offset_xs) var(--offset_2xs) 0
+}
+
+.noticeCenter-dashboard-Template {
+	height: 100%
+}
+
+.ws-is-hover .noticeCenter-dashboard-Template:hover .noticeCenter-dashboard-Button_absolute {
+	display: block
+}
+
+.noticeCenter-dashboard-Template_scroll {
+	height: 100%;
+	background-color: var(--notice-center_background-color, #ecedee);
+	--dashboard_background-color: var(--notice-center_background-color, #ecedee)
+}
+
+.noticeCenter-dashboard-Empty {
+	padding: 0;
+	margin: 0
+}
+
+.noticeCenter-dashboard-Stack_scroll,
+.noticeCenter-dashboard-TemplateLeft_scroll {
+	background-color: var(--unaccented_background-color);
+	--dashboard_background-color: var(--unaccented_background-color, #ecedee)
+}
+
+.noticeCenter-dashboard_resizingLine-container {
+	position: absolute;
+	top: 0;
+	height: 100%
+}
+
+.noticeCenter-dashboard_resizingLine {
+	height: 100%
+}

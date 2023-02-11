@@ -1,0 +1,193 @@
+.sn-Feed {
+	display: flex;
+	flex-grow: 1;
+	flex-direction: column
+}
+
+.news-GroupSticky {
+	flex-shrink: 0
+}
+
+.news-GroupSticky.news-WidgetTheme {
+	background: radial-gradient(209.49% 259.09% at 25.4% -15.15%, #fff 0, rgba(255, 255, 255, 0) 100%), var(--widget_background-color)
+}
+
+.news-DefaultTheme {
+	background-color: var(--dashboard_background-color, var(--unaccented_background-color))
+}
+
+.n-NewsGroups__block {
+	min-height: 32px;
+	width: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+	max-width: 100%;
+	top: 0;
+	padding-top: 8px
+}
+
+.n-GroupItem {
+	position: relative;
+	height: 26px;
+	margin-top: 6px;
+	box-sizing: border-box;
+	padding: 0 12px;
+	cursor: pointer
+}
+
+.n-GroupItem__block::before {
+	content: "\00a0";
+	box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	left: 0;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+	background-color: var(--marker_hover_color_tabs);
+	height: 2px;
+	visibility: hidden;
+	z-index: 10
+}
+
+.n-GroupItem__block:active::before {
+	visibility: visible
+}
+
+.ws-is-no-touch.ws-is-hover .n-GroupItem__block:hover::before {
+	visibility: visible
+}
+
+.n-GroupItem__selected .n-GroupItem__name {
+	font-weight: 700;
+	color: var(--primary_text-color)
+}
+
+.n-GroupItem__selected .n-GroupItem__block::before {
+	visibility: visible;
+	background-color: var(--primary_marker_color_tabs)
+}
+
+.n-GroupItem__block {
+	position: relative;
+	max-width: 184px;
+	overflow: hidden;
+	height: 26px
+}
+
+.n-GroupItem__block .n-GroupItem__name {
+	overflow: hidden;
+	white-space: nowrap;
+	cursor: pointer;
+	position: relative;
+	text-overflow: ellipsis;
+	height: 27px;
+	line-height: 21px;
+	max-width: inherit
+}
+
+.n-GroupItem__block .n-GroupItem__count {
+	color: var(--primary_text-color_headingCounter);
+	cursor: pointer;
+	margin-left: 4px;
+	max-height: 19px
+}
+
+.n-GroupItem__block .n-GroupItem__count:active {
+	color: var(--primary_hover_text-color_headingCounter)
+}
+
+.ws-is-no-touch.ws-is-hover .n-GroupItem__block .n-GroupItem__count:hover {
+	color: var(--primary_hover_text-color_headingCounter)
+}
+
+.n-NewsGroups .n-GroupItem__name {
+	margin-top: -1px
+}
+
+.n-NewsGroups.n-GroupItem {
+	padding-right: 10px
+}
+
+.n-GroupItem__readAll {
+	position: relative;
+	cursor: pointer;
+	height: 24px;
+	width: 24px;
+	margin-left: 8px;
+	top: -2px
+}
+
+.n-GroupItem__readAll:active {
+	color: var(--link_hover_text-color)
+}
+
+.ws-is-no-touch.ws-is-hover .n-GroupItem__readAll:hover {
+	color: var(--link_hover_text-color)
+}
+
+.n-NewsGroups__filter {
+	margin-left: auto;
+	padding-right: 8px;
+	height: 32px
+}
+
+.n-NewsGroups__filterNews {
+	max-width: inherit;
+	min-width: 28px;
+	line-height: 26px
+}
+
+.n-NewsGroups__filterNews .controls-FilterButton__text-wrapper {
+	max-width: 460px
+}
+
+.n-NewsGroups__filterNews {
+	-ms-flex-item-align: center;
+	-webkit-align-self: center;
+	-ms-align-self: center;
+	-ms-grid-row-align: center;
+	align-self: center
+}
+
+.n-NewsGroups__picker .controls__filterButton__area-content {
+	padding: 0
+}
+
+.n-NewsGroups.n-GroupItem__onlyNews .n-GroupItem__name::before {
+	visibility: hidden
+}
+
+.ws-is-no-touch.ws-is-hover .n-NewsGroups.n-GroupItem__onlyNews .n-GroupItem__block:hover .n-GroupItem__name::before {
+	visibility: hidden
+}
+
+.n-NewsGroups__extraGroup .controls-DialogTemplate__content-area {
+	padding: 0
+}
+
+.n-NewsGroups__extraGroup .controls-DialogTemplate {
+	max-height: 500px
+}
+
+.n-NewsGroups__extraGroup .sn-ExtraGroup__wrapper {
+	z-index: 0
+}
+
+.n-NewsGroups__hidden {
+	display: none !important
+}
+
+.n-NewsGroups-filter {
+	margin-top: 2px;
+	line-height: 24px
+}
+
+.n-NewsGroups__columnsBtn {
+	margin: 0 6px 0 12px
+}
+
+.ws-is-firefox .n-NewsGroups__columnsBtn,
+.ws-is-ie .n-NewsGroups__columnsBtn {
+	margin-top: 5px
+}
